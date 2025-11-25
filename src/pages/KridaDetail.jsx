@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { kridas } from '../data/kridas';
 import { ArrowLeft, CheckCircle, Award } from 'lucide-react';
 
 const KridaDetail = () => {
   const { id } = useParams();
-  const [selectedTkk, setSelectedTkk] = useState(null);
   const krida = kridas.find(k => k.id === parseInt(id));
 
   if (!krida) {
@@ -45,13 +44,13 @@ const KridaDetail = () => {
               <div className="flex items-center gap-3 mb-6">
                 <h2 className="text-2xl font-bold font-anta text-gray-900">Tanda Kecakapan Khusus (TKK)</h2>
               </div>
-              <p className="text-gray-600 mb-6 font-gabarito">Klik pada ikon TKK di bawah untuk melihat Syarat Kecakapan Khusus (SKK).</p>
+              <p className="text-gray-600 mb-6 font-gabarito">Klik pada ikon TKK di bawah untuk melihat detail, silabus, dan modul.</p>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
                 {krida.tkk.map((tkk) => (
-                  <button 
+                  <Link 
                     key={tkk.id}
-                    onClick={() => setSelectedTkk(tkk)}
+                    to={`/tkk/${tkk.id}`}
                     className="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-200 hover:border-primary hover:shadow-md transition-all group text-center h-full"
                   >
                     <div className="w-32 h-32 mb-3 bg-gray-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform overflow-hidden">
@@ -62,7 +61,7 @@ const KridaDetail = () => {
                       )}
                     </div>
                     <span className="text-sm font-bold text-gray-800 group-hover:text-primary line-clamp-2">{tkk.title}</span>
-                  </button>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -97,55 +96,6 @@ const KridaDetail = () => {
           </div>
         </div>
       </div>
-
-      {/* TKK Modal */}
-      {selectedTkk && (
-        <dialog className="modal modal-open">
-          <div className="modal-box w-11/12 max-w-2xl bg-white text-gray-800 no-scrollbar">
-            <form method="dialog">
-              <button 
-                className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-                onClick={() => setSelectedTkk(null)}
-              >
-                ✕
-              </button>
-            </form>
-            <div className="flex flex-col items-center text-center mb-6">
-              <div className="w-40 h-40 bg-primary/10 rounded-lg flex items-center justify-center mb-4 text-primary overflow-hidden">
-                {selectedTkk.image ? (
-                  <img src={selectedTkk.image} alt={selectedTkk.title} className="w-full h-full object-contain" />
-                ) : (
-                  <Award size={40} />
-                )}
-              </div>
-              <h3 className="font-bold text-2xl font-anta text-gray-900">{selectedTkk.title}</h3>
-              <div className="w-16 h-1 bg-primary rounded-full mt-4"></div>
-            </div>
-            
-            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-              <h4 className="font-bold text-gray-700 mb-4 flex items-center gap-2">
-                <CheckCircle size={18} className="text-primary"/>
-                Syarat Kecakapan Khusus (SKK):
-              </h4>
-              <ul className="space-y-3 text-left">
-                {selectedTkk.requirements.map((req, idx) => (
-                  <li key={idx} className="flex items-start gap-3 text-gray-600 font-gabarito">
-                    <span className="bg-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold border border-gray-200 shrink-0 mt-0.5">
-                      {String.fromCharCode(97 + idx)}
-                    </span>
-                    <span>{req}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            
-            <div className="modal-action justify-center mt-8">
-              <button className="btn btn-primary px-8 text-white" onClick={() => setSelectedTkk(null)}>Tutup</button>
-            </div>
-          </div>
-          <div className="modal-backdrop bg-black/50" onClick={() => setSelectedTkk(null)}></div>
-        </dialog>
-      )}
     </div>
   );
 };

@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Krida from './pages/Krida';
 import KridaDetail from './pages/KridaDetail';
+import TkkDetail from './pages/TkkDetail';
+import ArticleDetail from './pages/ArticleDetail';
 import Gallery from './pages/Gallery';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/krida" element={<Krida />} />
           <Route path="/krida/:id" element={<KridaDetail />} />
+          <Route path="/tkk/:id" element={<TkkDetail />} />
+          <Route path="/article/:articleId" element={<ArticleDetail />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </main>
