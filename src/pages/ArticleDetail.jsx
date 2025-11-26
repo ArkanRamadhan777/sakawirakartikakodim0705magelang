@@ -120,9 +120,7 @@ const ArticleDetail = () => {
                 <ChevronLeft size={24} />
               </Link>
             ) : (
-              <button className="btn btn-circle btn-ghost btn-disabled">
-                <ChevronLeft size={24} className="text-gray-300" />
-              </button>
+              <div className="w-12"></div>
             )}
 
             {/* Center Content */}
@@ -157,9 +155,7 @@ const ArticleDetail = () => {
                 <ChevronRight size={24} />
               </Link>
             ) : (
-              <button className="btn btn-circle btn-ghost btn-disabled">
-                <ChevronRight size={24} className="text-gray-300" />
-              </button>
+              <div className="w-12"></div>
             )}
           </div>
         </article>

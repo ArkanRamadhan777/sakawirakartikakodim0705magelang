@@ -42,6 +42,9 @@ const Krida = () => {
             <p className="font-gabarito text-gray-400 leading-relaxed relative z-10">
               Setiap anggota Saka Wira Kartika wajib memilih dan mendalami salah satu Krida sebagai spesialisasi untuk mendapatkan Tanda Kecakapan Khusus (TKK).
             </p>
+            <Link to="/referensi" className="mt-6 btn btn-outline btn-primary btn-sm relative z-10 hover:bg-primary hover:text-white transition-all">
+              Daftar Referensi
+            </Link>
           </div>
         </div>
       </div>

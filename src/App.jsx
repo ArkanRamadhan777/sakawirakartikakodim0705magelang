@@ -9,6 +9,7 @@ import KridaDetail from './pages/KridaDetail';
 import TkkDetail from './pages/TkkDetail';
 import ArticleDetail from './pages/ArticleDetail';
 import Gallery from './pages/Gallery';
+import References from './pages/References';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/tkk/:id" element={<TkkDetail />} />
           <Route path="/article/:articleId" element={<ArticleDetail />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/referensi" element={<References />} />
         </Routes>
       </main>
       <Footer />
