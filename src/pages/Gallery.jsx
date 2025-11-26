@@ -42,14 +42,21 @@ const Gallery = () => {
 
         {/* Modal */}
         {selectedImage && (
-          <dialog className="modal modal-open" onClick={() => setSelectedImage(null)}>
-            <div className="modal-box max-w-4xl p-0 bg-transparent shadow-none overflow-hidden relative">
-              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white bg-black bg-opacity-50">✕</button>
-              <img src={selectedImage} alt="Zoom" className="w-full h-auto rounded-lg" onClick={(e) => e.stopPropagation()} />
+          <dialog className="modal modal-open bg-black/90 backdrop-blur-sm" onClick={() => setSelectedImage(null)}>
+            <div className="relative max-w-screen w-auto max-h-screen p-2 flex justify-center items-center outline-none">
+              <button 
+                className="btn btn-circle btn-sm btn-ghost absolute right-4 top-4 text-white bg-black/50 hover:bg-black/70 z-50"
+                onClick={() => setSelectedImage(null)}
+              >
+                ✕
+              </button>
+              <img 
+                src={selectedImage} 
+                alt="Zoom" 
+                className="max-w-full max-h-[95vh] w-auto h-auto object-contain rounded-lg shadow-2xl" 
+                onClick={(e) => e.stopPropagation()} 
+              />
             </div>
-            <form method="dialog" className="modal-backdrop">
-              <button>close</button>
-            </form>
           </dialog>
         )}
       </div>

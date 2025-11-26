@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
 import { kridas } from '../data/kridas';
-import { ArrowLeft, Clock, Calendar, Share2, Bookmark } from 'lucide-react';
+import { ArrowLeft, Clock, Calendar, Share2, ChevronRight, ChevronLeft } from 'lucide-react';
 
 const ArticleDetail = () => {
   const { articleId } = useParams();
@@ -29,6 +30,35 @@ const ArticleDetail = () => {
             }
           }
         }
+      }
+    }
+  }
+
+  // Logic to find next and previous article
+  let nextArticleLink = null;
+  let prevArticleLink = null;
+
+  if (foundTkk && foundModule && foundArticle) {
+    const currentModuleIndex = foundTkk.syllabus.findIndex(m => m.id === foundModule.id);
+    const currentArticleIndex = foundModule.items.findIndex(a => a.id === foundArticle.id);
+
+    // Next Article Logic
+    if (currentArticleIndex < foundModule.items.length - 1) {
+      nextArticleLink = `/article/${foundModule.items[currentArticleIndex + 1].id}`;
+    } else if (currentModuleIndex < foundTkk.syllabus.length - 1) {
+      const nextModule = foundTkk.syllabus[currentModuleIndex + 1];
+      if (nextModule.items && nextModule.items.length > 0) {
+        nextArticleLink = `/article/${nextModule.items[0].id}`;
+      }
+    }
+
+    // Previous Article Logic
+    if (currentArticleIndex > 0) {
+      prevArticleLink = `/article/${foundModule.items[currentArticleIndex - 1].id}`;
+    } else if (currentModuleIndex > 0) {
+      const prevModule = foundTkk.syllabus[currentModuleIndex - 1];
+      if (prevModule.items && prevModule.items.length > 0) {
+        prevArticleLink = `/article/${prevModule.items[prevModule.items.length - 1].id}`;
       }
     }
   }
@@ -63,10 +93,6 @@ const ArticleDetail = () => {
 
             <div className="flex items-center gap-6 text-gray-500 font-gabarito">
               <div className="flex items-center gap-2">
-                <Clock size={18} />
-                <span>{foundArticle.duration}</span>
-              </div>
-              <div className="flex items-center gap-2">
                 <Calendar size={18} />
                 <span>Terakhir diperbarui: 25 Nov 2025</span>
               </div>
@@ -75,9 +101,9 @@ const ArticleDetail = () => {
 
           {/* Content Body */}
           <div className="p-8 md:p-12">
-            <div className="prose prose-lg max-w-none font-gabarito text-gray-700">
+            <div className="prose prose-lg max-w-none font-gabarito text-gray-700 prose-headings:font-anta prose-headings:text-gray-900 prose-p:leading-relaxed prose-li:marker:text-primary prose-img:rounded-xl prose-a:text-primary hover:prose-a:text-primary/80">
               {foundArticle.content ? (
-                foundArticle.content
+                <ReactMarkdown>{foundArticle.content}</ReactMarkdown>
               ) : (
                 <div className="alert alert-warning">
                   <span>Konten belum tersedia.</span>
@@ -88,17 +114,53 @@ const ArticleDetail = () => {
 
           {/* Footer / Actions */}
           <div className="bg-gray-50 p-8 border-t border-gray-100 flex justify-between items-center">
-            <div className="text-sm text-gray-500">
-              Bagian dari <span className="font-bold text-gray-900">{foundTkk.title}</span>
-            </div>
-            <div className="flex gap-2">
-              <button className="btn btn-ghost btn-circle" title="Simpan">
-                <Bookmark size={20} />
+            {/* Previous Button */}
+            {prevArticleLink ? (
+              <Link to={prevArticleLink} className="btn btn-circle btn-ghost" title="Sebelumnya">
+                <ChevronLeft size={24} />
+              </Link>
+            ) : (
+              <button className="btn btn-circle btn-ghost btn-disabled">
+                <ChevronLeft size={24} className="text-gray-300" />
               </button>
-              <button className="btn btn-ghost btn-circle" title="Bagikan">
-                <Share2 size={20} />
+            )}
+
+            {/* Center Content */}
+            <div className="flex items-center gap-2">
+              <div className="text-sm text-gray-500 text-center hidden sm:block">
+                Bagian dari <span className="font-bold text-gray-900">{foundTkk.title}</span>
+              </div>
+              <button 
+                className="btn btn-ghost btn-circle btn-sm" 
+                title="Bagikan"
+                onClick={() => {
+                  if (navigator.share) {
+                    navigator.share({
+                      title: foundArticle.title,
+                      text: `Baca artikel ${foundArticle.title} di Saka Wira Kartika`,
+                      url: window.location.href,
+                    })
+                    .catch((error) => console.log('Error sharing', error));
+                  } else {
+                    navigator.clipboard.writeText(window.location.href);
+                    alert('Link artikel berhasil disalin!');
+                  }
+                }}
+              >
+                <Share2 size={18} />
               </button>
             </div>
+
+            {/* Next Button */}
+            {nextArticleLink ? (
+              <Link to={nextArticleLink} className="btn btn-circle btn-ghost" title="Selanjutnya">
+                <ChevronRight size={24} />
+              </Link>
+            ) : (
+              <button className="btn btn-circle btn-ghost btn-disabled">
+                <ChevronRight size={24} className="text-gray-300" />
+              </button>
+            )}
           </div>
         </article>
       </div>

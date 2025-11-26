@@ -26,7 +26,8 @@ export const kridas = [
           'Mengetahui bagian-bagian dan pengertian peta Topografi.',
           'Mengetahui bagian-bagian dan pengertian peta Tematik.',
           'Telah melatih sekurang-kurangnya seorang pramuka penggalang sehingga memperoleh TKK Kompas Siang dan Kompas Malam.'
-        ]
+        ],
+        syllabus: []
       },
       {
         id: 'navrat-2',
@@ -38,7 +39,8 @@ export const kridas = [
           'Mampu menjelaskan kegunaan kompas prisma.',
           'Dapat menentukan besaran sudut jurusan pada kompas prisma.',
           'Telah melatih sekurang-kurangnya seorang pramuka penggalang sehingga memperoleh TKK Kompas Siang dan Kompas Malam.'
-        ]
+        ],
+        syllabus: []
       },
       {
         id: 'navrat-3',
@@ -48,7 +50,8 @@ export const kridas = [
           'Memahami dan mampu menjelaskan Resection (mengikat ke depan) dan Intersection (mengikat ke belakang).',
           'Dapat melaksanakan Resection dan Intersection.',
           'Telah melatih sekurang-kurangnya seorang Pramuka Penggalang sehingga memperoleh TKK Pengetahuan Resection dan Intersection.'
-        ]
+        ],
+        syllabus: []
       },
       {
         id: 'navrat-4',
@@ -59,7 +62,8 @@ export const kridas = [
           'Memahami dan mampu menjelaskan bagian-bagian alat GPS.',
           'Memahami dan mampu mengoperasikan alat GPS.',
           'Telah melatih sekurang-kurangnya seorang Pramuka Penggalang sehingga memperoleh TKK GPS.'
-        ]
+        ],
+        syllabus: []
       }
     ],
     richContent: (
@@ -241,279 +245,192 @@ export const kridas = [
         ],
         syllabus: [
           {
-            id: 'mod-pio-1-0',
-            title: 'Pendahuluan & Teori Dasar',
-            description: 'Pengantar Saka Wira Kartika, Matra Darat, dan Pionering.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '1 Jam',
+            id: 'pioneering-1-modul-1',
+            title: 'Tali Temali',
             items: [
               {
-                id: 'art-pio-1-0-1',
-                title: 'Pendahuluan Saka Wira Kartika',
-                type: 'article',
-                duration: '30 min',
-                content: (
-                  <div>
-                    <h3>I. PENDAHULUAN</h3>
-                    <h4>1. Umum</h4>
-                    <p>Saka atau Satuan Karya Pramuka Wira Kartika merupakan salah satu Satuan Karya Pramuka yang bersifat Nasional. Saka yang dibentuk lewat kerja sama antara Kwartir Nasional Gerakan Pramuka dengan TNI Angkatan Darat ini bertujuan untuk mengembangkan pendidikan bela negara. Saka Wira Kartika adalah wadah kegiatan bagi Pramuka Penegak dan Pramuka Pandega untuk meningkatkan kesadaran bela negara melalui pengetahuan dan keterampilan di bidang matra darat. Tujuannya adalah membentuk patriot bangsa yang setia, berbakti, dan menjunjung tinggi nilai luhur bangsa serta tetap menjaga keutuhan Negara Kesatuan Republik Indonesia.</p>
-                    <p>Matra darat sendiri dapat diartikan sebagai segala aktivitas dan kegiatan yang dilakukan secara terorganisir, perorangan ataupun kelompok yang memanfaatkan kondisi alam di darat seperti hutan, gunung, rawa, dan sungai. Untuk itu di dalam menghadapi segala bentuk kondisi alam dibutuhkan keterampilan yang berhubungan dengan tali-temali sebab tali-temali ini dapat digunakan untuk kegiatan seperti membuat jembatan, menara pandang /intai, rumah sementara, hingga sebuah benteng. Walau di jaman yang sudah modern seperti saat ini secara umum penggunaan tali-temali sudah sangat berkurang, namun tali-temali tetap diperlukan untuk hal-hal yang bersifat darurat.</p>
-                    <p>Salah satu Krida dalam Pramuka Saka Wira Kartika adalah <strong>“Pionering”</strong>. Pionering sendiri diambil dari kata Pionir yang mempunyai arti “penganjur, pelopor; perintis jalan atau pembuka jalan”. Dalam Kepramukaan pionering merupakan keterampilan dalam pembuatan bangunan darurat dengan menggunakan bahan-bahan seadanya. Jenis bangunan yang dibuat semisal menara pandang atau menara jaga, tiang bendera, gapura atau pintu gerbang, jembatan, dan aneka perabotan perkemahan semacam meja makan, rak sepatu, dan lain-lain. Bahan yang digunakan untuk membuatnya biasanya terbatas pada kayu dan tali. Karena itu dalam pembuatan pionering sangat diperlukan penguasaan terhadap materi tali-temali termasuk aneka simpul dan ikatan.</p>
-                    
-                    <h4>2. Maksud dan Tujuan</h4>
-                    <ul>
-                      <li><strong>Maksud</strong>: Sebagai pedoman dalam pembinaan dan pengembangan Saka Wira Kartika di wilayah.</li>
-                      <li><strong>Tujuan</strong>: Meningkatkan dan memperlancar pelaksanaan pembinaan dan pengembangan Saka Wira Kartika di wilayah.</li>
-                    </ul>
+                id: 'pioneering-1-article-1',
+                title: 'Macam-Macam Simpul dan Jerat',
+                content: `
+# BAB II: SYARAT KECAKAPAN KHUSUS TALI-TEMALI
 
-                    <h4>3. Dasar Hukum</h4>
-                    <ul className="list-disc pl-5">
-                      <li>Undang-Undang Republik Indonesia Nomor 3 tahun 2002 tentang Pertahanan.</li>
-                      <li>Undang-Undang Republik Indonesia Nomor 34 tahun 2004 tentang Tentara Nasional Indonesia (TNI).</li>
-                      <li>Keputusan Presiden Republik Indonesia Nomor 238 Tahun 1961 tentang Gerakan Pramuka.</li>
-                      <li>Keputusan Presiden RI Nomor 104 tahun 2004 tentang anggaran dasar Gerakan Pramuka.</li>
-                      <li>Kesepakatan bersama antara Menteri Dalam Negeri, Menteri Pertahanan, Menteri Pendidikan Nasional, Menteri Agama, Menteri Pemuda dan Olahraga dan Kwartir Nasional Gerakan Pramuka Nomor 118 tahun 2006, Nomor KB / 05 / M / X / 2006, Nomor 51 / X / KB/ 2006 Nomor 52 tahun 2006, Nomor 0145 / MENPORA / X / 2006, Nomor 161 tahun 2006 tentang peningkatan upaya Bela Negara melalui Gerakan Pramuka.</li>
-                      <li>Peraturan Bersama Kepala Staf Angkatan Darat dengan Kwartir Nasional Gerakan Pramuka Nomor Perkasad 182 / X / 2007 dan Nomor 199 tahun 2007 tentang kerjasama dalam usaha pembinaan dan pengembangan Pendidikan Bela Negara dan Kepramukaan.</li>
-                      <li>Surat Keputusan Bersama Dirjen Pothan Dephan dan Ka Kwarnas Gerakan Pramuka Nomor SKEP/ 27 / VII / 2006 098 Tahun 2006 tanggal 14 Juli 2006 tentang Pengesahan Buku Panduan Pembinaan Kesadaran Bela Negara dalam Gerakan Pramuka.</li>
-                      <li>Keputusan Ketua Kwartir Nasional Gerakan Pramuka Nomor 086 Tahun 2005 tentang Anggaran Rumah Tangga Gerakan Pramuka.</li>
-                      <li>Keputusan Ketua Kwartir Nasional Gerakan Pramuka Nomor 182 tahun 2006 tentang petunjuk penyelenggaraan Pokok-pokok Organisasi Gerakan Pramuka.</li>
-                      <li>Keputusan Ketua Kwartir Nasional Gerakan Pramuka Nomor 188 Tahun 2006 tentang Petunjuk Penyelenggaraan Majelis Pembimbing Gerakan Pramuka.</li>
-                      <li>Keputusan Ketua Kwartir Nasional Gerakan Pramuka Nomor 221 Tahun 2009 tentang Petunjuk Penyelenggaraan Satuan Karya Pramuka.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pio-1-0-2',
-                title: 'Target Kecakapan Tali Temali',
-                type: 'article',
-                duration: '15 min',
-                content: (
-                  <div>
-                    <h3>Target Kecakapan untuk masing-masing golongan Pramuka</h3>
-                    <ul>
-                      <li><strong>Pramuka Siaga</strong>: (Tidak diadakan).</li>
-                      <li><strong>Pramuka Penggalang Terap</strong>:
-                        <ul className="list-disc pl-5">
-                          <li>Mengerti dan dapat membuat minimal 2 (dua) Simpul.</li>
-                          <li>Mengerti dan dapat membuat minimal 2 (dua ) Jerat.</li>
-                          <li>Mengerti dan dapat membuat minimal 2 (dua) Ikatan.</li>
-                        </ul>
-                      </li>
-                      <li><strong>Pramuka Penegak</strong>:
-                        <ul className="list-disc pl-5">
-                          <li>Memahami dan mampu membuat minimal 4 (empat) Simpul.</li>
-                          <li>Memahami dan mampu membuat minimal 4 (empat) Jerat.</li>
-                          <li>Memahami dan mampu membuat minimal 4 (empat) Ikatan.</li>
-                          <li>Telah melatih sekurang-kurangnya seorang Pramuka Penggalang sehingga memperoleh TKK Tali Temali.</li>
-                        </ul>
-                      </li>
-                      <li><strong>Pramuka Pandega</strong>:
-                        <ul className="list-disc pl-5">
-                          <li>Menguasai dan mahir membuat minimal 10 (sepuluh) Simpul.</li>
-                          <li>Menguasai dan mahir membuat minimal 14 (empat belas ) Jerat.</li>
-                          <li>Menguasai dan mahir membuat minimal 7 (tujuh) Ikatan.</li>
-                          <li>Telah melatih sekurang-kurangnya 2 (dua) orang Pramuka Penggalang dan 2 (dua) orang Pramuka Penegak sehingga memperoleh TKK Tali Temali.</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          },
-          {
-            id: 'mod-pio-1-1',
-            title: 'Simpul (Knots)',
-            description: 'Pengertian simpul dan macam-macam simpul dasar hingga lanjutan.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '2 Jam',
-            items: [
-              {
-                id: 'art-pio-1-1-1',
-                title: 'Pengertian & Simpul Dasar',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>1. Simpul</h3>
-                    <p>Simpul adalah suatu bentukan tertentu (lilitan, tekukan) yang dibuat pada tali yang difungsikan untuk menambatkan tali pada <em>anchor</em>, maupun untuk keperluan tertentu. Pengetahuan tentang simpul dan kemampuan membuat simpul dengan mudah dan cepat adalah bagian penting yang harus dimiliki seorang anggota Pramuka. Menguasai dan memahami simpul yang penting saja (yang sering dipakai, dan dapat digunakan pada saat <em>emergency</em>) jauh lebih baik daripada hanya mengenal bermacam-macam simpul tanpa tahu fungsi dan kegunaannya. Seorang anggota Pramuka yang baik harus ingat seperti apa simpul yang baik, dan tahu cara meneliti lagi apakah simpul yang dibuat/akan dipergunakan sudah benar atau belum. Faktor keamanan yang dimaksud adalah kemampuan simpul tetap terikat kuat setelah dibebani. Beberapa simpul dalam bentuk dasarnya cenderung kehilangan fungsi kerjanya bila tidak diberi beban lilitannya.</p>
-                    
-                    <h4>Macam-macam simpul diantaranya:</h4>
-                    <ul>
-                      <li><strong>Simpul hidup (<em>overhand knot</em>)</strong>: Merupakan simpul paling dasar. Simpul hidup juga menjadi simpul yang mendasari pembuatan simpul-simpul lainnya seperti simpul mati dan simpul nelayan atau simpul kembar. Simpul hidup digunakan sebagai simpul pada ujung tali untuk menjaga agar jalinan tali di ujung tali tidak terurai serta menjaga tali dari pergeseran.
-                        <br/><em>Cara membuatnya</em>: Buat simpul biasa pada kedua ujung tali. Tekuk/lipat kedua ujung simpul, sehingga ujung simpul sejajar dengan bagian tali yang panjang. Tarik kedua tali secara berlawanan, sehingga sambungan menjadi kencang.
-                      </li>
-                      <li><strong>Simpul hidup dengan sosok</strong>: Digunakan untuk menyambung tali yang sama besarnya, dengan tujuan agar sambungan tersebut mudah dilepaskan kembali.
-                        <br/><em>Cara membuatnya</em>: Buat simpul hidup pada ujung tali. Salah satu ujung pendeknya putar ke yang berlawanan sehingga membentuk sosok baru. Tarik bagian tali yang panjang berlawanan arah dengan kuat-kuat, sehingga sambungan menjadi kencang.
-                      </li>
-                      <li><strong>Simpul tenun/simpul anyam (<em>sheet bend</em>)</strong>: Digunakan untuk menyambung dua buah utas tali kering yang ukurannya tidak sama besar.
-                        <br/><em>Cara membuatnya</em>: Buat sosok pada ujung tali yang besar. Melalui sosok tersebut susupkan tali kecil dan putar sehingga melilit sosok dan membentuk mata. Tarik kedua ujung tali besar dan kedua ujung tali kecil secara berlawanan.
-                      </li>
-                      <li><strong>Simpul tenun berganda/simpul anyam rangkap (<em>double sheet bend</em>)</strong>: Merupakan pengembangan dari simpul anyam terutama untuk meningkatkan daya ikat (kekuatan) tali dalam menyimpul.
-                        <br/><em>Cara membuatnya</em>: Buat sosok pada ujung tali yang besar. Buat mata pada ujung tali yang kecil, yang dililit sosok tali besar. Lilitkan sekali lagi tali kecil pada sosok tali besar, sehingga ujung tali kecil membentuk mata. Tarik kedua ujung tali secara berlawanan.
-                      </li>
-                      <li><strong>Simpul mati (<em>reef knot</em> atau <em>square knot</em>)</strong>: Kegunaan simpul mati adalah untuk menyambung dua buah tali yang sama besar dan dalam keadaan kering.
-                        <br/><em>Cara membuatnya</em>: Letakkan ujung tali merah di atas ujung tali biru. Lingkarkan ujung tali merah ke bawah tali biru kemudian lingkarkan lagi ke atas. Balik arah ujung tali biru yang tadinya ke arah kanan menjadi ke arah kiri. Demikian juga dengan ujung tali merah, balik ke arah kanan dan letakkan ujungnya di atas ujung tali biru. Ulangi langkah pada nomor dua. Tarik masing-masing ujung tali sehingga simpul menjadi kencang.
-                      </li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pio-1-1-2',
-                title: 'Simpul Lanjutan',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>Simpul Lanjutan</h3>
-                    <ul>
-                      <li><strong>Simpul penarik</strong>: Digunakan untuk menambatkan benda/hewan pada patok.
-                        <br/><em>Cara membuatnya</em>: Buat simpul biasa di tengah-tengah tali. Tarik lingkaran tengah simpul melalui sela-sela kaki simpul. Masukkan sosok dari hasil tarikan simpul tersebut pada patok yang telah disiapkan. Tarik kedua ujung tali sehingga simpul menjadi kuat kencang.
-                      </li>
-                      <li><strong>Simpul kelapa</strong>: Digunakan untuk menyambung tali, yang sama besar agar sambungan lebih kuat.
-                        <br/><em>Cara membuatnya</em>: Buat mata pada salah satu ujung tali yang akan disambung. Buat mata satu lagi pada ujung tali yang lain, dengan jalan menyusupkan melalui sela-sela mata pada tali yang pertama secara bersilangan. Tarik kedua ujung tali secara berlawanan.
-                      </li>
-                      <li><strong>Simpul kursi</strong>: Digunakan untuk mengangkut orang sakit dari bawah ke atas atau sebaliknya.
-                        <br/><em>Cara membuatnya</em>: Buat dua buah mata di tengah-tengah tali yang sejajar. Geser mata dengan jalan menganyamnya. Buat sosok yang besar dari kedua mata yang telah dianyam tersebut. Dari kedua ujung tali masing-masing buat mata yang melilit sosok yang baru dibuat.
-                      </li>
-                      <li><strong>Simpul Aceh</strong>: Digunakan untuk membawa atau mengikat tawanan.
-                        <br/><em>Cara membuatnya</em>: Buat dua buah mata di tengah-tengah tali yang sejajar. Geserkan kedua mata dengan cara menganyam. Buat sosok yang besar dari kedua mata yang dianyam, masukkan ke bahu kanan atau bahu kiri tawanan. Tarik kedua ujung tali sehingga simpul mengikat dengan ketat pada bahu tawanan.
-                      </li>
-                      <li><strong>Simpul mata, dengan sosok</strong>: Digunakan untuk memperkuat ikatan.
-                        <br/><em>Cara membuatnya</em>: Buat sosok pada ujung tali. Buat mata pada ujung tali yang pendek. Belitkan kaki mata pada bagian tali yang panjang dan susupkan melalui mata. Tarik bagian tali yang panjang dan tahan pada sosok sehingga simpul menjadi kuat.
-                      </li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          },
-          {
-            id: 'mod-pio-1-2',
-            title: 'Jerat (Hitches)',
-            description: 'Macam-macam jerat dan cara pembuatannya.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '1.5 Jam',
-            items: [
-              {
-                id: 'art-pio-1-2-1',
-                title: 'Jerat Dasar',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>2. Bentuk Jerat</h3>
-                    <ul>
-                      <li><strong>Jerat rangkap</strong>: Digunakan untuk membuat tangga dari tali, mencabut patok.
-                        <br/><em>Cara membuatnya</em>: Buat mata yang sedang di tengah tali. Putarkan mata sehingga berhimpit dan kedudukan kedua ujung tali di antara kedua mata. Masukkan kedua mata pada balok. Tarik kedua ujung tali secara berlawanan.
-                      </li>
-                      <li><strong>Jerat tukang kayu</strong>: Digunakan untuk ikat permulaan pada balok.
-                        <br/><em>Cara membuatnya</em>: Buat mata pada ujung tali yang melingkar balok, lipat ujung tali pendek melingkar pada tali panjang, lilitkan ujung tali tersebut pada mata secara berulang-ulang. Tarik ujung yang panjang sehingga jerat dengan kuat mengikat pada balok.
-                      </li>
-                      <li><strong>Jerat memperpendek tali</strong>: Digunakan untuk memperpendek tali yang terlalu panjang.
-                        <br/><em>Cara membuatnya</em>: Buat dua buah sosok secara berurutan di tengah-tengah tali. Dari masing-masing ujung tali, buat mata yang membelit pada sosok yang telah dibuat tersebut. Tarik kedua ujung tali sehingga kencang.
-                      </li>
-                      <li><strong>Jerat rangkap berganda</strong>: Digunakan untuk mengikatkan tali pada balok.
-                        <br/><em>Cara membuatnya</em>: Buat dua belitan pada balok. Buat belitan sekali lagi pada tali pendek di sisi tali yang panjang. Tarik ujung tali yang pendek dan ujung tali yang panjang.
-                      </li>
-                      <li><strong>Jerat mata kait</strong>: Digunakan untuk mengangkat benda dengan bantuan katrol.
-                        <br/><em>Cara membuatnya</em>: Buat mata pada tali. Masukkan mata tersebut pada pengait katrol. Tarik katrol, sehingga jerat menjadi kencang.
-                      </li>
-                      <li><strong>Jerat tiang rangkap</strong>: Digunakan untuk menambatkan perahu atau hewan pada pohon atau patok.
-                        <br/><em>Cara membuatnya</em>: Buat mata pada ujung tali. Buat dua buah sosok pada ujung tali pendek dan selipkan ke dalam mata. Tarik tali panjang dan ujung tali pendek secara berlawanan.
-                      </li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pio-1-2-2',
-                title: 'Jerat Lanjutan',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>Jerat Lanjutan</h3>
-                    <ul>
-                      <li><strong>Jerat tangga</strong>: Digunakan untuk membuat tangga dari tali.
-                        <br/><em>Cara membuatnya</em>: Buat mata pada ujung tali. Belitkan ujung tali panjang pada ujung tali pendek, sehingga berlawanan. Selipkan tongkat pada mata dan tali panjang. Tarik ujung tali pendek dan tali panjang berlawanan.
-                      </li>
-                      <li><strong>Jerat sauh</strong>: Digunakan untuk mengikat cincin besi/ cincin kait.
-                        <br/><em>Cara membuatnya</em>: Belitkan ujung tali dua kali pada cincin/balok atau sauh, buat mata pada ujung tali pendek dengan membelitkan pada tali panjang dan susupkan/selipkan pada sela-sela belitan tali dengan cincin. Belitkan ujung tali pendek pada tali panjang beberapa kali dan ujung terakhirnya ikat menjadi satu dengan bagian tali yang panjang.
-                      </li>
-                      <li><strong>Jerat setengah</strong>: Digunakan untuk mengikat tali pada pohon.
-                        <br/><em>Cara membuatnya</em>: Belitkan tali pada balok/pohon. Belitkan ujung tali pendek pada bagian tali panjang secara berulang-ulang. Rapatkan ujung tali pendek dengan tali panjang dan ikat dengan ikat belit.
-                      </li>
-                      <li><strong>Jerat sosok berganda</strong>: Digunakan untuk mengaitkan katrol.
-                        <br/><em>Cara membuatnya</em>: Buat sosok yang besar pada ujung tali. Buat dua buah sosok lagi dengan menarik dua kali sosok pertama secara berlawanan. Puntir sosok dari tali panjang sehingga membentuk mata.
-                      </li>
-                      <li><strong>Jerat penuh dan setengah</strong>: Digunakkan untuk mengikat tali pada pohon atau patok/cincin.
-                        <br/><em>Cara membuatnya</em>: Belitkan ujung tali dua kali pada pohon/patok cincin. Belitkan kembali ujung tali yang pendek pada bagian tali yang panjang dengan bentuk mata beberapa kali. Ikat ujung tali pendek dengan tali panjang.
-                      </li>
-                      <li><strong>Jerat mata rangkap dengan sosok</strong>: Digunakan untuk mengaitkan tali pada katrol.
-                        <br/><em>Cara membuatnya</em>: Lipat/tekuk tali menjadi dua bagian. Buat mata dan sosok pada tali yang ditekuk/ dilipat. Masukkan sosok kedalam mata dan tekuk keluar. Masukkan kaki sosok dan tali panjang ke sela-sela sosok yang ditekuk. Tarik tali panjang sehingga jerat menjadi kuat.
-                      </li>
-                      <li><strong>Jerat angka delapan dengan sosok</strong>: Digunakan untuk mengaitkan tali pada patok.
-                        <br/><em>Cara membuatnya</em>: Buat mata pada ujung tali dan masukkan ke dalam patok. Tekuk ujung tali yang pendek dan buat angka 8. Selipkan sisi ujung tali yang pendek ke dalam mata dan angka delapan.
-                      </li>
-                      <li><strong>Jerat laso</strong>: Digunakan untuk mengikatkan tali pada patok.
-                        <br/><em>Cara membuatnya</em>: Buat sosok pada ujung tali yang membelit patok. Buat simpul biasa pada ujung tali yang pendek pada sosok yang membelit tali panjang. Tarik tali panjang dan tahan tali pendek.
-                      </li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          },
-          {
-            id: 'mod-pio-1-3',
-            title: 'Ikat Belit (Lashings)',
-            description: 'Teknik mengikat dua benda atau lebih.',
-            articleCount: 1,
-            quizCount: 0,
-            duration: '1 Jam',
-            items: [
-              {
-                id: 'art-pio-1-3-1',
-                title: 'Macam-macam Ikat Belit',
-                type: 'article',
-                duration: '60 min',
-                content: (
-                  <div>
-                    <h3>3. Bentuk Ikat Belit</h3>
-                    <ul>
-                      <li><strong>Ikat belit pokok</strong>: Digunakan untuk mengikat dua buah benda yang disambung lurus atau sejajar.
-                        <br/><em>Cara membuatnya</em>: Sejajarkan balok yang akan disambung 30- 50 Cm. Buat jerat tukang kayu sebagai permulaan ikatan pada kedua ujung pokok. Belitkan tali panjang pada kedua balok, belitan tersebut harus rapat, arah belitan berlawanan dengan belitan tukang kayu. Selipkan ujung tali ke dalam belitan, buat jerat setengah.
-                      </li>
-                      <li><strong>Ikat belit pokok diubah</strong>: Digunakan untuk menyambung dua buah benda yang disambung lurus atau sejajar.
-                        <br/><em>Cara membuatnya</em>: Sejajarkan balok yang akan disambung 30-50 Cm. Buat jerat tukang kayu sebagai permulaan pada kedua ujung balok. Buat belitan pada tali panjang beberapa kali pada kedua balok, belitan harus rapat satu sama lain. Rubah dengan membuat antara pada belitan pertama dan kedua, antara dibuat dengan membuat persilangan tali. Selipkan ujung tali pada belitan dan buat jerat setengah di ujungnya.
-                      </li>
-                      <li><strong>Ikat belit pokok dicekik</strong>: Digunakan untuk membuat ikatan yang kuat.
-                        <br/><em>Cara membuatnya</em>: Buat jerat tukang kayu pada awal ikatan. Belitkan bagian tali yang panjang satu sama lain. Buat cekikan pada belitan dengan menggunakan sisa ujung tali, dengan cara menyelipkan tali di antara kedua benda. Lilitkan beberapa kali dan matikan ujung tali dengan jerat setengah atau jerat rangkap.
-                      </li>
-                      <li><strong>Ikat belit silang</strong>: Digunakan untuk menyambung dua buah benda yang tegak lurus.
-                        <br/><em>Cara membuatnya</em>: Ikat Jerat tukang kayu. Belitkan tali panjang pada persilangan, empat atau lima kali. Buat cekikan di sela-sela sambungan dua atau tiga belitan, ujung tali ikat belit dan jerat tukang kayu eratkan.
-                      </li>
-                      <li><strong>Ikat belit puntir</strong>: Digunakan untuk mengeraskan ikatan atau klem penjepit.
-                        <br/><em>Cara membuatnya</em>: Ikatkan tali pada gelagar dan menggapit dengan simpul mati. Masukkan kayu penusuk pada sela-sela tali dengan penggapit. Putar hingga ikatan kencang.
-                      </li>
-                      <li><strong>Ikat belit peneguh</strong>: Digunakan untuk memperkuat patok peneguh (dua buah patok atau lebih).
-                        <br/><em>Cara membuatnya</em>: Buat jerat tukang kayu pada salah satu patok. Belitkan tali panjang pada kedua patok rapat-rapat. Lilitkan ujung tali pada tali di antara patok beberapa kali. Matikan ujung tali dengan jerat setengah.
-                      </li>
-                      <li><strong>Ikat belit hidup</strong>: Digunakan untuk menyambung dua buah benda yang disambung tegak lurus.
-                        <br/><em>Cara membuatnya</em>: Buat jerat tukang kayu pada awal ikatan. Buat belitan dengan tali panjang pada pasak dengan balok mendatar beberapa kali. Buat cekikan antara balok dengan pasak. Matikan ujung jerat dengan ujung lilitan memakai simpul atau jerat rangkap.
-                      </li>
-                      <li><strong>Jerat penuh rangkap</strong>: Digunakan untuk mengaitkan katrol pada patok.
-                        <br/><em>Cara membuatnya</em>: Belitkan tali dua kali pada patok/ pohon. Buat simpul pada kedua ujung tali yang membelit kedua belitan tali tersebut. Kaitkan katrol pada tali dan tarik hingga kencang.
-                      </li>
-                    </ul>
-                  </div>
-                )
+## Pokok Bahasan: Simpul
+
+Simpul adalah suatu bentukan tertentu (lilitan, tekukan) yang dibuat pada tali yang difungsikan untuk menambatkan tali pada anchor, maupun untuk keperluan tertentu. Pengetahuan tentang simpul dan kemampuan membuat simpul dengan mudah dan cepat adalah bagian penting yang harus dimiliki seorang anggota Pramuka. Menguasai dan memahami simpul yang penting saja (yang sering dipakai, dan dapat digunakan pada saat emergency) jauh lebih baik daripada hanya mengenal bermacam-macam simpul tanpa tahu fungsi dan kegunaannya.
+
+Seorang anggota Pramuka yang baik harus ingat seperti apa simpul yang baik, dan tahu cara meneliti lagi apakah simpul yang dibuat/akan dipergunakan sudah benar atau belum. Faktor keamanan yang dimaksud adalah kemampuan simpul tetap terikat kuat setelah dibebani. Beberapa simpul dalam bentuk dasarnya cenderung kehilangan fungsi kerjanya bila tidak diberi beban lilitannya.
+
+### Macam-macam Simpul
+
+#### 1. Simpul Hidup (Overhand Knot)
+Digunakan sebagai simpul pada ujung tali untuk menjaga agar jalinan tali di ujung tali tidak terurai serta menjaga tali dari pergeseran. Simpul ini mendasari pembuatan simpul-simpul lainnya seperti simpul mati dan simpul nelayan atau simpul kembar.
+
+**Cara membuatnya:**
+1. Buat simpul biasa pada kedua ujung tali.
+2. Tekuk/lipat kedua ujung simpul, sehingga ujung simpul sejajar dengan bagian tali yang panjang.
+3. Tarik kedua tali secara berlawanan, sehingga sambungan menjadi kencang.
+
+#### 2. Simpul Hidup dengan Sosok
+Digunakan untuk menyambung tali yang sama besarnya, dengan tujuan agar sambungan tersebut mudah dilepaskan kembali.
+
+**Cara membuatnya:**
+1. Buat simpul hidup pada ujung tali.
+2. Salah satu ujung pendeknya putar ke yang berlawanan sehingga membentuk sosok baru.
+3. Tarik bagian tali yang panjang berlawanan arah dengan kuat-kuat, sehingga sambungan menjadi kencang.
+
+#### 3. Simpul Anyam (Sheet Bend)
+Digunakan untuk menyambung dua buah utas tali kering yang ukurannya tidak sama besar.
+
+**Cara membuatnya:**
+*(Langkah-langkah pembuatan tidak tercantum dalam sumber dokumen)*
+
+#### 4. Simpul Tenun Berganda / Simpul Anyam Rangkap (Double Sheet Bend)
+Digunakan untuk menyambung dua buah utas tali kering yang ukurannya tidak sama besar, terutama jika perbedaan ukuran tersebut sangat mencolok (yang satu sangat besar dan satunya sangat kecil), untuk meningkatkan daya ikat (kekuatan) tali dalam menyimpul.
+
+#### 5. Simpul Penarik
+Digunakan untuk menambatkan benda/hewan pada patok.
+
+**Cara membuatnya:**
+*(Langkah-langkah pembuatan tidak tercantum dalam sumber dokumen)*
+
+#### 6. Simpul Kelapa
+Digunakan untuk menyambung tali yang sama besar agar sambungan lebih kuat.
+
+**Cara membuatnya:**
+1. Buat mata pada salah satu ujung tali yang akan disambung.
+2. Buat mata satu lagi pada ujung tali yang lain, dengan jalan menyusupkan melalui sela-sela mata pada tali yang pertama secara bersilangan.
+3. Tarik kedua ujung tali secara berlawanan.
+
+**Alternatif cara:**
+1. Buat dua buah mata di tengah-tengah tali yang sejajar.
+2. Geser mata dengan jalan menganyamnya.
+3. Buat sosok yang besar dari kedua mata yang telah dianyam tersebut.
+4. Dari kedua ujung tali masing-masing buat mata yang melilit sosok yang baru dibuat.
+
+#### 7. Simpul Aceh
+Digunakan untuk membawa atau mengikat tawanan.
+
+**Cara membuatnya:**
+1. Buat dua buah mata di tengah-tengah tali yang sejajar.
+2. Geserkan kedua mata dengan cara menganyam.
+3. Buat sosok yang besar dari kedua mata yang dianyam, masukkan ke bahu kanan atau bahu kiri tawanan.
+4. Tarik kedua ujung tali sehingga simpul mengikat dengan ketat pada bahu tawanan.
+
+#### 8. Simpul Mati (Reef Knot / Square Knot)
+Digunakan untuk menyambung tali yang basah atau licin, mengakhiri suatu ikatan, atau menali perban segi tiga (mitela) saat melakukan PPPK.
+
+**Cara membuatnya:**
+1. Letakkan ujung tali merah di atas ujung tali biru.
+2. Lingkarkan ujung tali merah ke bawah tali biru kemudian lingkarkan lagi ke atas.
+3. Balik arah ujung tali biru yang tadinya ke arah kanan menjadi ke arah kiri. Demikian juga dengan ujung tali merah, balik ke arah kanan dan letakkan ujungnya di atas ujung tali biru.
+4. Ulangi langkah pada nomor dua.
+5. Tarik masing-masing ujung tali sehingga simpul menjadi kencang.
+
+#### 9. Simpul Mata dengan Sosok
+Digunakan untuk memperkuat ikatan.
+
+**Cara membuatnya:**
+1. Buat sosok pada ujung tali.
+2. Buat mata pada ujung tali yang pendek.
+3. Belitkan kaki mata pada bagian tali yang panjang dan susupkan melalui mata.
+4. Belitkan sekali lagi kaki mata pada kaki sosok dan susupkan ke mata lagi.
+
+### Macam-macam Jerat
+
+#### 10. Jerat Rangkap
+Digunakan untuk membuat tangga dari tali, mencabut patok.
+
+**Cara membuatnya:**
+1. Buat mata yang sedang di tengah tali.
+2. Putarkan mata sehingga berhimpit dan kedudukan kedua ujung tali di antara kedua mata.
+3. Masukkan kedua mata pada balok.
+4. Tarik kedua ujung tali secara berlawanan.
+
+#### 11. Jerat Tukang Kayu
+Digunakan untuk ikat permulaan pada balok.
+
+**Cara membuatnya:**
+1. Buat mata pada ujung tali yang melingkar balok, lipat ujung tali pendek melingkar pada tali panjang, lilitkan ujung tali tersebut pada mata secara berulang-ulang.
+2. Tarik ujung yang panjang sehingga jerat dengan kuat mengikat pada balok.
+
+#### 12. Jerat Memperpendek Tali
+Digunakan untuk memperpendek tali yang terlalu panjang.
+
+**Cara membuatnya:**
+1. Buat dua buah sosok secara berurutan di tengah-tengah tali.
+2. Dari masing-masing ujung tali, buat mata yang membelit pada sosok yang telah dibuat tersebut.
+3. Tarik kedua ujung tali sehingga kencang.
+
+#### 13. Jerat Rangkap Berganda
+Digunakan untuk mengikatkan tali pada balok.
+
+**Cara membuatnya:**
+1. Buat dua belitan pada balok.
+2. Buat belitan sekali lagi pada tali pendek di sisi tali yang panjang.
+3. Tarik ujung tali yang pendek dan ujung tali yang panjang.
+
+#### 14. Jerat Mata Kait
+Digunakan untuk mengangkat benda dengan bantuan katrol.
+
+**Cara membuatnya:**
+1. Buat mata pada tali.
+2. Masukkan mata tersebut pada pengait katrol.
+3. Tarik katrol, sehingga jerat menjadi kencang.
+
+#### 15. Jerat Tiang Rangkap
+Digunakan untuk menambatkan perahu atau hewan pada pohon atau patok.
+
+**Cara membuatnya:**
+1. Buat mata pada ujung tali.
+2. Buat dua buah sosok pada ujung tali pendek dan selipkan ke dalam mata.
+3. Belitkan ujung sosok pada bagian tali yang panjang dan ujungnya selipkan pada mata lagi.
+
+#### 16. Jerat Tangga
+Digunakan untuk membuat tangga dari tali.
+
+**Cara membuatnya:**
+1. Buat mata pada ujung tali.
+2. Belitkan ujung tali panjang pada ujung tali pendek, sehingga berlawanan.
+3. Selipkan tongkat pada mata dan tali panjang.
+4. Tarik ujung tali pendek dan tali panjang berlawanan.
+
+#### 17. Jerat Sauh
+Digunakan untuk mengikat cincin besi/cincin kait.
+
+**Cara membuatnya:**
+1. Belitkan ujung tali dua kali pada cincin/balok atau sauh, buat mata pada ujung tali pendek dengan membelitkan pada tali panjang dan susupkan/selipkan pada sela-sela belitan tali dengan cincin.
+2. Belitkan ujung tali pendek pada tali panjang beberapa kali dan ujung terakhirnya ikat menjadi satu dengan bagian tali yang panjang.
+
+#### 18. Jerat Setengah
+Digunakan untuk mengikat tali pada pohon.
+
+**Cara membuatnya:**
+1. Belitkan tali pada balok/pohon.
+2. Belitkan ujung tali pendek pada bagian tali panjang secara berulang-ulang.
+3. Rapatkan ujung tali pendek dengan tali panjang dan ikat dengan ikat belit.
+
+**Langkah tambahan:**
+1. Buat dua buah sosok lagi dengan menarik dua kali sosok pertama secara berlawanan.
+2. Puntir sosok dari tali panjang sehingga membentuk mata.
+3. Rapatkan sosok dari tali pendek, puntir dan tekuk/lipat masukkan ke dalam mata tali yang panjang.
+
+#### 19. Jerat Mata Rangkap dengan Sosok
+Digunakan untuk mengaitkan tali pada katrol.
+
+**Cara membuatnya:**
+1. Lipat/tekuk tali menjadi dua bagian.
+2. Buat mata dan sosok pada tali yang ditekuk/dilipat.
+3. Masukkan sosok kedalam mata dan tekuk keluar.
+4. Masukkan kaki sosok dan tali panjang ke sela-sela sosok yang ditekuk.
+
+#### 20. Jerat Angka Delapan dengan Sosok
+Digunakan untuk mengaitkan tali pada patok.
+
+**Cara membuatnya:**
+1. Buat mata pada ujung tali dan masukkan ke dalam patok.
+2. Tekuk ujung tali yang pendek dan buat angka 8.
+3. Selipkan sisi ujung tali yang pendek ke dalam mata dan angka delapan.
+`
               }
             ]
           }
@@ -531,195 +448,7 @@ export const kridas = [
           'Memahami dan mampu membuat jembatan kaki delapan bersudut dua.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Pembuatan Jembatan.'
         ],
-        syllabus: [
-          {
-            id: 'mod-pio-2-1',
-            title: 'Jembatan Sederhana',
-            description: 'Jembatan Tepi Sederhana dan Jembatan Kuda-kuda.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '2 Jam',
-            items: [
-              {
-                id: 'art-pio-2-1-1',
-                title: 'Jembatan Tepi Sederhana',
-                type: 'article',
-                duration: '60 min',
-                content: (
-                  <div>
-                    <h3>1. Jembatan Tepi Sederhana</h3>
-                    <p><strong>Pekerjaan awal</strong>:</p>
-                    <ul>
-                      <li>Pembersihan tempat/ lokasi yang akan dibangun jembatan.</li>
-                      <li>Merambu yang meliputi pengukuran lebar jembatan, penentuan sumbu as jembatan dan kedalaman sungai serta memeriksa kondisi tanah.</li>
-                      <li>Menentukan tempat kerja di daerah tepi dekat dan tepi jauh.</li>
-                    </ul>
-                    <p><strong>Pekerjaan pangkal jembatan</strong>:</p>
-                    <ul>
-                      <li>Menyiapkan tempat pangkal jembatan.</li>
-                      <li>Gali tanah secukupnya untuk kedudukan balok penyangga.</li>
-                      <li>Apabila kondisi tanah pada tebing pangkal jembatan mudah longsor, diperkuat dengan turapan.</li>
-                      <li>Pasang balok penyangga melintang tegak lurus sumbu jembatan.</li>
-                      <li>Disamping kanan dan kiri balok penyangga dipasang patok agar tidak goyah.</li>
-                    </ul>
-                    <p><strong>Pemasangan gelagar</strong>:</p>
-                    <ul>
-                      <li>Pasang gelagar di atas balok penyangga sejajar arah sumbu jembatan (panjang gelagar maksimal 6 M) apabila dari bambu atau batang kayu bulat minimal 10 Cm.</li>
-                      <li>Gelagar yang bertumpu di atas balok penyangga diratakan dan dipaku/diikat dengan kawat.</li>
-                      <li>Gelagar dipasang rapat apabila di atasnya ditimbun tanah.</li>
-                      <li>Untuk jembatan yang dilalui kendaraan jumlah gelagar dibuat minimal 8 batang pohon kelapa/pohon yang berdiameter 25 - 30 Cm di susun berjajar rapat dengan pucuk dan pangkal batang satu dengan batang yang lain berlawanan.</li>
-                      <li>Pada ujung-ujung gelagar dipasang balok penahan kemudian dipasang piket (patok) di sisi luar dan ujung-ujung balok penahan.</li>
-                    </ul>
-                    <p><strong>Pembuatan lantai</strong>:</p>
-                    <ul>
-                      <li>Lantai dibuat dari papan kayu bulat yang utuh atau dibelah.</li>
-                      <li>Dipasang melintang di atas gelagar memanjang diikat dengan kawat atau dipaku.</li>
-                      <li>Untuk memperkuat kedudukan lantai dipasang balok penutup atau penjepit lantai.</li>
-                    </ul>
-                    <p><strong>Pembuatan sandaran</strong>:</p>
-                    <ul>
-                      <li>Sandaran dibuat dari kayu persegi, kayu bulat atau bambu.</li>
-                      <li>Tiang sandaran dipasang pada bagian ujung-ujung pangkal jembatan ditanam di tanah.</li>
-                      <li>Kayu/bambu sandaran dihubungkan dengan tiang sandaran diikat kawat atau dipaku.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pio-2-1-2',
-                title: 'Jembatan Kuda-kuda',
-                type: 'article',
-                duration: '60 min',
-                content: (
-                  <div>
-                    <h3>2. Jembatan Kuda-kuda</h3>
-                    <p><strong>Pekerjaan awal</strong>:</p>
-                    <ul>
-                      <li>Pembersihan tempat/ lokasi yang akan dibangun jembatan.</li>
-                      <li>Merambu yang meliputi pengukuran lebar jembatan, kedalaman sungai serta kondisi tanah.</li>
-                      <li>Menentukan tempat kerja di daerah tepi dekat dan tepi jauh.</li>
-                    </ul>
-                    <p><strong>Pekerjaan pangkal jembatan</strong>:</p>
-                    <ul>
-                      <li>Menyiapkan tempat pangkal jembatan.</li>
-                      <li>Gali tanah secukupnya untuk kedudukan balok penyangga.</li>
-                      <li>Apabila keadaan tanah tebing pada pangkal jembatan mudah longsor diperkuat dengan turapan.</li>
-                      <li>Pasang balok penyangga melintang atau tegak lurus sumbu jembatan.</li>
-                      <li>Disamping kiri dan kanan balok penyangga dipasang patok agar kedudukan balok tidak goyah.</li>
-                    </ul>
-                    <p><strong>Pembuatan kuda-kuda</strong>:</p>
-                    <ul>
-                      <li><strong>Kuda-kuda kaki sejajar</strong>:
-                        <ul className="list-disc pl-5">
-                          <li>Membuat mal kuda-kuda dari tali di atas tanah sesuai dengan lebar jembatan yang akan dibuat.</li>
-                          <li>Buat kuda-kuda dari batang kayu bulat/bambu diameter 10 Cm sesuai dengan mal yang sudah dibuat.</li>
-                          <li>Pasang batang kayu bulat/bambu diameter 10 Cm pada kaki kuda-kuda bagian bawah sebagai balok Lumpur.</li>
-                          <li>Pasang penopang dari batang kayu/ bambu bersilangan di atas kedua kaki kuda-kuda dan semua sambungan diikat dengan belit silang.</li>
-                        </ul>
-                      </li>
-                      <li><strong>Kuda-kuda kaki silang</strong>:
-                        <ul className="list-disc pl-5">
-                          <li>Dua buah batang kayu bulat/ bambu minimal diameter 10 Cm diikat dengan ikatan belit silang pada bagian persilangan bagian bawah sebagai kaki kuda-kuda.</li>
-                          <li>Pasang batang kayu bulat/bambu diameter 10 Cm pada kaki kuda-kuda pada bagian bawah sebagai balok Lumpur.</li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <p><strong>Pembuatan gelagar</strong>:</p>
-                    <ul>
-                      <li>Pasang gelagar dari batang kayu bulat/bambu diameter 10 Cm minimal 3 batang di atas kuda-kuda dan balok penyangga dengan diikat memakai ikat belit silang.</li>
-                      <li>Pasang balok penahan pada ujung-ujung balok gelagar yang bertumpu pada balok penyangga.</li>
-                    </ul>
-                    <p><strong>Pembuatan lantai jembatan</strong>:</p>
-                    <ul>
-                      <li>Potong kayu bulat yang telah dibelah atau papan, sesuai dengan lebar jembatan yang telah direncanakan.</li>
-                      <li>Pasang potongan papan, kayu bulat tersebut melintang di atas gelagar diikat dengan ikat silang atau dipaku.</li>
-                      <li>Bila menggunakan bambu maka harus dianyam atau dibuat sasak.</li>
-                    </ul>
-                    <p><strong>Pembuatan sandaran</strong>:</p>
-                    <ul>
-                      <li>Sandaran dibuat dari kayu persegi, kayu bulat/bambu.</li>
-                      <li>Tanam bambu/kayu bulat pada ujung jembatan setinggi 90-100 Cm sebagai tiang sandaran.</li>
-                      <li>Pasang bambu/kayu bulat pada tiang sandaran tersebut sebagai titihan, untuk bagian tengah titihan diikatkan pada kaki kuda-kuda sebagai tiang sandaran.</li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          },
-          {
-            id: 'mod-pio-2-2',
-            title: 'Jembatan Lanjutan',
-            description: 'Jembatan Bambu Satu, Tarik, Kaki Delapan, dan Topang.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '2 Jam',
-            items: [
-              {
-                id: 'art-pio-2-2-1',
-                title: 'Jembatan Bambu & Tarik',
-                type: 'article',
-                duration: '60 min',
-                content: (
-                  <div>
-                    <h3>3. Jembatan Bambu Satu</h3>
-                    <p><strong>Kebutuhan Bambu</strong>:</p>
-                    <ul>
-                      <li>Bambu besar: 4 potong (ukuran 3 M); 1 potong (ukuran 250 Cm).</li>
-                      <li>Bambu sedang: 2 potong (ukuran 100 Cm, 60 Cm, 3 M).</li>
-                    </ul>
-                    <p><strong>Kebutuhan Tali</strong>:</p>
-                    <ul>
-                      <li>16 Gulung (ukuran panjang 6 M).</li>
-                      <li>2 Gulung (ukuran panjang 4 M).</li>
-                    </ul>
-
-                    <h3>4. Jembatan Tarik</h3>
-                    <p><strong>Kebutuhan Bambu</strong>:</p>
-                    <ul>
-                      <li>Bambu besar: 2 potong (ukuran 250 Cm); 2 potong (ukuran 160 Cm).</li>
-                      <li>Bambu sedang: 4 potong (ukuran 3 M); 5 potong (ukuran 1 M); 2 potong (ukuran 2 M); 1 potong (ukuran 160 Cm); 20 potong (ukuran 120 Cm).</li>
-                      <li>Bambu kecil: 14 potong (ukuran 50 Cm).</li>
-                    </ul>
-                    <p><strong>Kebutuhan Tali</strong>:</p>
-                    <ul>
-                      <li>21 Gulung (ukuran panjang 6 M).</li>
-                      <li>1 Gulung (ukuran panjang 7 M).</li>
-                      <li>2 Gulung (ukuran panjang 15 M).</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pio-2-2-2',
-                title: 'Jembatan Kaki Delapan & Topang',
-                type: 'article',
-                duration: '60 min',
-                content: (
-                  <div>
-                    <h3>5. Jembatan Kaki Delapan Bersudut Dua</h3>
-                    <p><strong>Kebutuhan Bambu</strong>:</p>
-                    <ul>
-                      <li>Bambu besar: 4 potong (ukuran 5 M); 4 potong (4 M).</li>
-                      <li>Bambu sedang: 2 potong (ukuran 3 M); 6 potong (ukuran 2 M); 7 potong (ukuran 150 Cm); 60 buah (ukuran 150 Cm).</li>
-                    </ul>
-                    <p><strong>Kebutuhan Tali</strong>:</p>
-                    <ul>
-                      <li>26 Gulung (ukuran panjang 6 M).</li>
-                      <li>6 Gulung (ukuran panjang 15 M).</li>
-                    </ul>
-
-                    <h3>6. Jembatan Topang</h3>
-                    <p>Jembatan Topang hanya dapat digunakan untuk jembatan kelas 5 Ton dan biasanya hanya digunakan jika tidak terdapat bahan-bahan lain seperti tali-tali pengikat dan kayu bulat yang dapat ditebang di tempat itu. Jika di tepi-tepi terdapat peletak-peletak yang dapat digunakan, lebih baik digunakan jembatan topang lain.</p>
-                    <ul>
-                      <li><strong>Jembatan Topang Tunggal</strong>: Terdiri dari dua kuda-kuda yang diikat, yang duduk pada tebing-tebing rintangan dan ujung lainnya saling bertemu. Pada titik pertemuan ini kuda-kuda menyangga pemikul lintang, yang diatasnya terletak bangunan atas jembatan. Kuda-kuda harus dibuat sedemikian rupa, supaya satu dengan yang lainnya dapat tepat. Kemiringan kuda-kuda tidak boleh kurang dari 1:2 dan lantai jembatan harus dengan kemiringan 1:60. Tempat-tempat peletak dari kuda-kuda harus dapat tepat berhadap-hadapan dan pada ketinggian yang sama, dan harus diusahakan supaya kaki jembatan macam ini dapat dikerjakan pada bentangan 10 M oleh 30 orang, dalam waktu kurang lebih 2 jam, jika bahan – bahan sudah ada di tempat itu.</li>
-                      <li><strong>Jembatan Topang Berganda</strong>: Dapat dibuat sampai bentangan 12 M. Kedua kuda-kuda tidak saling bertemu, tetapi dihubungkan dengan balok mendatar, dan oleh karenanya terdapat dua titik tumpu.</li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          }
-        ]
+        syllabus: []
       },
       {
         id: 'pioneering-3',
@@ -731,166 +460,7 @@ export const kridas = [
           'Memahami dan mampu membuat minimal 1 Menara.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Pembuatan Perkemahan.'
         ],
-        syllabus: [
-          {
-            id: 'mod-pio-3-1',
-            title: 'Bangunan Berteduh',
-            description: 'Pembuatan Sengkuap dan Barak.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '2 Jam',
-            items: [
-              {
-                id: 'art-pio-3-1-1',
-                title: 'Sengkuap',
-                type: 'article',
-                duration: '60 min',
-                content: (
-                  <div>
-                    <h3>1. Sengkuap</h3>
-                    <h4>Sengkuap satu banjar tiang:</h4>
-                    <ul>
-                      <li>Lebar sengkuap kurang lebih 3 meter.</li>
-                      <li>Panjang sengkuap tergantung jumlah personel yang menempatinya.</li>
-                      <li>Panjang petak 2 s.d. 4 meter, menurut kekuatan bahan yang digunakan.</li>
-                      <li>Tinggi tiang kurang lebih 2,5 meter dan ditanam 0,5 meter.</li>
-                      <li>Belandar depan dipasang setinggi 1,8 meter.</li>
-                      <li>Panjang kasau 4,25 meter dan dipasang dengan jarak 0,5 meter, kasau menggunakan bambu belah maka belahannya menghadap ke atas.</li>
-                      <li>Ujung kasau bagian atas (depan) dilebihkan di atas belandar kurang lebih 0,6 meter.</li>
-                      <li>Pada bagian belakang tidak harus menggunakan belandar, untuk itu ujung-ujung kasau ditancapkan ke tanah.</li>
-                      <li>Bila penutup atas menggunakan daun pisang atau alang-alang maka lebih dulu dipasang reng di atas kasau dengan jarak 0,3 meter untuk mengikat atap.</li>
-                      <li>Di sekeliling sengkuap dibuatkan parit, tanah bekas galiannya yang kering dapat digunakan untuk meninggikan lantai.</li>
-                    </ul>
-                    
-                    <h4>Sengkuap dua banjar tiang:</h4>
-                    <ul>
-                      <li>Lebar sengkuap kurang lebih 3 meter.</li>
-                      <li>Panjang sengkuap tergantung jumlah personel yang menempatinya.</li>
-                      <li>Panjang petak 2 s.d. 4 meter.</li>
-                      <li>Tinggi tiang depan kurang lebih 3 meter dan ditanam ke tanah 50 cm.</li>
-                      <li>Tinggi tiang belakang kurang lebih 2,5 meter dan ditanam ke tanah 50 cm.</li>
-                      <li>Panjang kasau 4,25 meter dengan jarak pemasangan 0,5 meter dan dilebihkan ke depan 0,6 meter serta dilebihkan ke belakang 0,75 meter.</li>
-                    </ul>
-                    <p><strong>Pemasangan bale-bale</strong>:</p>
-                    <ul>
-                      <li>Belandar depan menempel pada tiang depan atau di atas, tiang bale-bale setinggi 0,5 meter.</li>
-                      <li>Belandar belakang menempel pada tiang belakang atau di atas tiang bale-bale setinggi 0,55 meter.</li>
-                      <li>Tiang bale-bale ditanam 0,25 meter dengan jarak 1 meter.</li>
-                      <li>Gelagar bale-bale diletakkan di atas belandar dengan jarak 0,2 s.d. 0,5 meter.</li>
-                    </ul>
-
-                    <h4>Sengkuap Dua Banjar Tiang dengan Serambi:</h4>
-                    <p>Cara membuatnya sama dengan Sengkuap 2 banjar tiang hanya ditambah dengan serambi kurang lebih 1 meter dari depan, panjang tiang serambi 2,2 meter dan ditanam 0,5 meter.</p>
-                    <ul>
-                      <li>Ujung kaso atas dengan gelandar diikat satu per satu.</li>
-                      <li>Ujung kaso bawah ± 20 Cm dari belandar bawah diikat satu per satu.</li>
-                      <li><strong>Penutup atap dengan welit disusun sebagai berikut</strong>:
-                        <ul className="list-disc pl-5">
-                          <li>Disusun dari bawah ke atas dengan jarak 0,04 - 0,10 meter.</li>
-                          <li>Menyambung kesamping dengan bertalipan 0,10 - 0,20 meter.</li>
-                          <li>Tiap welit diikat pada kasau dan paling bawah dibalik.</li>
-                        </ul>
-                      </li>
-                      <li>Bale-bale dipasang secara memanjang/melintang dengan menggunakan pelupuk.</li>
-                      <li>Tinggi tiang bale-bale bagian depan 0,50 meter dan bagian belakang 0,55 meter.</li>
-                      <li>Jarak tiang bale-bale 1,0 meter.</li>
-                      <li>Antara tiang bale-bale depan dan belakang diberi tiang tambahan dan belandar.</li>
-                      <li><strong>Pembuatan Parit penguras</strong>: Di sekeliling barak harus dibuat parit penguras, bekas galian parit yang digali tanahnya dapat dipakai mempertinggi lantai barak, kemiringan lantai 1 : 20.</li>
-                    </ul>
-                    <p><strong>Teknik menghitung kebutuhan bahan (panjang 11M / 3 Petak)</strong>:</p>
-                    <ul>
-                      <li><strong>Bahan yang dibutuhkan</strong>: Bambu Bitung panjang efektif 6 M diameter 15 Cm. Bambu Kaso panjang efektif 5 M diameter 7 Cm. Atap atau Welit panjang 1 M Jarak welit 20 Cm. Bahan pengikat dan penutup (Ijuk, Gedeg).</li>
-                      <li><strong>Kebutuhan Bambu Bitung</strong>: Jumlah rangka = Jumlah petak + 1 = 3 + 1 = 4 rangka. Total Kebutuhan Bambu Bitung: $108 \text{ M} = 18 \text{ Batang}$. Keamanan 10 %: 20 Batang.</li>
-                      <li><strong>Kebutuhan Bambu Kaso</strong>: Total Kebutuhan Bambu Kaso: $204 \text{ M} \approx 41 \text{ Batang}$. Keamanan 10 %: 46 Batang.</li>
-                      <li><strong>Kebutuhan Atap / welit</strong>: Total Kebutuhan Atap / Welit: $360 \text{ Lembar}$. Keamanan 10 %: $396 \text{ Lembar}$.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pio-3-1-2',
-                title: 'Barak',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>2. Barak</h3>
-                    <h4>Barak Tionghoa:</h4>
-                    <ul>
-                      <li>Panjang barak disesuaikan dengan jumlah penghuninya, jarak antar tiang 2 meter.</li>
-                      <li>Lebar kurang lebih 4 meter, dan tinggi 3 meter.</li>
-                      <li>Tiang ditanam kurang lebih 0,5 meter.</li>
-                      <li>Memasang kuda-kuda di atas tiang.</li>
-                      <li>Memasang belandar di atas kaki kuda-kuda.</li>
-                      <li>Memasang kaso dari kayu/ bambu dengan jarak kurang lebih 50 Cm.</li>
-                      <li>Memasang atap welit/kajang.</li>
-                      <li>Memasang dinding/bilik bambu.</li>
-                      <li>Membuat parit keliling barak.</li>
-                    </ul>
-                    
-                    <h4>Barak biasa:</h4>
-                    <ul>
-                      <li>Panjang barak kurang lebih 6 meter atau disesuaikan dengan penghuninya, jarak antar tiang 3 meter.</li>
-                      <li>Lebar kurang lebih 4 meter, tinggi tiang 3 meter dan ander 1 meter.</li>
-                      <li>Memasang tiang dengan belandar.</li>
-                      <li>Memasang ander.</li>
-                      <li>Memasang kaso dengan jarak kurang lebih 50 Cm.</li>
-                      <li>Memasang bale-bale dengan pelupuh.</li>
-                      <li>Memasang atap dengan welit/ jerami/ alang-alang.</li>
-                      <li>Memasang dinding/bilik dari bambu.</li>
-                      <li>Membuat parit sekeliling barak.</li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          },
-          {
-            id: 'mod-pio-3-2',
-            title: 'Menara',
-            description: 'Pembuatan Menara Tinjau.',
-            articleCount: 1,
-            quizCount: 0,
-            duration: '1 Jam',
-            items: [
-              {
-                id: 'art-pio-3-2-1',
-                title: 'Menara Tinjau',
-                type: 'article',
-                duration: '60 min',
-                content: (
-                  <div>
-                    <h3>3. Menara</h3>
-                    <h4>Menara tinjau di atas pohon:</h4>
-                    <ul>
-                      <li>Memilih dahan yang baik letaknya.</li>
-                      <li>Dahan yang sudah dipilih dipasang bambu-bambu mendatar sebagai gelagar dan diatasnya dipasang lantai yang terbuat dari belahan bambu atau bambu kecil.</li>
-                      <li>Membuat sandaran/dinding pengaman dari bambu atau kayu.</li>
-                      <li>Membuat tangga yang terbuat dari bambu atau tali.</li>
-                    </ul>
-
-                    <h4>Menara tinjau yang terbuat dari bambu berkaki tiga:</h4>
-                    <ul>
-                      <li>Tiga batang bambu betung yang lurus panjangnya kurang lebih 8 meter, dibagian atas diikat dengan kawat atau ijuk.</li>
-                      <li>Ujung-ujung bambu kurang lebih 1 meter dari atas dipasang pasak besi atau kayu, masing-masing bambu bisa bergerak.</li>
-                      <li>Hubungkan antar tiang dengan bambu sebagai gelagar lantai kurang lebih 2,5 meter dari pasak yang telah terpasang.</li>
-                      <li>Pasang lantai di atas gelagar lantai dengan bambu yang telah dibelah/ bambu dengan diameter kecil.</li>
-                      <li>Gali kurang lebih dalamnya 1 meter dan diameter lubangnya 30 Cm untuk menempatkan kaki menara dengan jarak kurang lebih 3 meter.</li>
-                      <li>Dirikan menara pada lubang yang telah digali dan ditimbun kembali dengan tanah yang banyak batuan dan dipadatkan.</li>
-                      <li>Hubungkan kaki menara yang satu dengan kaki yang lain dengan bambu sebagai skor/penguat.</li>
-                    </ul>
-                    <p><strong>Kebutuhan Bambu</strong>: Bambu besar: 3 potong (ukuran 5,5 M). Bambu sedang: 3 potong (ukuran 2 M), 3 potong (ukuran 115 Cm), 1 buah (ukuran 150, 40, 130, 120, 10, 100, 90, 80, 70, 60 Cm). Bambu kecil: 10 potong (ukuran 50 Cm).</p>
-                    <p><strong>Kebutuhan Tali</strong>: 12 Gulung (ukuran panjang 6 M), 1 Gulung (ukuran panjang 8 M), 2 Gulung (ukuran panjang 12 M), 2 Gulung (ukuran panjang 15 M).</p>
-
-                    <h4>Menara Tinjau / Pandang Berkaki Empat:</h4>
-                    <p><strong>Kebutuhan Bambu</strong>: Bambu besar: 8 potong (ukuran 3 M). Bambu sedang: 4 potong (ukuran 2 M), 11 potong (ukuran 150 Cm), 4 potong (ukuran 60 Cm), 20 buah (ukuran 180 Cm). Bambu kecil: 14 potong (ukuran 50 Cm).</p>
-                    <p><strong>Kebutuhan Tali</strong>: 42 Gulung (ukuran panjang 6 M), 2 Gulung (ukuran panjang 15 M), 2 Gulung (ukuran panjang 12 M).</p>
-                  </div>
-                )
-              }
-            ]
-          }
-        ]
+        syllabus: []
       },
       {
         id: 'pioneering-4',
@@ -904,185 +474,7 @@ export const kridas = [
           'Memahami dan mampu menyiapkan instalasi air sederhana & listrik perkemahan.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Bekal Air dan Listrik.'
         ],
-        syllabus: [
-          {
-            id: 'mod-pio-4-1',
-            title: 'Bekal Air',
-            description: 'Sumber air, pencarian, dan penjernihan air.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '1.5 Jam',
-            items: [
-              {
-                id: 'art-pio-4-1-1',
-                title: 'Sumber Air & Pencarian',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>1. Bekal Air</h3>
-                    <h4>Macam-macam sumber air:</h4>
-                    <ul>
-                      <li><strong>Air permukaan</strong>: Rawa, Danau, Air sungai, Air Waduk.</li>
-                      <li><strong>Air tanah</strong>: Mata Air, Sumur Artetis, Sumur Biasa.</li>
-                    </ul>
-                    
-                    <h4>Penyediaan sumber air tanah:</h4>
-                    <ul>
-                      <li><strong>Mata air</strong>: Merupakan sumber perbekalan air. Sediakan tempat penampungan. Cegah pengotoran.</li>
-                      <li><strong>Sumber Artetis</strong>: Sumur yang dibuat di atas saluran air tanah. Semburan tergantung pada tekanan air. Biasa terdapat di pegunungan batu.</li>
-                      <li><strong>Sumur Biasa</strong>: Sebagian besar digunakan penduduk. Perlu perkuatan dinding agar tidak runtuh. Dapat digunakan pompa air.</li>
-                      <li><strong>Sumur Bor</strong>: Pengeboran dengan alat. Baik di tanah yang kohesif (campuran tanah liat dan pasir).</li>
-                    </ul>
-
-                    <h4>Penyediaan sumber air permukaan:</h4>
-                    <ul>
-                      <li><strong>Pada air sungai yang dangkal</strong>: Gali dasarnya. Bekas galian isi koral. Tempatkan saringan pada koral.</li>
-                      <li><strong>Pada waduk/ danau</strong>: Buat alat pembantu apung. Pasang ujung pipa/ saringan pengisap di atas pengapung. Alat pengapung dibuat dari balok dolken atau drum-drum.</li>
-                      <li><strong>Sungai rembesan</strong>: Buat parit-parit disepanjang sungai. Isi batu koral biar tidak longsor.</li>
-                    </ul>
-
-                    <h4>Mencari sumber air:</h4>
-                    <ul>
-                      <li>Pelajari Peta.</li>
-                      <li>Kenali lokasi tempatnya.</li>
-                      <li>Tentukan sasaran (sungai, danau, mata air).</li>
-                      <li>Cari dan cetak keterangan yang dapat dipercaya.</li>
-                      <li><strong>Sasaran Danau</strong>: catat keadaan danau. Catat data umum (luas, dalam, warna air, perkiraan debit).</li>
-                      <li><strong>Sasaran sungai</strong>: Catat data sungai (lebar, dalam, deras air, dan debet air). Catat jalan-jalan pendekat. Buat denah.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pio-4-1-2',
-                title: 'Penjernihan Air',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>Penjernihan Air</h3>
-                    <h4>Bahan penjernih air:</h4>
-                    <ul>
-                      <li><strong>Bahan alam</strong>: Pasir beton, Ijuk, batu, Kerikil, Batu apung, Karang aktif, Kain kasa/ kapas, Bambu.</li>
-                      <li><strong>Bahan kimia</strong>: Tawas, Kaporit, Garam dapur, kapur tohor, Phenol red, Ph tablet, Kertas indikator, Soda.</li>
-                    </ul>
-
-                    <h4>Proses pengendapan:</h4>
-                    <ul>
-                      <li><strong>Secara alamiah</strong>: Tidak menggunakan bahan kimia. Mengendapkan kotoran-kotoran. Waktu relatif lama.</li>
-                      <li><strong>Dengan bahan kimia</strong>: Hampir sama dengan alamiah. Di sini proses pengendapan dipercepat dengan mencampur bahan kimia berupa tawas. Pengendapan juga merupakan proses pendahuluan dalam penyaringan.</li>
-                    </ul>
-
-                    <h4>Penyaringan:</h4>
-                    <ul>
-                      <li><strong>Penyaringan dengan pasir lambat</strong>: Tanpa bahan pengawet. Dapat menghilangkan sel-sel amuba.</li>
-                      <li><strong>Penyaringan dengan pasir cepat</strong>: Cara ini hampir sama dengan air lambat. Di sini diberi tekanan untuk mempercepat perembesan air. Biasanya kurang baik.</li>
-                      <li><strong>Beberapa cara saringan pasir lambat</strong>: Cara petak, Cara langsung, Dengan tempat.</li>
-                    </ul>
-
-                    <h4>Pembunuhan kuman:</h4>
-                    <ul>
-                      <li>Secara ilmu alam: dipanaskan sampai mendidih.</li>
-                      <li>Secara ilmu hayat: dengan memasukan baksil ke dalam saringan (jarang dilakukan).</li>
-                      <li>Secara kimia: penyempurnaan chlor dengan air, dengan bahan amoniak.</li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          },
-          {
-            id: 'mod-pio-4-2',
-            title: 'Listrik',
-            description: 'Dasar-dasar pengetahuan tentang listrik dan alat pembangkit.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '1.5 Jam',
-            items: [
-              {
-                id: 'art-pio-4-2-1',
-                title: 'Dasar Listrik & Alat Ukur',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>2. Dasar-Dasar Pengetahuan Tentang Listrik</h3>
-                    <h4>Proses terjadinya listrik:</h4>
-                    <ul>
-                      <li>Karena gesekan dua buah benda: Ebonit digosok bulu kucing, Kaca digosok dengan sutera.</li>
-                      <li>Karena proses kimia: Akumulator, Baterai.</li>
-                      <li>Karena perpotongan konduktor dengan garis gaya listrik: Generator, Dinamo.</li>
-                    </ul>
-
-                    <h4>Istilah dalam listrik:</h4>
-                    <ul>
-                      <li><strong>Tegangan</strong>: Adalah besar muatan listrik pada suatu tempat. Simbolnya ”E”. Satuan Volt ”V”. Ada dua macam tegangan: Tegangan searah (DC) contohnya baterai, accu; Tegangan bolak-balik (AC) contohnya generator.</li>
-                      <li><strong>Arus</strong>: Adalah aliran listrik yang mengalir pada penghantar. Simbolnya ”I”. Satuannya Amper (A).</li>
-                      <li><strong>Tahanan</strong>: Adalah besar kemampuannya yang menghambat suatu bahan listrik. Simbolnya ”R”. Satuannya ”Ohm”.</li>
-                      <li><strong>Daya</strong>: Kemampuan yang dihasilkan oleh alat listrik. Simbolnya ”P”. Satuannya ”Watt” (W).</li>
-                    </ul>
-
-                    <h4>Hubungan listrik:</h4>
-                    <ul>
-                      <li>Seri: Lampu, Baterai, Tahanan.</li>
-                      <li>Paralel: Lampu, Baterai, Tahanan.</li>
-                      <li>Kombinasi: Lampu, Baterai, Tahanan.</li>
-                    </ul>
-
-                    <h4>Alat Peralatan dan Instalasi Listrik:</h4>
-                    <ul>
-                      <li>Alat tukang listrik.</li>
-                      <li>Bahan Instalasi listrik: Macam kawat, Instalasi lain.</li>
-                      <li><strong>Alat ukur listrik</strong>:
-                        <ul className="list-disc pl-5">
-                          <li><strong>Avometer</strong>: Mengukur besarnya arus, Mengukur tegangan, Mengukur tegangan listrik.</li>
-                          <li><strong>Watt meter</strong>: Mengukur daya listrik. Disambung seri dan paralel.</li>
-                          <li><strong>Tang meter</strong>: Mengukur besarnya arus.</li>
-                          <li><strong>Megger</strong>: Mengukur tahanan isolasi instalasi. Saluran bebas dari tegangan listrik. Semua lampu dilepas dan saklar pada kedudukan mati/ off.</li>
-                          <li><strong>Frekuensi meter</strong>: Mengukur frekuensi. Pengukuran disambung paralel.</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pio-4-2-2',
-                title: 'Pembangkit Listrik',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>Pengetahuan dasar tentang alat pembangkit listrik</h3>
-                    <h4>Pembangkit listrik AC (Arus bolak-balik):</h4>
-                    <ul>
-                      <li><strong>Macam generator</strong>: Generator satu fasa, Generator dua fasa, Generator tiga fasa, tiga kawat (hubungan segitiga) dan empat kawat (hubungan bintang).</li>
-                      <li><strong>Bahan generator</strong>: Stator (Merupakan bagian yang tidak bergerak, terdiri dari gardan, kutub utama, kutub bantu dan kumparan stator). Rotor (Merupakan bagian yang berputar, terdiri dari as penahan, komutator, kumparan rotor).</li>
-                      <li><strong>Prinsip kerja</strong>: Belitan digerakkan pada medan magnet, sehingga timbul tegangan listrik.</li>
-                      <li><strong>Besarnya tegangan tergantung</strong>: Putaran, Jumlah belitan, Besar medan magnet, Celah udara antara belitan dan medan magnet.</li>
-                      <li><strong>Penggunaan generator</strong>: Untuk penerangan, Untuk tenaga perlatan listrik.</li>
-                    </ul>
-
-                    <h4>Pembangkit listrik arus searah (DC):</h4>
-                    <ul>
-                      <li><strong>Macamnya</strong>: Generator/ dinamo DC, Accumulator, Baterai.</li>
-                      <li><strong>Prinsip kerja dinamo</strong>: Belitan konduktor digerakkan, gerakan pada medan magnet, Timbul tegangan.</li>
-                      <li><strong>Penggunaan dinamo DC</strong>: Untuk penerangan, Untuk tenaga peralatan listrik.</li>
-                      <li><strong>Penggunaan Accumulator dan baterai</strong>: Untuk penerangan, Untuk tenaga perlatan listrik DC.</li>
-                    </ul>
-
-                    <h4>Merawat & Mengoperasikan Generator:</h4>
-                    <ul>
-                      <li><strong>Merawat</strong>: Melumasi bantalan-bantalan. Usahakan generator selalu dalam keadaan kering, jangan sampai lembab. Kontrol baut-baut dan mur-mur pada generator. Jangan merubah hubungan yang sudah ada pada generator.</li>
-                      <li><strong>Mengoperasikan</strong>: Beban yang terpasang pada generator dilepas dahulu. Jalankan mesin penggerak sesuai putaran yang sudah ditentukan. Lihat Volt meter untuk mengetahui tegangan yang harus dicapai. Setelah mesin penggerak dan generator berjalan normal, baru masukan sakelar beban. Apabila tegangan beban turun, tambah putaran generator.</li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          }
-        ]
+        syllabus: []
       }
     ],
     richContent: (
@@ -1241,7 +633,8 @@ export const kridas = [
           'Mampu melakukan ketiganya.',
           'Mengetahui alat dan prasarana.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Panjat Tebing.'
-        ]
+        ],
+        syllabus: []
       },
       {
         id: 'mountaineering-2',
@@ -1253,7 +646,8 @@ export const kridas = [
           'Mampu melaksanakan keduanya.',
           'Mengetahui alat dan prasarana.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Turun Tebing.'
-        ]
+        ],
+        syllabus: []
       },
       {
         id: 'mountaineering-3',
@@ -1265,7 +659,8 @@ export const kridas = [
           'Memahami dan mampu melaksanakan.',
           'Memahami dan mampu menggunakan alat & prasarana.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Travesing.'
-        ]
+        ],
+        syllabus: []
       },
       {
         id: 'mountaineering-4',
@@ -1277,15 +672,22 @@ export const kridas = [
           'Memahami dan mampu menggunakan alat & prasarana.',
           'Mengetahui alat dan prasarana Travesing.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Travesing.'
-        ]
+        ],
+        syllabus: []
       }
     ],
     richContent: (
       <div className="space-y-12 font-gabarito text-gray-700">
         <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 mb-8">
-          <h2 className="text-2xl font-bold font-anta text-slate-800 mb-4">Krida Mountaineering</h2>
+          <h2 className="text-2xl font-bold font-anta text-slate-800 mb-4">Pendahuluan</h2>
+          <p className="leading-relaxed mb-4">
+            <strong>Saka Wira Kartika</strong> adalah wadah kegiatan bagi Pramuka Penegak dan Pramuka Pandega untuk meningkatkan kesadaran bela negara melalui pengetahuan dan keterampilan di bidang matra darat. Tujuannya adalah membentuk patriot bangsa yang setia, berbakti, dan menjunjung tinggi nilai luhur bangsa serta tetap menjaga keutuhan Negara Kesatuan Republik Indonesia.
+          </p>
+          <p className="leading-relaxed mb-4">
+            <strong>Matra darat</strong> dapat diartikan sebagai segala aktivitas dan kegiatan yang dilakukan secara terorganisir, perorangan ataupun kelompok yang memanfaatkan kondisi alam di darat seperti hutan, gunung, rawa, dan sungai.
+          </p>
           <p className="leading-relaxed">
-            Secara bahasa, <strong>mountaineering</strong> berarti teknik mendaki gunung. Namun dalam praktiknya, ruang lingkup mountaineering mencakup berbagai kegiatan di alam pegunungan dengan tingkat kesulitan berbeda. Mulai dari hiking ringan hingga panjat tebing ekstrem.
+            Secara bahasa, arti kata <strong>mountaineering</strong> adalah teknik mendaki gunung. Kegiatan mountaineering cukup menantang untuk digeluti, selain wahana kegiatannya yang berada di daerah ketinggian pegunungan yang diwarnai dengan tebing, lembah, ngarai, ceruk, sungai, dan panorama. Untuk melakoni mountaineering ini tentu saja dibutuhkan kesiapan fisik yang mantap, yaitu tubuh dalam kondisi sehat, fit, dan stamina oke.
           </p>
         </div>
 
@@ -1446,6 +848,121 @@ export const kridas = [
           'Memahami tumbuhan berair yang dapat diminum.',
           'Mengetahui cara mengambilnya.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Jenis Tumbuhan.'
+        ],
+        syllabus: [
+          {
+            id: 'survival-1-modul-1',
+            title: "SKK Jenis-Jenis Tumbuhan",
+            items: [
+              {
+                id: 'survival-1-article-1',
+                title: "Tumbuhan yang Dapat Dimakan",
+                content: `**Daftar jenis tumbuhan yang dapat dimakan, dikelompokkan berdasarkan daerah tumbuh:**
+
+**Tumbuhan Rawa Laut:**
+* Daun api-api muda
+* Jeruk rawa
+* Daging buah nipah
+* Bunga gebang yang muda
+* Buah tanjau
+
+**Tumbuhan Pesisir Pantai:**
+* Kelapa
+* Ketapang
+* Daun beluntas
+* Tangkai bunga pohon bumi
+* Daun buah putri
+
+**Tumbuhan Rawa Sungai:**
+* Nipah
+* Sagu
+* Aren
+* Rebung Bambu
+* Macam-macam jamur
+
+**Tumbuhan Rimba Sekunder:**
+* Daun ki cemang
+* Daun Haria
+* Umbut balaka toa
+* Umbut Tepuis
+* Buah komdang
+* Daun Kaliandra
+* Daun Simtrong
+
+**Tumbuhan Daerah Pegunungan:**
+*(Tidak ada rincian spesifik di bagian ini dalam dokumen)*
+
+**Daftar tambahan tumbuh-tumbuhan dan buah-buahan rimba yang dapat dimakan:**
+* Melinjo (tangkil) - Daun-daun.
+* Keluwek atau pangi (Buahnya lunak berwarna ungu kehitam-hitaman, tidak dapat dimakan mentah).
+* Sukun (Gomo), Nangka, cempedak - Daging buahnya dapat dimakan.
+* Bermacam-macam jenis durian.
+* Petai dan Jengkol.
+* Rambutan hutan.
+* Jambu Kelutuk.
+* Jambu Monyet.
+* Aren.
+* Sagu.
+* Tayapa (Semacam Ubi Jalar).
+* Pisang Monyet (Umbut pohonnya dapat dimakan sebagai sayur).
+* Karet (Buah, daunnya dapat dimakan setelah dimasak).
+* Sejenis nanas/lidah buaya (Tangkai buah dapat dimakan).
+* Daun suji (Akarnya dimakan setelah dibakar/dimasak).
+* Gelagah (Daunnya yang masih mudah).
+* Rasamala (yang masih muda dan berwarna merah).
+* Klanting/panggang (Daun mudah).
+* Pohpohan (Daunnya).
+* Putat (Daunnya).
+* Catok ayam (Daunnya yang muda sekali).
+* Pandan hutan/jaksi (Umbutnya).
+* Bayam duri (Daun yang mudah).
+* Dan lain-lain.
+
+**Tumbuh-tumbuhan yang tidak dapat dimakan (Beracun):**
+* Jarak (Racun pada bijinya).
+* Pangi/Picung (Seluruh bagian pohon mengandung asam cyaan).
+* Kecubung (*Datura metel*) (Mengandung jamur atropin).
+* Jamur *Amanita Verna* (Mengandung muskarin).
+* Jamur *Psilocybe sp.* (Mengandung philosibin).`
+              },
+              {
+                id: 'survival-1-article-2',
+                title: "Tumbuhan yang Mengandung Air & Cara Mengambilnya",
+                content: `**Tumbuhan yang mengandung air:**
+* Kaktus
+* Rotan Cincin
+* Ruas bambu
+* Mangga
+* Manggis
+* Jambu air
+* Kedondong
+* Langsat
+* Kelopak daun nipah yang lebar
+* Bonggol pisang yang dilobangi
+
+**Cara mengambil tumbuhan yang mengandung air:**
+
+**Tumbuhan kaktus:**
+Potong beberapa ujung pohon kaktus yang masih muda, tunggu air menetes, pasang tempat air.
+
+**Tumbuhan rotan cincin:**
+Potong tumbuhan rotan cincin muda, tetesan airnya dapat langsung diminum.
+
+**Ruas Bambu:**
+* Cari pohon bambu yang masih muda kemudian buat lubang di atas masing-masing ruas dan air akan mengalir dari lubang tersebut.
+* Tadahi air yang keluar tersebut dan dapat langsung diminum.
+
+**Kelopak daun nipah yang lebar:**
+* Ikat pelepah daun nipah yang muda.
+* Potong pelepah daun nipah tersebut dan pukul-pukul pelepah sehingga akan mengeluarkan air.
+
+**Bonggol pisang:**
+* Tebang pohon pisang yang agak besar dilubangi bonggolnya/bagian bawah.
+* Lubangi bonggol pisang tersebut dengan menggunakan golok/pisau.
+* Tunggu beberapa saat hingga lubang bonggol pohon pisang tersebut mengeluarkan air dan airnya dapat diminum.`
+              }
+            ]
+          }
         ]
       },
       {
@@ -1458,6 +975,63 @@ export const kridas = [
           'Memahami dan mampu membuat perangkap binatang air.',
           'Memahami dan mampu membuat api tanpa korek.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Jenis Binatang.'
+        ],
+        syllabus: [
+          {
+            id: 'survival-2-modul-1',
+            title: "SKK Jenis-Jenis Binatang",
+            items: [
+              {
+                id: 'survival-2-article-1',
+                title: "Jenis-Jenis Binatang dan Alat/Perangkap",
+                content: `**Jenis-jenis binatang darat:**
+* Macam-macam ular
+* Tupai
+* Monyet
+* Babi
+* Kelabang
+* Kelinci
+* Belalang
+* Tikus
+* Katak
+* Landak
+* Musang
+* Biawak
+* Kadal
+
+**Jenis-jenis binatang air:**
+* Ikan
+* Siput
+* Kepiting
+* Kerang
+* Ganggang
+* Dan lain-lain
+
+**Macam-macam alat / perangkap:**
+
+**Perangkap binatang darat:**
+* Perangkap kurungan
+* Perangkap getah
+* Perangkap jaring kail
+* Perangkap kaki rusa
+* Perangkap puyuh
+
+**Alat menangkap ikan:**
+* Kail
+* Tombak
+* Sumpit
+* Panah
+* Bubu
+* Jala
+
+**Cara membuat api tanpa korek api:**
+* Lensa cembung dengan pertolongan sinar matahari.
+* Gesekkan bambu dengan bambu.
+* Gesekkan batu dengan batu.
+* Menggunakan busur dengan gundik.`
+              }
+            ]
+          }
         ]
       },
       {
@@ -1468,6 +1042,58 @@ export const kridas = [
           'Memahami & mampu merencanakan dan melaksanakan survival Hutan Gunung.',
           'Mampu survival satu hari satu malam.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Survival Hutan Gunung.'
+        ],
+        syllabus: [
+          {
+            id: 'survival-3-modul-1',
+            title: "SKK Survival Hutan Gunung",
+            items: [
+              {
+                id: 'survival-3-article-1',
+                title: "Prinsip-Prinsip Survival dan Teknik Mencari Hubungan",
+                content: `**Prinsip-Prinsip Survival (HARUS HIDUP):**
+* **H**adapi setiap kesukaran dengan tenang dan bijaksana.
+* **A**kal yang sehat adalah senjata yang paling ampuh dalam menghadapi survival.
+* **R**asa takut dan panik harus dihilangkan.
+* **U**sahakan mencari jalan keluar untuk membebaskan diri dari survival dan bergabung dengan kawan.
+* **S**emangat dan keyakinan tetap hidup harus tertanam.
+* **H**indari dan jauhi tempat berbahaya yang dapat mengancam keselamatan diri kita dan hormati adat istiadat setempat serta tiru tata cara hidupnya.
+* **I**stirahat dan tenangkan pikiran apabila timbul kekacauan.
+* **D**engar lihat dan waspada terhadap perangkap alam.
+* **U**tamakan kesehatan dan keselamatan diri.
+* **P**raktekkan dan latih kembali pengetahuan dan keterampilan Jungle Survival yang pernah didapat.
+
+**Teknik mencari hubungan:**
+* Membuat api dan asap untuk menarik perhatian.
+* Nyalakan lampu (merupakan alat yang baik apabila mengetahui morse).
+* Kain berwarna (sebagai kain panel untuk pesawat terbang atau Semaphore untuk kapal laut).
+* Kaca dan benda mengkilat (dapat digunakan sebagai tanda dan morse).
+* Peluit (dapat dibunyikan sebagai tanda atau isyarat).
+* Meninggalkan tanda-tanda jejak yang dapat dipahami oleh kawan (Huruf SOS, atau menebang hutan membuat lorong 5x5 meter dan membuat api unggun di lorong tersebut).`
+              },
+              {
+                id: 'survival-3-article-2',
+                title: "Mencari Air dan Makanan",
+                content: `**Mencari Air:**
+* **Menggali pada tanah yang gembur** (di daerah lembah).
+* **Di padang pasir dan tanah tandus:** Perhatikan indikator (burung, pohon, bekas binatang yang mengais-ngais) atau gunakan kain untuk mengumpulkan embun.
+* **Di pegunungan:** Gali pada bekas aliran sungai, ambil lumut dan peras, atau kumpulkan salju.
+* **Mengambil air dari tumbuhan:** Batang kaktus, Rotan, Palem, Bambu, Bonggol pohon pisang, Akar alang-alang.
+
+**Mencari Makanan:**
+* Tumbuh-tumbuhan yang dapat dimakan (seperti di BAB II).
+* Tumbuh-tumbuhan yang tidak dapat dimakan (beracun) (seperti di BAB II).
+* Tumbuh-tumbuhan daerah pegunungan (Hutan pinus, biji buah pinus).
+* Buah-buahan tropika lainnya yang dapat dimakan tanpa dimasak (Langsep, Mangga, Pala, Manggis, Sawo, Delima, Jambu air/bol, Buah nona, Jamblang, Kenari, Nanas, Beberapa jenis jeruk, Namu-namu, Tomi-tomi, Dan lain-lain).
+* Binatang-binatang yang bisa dimakan (Gajah, harimau, badak, tapir, babi hutan, kera, rusa/menjangan, tikus-tikus, ayam alas, dan lain-lain).
+
+**Pengolahan:**
+* Semua binatang buas darat, yang berkaki empat dan yang berkuku tebal (Harimau, kera, dll.) harus dikuliti atau rambutnya dibakar.
+* Semua reptilia yang berkaki empat dan berkulit belakang keras (Buaya, Biawak) harus dibalik (telentang) agar mudah membuka perut dan memotong dagingnya.
+* Semua jenis reptilia (Ular-ular) harus dikuliti (*skinning*) terlebih dahulu mulai dari bagian kepalanya.`
+              }
+            ]
+          }
         ]
       },
       {
@@ -1478,6 +1104,40 @@ export const kridas = [
           'Memahami & mampu merencanakan dan melaksanakan survival Rawa Laut.',
           'Mampu survival satu hari satu malam.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Survival Rawa Laut.'
+        ],
+        syllabus: [
+          {
+            id: 'survival-4-modul-1',
+            title: "SKK Survival Rawa Laut",
+            items: [
+              {
+                id: 'survival-4-article-1',
+                title: "Tumbuhan dan Binatang Rawa Laut, Bahaya, dan Tanda Daratan",
+                content: `**Jenis Tumbuh-tumbuhan yang dapat dimakan:**
+* **Api-api (*Avicenia alba*):** Daun yang muda dapat dimakan setelah direbus.
+* **Tanjan (*Rhizophora Macrenata*):** Buahnya dikupas, diiris tipis, direndam minimal 1 hari, dan dapat dimakan setelah direbus. (Juga termasuk *Bruguiera sp* / buahnya disebut putut, dan *Ceriops tagel*).
+* **Jeruk Rawa (*Merope angulata*):** Daun muda untuk penyedap air minum. Buah masak dapat dimakan.
+* **Pidada (*Sonneratia*):** Buah masak dapat dimakan mentah.
+* **Nipah/Kiwel/Daon:** Daging buahnya yang agak tua dapat dimakan mentah.
+* **Gabang/Langkap:** Pondohnya (karangan bunga yang masih muda) dapat dimakan setelah direbus. Cairan dari tangkai karangan bunga dapat diminum.
+
+**Jenis Binatang:**
+* **Di rawa-rawa:** buaya, biawak, ular, kera-kera sejenis kucing rawa, tupai rawa, burung-burung, kodok hijau, kepiting, kerang pasir, kerang batu, dan lain-lain.
+* **Di sungai-sungai:** buaya, ular, biawak-biawak, kodok hijau, semua jenis bebek hutan (belibis), dan lain-lain.
+
+**Bahaya Alam di Rawa Laut:**
+Angin topan, Badai ombak, Arus bawah laut dan pusaran air.
+
+**Tanda-tanda Adanya Daratan:**
+* Berkumpulnya awan di suatu tempat.
+* Kepulan asap/cahaya api.
+* Mercusuar atau bangunan lainnya.
+* Perahu nelayan, soro-soro ikan pukat, dll.
+* Kelompok pohon nipah, sampah, atau kotoran lain.
+* Binatang-binatang (Burung camar, kelompok binatang air yang menyeberang).`
+              }
+            ]
+          }
         ]
       },
       {
@@ -1489,6 +1149,43 @@ export const kridas = [
           'Memahami & dapat menjelaskan alat Survival Kit.',
           'Memahami & dapat menjelaskan bagian alat Survival Kit.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Survival Kit.'
+        ],
+        syllabus: [
+          {
+            id: 'survival-5-modul-1',
+            title: "SKK Survival Kit",
+            items: [
+              {
+                id: 'survival-5-article-1',
+                title: "Isi Survival Kit dan Kegunaannya",
+                content: `**Materi Survival Kit:**
+Satu set peralatan atau kotak/tas peralatan survival yang disesuaikan dengan tujuan perjalanan, dapat dibuat sendiri dalam kaleng tertutup yang bagian dalamnya digosok mengkilat.
+
+**Isi dan Kegunaannya:**
+* **Korek Api:** Harus kedap air (dapat dimasukkan ke tabung plastik atau kepala batang korek ditetesi lilin).
+* **Lilin:** Baik untuk menyalakan api dan penerangan. Lilin dari lemak dapat dimakan/untuk menggoreng.
+* **Batu Api dan Geretan:** Bekerja dalam keadaan basah dan tahan lama.
+* **Suryakanta/Kaca Pembesar:** Menimbulkan panas dan api dengan sinar matahari, juga untuk mendeteksi duri.
+* **Jarum dan Benang:** Jarum dengan lubang besar, benang kuat, dapat dililit di sekitar jarum.
+* **Kail dan Senar:** Beberapa kail ukuran berbeda, senar pancing juga dapat dipakai untuk menjerat.
+* **Kompas:** Pilih kompas yang baik dan sederhana (kompas dengan cairan lebih baik).
+* **Senter Kecil (*beta light*):** Untuk membaca peta, memasang umpan memancing di malam hari.
+* **Kawat Jerat:** Kawat kuningan 60–90 cm, untuk jerat, memasak, dll.
+* **Kawat Gergaji:** Ujung pegangan sebaiknya dibuang dan diganti kayu, disimpan di plastik dengan minyak gemuk untuk mencegah karat.
+* **Obat-obatan:**
+    * **Analgetik:** Penahan sakit (Ponstan, Antalgin, dll.), dosis 1 tablet/6 jam.
+    * **Anti Mencret:** (Motilex, Lodya), dosis 2 tablet sekaligus, maks 3 tablet/hari.
+    * **Anti Histamin:** Mengatasi alergi, gatal, gigitan serangga (CTM, Benadryl, Insidal), dosis 3 x 1 tablet/hari.
+    * **Kalium Permanganat (PK):** Larutan ungu untuk sterilisasi (1 gram/1 liter air), ungu pekat untuk membasmi jamur.
+    * **Anti Malaria:** Dikonsumsi hanya di daerah malaria.
+    * **Anti Biotik:** Untuk mengobati infeksi (misal Ampicilin 4 x 500 mg/hari selama 4 hari).
+* **Pisau Bedah:** Dua bilah pisau bedah dengan ukuran berbeda (gagang dapat dibuat dari kayu).
+* **Plester Kupu-kupu:** Untuk merapatkan pinggir luka yang perlu dijahit.
+* **Plester:** Beberapa buah, sebaiknya kedap air, untuk menutup luka kecil.
+* **Kondom:** Dapat digunakan sebagai tempat air yang baik, menampung hingga 1 liter.`
+              }
+            ]
+          }
         ]
       },
       {
@@ -1500,6 +1197,52 @@ export const kridas = [
           'Memahami dan mampu mencari jejak.',
           'Memahami dan mampu menentukan usia jejak.',
           'Telah melatih seorang Penggalang sehingga memperoleh TKK Mengesan Jejak.'
+        ],
+        syllabus: [
+          {
+            id: 'survival-6-modul-1',
+            title: "SKK Sanjak (Mengesan Jejak)",
+            items: [
+              {
+                id: 'survival-6-article-1',
+                title: "Pengertian dan Pengelompokan Regu Sanjak",
+                content: `**Pengertian-Pengertian:**
+* **Jejak:** Tanda-tanda yang dibuat oleh manusia, binatang, dan benda-benda bergerak lainnya (disengaja maupun tidak disengaja).
+* **Mengesan Jejak:** Ilmu untuk dapat mengikuti, mengetahui, mencari, dan mengejar seseorang/kawan melalui tanda-tanda, bekas, atau bau yang ditinggalkan.
+* **Pengesan Jejak:** Seseorang yang terlatih untuk dapat mencari, menganalisa, dan menyimpulkan arti dari jejak.
+* **Tapak:** Bekas/jejak yang ditinggalkan oleh benda-benda bergerak atau diam, menyerupai bentuk benda sebenarnya (kaki, sepatu, tangan, dll.).
+
+**Pengelompokan Regu Sanjak:**
+* Anggota minimal 5 orang, maksimal 10 orang.
+* Dibagi menjadi:
+    * Pimpinan kelompok (Ketua dan wakil ketua)
+    * Kelompok penjejak satu (2 s.d 3 orang)
+    * Kelompok penjejak dua (2 s.d 3 orang)
+    * Kelompok penjejak tiga (2 s.d 3 orang)
+* Ketua/wakil mengatur giliran dan menyimpulkan jejak.`
+              },
+              {
+                id: 'survival-6-article-2',
+                title: "Dasar-Dasar dan Teknik Mencari Jejak",
+                content: `**Dasar-Dasar Mengesan Jejak (Persyaratan Pengesan Jejak):**
+* Memiliki panca indera yang baik.
+* Mengerti tentang keadaan alam dan pengaruhnya.
+* Memiliki kemampuan dan kesungguhan dalam penjejakan.
+* Memiliki daya ingat yang tinggi dan cerdas.
+* Memiliki kondisi fisik dan mental yang baik.
+* Sabar, tabah, dan tidak mudah menyerah.
+* Tenang dan teliti.
+
+**Teknik Mencari Jejak:**
+* Selalu waspada, setiap melangkah melihat medan di sekeliling.
+* Amati tanda-tanda pada tumbuh-tumbuhan (cabang/ranting patah) atau injakan pada tanah, rumput, pohon, dan semak.
+* Jika melihat binatang/benda bergerak, segera diam dan fokuskan pandangan, lalu tentukan cara menghindarinya (jangan lari membelakanginya, melainkan mundur perlahan sambil fokus pada mata Harimau).
+* Jika mendengar bunyi-bunyian atau mencium bau-bauan yang aneh, berhenti dan tentukan sumbernya.
+* Jangan hanya meninjau setinggi pandangan mata, perhatikan ke atas pohon (macan tutul, orang hutan, ular besar sering menyerang dari atas).
+* Lihat juga ke jurang-jurang, lembah-lembah, dan tempat lain yang letaknya lebih rendah.`
+              }
+            ]
+          }
         ]
       }
     ],
@@ -1753,89 +1496,56 @@ export const kridas = [
         ],
         syllabus: [
           {
-            id: 'mod-pba-1-1',
-            title: 'Dasar Penanggulangan Bencana',
-            description: 'Memahami konsep, jenis, dan sifat bencana serta pentahapan penanggulangannya.',
-            articleCount: 3,
-            quizCount: 0,
-            duration: '2 Jam',
+            id: 'pba-1-modul-1',
+            title: 'Manajemen Penanggulangan Bencana',
             items: [
               {
-                id: 'art-pba-1-1-1',
-                title: 'Pengertian & Tujuan',
-                type: 'article',
-                duration: '15 min',
-                content: (
-                  <div>
-                    <h3>Penanggulangan Bencana</h3>
-                    <ul>
-                      <li>Penanggulangan bencana merupakan salah satu wujud dari upaya untuk melindungi segenap bangsa Indonesia dari seluruh tumpah darah Indonesia.</li>
-                      <li>Penanggulangan bencana adalah kewajiban bersama antara pemerintah dan masyarakat yang didasarkan pada partisipasi, didukung prakarsa masyarakat serta pemerintah daerah.</li>
-                      <li>Penanggulangan bencana dititikberatkan pada tahap <strong>sebelum</strong> terjadinya bencana yang meliputi kegiatan pencegahan, penjinakan (mitigasi), dan kesiapsiagaan untuk memperkecil, mengurangi, dan memperlunak dampak yang ditimbulkan oleh bencana.</li>
-                      <li>Penanggulangan bencana adalah bagian dari kegiatan pembangunan yang bertujuan untuk mengurangi penderitaan masyarakat dan meningkatkan kehidupan dan penghidupan masyarakat secara lahir batin.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pba-1-1-2',
-                title: 'Jenis, Sifat & Tingkat Bencana',
-                type: 'article',
-                duration: '20 min',
-                content: (
-                  <div>
-                    <h3>Jenis Bencana</h3>
-                    <ul>
-                      <li><strong>Bencana alam:</strong> Fenomena atau gejala alam yang disebabkan oleh keadaan geografis, biologis, seismis, hidrologis, dan meteorologis atau disebabkan suatu proses dalam lingkungan alam yang mengancam kehidupan dan perekonomian masyarakat serta menimbulkan malapetaka.
-                        <br/><em>Contoh:</em> Wabah penyakit, gempa bumi, letusan gunung berapi, gelombang laut pasang (Tsunami), banjir, kekeringan, dan lain-lain.
-                      </li>
-                      <li><strong>Bencana ulah manusia:</strong> Peristiwa yang terjadi karena proses teknologi, integrasi manusia dengan lingkungannya atau interaksi manusia dengan manusia di dalam masyarakat itu sendiri yang menimbulkan dampak negatif terhadap kehidupan dan penghidupan masyarakat.
-                        <br/><em>Contoh:</em> Pembuangan limbah pabrik dengan sembarangan, polusi pabrik dan kendaraan bermotor, kebakaran, kecelakaan lalu lintas, dan lain-lain.
-                      </li>
-                    </ul>
-                    <h3>Sifat Bencana</h3>
-                    <ul>
-                      <li><strong>Terbatas:</strong> Apabila bencana yang terjadi hanya mengakibatkan rusak dan hilangnya sebagian harta benda atau timbulnya korban jiwa yang tidak banyak.</li>
-                      <li><strong>Dahsyat (luar biasa):</strong> Apabila bencana yang terjadi sangat menakutkan, di mana mengakibatkan timbulnya korban jiwa yang sangat besar. Hilangnya harta benda serta menyebabkan kerusakan sarana prasarana lingkungan yang menyangkut kepentingan masyarakat.</li>
-                    </ul>
-                    <h3>Skala / Tingkat Bencana</h3>
-                    <ul>
-                      <li><strong>Setempat / Lokal:</strong> Bila bencana yang terjadi di suatu Daerah Kabupaten/Kota dan dampaknya terbatas pada masyarakat daerah setempat.</li>
-                      <li><strong>Provinsi:</strong> Bila bencana yang terjadi di satu/beberapa daerah kabupaten/kota dalam wilayah Provinsi dan dampaknya dirasakan di Wilayah Provinsi tersebut.</li>
-                      <li><strong>Nasional:</strong> Bila bencana yang terjadi di satu/beberapa daerah/Wilayah tertentu dan dampaknya dirasakan secara Nasional.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pba-1-1-3',
-                title: 'Pentahapan Penanggulangan',
-                type: 'article',
-                duration: '25 min',
-                content: (
-                  <div>
-                    <h3>1. Sebelum Bencana Terjadi (Pra-Bencana)</h3>
-                    <ul>
-                      <li><strong>Preventif (Pencegahan):</strong> Kegiatan yang lebih dititikberatkan pada upaya penyebarluasan tentang berbagai peraturan, perundang-undangan yang berdampak untuk mengurangi risiko bencana termasuk pembuatan peta rawan bencana.</li>
-                      <li><strong>Mitigasi (Penjinakan):</strong> Kegiatan yang lebih dititikberatkan pada upaya secara fisik untuk mengurangi dampak yang ditimbulkan oleh bencana, seperti pembuatan <em>check dam</em>, rehabilitasi aliran sungai, pengawasan terhadap pelaksanaan RUTR, IMB, pemindahan penduduk ke daerah yang aman dari bencana, dan pemasangan tanda-tanda larangan di daerah yang rawan bencana.</li>
-                      <li><strong>Kesiapsiagaan:</strong> Meliputi kegiatan untuk mengadakan latihan atau gladi Pramuka dan masyarakat yang tinggal di daerah rawan bencana, serta pendidikan dan pelatihan bagi personil yang tergabung dalam organisasi satlak maupun satgas PBP serta aparat pemerintah dan ormas lainnya.</li>
-                    </ul>
-                    <p>Kegiatan pada tahap ini amat penting karena usaha untuk menghindari bencana akan lebih efektif dan efisien daripada rehabilitasi dan rekonstruksi.</p>
+                id: 'pba-1-article-1',
+                title: 'Penanggulangan Bencana',
+                content: `
+**Penanggulangan Bencana**
+*   Merupakan salah satu wujud dari upaya untuk melindungi segenap bangsa Indonesia dari seluruh tumpah darah Indonesia.
+*   Adalah kewajiban bersama antara pemerintah dan masyarakat yang didasarkan pada partisipasi, didukung dan prakarsa masyarakat serta pemerintah daerah.
+*   Dititikberatkan pada tahap sebelum terjadinya bencana yang meliputi kegiatan pencegahan, penjinakan dan kesiapsiagaan untuk memperkecil, mengurangi dan memperlunak dampak yang ditimbulkan oleh bencana.
+*   Adalah bagian dari kegiatan pembangunan yang bertujuan untuk mengurangi penderitaan masyarakat dan meningkatkan kehidupan dan penghidupan masyarakat secara lahir batin.
 
-                    <h3>2. Saat Bencana Terjadi (Tanggap Darurat)</h3>
-                    <ul>
-                      <li><strong>Peringatan dini:</strong> Upaya dan kegiatan yang sangat penting dan tidak boleh diabaikan, di mana untuk memberikan kesempatan kepada penduduk untuk menyelamatkan diri dari kemungkinan terlanda bencana alam.</li>
-                      <li><strong>Tanggap darurat:</strong> Upaya dan kegiatan pengerahan unsur-unsur penanggulangan bencana guna mencari, menolong, dan menyelamatkan korban bencana serta memberikan bantuan kepada para pengungsi berupa makanan dan minuman, pakaian, obat, pembuatan barak-barak darurat sebagai tempat penampungan sementara.</li>
-                    </ul>
+**Jenis, Sifat, Tingkat, dan Korban Bencana**
 
-                    <h3>3. Sesudah Bencana Terjadi (Pasca-Bencana)</h3>
-                    <ul>
-                      <li><strong>Rehabilitasi:</strong> Upaya dan kegiatan untuk memfungsikan dan memberdayakan kembali berbagai sarana prasarana umum yang mengalami kerusakan akibat bencana, guna mengurangi penderitaan masyarakat yang tertimpa musibah.</li>
-                      <li><strong>Rekonstruksi:</strong> Upaya dan kegiatan untuk membangun kembali berbagai kerusakan yang diakibatkan oleh bencana secara lebih baik daripada keadaan sebelumnya untuk mengantisipasi kemungkinan terjadinya bencana di waktu yang akan datang.</li>
-                    </ul>
-                    <p>Kegiatan pada tahap rekonstruksi harus direncanakan dengan teliti dan saksama, dengan mengikutsertakan berbagai pihak yang terkait sesuai dengan bidang masing-masing secara terintegrasi dan terpadu.</p>
-                  </div>
-                )
+**Jenis Bencana:**
+*   **Bencana Alam:** Fenomena atau gejala alam yang disebabkan oleh keadaan geografis, biologis, seismis, hidrologis dan meteorologis atau disebabkan suatu proses dalam lingkungan alam yang mengancam kehidupan dan perekonomian masyarakat serta menimbulkan malapetaka.
+    *   Contoh: Wabah penyakit, gempa bumi, letusan gunung berapi, gelombang laut pasang (Tsunami), banjir, kekeringan dan lain-lain.
+*   **Bencana Ulah Manusia:** Peristiwa yang terjadi karena proses teknologi, integrasi manusia dengan lingkungannya atau interaksi manusia dengan manusia didalam masyarakat itu sendiri.
+    *   Contoh: Pembuangan limbah, polusi, kebakaran, kecelakaan lalu lintas, dan lain-lain.
+
+**Sifat Bencana:**
+*   Terbatas
+*   Dahsyat (Luar Biasa)
+
+**Sekala / Tingkat Bencana:**
+*   Setempat / Lokal
+*   Propinsi
+*   Nasional
+
+**Korban Bencana:**
+*   Manusia (Luka / Meninggal)
+*   Harta benda (Hilang / Rusak)
+*   Lingkungan hidup (Kerusakan sarana prasarana umum)
+
+**Pentahapan Penanggulangan Bencana**
+
+**1. Sebelum Bencana Terjadi:**
+*   Preventif (Pencegahan)
+*   Mitigasi (Penjinakan)
+*   Kesiapsiagaan (Latihan / Gladi)
+
+**2. Saat Bencana Terjadi:**
+*   Peringatan Dini
+*   Tanggap Darurat (Menolong korban, bantuan logistik, barak darurat)
+
+**3. Sesudah Bencana Terjadi:**
+*   Rehabilitasi (Memfungsikan kembali sarana)
+*   Rekonstruksi (Membangun kembali lebih baik)
+`
               }
             ]
           }
@@ -1852,58 +1562,38 @@ export const kridas = [
         ],
         syllabus: [
           {
-            id: 'mod-pba-2-1',
-            title: 'Konsep Dasar PPGD',
-            description: 'Memahami pengertian, kesiapan fisik & mental, serta pengetahuan kesehatan dalam PPGD.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '1.5 Jam',
+            id: 'pba-2-modul-1',
+            title: 'Perjalanan dan Penanganan Gawat Darurat (PPGD)',
             items: [
               {
-                id: 'art-pba-2-1-1',
-                title: 'Pengertian & Kesiapan',
-                type: 'article',
-                duration: '20 min',
-                content: (
-                  <div>
-                    <h3>Pengertian PPGD</h3>
-                    <p>Perjalanan dan penanganan gawat darurat (PPGD) adalah hal-hal yang mencakup keadaan kesehatan pada suatu perjalanan/kegiatan meliputi kesiapan fisik, mental, dan pengetahuan tentang kesehatan dan gizi.</p>
-                    
-                    <h3>Cara Melaksanakan PPGD</h3>
-                    <h4>1. Kesiapan Fisik</h4>
-                    <ul>
-                      <li>Kesiapan fisik penolong harus dalam kondisi yang prima.</li>
-                      <li>Mengetahui teknik Pertolongan Pertama Pada Kecelakaan (P3K).</li>
-                      <li>Dapat mengambil tindakan dengan cepat dan tepat dalam memberikan pertolongan kepada korban.</li>
-                    </ul>
-                    <h4>2. Kesiapan Mental</h4>
-                    <ul>
-                      <li>Memiliki rasa percaya diri dalam melakukan Pertolongan Pertama Pada Kecelakaan (P3K).</li>
-                      <li>Memiliki kepekaan terhadap diri dan lingkungan.</li>
-                      <li>Selalu mengedepankan akal sehat dalam mengambil setiap tindakan Pertolongan Pertama Pada Kecelakaan (P3K).</li>
-                      <li>Mampu mengendalikan diri terhadap segala situasi.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pba-2-1-2',
-                title: 'Pengetahuan Kesehatan & Gizi',
-                type: 'article',
-                duration: '20 min',
-                content: (
-                  <div>
-                    <h3>Pengetahuan tentang Kesehatan dan Gizi</h3>
-                    <ul>
-                      <li>Mengerti tentang teknik Pertolongan Pertama Pada Kecelakaan (P3K).</li>
-                      <li>Mengerti dan mengetahui tentang obat dan penggunaannya.</li>
-                      <li>Memahami tentang berbagai macam penyakit dan gangguan kesehatan.</li>
-                      <li>Mengetahui berbagai macam jenis makanan yang layak dikonsumsi.</li>
-                      <li>Mengerti perimbangan nutrisi dan gizi dalam melaksanakan kegiatan dan perjalanan.</li>
-                      <li>Mampu melaksanakan teknik evakuasi korban.</li>
-                    </ul>
-                  </div>
-                )
+                id: 'pba-2-article-1',
+                title: 'Pengertian dan Cara Melaksanakan PPGD',
+                content: `
+**Pengertian Perjalanan dan Penanganan Gawat Darurat (PPGD)**
+
+Perjalanan dan penanganan gawat darurat (PPGD) adalah hal-hal yang mencakup keadaan kesehatan pada suatu perjalanan/kegiatan meliputi kesiapan fisik, mental dan pengetahuan tentang kesehatan dan gizi.
+
+**Cara Melaksanakan Perjalanan dan Penanganan Gawat Darurat (PPGD)**
+
+**1. Kesiapan Fisik**
+*   Kesiapan fisik penolong harus dalam kondisi yang prima.
+*   Mengetahui tehnik Pertolongan Pertama Pada Kecelakaan (P3K).
+*   Dapat mengambil tindakan dengan cepat dan tepat dalam memberikan pertolongan kepada korban.
+
+**2. Kesiapan Mental**
+*   Memiliki rasa percaya diri dalam melakukan Pertolongan Pertama Pada Kecelakaan (P3K).
+*   Memiliki kepekaan terhadap diri dan lingkungan.
+*   Selalu mengedepankan akal sehat dalam mengambil setiap tindakan Pertolongan Pertama Pada Kecelakaan (P3K).
+*   Mampu mengendalikan diri terhadap segala situasi.
+
+**3. Pengetahuan tentang Kesehatan dan Gizi**
+*   Mengerti tentang tehnik Pertolongan Pertama Pada Kecelakaan (P3K).
+*   Mengerti dan mengetahui tentang obat dan penggunaannya.
+*   Memahami tentang berbagai macam penyakit dan gangguan kesehatan.
+*   Mengetahui berbagai macam jenis makanan yang layak dikonsumsi.
+*   Mengerti perimbangan nutrisi dan gizi dalam melaksanakan kegiatan dan perjalanan.
+*   Mampu melaksanakan tehnik evakuasi korban.
+`
               }
             ]
           }
@@ -1921,102 +1611,40 @@ export const kridas = [
         ],
         syllabus: [
           {
-            id: 'mod-pba-3-1',
-            title: 'Dasar Komunikasi Radio',
-            description: 'Mengenal radio komunikasi, bagian-bagiannya, dan cara pengoperasiannya.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '1 Jam',
+            id: 'pba-3-modul-1',
+            title: 'Pengetahuan Komunikasi Radio',
             items: [
               {
-                id: 'art-pba-3-1-1',
-                title: 'Pengenalan & Bagian Radio',
-                type: 'article',
-                duration: '15 min',
-                content: (
-                  <div>
-                    <h3>Kegunaan Radio Komunikasi</h3>
-                    <p>Radio Komunikasi adalah alat yang digunakan untuk mengirim dan menerima berita dari pihak lain / lawan bicara.</p>
-                    
-                    <h3>Bagian-bagian Radio (Contoh: PRC - 1077)</h3>
-                    <ul>
-                      <li>Saklar Daya & Saklar Fungsi</li>
-                      <li>Saklar kanal/Chanel & Pengatur frekuensi (MHz/KHz)</li>
-                      <li>Penampil frekuensi</li>
-                      <li>Pengatur volume</li>
-                      <li>Konektor audio & Konektor antena</li>
-                      <li>Dudukan antena / penghubung antena batang</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pba-3-1-2',
-                title: 'Mengoperasikan Radio',
-                type: 'article',
-                duration: '15 min',
-                content: (
-                  <div>
-                    <h3>Cara Mengoperasikan</h3>
-                    <ul>
-                      <li><strong>Menghidupkan Radio:</strong> Putar saklar daya ke kanan hingga muncul frekuensi di layar/penampil frekuensi.</li>
-                      <li><strong>Memilih frekuensi:</strong> Putar saklar pengatur frekuensi ke atas (<em>up</em>) untuk menaikkan frekuensi atau ke bawah (<em>down</em>) untuk menurunkan frekuensi sampai dengan frekuensi yang dikehendaki.</li>
-                      <li><strong>Mengirim berita:</strong> Tekan saklar PTT pada <em>handset</em> untuk berbicara, lepas saklar PTT tersebut apabila kita akan menerima berita / mendengarkan lawan bicara.</li>
-                      <li><strong>Mematikan Radio:</strong> Putar saklar daya ke kiri hingga frekuensi di layar hilang.</li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          },
-          {
-            id: 'mod-pba-3-2',
-            title: 'Prosedur Komunikasi',
-            description: 'Tata cara kirim terima berita dan abjad fonetik.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '1 Jam',
-            items: [
-              {
-                id: 'art-pba-3-2-1',
-                title: 'Prosedur Kirim Terima (IKIT)',
-                type: 'article',
-                duration: '20 min',
-                content: (
-                  <div>
-                    <h3>Prosedur Kirim Terima Berita</h3>
-                    <p>Tata cara yang harus dipahami dan dilaksanakan oleh setiap operator / pelayan radio dalam melaksanakan kirim terima berita.</p>
-                    <h4>Prinsip IKIT:</h4>
-                    <ul>
-                      <li><strong>Irama:</strong> Bagilah kalimat agar mudah diterima, untuk menghindari kesalahan.</li>
-                      <li><strong>Kecepatan:</strong> Bicaralah pada kecepatan yang memadai, sehingga jelas didengar dan cukup waktu untuk mencatat.</li>
-                      <li><strong>Isi suara:</strong> Lebih kuat sedikit dari percakapan biasa, tetapi jangan berteriak.</li>
-                      <li><strong>Tinggi nada:</strong> Nada yang tinggi lebih jelas didengar.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pba-3-2-2',
-                title: 'Abjad Fonetik',
-                type: 'article',
-                duration: '15 min',
-                content: (
-                  <div>
-                    <h3>Abjad Fonetik (NATO)</h3>
-                    <div className="grid grid-cols-3 gap-2 font-mono text-sm bg-gray-100 p-4 rounded">
-                        <div>A = ALFA</div><div>J = JULIET</div><div>S = SIERA</div>
-                        <div>B = BRAVO</div><div>K = KILO</div><div>T = TANGGO</div>
-                        <div>C = CHARLIE</div><div>L = LIMA</div><div>U = UNIFORM</div>
-                        <div>D = DELTA</div><div>M = MIKE</div><div>V = VICTOR</div>
-                        <div>E = ECHO</div><div>N = NANCY</div><div>W = WISKY</div>
-                        <div>F = FOXTROT</div><div>O = OSCAR</div><div>X = X-RAY</div>
-                        <div>G = GOLF</div><div>P = PAPA</div><div>Y = YANKI</div>
-                        <div>H = HOTEL</div><div>Q = QUEBECK</div><div>Z = ZULU</div>
-                        <div>I = INDIA</div><div>R = ROMEO</div>
-                    </div>
-                  </div>
-                )
+                id: 'pba-3-article-1',
+                title: 'Radio Komunikasi',
+                content: `
+**Kegunaan Radio Komunikasi**
+Alat yang digunakan untuk mengirim dan menerima berita dari pihak lain/lawan bicara.
+
+**Bagian-bagian Besar Radio Komunikasi**
+(Berdasarkan Pesawat Radio Carima PRC-1077)
+Terdiri dari:
+*   Saklar Daya
+*   Saklar Fungsi
+*   Saklar kanal/Chanel
+*   Saklar pengatur frekuensi (MHz & KHz)
+*   Tombol pengatur kanal
+*   Penampil frekuensi
+*   Pengatur volume
+*   Konektor audio
+*   Dudukan antena
+*   Konektor daya
+
+**Mengoperasikan Radio Komunikasi**
+*   **Menghidupkan/Mematikan Radio:** Menggunakan Saklar Daya.
+*   **Memilih Frekuensi:** Menggunakan Saklar pengatur frekuensi.
+*   **Mengirim Berita:** Menggunakan saklar PTT pada handset.
+
+**Prosedur Kirim Terima Berita**
+*   Tata cara yang harus dipahami dan dilaksanakan oleh setiap operator.
+*   Harus memperhatikan **IKIT** (Irama, Kecepatan, Isi suara, Tinggi nada).
+*   Menggunakan Abjad Fonetik dalam berkomunikasi.
+`
               }
             ]
           }
@@ -2036,189 +1664,44 @@ export const kridas = [
         ],
         syllabus: [
           {
-            id: 'mod-pba-4-1',
-            title: 'Peralatan Dapur Lapangan',
-            description: 'Mengenal Kompor Lapangan T-50 dan alat dapur lainnya secara mendalam.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '2 Jam',
+            id: 'pba-4-modul-1',
+            title: 'Tata Cara Memasak',
             items: [
               {
-                id: 'art-pba-4-1-1',
-                title: 'Kompor Lapangan T-50',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>Kompor Lapangan T-50</h3>
-                    <p><strong>Komponen Kompor Lapangan T-50 terdiri dari:</strong></p>
-                    <ul>
-                      <li>1 Peti Kompor Lapangan T-50</li>
-                      <li>1 Tangki Bahan Bakar.</li>
-                      <li>2 Brander.</li>
-                      <li>2 Tungku.</li>
-                      <li>1 Pompa tangan.</li>
-                    </ul>
-                    <p><strong>Bahan Bakar:</strong> Minyak tanah.</p>
-                    <p><strong>Kapasitas Tabung Bahan Bakar:</strong> 16 Liter.</p>
+                id: 'pba-4-article-1',
+                title: 'Peralatan dan Teknik Memasak',
+                content: `
+**Kompor Lapangan T-50**
+*   **Komponen:** Peti Kompor, Tangki Bahan Bakar (16 Liter, minyak tanah), Brander, Tungku, dan Pompa tangan.
+*   **Cara Penggunaan:** (Langkah-langkah rinci mulai dari merangkai, memompa, menyulut, hingga api stabil).
+*   **Gangguan dan Cara Mengatasinya:**
+    *   Api mati tiba-tiba.
+    *   Api menyala seperti kebakaran.
+    *   Semburan api tidak rata.
+*   **Penyetelan:** Cara penyetelan tatakan kaki tungku untuk merebus atau menggoreng.
 
-                    <h3>Cara Penggunaan</h3>
-                    <ol>
-                      <li>Berdiri searah dengan angin dan letakkan peti, sisi gembok berhadapan dengan kita.</li>
-                      <li>Buka peti sampai tutup peti menyentuh tanah.</li>
-                      <li>Keluarkan peralatan kompor dan letakkan pada tutup peti.</li>
-                      <li>Keluarkan tungku dan pasang tatakan kaki tungku dengan cara seperti memasang baut. Tatakan kaki tungku berfungsi juga sebagai penyetel ketinggian brander terhadap alat masak.</li>
-                      <li>Letakkan kedua tungku pada sebelah kiri dan kanan peti dengan jarak minimal 30 cm, posisi lubang tungku menghadap ke peti.</li>
-                      <li>Letakkan brander di tengah-tengah tungku dengan tangki brander dan selang minyak mengarah ke sisi engsel peti.</li>
-                      <li>Keluarkan tangki dan masukkan kembali peralatan cadangan yang tidak digunakan ke dalam peti, lalu peti ditutup. Isi tangki dengan minyak tanah maksimum 16 liter. Letakkan tangki di tengah-tengah sisi engsel peti, hubungkan selang kedua brander pada kran minyak pada tangki.</li>
-                      <li>Peti dapat digunakan sebagai meja ringan maksimum beban 30 kg.</li>
-                      <li>Pompa tangki hingga bertekanan maksimum $3 \text{ kg/cm}^2$.</li>
-                      <li>Kran minyak dibuka sedikit demi sedikit agar minyak mengalir keluar dari <em>spuyer</em> brander dan perhatikan jangan ada udara keluar dari selang. Biarkan sedikit minyak tertampung pada mangkuk penyala brander, kemudian kran ditutup kembali sampai minyak berhenti mengalir.</li>
-                      <li>Sebelum disulut, letakkanlah sumbu yang telah tersedia (kertas, ranting kering dapat digunakan dalam keadaan darurat) di atas mangkuk brander, kemudian sulut dengan api minyak tanah yang berada di mangkuk penyala brander, menggunakan alat penyulut api (penyala yang tersedia) hingga terbakar.</li>
-                      <li>Biarkan api menyala pada mangkuk penyala brander sampai terlihat semburan api pada brander. Tunggulah sampai semburan api mulai mengecil kembali seperti akan mati yang merata.</li>
-                      <li><strong>PERINGATAN:</strong> Jangan sekali-kali membuka kran minyak langsung besar.</li>
-                      <li>Bila pada saat membuka kran, perhatikan <em>spuyer</em> brander apakah yang keluar berupa gas atau minyak yang belum menjadi gas. Jika terlihat belum menjadi gas, maka semburan api yang akan terjadi seperti kebakaran. Jangan panik/takut, langsung saja kran ditutup kembali, tunggu dan biarkan api mengecil sendiri. Berarti brander belum cukup panas.</li>
-                      <li>Apabila semburan sudah berupa gas dan nyala api mulai stabil, kran dibuka perlahan-lahan sampai menghasilkan nyala api yang terbaik.</li>
-                      <li>Setelah nyala api baik, kompor siap digunakan.</li>
-                    </ol>
+**Alat Dapur Lapangan**
+*   **Ketel 100:** Kapasitas $\\pm$ 18 Kg beras (untuk 100 orang).
+*   **Ketel 50:** Untuk memasak sayur.
+*   **Ketel 40:** Untuk masak air atau mengangkut hasil masakan.
 
-                    <h3>Gangguan dan Mengatasi Gangguan</h3>
-                    <ul>
-                      <li><strong>Gangguan tiba-tiba api mati:</strong> Langsung kran ditutup. Periksa minyak dalam selang, bila terlihat selang masih dipenuhi minyak dan tidak terlihat udara di dalamnya, maka nyalakan alat penyulut, dekatkan api penyulut ke <em>spuyer</em> brander sambil menyogok lubang <em>spuyer</em> brander.</li>
-                      <li><strong>Gangguan tiba-tiba api brander menyala seperti kebakaran:</strong> Penyebabnya adalah kran terlalu besar dibuka yang mengakibatkan aliran minyak ke brander dan keluar dari <em>spuyer</em> brander tidak menjadi gas. Kran langsung ditutup dan tunggu api menjadi kecil kembali, lalu buka kran minyak sedikit demi sedikit sampai mendapatkan nyala api yang terbaik/yang diinginkan.</li>
-                      <li><strong>Gangguan semburan api tidak rata atau api tidak dapat sempurna:</strong> Penyebabnya adalah bila lubang <em>spuyer</em> rusak. Matikan kompor lalu ganti <em>spuyer</em> dengan yang baru menggunakan kunci <em>spuyer</em>.</li>
-                      <li><strong>Langkah pertama dalam menghadapi gangguan apapun adalah menutup kran pada tabung</strong>, dengan demikian kebakaran akan terhindari.</li>
-                      <li>Jangan sekali-kali menyiram kebakaran kompor dengan air. Usahakan dalam memasak menyiapkan karung/kain yang dibasahi oleh air untuk menutupi api saat terjadi kebakaran pada kompor.</li>
-                    </ul>
+**Teknik Dasar Memasak**
+*   **Sumber Hidrat Arang:** Cenderung basi jika dibiarkan lama. Masak nasi harus diperhitungkan jumlahnya.
+*   **Sumber Protein:** Paling lekas busuk, sebaiknya segera dimakan setelah masak.
+*   **Sumber Lemak:** Cenderung tengik jika disimpan lama. Perlu diperlakukan dengan baik.
+*   **Sumber Vitamin dan Mineral:** Banyak yang larut/rusak dalam air dan panas; perlu diperhatikan sejak mencuci.
 
-                    <h3>Pengaturan Ketinggian Tatakan Kaki Tungku</h3>
-                    <ul>
-                      <li><strong>Merebus (air minum/nasi dalam jumlah banyak):</strong> Tatakan kaki tungku distel rapat terhadap kaki tungku agar jarak api terhadap kuali/dandang lebih dekat (jarak terdekat sesuai yang dirancang 5 cm), sehingga panas cepat dan waktu mematangkan masakan lebih cepat.</li>
-                      <li><strong>Merebus sayur-sayuran/kacang-kacangan:</strong> Api brander harus dikecilkan dan/atau selalu mengaduk masakan agar masakan yang berada di dasar kuali tidak hangus, karena sayuran dan kacang-kacangan selalu mengendap di dasar kuali.</li>
-                      <li><strong>Menggoreng:</strong> Kedudukan tatakan kaki tungku distel berjarak 2 atau 3 cm dari kaki tungku (dengan cara memutar tatakan kaki tungku seperti membuka baut), agar jarak api terhadap kuali atau wajan tidak terlalu dekat. Tujuannya adalah agar panas yang diterima oleh minyak goreng tidak terlalu tinggi sehingga yang dimasak matang secara merata atau tidak terjadi gosong luar dan mentah di dalam.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pba-4-1-2',
-                title: 'Alat Dapur Lapangan',
-                type: 'article',
-                duration: '15 min',
-                content: (
-                  <div>
-                    <h3>Alat Dapur Lapangan</h3>
-                    <ul>
-                      <li><strong>Ketel 100:</strong> Bahan terbuat dari aluminium dengan kapasitas memasak ± 18 Kg/beras untuk melayani 100 orang.</li>
-                      <li><strong>Ketel 50:</strong> Bahan terbuat dari aluminium untuk memasak sayur.</li>
-                      <li><strong>Ketel 40:</strong> Bahan terbuat dari aluminium untuk masak air atau untuk mengangkut hasil masakan.</li>
-                    </ul>
-                  </div>
-                )
-              }
-            ]
-          },
-          {
-            id: 'mod-pba-4-2',
-            title: 'Teknik Memasak & Menyajikan',
-            description: 'Teknik dasar memasak nasi, lauk, sayur, dan cara penyajian.',
-            articleCount: 2,
-            quizCount: 0,
-            duration: '2 Jam',
-            items: [
-              {
-                id: 'art-pba-4-2-1',
-                title: 'Teknik Memasak',
-                type: 'article',
-                duration: '45 min',
-                content: (
-                  <div>
-                    <h3>Teknik Dasar Memasak</h3>
-                    <p>Memasak meliputi kegiatan penanganan (<em>handling</em>) dan pemasakan (<em>cooking</em>). Memasak yang benar dan baik mempunyai pengaruh penting sekali dalam penyajian suatu menu.</p>
-                    <ul>
-                      <li><strong>Sumber Hidrat Arang:</strong> Molekul-molekul hidrat arang dan molekul air bila dipanaskan akan saling mengikat dan mengkanji. Setelah masak dan dibiarkan dalam jangka waktu tertentu ada kecenderungan untuk memisah (mendekati tingkat basi). Oleh karena itu, bila memasak nasi harus betul-betul diperhitungkan jumlahnya agar habis sekali makan.</li>
-                      <li><strong>Sumber Protein:</strong> Dapat kita golongkan dalam hewani dan nabati. Protein adalah zat makanan yang paling lekas busuk karena sangat diperlukan oleh bakteri-bakteri. Makanan yang mengandung protein tinggi sebaiknya segera dimakan setelah selesai dimasak. Khusus protein yang terdapat pada jaringan-jaringan otot memerlukan perlakuan khusus waktu memasak. Telur merupakan sumber protein yang paling mudah dimasak.</li>
-                      <li><strong>Sumber Lemak:</strong> Baik hewani maupun nabati akan menjadi tengik bila disimpan lama. Sumber lemak harus diperlakukan baik agar sumber kalori paling besar ini tidak mudah rusak. Pada umumnya sumber lemak ini tidak kita makan langsung tetapi untuk memasak makanan lain baik berupa minyak maupun santan.</li>
-                      <li><strong>Sumber Vitamin dan Mineral:</strong> Harus diperhatikan sejak mengerjakan mencuci, sampai memasak, sebab Vitamin banyak yang larut/rusak dalam air dan panas.</li>
-                    </ul>
+**Tata Cara Memasak**
+*   **Nasi:** Dibersihkan/dicuci (tidak boleh direndam), diaron di ketel/wajan, lalu dimasukkan ke dandang.
+*   **Lauk (Daging/Ikan):** Bersihkan, potong/buang bagian yang tidak perlu, masak dengan temperatur/cara tertentu (misalnya daging direbus temperatur rendah, ikan dibubuhi cuka/kunyit).
+*   **Sayur:** Dibersihkan/dicuci sebelum diracik (tidak boleh direndam), masak lebih awal bahan yang perlu waktu potong lama, rendam dalam air garam (untuk warna alami/cerah).
 
-                    <h3>Tata Cara Memasak</h3>
-                    <h4>1. Nasi</h4>
-                    <ul>
-                      <li>Beras dibersihkan dari kotoran dan barang-barang asing lainnya.</li>
-                      <li>Beras dicuci untuk menghilangkan sisa-sisa kotoran. Mencuci beras tidak boleh direndam agar Vitamin B1 yang diperlukan tidak larut.</li>
-                      <li>Beras dimasukkan ke dalam ketel/wajan yang telah disiapkan (air mendidih) atau diaron.</li>
-                      <li>Apabila mengaron menggunakan wajan, beras harus terendam dan air ± 2-3 Cm di atas permukaan beras.</li>
-                      <li>Setelah setengah matang, masukkan ke dalam dandang yang telah dipersiapkan kemudian aduk dan tunggu sampai matang.</li>
-                    </ul>
-
-                    <h4>2. Lauk</h4>
-                    <p><strong>Memasak Daging:</strong></p>
-                    <ul>
-                      <li>Daging dicuci dahulu untuk membersihkan kotorannya.</li>
-                      <li>Buang serat-serat yang alotnya.</li>
-                      <li>Daging direbus sampai matang dengan temperatur rendah.</li>
-                      <li>Porsi miring memotong serat.</li>
-                      <li>Masak sesuai resep yang diinginkan.</li>
-                    </ul>
-                    <p><strong>Memasak Ikan:</strong></p>
-                    <ul>
-                      <li>Potong semua duri yang sekiranya akan mengganggu dalam proses pemasakan.</li>
-                      <li>Ikan yang bersisik supaya dibuang sisiknya.</li>
-                      <li>Buang insang dan isi perutnya kemudian dicuci.</li>
-                      <li>Bubuhkan cuka/kunyit untuk menghilangkan bau amis/anyir.</li>
-                      <li>Masak sesuai resep yang diinginkan.</li>
-                    </ul>
-
-                    <h4>3. Sayur</h4>
-                    <ul>
-                      <li>Semua bahan sayuran harus dibersihkan dari kotoran/dicuci sebelum diporsi/diracik.</li>
-                      <li>Sayuran yang telah diracik tidak boleh direndam dalam air kecuali jenis bahan sayuran yang tidak mengandung Vitamin B dan C.</li>
-                      <li>Masak sesuai resep yang diinginkan/direncanakan.</li>
-                      <li>Masak lebih awal dari bahan-bahan sayuran yang memerlukan waktu pemotongan lebih lama.</li>
-                      <li>Untuk menghasilkan warna alami, cerah, dan menarik selera, bahan sayuran yang berwarna sebelum dimasak supaya direndam dahulu dalam air garam.</li>
-                    </ul>
-                  </div>
-                )
-              },
-              {
-                id: 'art-pba-4-2-2',
-                title: 'Tata Menyajikan',
-                type: 'article',
-                duration: '30 min',
-                content: (
-                  <div>
-                    <h3>Tata Menyajikan</h3>
-                    <h4>1. Cara Barat</h4>
-                    <p>Urut-urutannya secara umum adalah sebagai berikut:</p>
-                    <ul>
-                      <li><strong>Hidangan Pembuka:</strong> Ada 2 macam (panas dan dingin). Maksud dan tujuan hidangan pembuka adalah untuk merangsang selera makan. Dapat berupa sop kuah atau berupa makanan ringan.</li>
-                      <li><strong>Hidangan Pokok:</strong> Hidangan yang menyenangkan, terdiri dari hidangan ikan atau masakan daging/unggas beserta lauk-pauknya.</li>
-                      <li><strong>Hidangan Selingan:</strong> Dapat berupa hidangan sayuran atau buah-buahan berupa selada dan dapat juga berupa hidangan manis seperti puding, agar-agar dan lain sebagainya.</li>
-                      <li><strong>Hidangan Penutup:</strong> Yang termasuk ke dalam hidangan penutup adalah hidangan manis (<em>Nyamikan / Sweet Dessert</em>), antara lain Es krim, dan hidangan buah-buahan serta sebagai penutup dihidangkan kopi.</li>
-                    </ul>
-
-                    <h4>2. Cara China</h4>
-                    <ul>
-                      <li><strong>Menghidangkan:</strong> Urutan hidangan mulai dengan makanan pembuka, tetapi tidak diakhiri dengan <em>dessert</em> dan Sop tidak dihidangkan pada awal santapan. Santapan khas China dimulai dengan 4 (empat) macam makanan dingin sebagai pembuka, dilanjutkan dengan hidangan udang yang diasinkan atau ginjal yang diiris-iris. Kemudian disusul oleh delapan macam masakan sebagai hidangan pokok antara lain terdiri dari: Masakan daging kepiting, masakan daging itik, masakan ikan lengkap dan nasi putih. Sesudah hidangan pokok terakhir dihidangkan dua macam hidangan manis antara lain potongan apel bergula atau Pangsit/Bakso kuah yang lekat.</li>
-                      <li><strong>Cara Bersantap:</strong> Melihat kepada hidangan pokok dengan jumlah delapan macam, berarti cara menyantapnya pun dilakukan secara khusus yakni dengan mengambil porsi kecil-kecil dari tiap hidangan. Oleh karena itu yang terlihat di atas meja hidangan adalah sebuah piring kecil, sebuah sendok porselin, sebuah mangkok kecil, tempat kecap atau sambal dan sepasang sumpit.</li>
-                    </ul>
-
-                    <h4>3. Cara Menghidangkan</h4>
-                    <p><strong>Di Pangkalan/di rumah/di gedung:</strong></p>
-                    <ul>
-                      <li><strong>Sistem Prasmanan:</strong> Suatu cara penghidangan yang diatur pada beberapa meja baik alat makan, makanan maupun minuman. Urut-urutannya adalah piring dan sendok garpu, nasi, ikan dan lauk-pauk, sayur, sambal, lalapan, kerupuk, buah, dan yang terakhir adalah minuman.</li>
-                      <li><strong>Sistem Kafetaria:</strong> Suatu cara penghidangan yang diatur dalam satu garis. Urut-urutannya adalah: Piring dan sendok garpu, Nasi, Lauk-pauk, sayur, sambal, lalapan, kerupuk, dan yang terakhir adalah minuman.</li>
-                      <li><strong>Dihidangkan di meja:</strong> Dalam sistem ini peserta makan dibagi dalam kelompok-kelompok meja yang terdiri dari 6 orang, 8 orang, atau 10 orang sesuai kapasitas meja.</li>
-                    </ul>
-                    <p><strong>Di lapangan:</strong></p>
-                    <ul>
-                      <li>Fasilitas dan alat peralatan khusus/khas lapangan. Menggunakan alat makan dan minum perorangan yang dibawa. Bila keadaan memungkinkan, dapat pula menggunakan alat makan lapangan (<em>Lunchtray</em>).</li>
-                      <li><strong>Sistem Kafetaria:</strong> Sama dengan uraian di atas, hanya alat untuk menghidangkan dan alat makan menggunakan peralatan lapangan.</li>
-                      <li><strong>Sistem Semi Kafetaria:</strong> Suatu cara penghidangan Kafetaria, hanya seluruh perlengkapan menggunakan alat lapangan dan makanan dibagikan oleh petugas penyaji lapangan.</li>
-                    </ul>
-                  </div>
-                )
+**Tata Cara Menyajikan**
+*   **Cara Barat:** Urutan: Hidangan Pembuka, Hidangan Pokok, Hidangan Selingan, Hidangan Penutup.
+*   **Cara China:** Urutan: 4 macam makanan dingin (pembuka), hidangan udang/ginjal, 8 macam hidangan pokok (daging, ikan, nasi), 2 macam hidangan manis (penutup). Cara bersantap porsi kecil-kecil menggunakan peralatan khusus (sumpit, mangkok porselin).
+*   **Cara Menghidangkan (Di Pangkalan/Rumah/Gedung):** Sistem Prasmanan, Sistem Kafetaria, atau Dihidangkan di meja.
+*   **Cara Menghidangkan (Di Lapangan):** Menggunakan alat perorangan/Lunchtray. Sistem Kafetaria atau Sistem semi Kafetaria (makanan dibagikan petugas).
+`
               }
             ]
           }

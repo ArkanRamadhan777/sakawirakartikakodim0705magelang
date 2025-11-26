@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { kridas } from '../data/kridas';
-import { ArrowLeft, BookOpen, FileText, CheckCircle, Clock, ChevronDown, ChevronUp, CheckCircle2, Circle, PlayCircle, HelpCircle } from 'lucide-react';
+import { ArrowLeft, BookOpen, FileText, CheckCircle, Clock, ChevronDown, ChevronUp, CheckCircle2, Circle, PlayCircle, HelpCircle, ChevronRight, ChevronLeft, Share2 } from 'lucide-react';
 
 const TkkDetail = () => {
   const { id } = useParams();
@@ -29,6 +29,19 @@ const TkkDetail = () => {
   const toggleModule = (moduleId) => {
     setOpenModuleId(openModuleId === moduleId ? null : moduleId);
   };
+
+  // Logic for next and previous TKK
+  let nextTkkLink = null;
+  let prevTkkLink = null;
+  if (parentKrida && foundTkk) {
+    const currentTkkIndex = parentKrida.tkk.findIndex(t => t.id === foundTkk.id);
+    if (currentTkkIndex < parentKrida.tkk.length - 1) {
+      nextTkkLink = `/tkk/${parentKrida.tkk[currentTkkIndex + 1].id}`;
+    }
+    if (currentTkkIndex > 0) {
+      prevTkkLink = `/tkk/${parentKrida.tkk[currentTkkIndex - 1].id}`;
+    }
+  }
 
   return (
     <div className="min-h-screen bg-base-100 pt-24 pb-12 px-4">
@@ -106,9 +119,6 @@ const TkkDetail = () => {
                               <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
                                 <HelpCircle size={14} /> {module.quizCount} Ujian
                               </span>
-                              <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
-                                <Clock size={14} /> {module.duration}
-                              </span>
                             </div>
                           </div>
                           <div className="mt-1 text-gray-400">
@@ -132,10 +142,6 @@ const TkkDetail = () => {
                                     {item.title}
                                   </p>
                                 </div>
-                                <div className="text-sm text-gray-400 whitespace-nowrap font-mono flex items-center gap-2">
-                                  <Clock size={14} />
-                                  {item.duration}
-                                </div>
                               </Link>
                             ))}
                           </div>
@@ -151,6 +157,57 @@ const TkkDetail = () => {
                 )}
             </div>
 
+          </div>
+
+          {/* Footer / Actions */}
+          <div className="bg-gray-50 p-8 border-t border-gray-100 flex justify-between items-center">
+            {/* Previous Button */}
+            {prevTkkLink ? (
+              <Link to={prevTkkLink} className="btn btn-circle btn-ghost" title="Sebelumnya">
+                <ChevronLeft size={24} />
+              </Link>
+            ) : (
+              <button className="btn btn-circle btn-ghost btn-disabled">
+                <ChevronLeft size={24} className="text-gray-300" />
+              </button>
+            )}
+
+            {/* Center Content */}
+            <div className="flex items-center gap-2">
+              <div className="text-sm text-gray-500 text-center hidden sm:block">
+                Bagian dari <span className="font-bold text-gray-900">{parentKrida.title}</span>
+              </div>
+              <button 
+                className="btn btn-ghost btn-circle btn-sm" 
+                title="Bagikan"
+                onClick={() => {
+                  if (navigator.share) {
+                    navigator.share({
+                      title: foundTkk.title,
+                      text: `Pelajari ${foundTkk.title} di Saka Wira Kartika`,
+                      url: window.location.href,
+                    })
+                    .catch((error) => console.log('Error sharing', error));
+                  } else {
+                    navigator.clipboard.writeText(window.location.href);
+                    alert('Link TKK berhasil disalin!');
+                  }
+                }}
+              >
+                <Share2 size={18} />
+              </button>
+            </div>
+
+            {/* Next Button */}
+            {nextTkkLink ? (
+              <Link to={nextTkkLink} className="btn btn-circle btn-ghost" title="Selanjutnya">
+                <ChevronRight size={24} />
+              </Link>
+            ) : (
+              <button className="btn btn-circle btn-ghost btn-disabled">
+                <ChevronRight size={24} className="text-gray-300" />
+              </button>
+            )}
           </div>
         </div>
       </div>
