@@ -1,49 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { kridas } from '../data/kridas';
 import { quizzes } from '../data/quizzes';
-import { ArrowLeft, BookOpen, FileText, CheckCircle, Clock, ChevronDown, ChevronUp, CheckCircle2, Circle, PlayCircle, HelpCircle, ChevronRight, ChevronLeft, Share2, Brain, Award, RefreshCw, XCircle, Timer } from 'lucide-react';
+import { ArrowLeft, BookOpen, FileText, CheckCircle, ChevronDown, ChevronUp, HelpCircle, ChevronRight, ChevronLeft, Share2 } from 'lucide-react';
 
 const TkkDetail = () => {
   const { id } = useParams();
   const [openModuleId, setOpenModuleId] = useState(null);
-  const [quizStarted, setQuizStarted] = useState(false);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [score, setScore] = useState(0);
-  const [showScore, setShowScore] = useState(false);
-  const [shuffledQuestions, setShuffledQuestions] = useState([]);
-  const [userAnswers, setUserAnswers] = useState([]);
-  const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
-
-  // Helper to shuffle array
-  const shuffleArray = (array) => {
-    const newArray = [...array];
-    for (let i = newArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-    }
-    return newArray;
-  };
-
-  // Timer Effect
-  useEffect(() => {
-    let timer;
-    if (quizStarted && !showScore && timeLeft > 0) {
-      timer = setInterval(() => {
-        setTimeLeft((prevTime) => prevTime - 1);
-      }, 1000);
-    } else if (timeLeft === 0 && quizStarted && !showScore) {
-      setShowScore(true);
-    }
-    return () => clearInterval(timer);
-  }, [quizStarted, showScore, timeLeft]);
-
-  // Format time as MM:SS
-  const formatTime = (seconds) => {
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
-    return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
-  };
   
   // Helper to find TKK and its parent Krida
   let foundTkk = null;
@@ -68,69 +31,6 @@ const TkkDetail = () => {
 
   const toggleModule = (moduleId) => {
     setOpenModuleId(openModuleId === moduleId ? null : moduleId);
-  };
-
-  const startQuiz = () => {
-    if (!quiz) return;
-
-    // Prepare questions: shuffle options and mark the correct one
-    const preparedQuestions = quiz.questions.map(q => {
-      const optionsWithMeta = q.options.map((opt, index) => ({
-        text: opt,
-        isCorrect: index === q.correctAnswer
-      }));
-      return {
-        ...q,
-        options: shuffleArray(optionsWithMeta)
-      };
-    });
-
-    // Shuffle questions and take up to 10
-    const selectedQuestions = shuffleArray(preparedQuestions).slice(0, 10);
-
-    setShuffledQuestions(selectedQuestions);
-    setQuizStarted(true);
-    setCurrentQuestionIndex(0);
-    setScore(0);
-    setShowScore(false);
-    setUserAnswers([]);
-    setTimeLeft(300); // Reset timer to 5 minutes
-  };
-
-  const handleAnswerOptionClick = (selectedOption) => {
-    const isCorrect = selectedOption.isCorrect;
-    
-    if (isCorrect) {
-      setScore(score + 10);
-    }
-
-    // Record user answer
-    const currentQuestion = shuffledQuestions[currentQuestionIndex];
-    setUserAnswers([
-      ...userAnswers,
-      {
-        question: currentQuestion.question,
-        userSelected: selectedOption.text,
-        correctAnswer: currentQuestion.options.find(o => o.isCorrect).text,
-        isCorrect: isCorrect
-      }
-    ]);
-
-    const nextQuestion = currentQuestionIndex + 1;
-    if (nextQuestion < shuffledQuestions.length) {
-      setCurrentQuestionIndex(nextQuestion);
-    } else {
-      setShowScore(true);
-    }
-  };
-
-  const resetQuiz = () => {
-    setQuizStarted(false);
-    setCurrentQuestionIndex(0);
-    setScore(0);
-    setShowScore(false);
-    setUserAnswers([]);
-    setShuffledQuestions([]);
   };
 
   // Logic for next and previous TKK
@@ -219,6 +119,11 @@ const TkkDetail = () => {
                               <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
                                 <FileText size={14} /> {module.articleCount} Artikel
                               </span>
+                              {quiz && (
+                                <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
+                                  <HelpCircle size={14} /> 1 Kuis
+                                </span>
+                              )}
                             </div>
                           </div>
                           <div className="mt-1 text-gray-400">
@@ -244,6 +149,21 @@ const TkkDetail = () => {
                                 </div>
                               </Link>
                             ))}
+                            {quiz && (
+                              <Link 
+                                to={`/quiz/${id}`}
+                                className="flex items-center gap-4 p-4 hover:bg-white hover:shadow-sm border-b border-gray-100 last:border-0 transition-all group"
+                              >
+                                <div className="shrink-0 text-gray-400 group-hover:text-primary transition-colors">
+                                  <HelpCircle size={20} />
+                                </div>
+                                <div className="flex-grow min-w-0">
+                                  <p className="font-medium text-gray-700 group-hover:text-primary transition-colors truncate">
+                                    {quiz.title.replace('Quiz', 'Kuis')}
+                                  </p>
+                                </div>
+                              </Link>
+                            )}
                           </div>
                         )}
                       </div>
@@ -256,119 +176,6 @@ const TkkDetail = () => {
                   </div>
                 )}
             </div>
-
-            {/* Quiz Section */}
-            {quiz && (
-              <div className="mb-12">
-                <h2 className="text-2xl font-bold font-anta mb-6 text-gray-800 flex items-center gap-3">
-                  <Brain className="text-primary" />
-                  Quiz
-                </h2>
-
-                {!quizStarted ? (
-                  <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
-                    <p className="text-gray-700 font-gabarito mb-4">
-                      Quiz ini terdiri dari 10 pertanyaan acak. Setiap soal bernilai 10 poin. Anda memiliki waktu 5 menit. Siap untuk memulai?
-                    </p>
-                    <button 
-                      onClick={startQuiz} 
-                      className="btn btn-primary gap-2"
-                    >
-                      <PlayCircle size={20} />
-                      Mulai Quiz
-                    </button>
-                  </div>
-                ) : (
-                  <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
-                    {showScore ? (
-                      <div className="text-center">
-                        <h3 className="text-xl font-semibold mb-4">Skor Anda</h3>
-                        <p className="text-4xl font-bold text-primary mb-6">{score} / {shuffledQuestions.length * 10}</p>
-                        
-                        {/* Review Answers */}
-                        <div className="text-left mb-8 space-y-4">
-                          <h4 className="font-bold text-gray-800 border-b pb-2">Review Jawaban:</h4>
-                          {userAnswers.map((ans, idx) => (
-                            <div key={idx} className={`p-4 rounded-lg border ${ans.isCorrect ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
-                              <div className="flex items-start gap-3">
-                                <div className="mt-1 shrink-0">
-                                  {ans.isCorrect ? <CheckCircle2 className="text-green-600" size={20} /> : <XCircle className="text-red-600" size={20} />}
-                                </div>
-                                <div>
-                                  <p className="font-medium text-gray-900 mb-1">{idx + 1}. {ans.question}</p>
-                                  <p className={`text-sm ${ans.isCorrect ? 'text-green-700' : 'text-red-700'}`}>
-                                    Jawaban Anda: {ans.userSelected}
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-
-                        <button 
-                          onClick={resetQuiz} 
-                          className="btn btn-primary gap-2"
-                        >
-                          <RefreshCw size={20} />
-                          Ulangi Quiz
-                        </button>
-                      </div>
-                    ) : (
-                      <div>
-                        <div className="flex justify-between items-center mb-4">
-                          <div className="text-sm text-gray-500">
-                            Pertanyaan {currentQuestionIndex + 1} dari {shuffledQuestions.length}
-                          </div>
-                          <div className="flex items-center gap-4">
-                            <div className={`flex items-center gap-2 font-mono font-bold ${timeLeft < 60 ? 'text-red-600' : 'text-gray-700'}`}>
-                              <Timer size={18} />
-                              {formatTime(timeLeft)}
-                            </div>
-                            <div className="text-sm font-medium text-gray-700">
-                              Skor: {score}
-                            </div>
-                          </div>
-                        </div>
-
-                        {/* Question and Answers */}
-                        <div className="mb-4">
-                          <h3 className="text-lg font-semibold mb-2">{shuffledQuestions[currentQuestionIndex].question}</h3>
-                          <div className="space-y-2">
-                            {shuffledQuestions[currentQuestionIndex].options.map((option, idx) => (
-                              <button 
-                                key={idx} 
-                                onClick={() => handleAnswerOptionClick(option)} 
-                                className="w-full text-left p-4 rounded-lg bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow hover:bg-gray-50"
-                              >
-                                {option.text}
-                              </button>
-                            ))}
-                          </div>
-                        </div>
-
-                        {/* Navigation Buttons */}
-                        <div className="flex justify-between">
-                          <button 
-                            onClick={() => setQuizStarted(false)} 
-                            className="btn btn-ghost gap-2"
-                          >
-                            <ChevronLeft size={20} />
-                            Kembali
-                          </button>
-                          <button 
-                            onClick={resetQuiz} 
-                            className="btn btn-primary gap-2"
-                          >
-                            <RefreshCw size={20} />
-                            Ulangi
-                          </button>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                )}
-              </div>
-            )}
 
           </div>
 

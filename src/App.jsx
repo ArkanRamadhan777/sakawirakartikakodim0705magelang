@@ -7,6 +7,7 @@ import About from './pages/About';
 import Krida from './pages/Krida';
 import KridaDetail from './pages/KridaDetail';
 import TkkDetail from './pages/TkkDetail';
+import QuizPage from './pages/QuizPage';
 import ArticleDetail from './pages/ArticleDetail';
 import Gallery from './pages/Gallery';
 import References from './pages/References';
@@ -22,6 +23,7 @@ function App() {
           <Route path="/krida" element={<Krida />} />
           <Route path="/krida/:id" element={<KridaDetail />} />
           <Route path="/tkk/:id" element={<TkkDetail />} />
+          <Route path="/quiz/:tkkId" element={<QuizPage />} />
           <Route path="/article/:articleId" element={<ArticleDetail />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/referensi" element={<References />} />
