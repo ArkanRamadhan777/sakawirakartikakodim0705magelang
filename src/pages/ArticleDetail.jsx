@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { kridas } from '../data/kridas';
 import { quizzes } from '../data/quizzes';
 import { ArrowLeft, Clock, Calendar, Share2, ChevronRight, ChevronLeft, FileSignature } from 'lucide-react';
@@ -108,9 +109,47 @@ const ArticleDetail = () => {
 
           {/* Content Body */}
           <div className="p-8 md:p-12">
-            <div className="prose prose-lg max-w-none font-gabarito text-gray-700 prose-headings:font-anta prose-headings:text-gray-900 prose-p:leading-relaxed prose-li:marker:text-primary prose-img:rounded-xl prose-a:text-primary hover:prose-a:text-primary/80">
+            <div className="prose prose-lg max-w-none font-gabarito text-gray-700 
+              prose-headings:font-anta prose-headings:text-gray-900 
+              prose-p:leading-relaxed 
+              prose-li:marker:text-primary 
+              prose-img:rounded-xl prose-img:shadow-md
+              prose-a:text-primary hover:prose-a:text-primary/80
+              prose-strong:text-gray-900
+              prose-table:w-full prose-table:border-collapse prose-table:overflow-hidden prose-table:rounded-lg prose-table:shadow-sm
+              prose-thead:bg-primary prose-thead:text-white
+              prose-th:border prose-th:border-gray-200 prose-th:p-4 prose-th:text-left prose-th:font-bold prose-th:text-sm
+              prose-td:border prose-td:border-gray-200 prose-td:p-4 prose-td:text-gray-700
+              prose-tr:border-b prose-tr:last:border-b-0
+              prose-tbody:prose-tr:hover:bg-gray-50 prose-tbody:prose-tr:transition-colors
+              [&_table]:overflow-x-auto [&_table]:block [&_table]:max-w-full
+              [&_table_tbody]:block [&_table_thead]:block [&_table_tr]:table [&_table_tr]:w-full [&_table_tr]:table-fixed
+              ">
               {foundArticle.content ? (
-                <ReactMarkdown>{foundArticle.content}</ReactMarkdown>
+                <ReactMarkdown 
+                  remarkPlugins={[remarkGfm]}
+                  components={{
+                    table: ({node, ...props}) => (
+                      <div className="overflow-x-auto my-6 rounded-lg border border-gray-200 shadow-sm">
+                        <table className="w-full border-collapse" {...props} />
+                      </div>
+                    ),
+                    thead: ({node, ...props}) => (
+                      <thead className="bg-primary text-white" {...props} />
+                    ),
+                    th: ({node, ...props}) => (
+                      <th className="border border-gray-200 p-4 text-left font-bold text-sm" {...props} />
+                    ),
+                    td: ({node, ...props}) => (
+                      <td className="border border-gray-200 p-4 text-gray-700" {...props} />
+                    ),
+                    tr: ({node, ...props}) => (
+                      <tr className="border-b last:border-b-0 hover:bg-gray-50 transition-colors" {...props} />
+                    ),
+                  }}
+                >
+                  {foundArticle.content}
+                </ReactMarkdown>
               ) : (
                 <div className="alert alert-warning">
                   <span>Konten belum tersedia.</span>

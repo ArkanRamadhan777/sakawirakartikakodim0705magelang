@@ -21,7 +21,7 @@ function App() {
     <div className="flex flex-col min-h-screen font-gabarito">
       <ScrollToTop />
       <Navbar />
-      <main className="flex-grow pt-16">
+      <main className="flex-grow pt-24">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

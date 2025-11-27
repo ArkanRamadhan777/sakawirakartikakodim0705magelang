@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { kridas } from '../data/kridas';
-import { ArrowLeft, CheckCircle, Award } from 'lucide-react';
+import { quizzes } from '../data/quizzes';
+import { ArrowLeft, ChevronDown, ChevronUp, FileText, FileSignature } from 'lucide-react';
 
 const KridaDetail = () => {
   const { id } = useParams();
   const krida = kridas.find(k => k.id === parseInt(id));
+  const [openTkkId, setOpenTkkId] = useState(null);
 
   if (!krida) {
     return <Navigate to="/krida" replace />;
   }
+
+  const toggleTkk = (tkkId) => {
+    setOpenTkkId(openTkkId === tkkId ? null : tkkId);
+  };
 
   return (
     <div className="min-h-screen bg-base-100 pt-24 pb-12 px-4">
@@ -21,75 +27,130 @@ const KridaDetail = () => {
 
         <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
           {/* Header Section */}
-          <div className="bg-black text-white p-8 md:p-12 relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
-            <div className="relative z-10 flex flex-col md:flex-row items-center gap-8">
-              <div className="w-32 h-32 md:w-40 md:h-40 bg-white/10 rounded-2xl p-4 backdrop-blur-sm border border-white/20 flex items-center justify-center shrink-0">
-                <img 
-                  src={krida.image} 
-                  alt={krida.title} 
-                  className="w-full h-full object-contain drop-shadow-lg"
-                />
-              </div>
-              <div className="text-center md:text-left">
-                <h1 className="text-3xl md:text-5xl font-bold font-anta mb-4 text-primary">{krida.title}</h1>
-                <p className="text-gray-300 text-lg font-gabarito max-w-2xl">{krida.description}</p>
-              </div>
+          <div className="bg-primary/5 p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+            <div className="w-40 h-40 bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex items-center justify-center shrink-0">
+              <img 
+                src={krida.image} 
+                alt={krida.title} 
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <div className="text-center md:text-left">
+              <h1 className="text-3xl md:text-4xl font-bold font-anta text-gray-900 mb-2">{krida.title}</h1>
+              <p className="text-gray-600 font-gabarito text-lg">{krida.description}</p>
             </div>
           </div>
 
-          {/* TKK Section */}
-          {krida.tkk && (
-            <div className="bg-gray-50 p-8 md:p-12 border-b border-gray-100">
-              <div className="flex items-center gap-3 mb-6">
-                <h2 className="text-2xl font-bold font-anta text-gray-900">Tanda Kecakapan Khusus (TKK)</h2>
-              </div>
-              <p className="text-gray-600 mb-6 font-gabarito">Klik pada ikon TKK di bawah untuk melihat detail, silabus, dan modul.</p>
-              
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-                {krida.tkk.map((tkk) => (
-                  <Link 
-                    key={tkk.id}
-                    to={`/tkk/${tkk.id}`}
-                    className="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-200 hover:border-primary hover:shadow-md transition-all group text-center h-full"
-                  >
-                    <div className="w-32 h-32 mb-3 bg-gray-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform overflow-hidden">
-                      {tkk.image ? (
-                        <img src={tkk.image} alt={tkk.title} className="w-full h-full object-contain" />
-                      ) : (
-                        <Award className="text-gray-400 group-hover:text-primary" size={32} />
-                      )}
-                    </div>
-                    <span className="text-sm font-bold text-gray-800 group-hover:text-primary line-clamp-2">{tkk.title}</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
-
           {/* Content Section */}
           <div className="p-8 md:p-12">
-            {krida.richContent ? (
-              krida.richContent
-            ) : (
-              <div className="prose max-w-none">
-                <h2 className="text-2xl font-bold font-anta mb-6 text-gray-800 border-b-2 border-primary/20 pb-2 inline-block">
-                  Deskripsi Lengkap
-                </h2>
-                <p className="text-lg text-gray-600 leading-relaxed mb-12 font-gabarito">
-                  {krida.details}
-                </p>
+            {/* Description */}
+            <div className="mb-12">
+              <p className="text-lg text-gray-700 leading-relaxed font-gabarito">
+                {krida.details}
+              </p>
+            </div>
 
-                <h2 className="text-2xl font-bold font-anta mb-6 text-gray-800 border-b-2 border-primary/20 pb-2 inline-block">
-                  Materi Pembelajaran
+            {/* TKK Section */}
+            {krida.tkk && (
+              <div className="mb-12">
+                <h2 className="text-2xl font-bold font-anta mb-6 text-gray-800">
+                  Tanda Kecakapan Khusus (TKK)
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {krida.materi && krida.materi.map((item, index) => (
-                    <div key={index} className="flex items-start gap-3 p-4 rounded-xl bg-gray-50 border border-gray-100 hover:border-primary/30 transition-colors">
-                      <CheckCircle className="text-primary shrink-0 mt-1" size={20} />
-                      <span className="font-gabarito text-gray-700">{item}</span>
-                    </div>
-                  ))}
+                
+                <div className="space-y-4">
+                  {krida.tkk.map((tkk) => {
+                    const quiz = quizzes.find(q => q.tkkId === tkk.id);
+                    const totalArticles = tkk.syllabus ? tkk.syllabus.reduce((sum, module) => sum + (module.items?.length || 0), 0) : 0;
+                    const hasQuiz = quiz ? 1 : 0;
+                    
+                    return (
+                      <div key={tkk.id} className="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow">
+                        <button 
+                          onClick={() => toggleTkk(tkk.id)}
+                          className="w-full text-left p-6 bg-white hover:bg-gray-50 transition-colors flex justify-between items-start gap-4"
+                        >
+                          <div className="flex gap-4 flex-grow">
+                            <div className="w-20 h-20 bg-gray-100 rounded-lg flex items-center justify-center shrink-0 overflow-hidden">
+                              {tkk.image && (
+                                <img src={tkk.image} alt={tkk.title} className="w-full h-full object-contain" />
+                              )}
+                            </div>
+                            <div className="flex-grow">
+                              <h3 className="text-xl font-bold text-gray-900 mb-2 font-anta">{tkk.title}</h3>
+                              
+                              <div className="flex flex-wrap items-center gap-3 text-xs md:text-sm text-gray-500 font-medium">
+                                <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
+                                  <FileText size={14} /> {totalArticles} Artikel
+                                </span>
+                                {hasQuiz > 0 && (
+                                  <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
+                                    <FileSignature size={14} /> {hasQuiz} Kuis
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                          <div className="mt-1 text-gray-400">
+                            {openTkkId === tkk.id ? <ChevronUp size={24} /> : <ChevronDown size={24} />}
+                          </div>
+                        </button>
+                        
+                        {openTkkId === tkk.id && (
+                          <div className="border-t border-gray-100 bg-gray-50/50 p-6">
+                            {/* Syllabus Content */}
+                            {tkk.syllabus && tkk.syllabus.map((module, idx) => (
+                              <div key={module.id} className={idx > 0 ? 'mt-6' : ''}>
+                                <h4 className="font-bold text-gray-800 mb-3 font-anta">{module.title}</h4>
+                                <div className="space-y-2">
+                                  {module.items.map((item) => (
+                                    <Link 
+                                      key={item.id} 
+                                      to={`/article/${item.id}`}
+                                      className="flex items-center gap-3 p-3 hover:bg-white hover:shadow-sm rounded-lg border border-transparent hover:border-gray-200 transition-all group"
+                                    >
+                                      <div className="shrink-0 text-gray-400 group-hover:text-primary transition-colors">
+                                        <FileText size={18} />
+                                      </div>
+                                      <div className="flex-grow min-w-0">
+                                        <p className="font-medium text-gray-700 group-hover:text-primary transition-colors">
+                                          {item.title}
+                                        </p>
+                                      </div>
+                                    </Link>
+                                  ))}
+                                  {quiz && idx === tkk.syllabus.length - 1 && (
+                                    <Link 
+                                      to={`/quiz/${tkk.id}`}
+                                      className="flex items-center gap-3 p-3 hover:bg-white hover:shadow-sm rounded-lg border border-transparent hover:border-gray-200 transition-all group"
+                                    >
+                                      <div className="shrink-0 text-gray-400 group-hover:text-primary transition-colors">
+                                        <FileSignature size={18} />
+                                      </div>
+                                      <div className="flex-grow min-w-0">
+                                        <p className="font-medium text-gray-700 group-hover:text-primary transition-colors">
+                                          {quiz.title.replace('Quiz', 'Kuis')}
+                                        </p>
+                                      </div>
+                                    </Link>
+                                  )}
+                                </div>
+                              </div>
+                            ))}
+                            
+                            {/* View Details Button */}
+                            <div className="mt-6 pt-4 border-t border-gray-200">
+                              <Link 
+                                to={`/tkk/${tkk.id}`}
+                                className="btn btn-primary btn-block"
+                              >
+                                Lihat Detail TKK
+                              </Link>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}

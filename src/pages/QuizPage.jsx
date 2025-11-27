@@ -3,16 +3,21 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { quizzes } from '../data/quizzes';
 import { kridas } from '../data/kridas';
 import { ArrowLeft, CheckCircle2, PlayCircle, RefreshCw, XCircle, Timer, FileSignature } from 'lucide-react';
+import { useAuth } from '../contexts/AuthContext';
+import { saveQuizResult } from '../services/quizService';
 
 const QuizPage = () => {
   const { tkkId } = useParams();
+  const { currentUser } = useAuth();
   const [quizStarted, setQuizStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [userAnswers, setUserAnswers] = useState([]);
-  const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(600); // 10 minutes in seconds for 20 questions
+  const [timeUsed, setTimeUsed] = useState(0); // Track time used by user
+  const [saving, setSaving] = useState(false);
 
   // Find TKK info for context (title, etc.)
   let foundTkk = null;
@@ -46,6 +51,7 @@ const QuizPage = () => {
         setTimeLeft((prevTime) => prevTime - 1);
       }, 1000);
     } else if (timeLeft === 0 && quizStarted && !showScore) {
+      setTimeUsed(600); // Full time used if timer runs out
       setShowScore(true);
     }
     return () => clearInterval(timer);
@@ -73,8 +79,8 @@ const QuizPage = () => {
       };
     });
 
-    // Shuffle questions and take up to 10
-    const selectedQuestions = shuffleArray(preparedQuestions).slice(0, 10);
+    // Shuffle questions and take up to 20
+    const selectedQuestions = shuffleArray(preparedQuestions).slice(0, 20);
 
     setShuffledQuestions(selectedQuestions);
     setQuizStarted(true);
@@ -82,13 +88,13 @@ const QuizPage = () => {
     setScore(0);
     setShowScore(false);
     setUserAnswers([]);
-    setTimeLeft(300); // Reset timer to 5 minutes
+    setTimeLeft(600); // Reset timer to 10 minutes for 20 questions
   };
 
   const handleAnswerOptionClick = (selectedOption) => {
     const isCorrect = selectedOption.isCorrect;
     if (isCorrect) {
-      setScore(score + 10);
+      setScore(score + 5); // 5 points per correct answer
     }
 
     const nextQuestion = currentQuestionIndex + 1;
@@ -104,8 +110,39 @@ const QuizPage = () => {
     if (nextQuestion < shuffledQuestions.length) {
       setCurrentQuestionIndex(nextQuestion);
     } else {
+      // Calculate time used when quiz finishes
+      const totalTimeUsed = 600 - timeLeft;
+      setTimeUsed(totalTimeUsed);
+      
+      // Save to Firebase if user is logged in
+      if (currentUser) {
+        handleSaveResult(score + (isCorrect ? 5 : 0), totalTimeUsed, userAnswers.length + 1);
+      }
+      
       setShowScore(true);
     }
+  };
+
+  // Save quiz result to Firebase
+  const handleSaveResult = async (finalScore, timeUsed, correctCount) => {
+    if (!currentUser) return;
+    
+    setSaving(true);
+    const result = await saveQuizResult(currentUser.uid, {
+      userName: currentUser.displayName || currentUser.email,
+      userEmail: currentUser.email,
+      tkkId,
+      quizTitle: quiz.title,
+      score: finalScore,
+      totalQuestions: shuffledQuestions.length,
+      correctAnswers: correctCount,
+      timeUsed
+    });
+    
+    if (!result.success) {
+      console.error('Failed to save quiz result:', result.error);
+    }
+    setSaving(false);
   };
 
   const resetQuiz = () => {
@@ -114,7 +151,8 @@ const QuizPage = () => {
     setShowScore(false);
     setCurrentQuestionIndex(0);
     setUserAnswers([]);
-    setTimeLeft(300);
+    setTimeLeft(600); // Reset to 10 minutes
+    setTimeUsed(0); // Reset time used
   };
 
   if (!quiz) {
@@ -150,8 +188,8 @@ const QuizPage = () => {
               </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">Siap untuk memulai?</h2>
               <p className="text-gray-600 mb-8 max-w-lg mx-auto">
-                Kuis ini terdiri dari 10 pertanyaan acak seputar materi {foundTkk ? foundTkk.title : 'ini'}. 
-                Setiap soal bernilai 10 poin. Anda memiliki waktu 5 menit untuk menyelesaikan semua soal.
+                Kuis ini terdiri dari 20 pertanyaan acak seputar materi {foundTkk ? foundTkk.title : 'ini'}. 
+                Setiap soal bernilai 5 poin. Anda memiliki waktu 10 menit untuk menyelesaikan semua soal.
               </p>
               <button 
                 onClick={startQuiz} 
@@ -168,7 +206,15 @@ const QuizPage = () => {
                   <div className="mb-8">
                     <h3 className="text-xl font-semibold text-gray-600 mb-2">Skor Akhir Anda</h3>
                     <div className="text-6xl font-bold text-primary mb-2">{score}</div>
-                    <p className="text-gray-500">dari total {shuffledQuestions.length * 10} poin</p>
+                    <p className="text-gray-500 mb-4">dari total {shuffledQuestions.length * 5} poin</p>
+                    
+                    {/* Time Used Display */}
+                    <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-lg">
+                      <Timer size={20} />
+                      <span className="font-medium">
+                        Waktu yang digunakan: {formatTime(timeUsed)}
+                      </span>
+                    </div>
                   </div>
                   
                   {/* Review Answers */}

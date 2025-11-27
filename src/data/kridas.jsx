@@ -36,53 +36,332 @@ export const kridas = [
                 id: 'navrat-1-article-1',
                 title: 'Pengertian Peta dan Medan',
                 content: `
-* **Peta:** Gambaran unsur alam/buatan di atas/bawah permukaan bumi pada bidang datar dengan skala tertentu.
-* **Medan:** Bagian permukaan bumi dengan segala benda tidak bergerak di atasnya.
-* **Unsur Peta:** Judul, Nomor Peta, Koordinat, Kontur (garis ketinggian sama), Skala (perbandingan jarak peta dan lapangan), Legenda.
+### Definisi Dasar
+
+**Peta** adalah gambaran permukaan bumi atau sebagian permukaan bumi yang diperkecil dengan menggunakan skala tertentu dan digambarkan pada bidang datar. Peta menampilkan unsur-unsur alam maupun buatan manusia yang ada di atas atau di bawah permukaan bumi.
+
+**Medan** adalah bagian permukaan bumi dengan segala benda yang tidak bergerak di atasnya, seperti gunung, lembah, sungai, jalan, dan bangunan.
+
+### Unsur-Unsur Peta
+
+Setiap peta yang baik harus memiliki unsur-unsur berikut:
+
+* **Judul Peta:** Menunjukkan nama daerah yang dipetakan
+* **Nomor Peta:** Kode identifikasi peta
+* **Koordinat:** Sistem untuk menentukan posisi (geografis atau grid)
+* **Kontur:** Garis yang menghubungkan titik-titik dengan ketinggian yang sama dari permukaan laut
+* **Skala:** Perbandingan jarak di peta dengan jarak sebenarnya di lapangan
+* **Legenda:** Keterangan simbol-simbol yang digunakan dalam peta
+* **Orientasi:** Petunjuk arah utara
+* **Tahun Pembuatan:** Waktu peta dibuat atau direvisi
+
+### Fungsi Peta
+
+* Menunjukkan posisi dan lokasi suatu tempat
+* Memperlihatkan bentuk permukaan bumi (relief)
+* Membantu dalam perencanaan perjalanan dan navigasi
+* Menunjukkan jarak dan arah antar lokasi
+* Alat komunikasi informasi geografis
 `
               },
               {
                 id: 'navrat-1-article-2',
                 title: 'Jenis-Jenis Peta',
                 content: `
-* **Peta Topografi:** Menggambarkan posisi mendatar dan tegak (relief) dengan garis kontur. Skala besar dan detail. Penting untuk militer dan penjelajah.
-* **Peta Tematik:** Menyajikan tema khusus.
-    * *Peta Jenis Tanah:* Variasi jenis tanah, pH, tekstur.
-    * *Peta Perairan:* Menjelaskan unsur sungai, danau, rawa, waduk.
+### Peta Topografi
+
+Peta topografi adalah jenis peta yang menggambarkan posisi mendatar (planimetris) dan posisi tegak (altimetris) dari permukaan bumi. Kata "topografi" berasal dari bahasa Yunani: *topos* (tempat) dan *graphein* (menggambar).
+
+**Karakteristik Peta Topografi:**
+* Menggunakan garis kontur untuk menunjukkan ketinggian
+* Skala besar dan sangat detail (biasanya 1:50.000 atau lebih besar)
+* Menampilkan relief medan, perairan, vegetasi, dan hasil budaya manusia
+* Sangat penting untuk kegiatan militer, pendakian, dan penjelajahan alam
+* Warna standar: cokelat (kontur), biru (air), hijau (vegetasi), hitam (buatan manusia), merah (jalan utama)
+
+**Kegunaan:**
+* Perencanaan rute perjalanan di medan sulit
+* Analisis medan untuk operasi militer
+* Kegiatan pendakian gunung dan orienteering
+* Penelitian geografi dan geologi
+
+### Peta Tematik
+
+Peta tematik adalah peta yang menyajikan informasi khusus sesuai dengan tema tertentu.
+
+**Jenis-Jenis Peta Tematik:**
+
+* **Peta Jenis Tanah (Pedologi):** Menampilkan variasi jenis tanah di suatu wilayah, termasuk pH, tekstur, dan kesuburan tanah
+
+* **Peta Perairan (Hidrologi):** Menjelaskan sistem sungai, danau, rawa, waduk, dan daerah aliran sungai
+
+* **Peta Geologi:** Menunjukkan jenis batuan, struktur geologi, dan potensi mineral
+
+* **Peta Iklim:** Menampilkan zona iklim, curah hujan, dan temperatur
+
+* **Peta Kependudukan:** Menunjukkan persebaran dan kepadatan penduduk
+
+* **Peta Penggunaan Lahan:** Memperlihatkan fungsi lahan (pertanian, permukiman, hutan, industri)
+
+### Perbedaan Utama
+
+| Aspek | Peta Topografi | Peta Tematik |
+|-------|----------------|---------------|
+| Tujuan | Gambaran umum medan | Informasi khusus tema tertentu |
+| Skala | Besar, detail | Bervariasi |
+| Pengguna | Militer, pendaki, navigator | Peneliti, perencana, analis |
 `
               },
               {
                 id: 'navrat-1-article-3',
                 title: 'Tanda-Tanda Peta (Simbol)',
                 content: `
-Dibedakan menurut warna:
-* **Hitam:** Benda buatan manusia (jalan kereta, batas daerah) dan tumbuhan.
-* **Biru:** Perairan (sungai, sawah, danau).
-* **Merah:** Konstruksi batu/bangunan, jalan keras.
-* **Hijau:** Daerah pemukiman/perkampungan.
-* **Cokelat:** Ketinggian (kontur).
+### Sistem Warna pada Peta Topografi
+
+Peta topografi menggunakan sistem warna standar internasional untuk memudahkan pembacaan:
+
+#### Warna Hitam
+* Benda-benda buatan manusia:
+  * Jalan kereta api
+  * Batas administratif (negara, provinsi, kabupaten)
+  * Jaringan komunikasi
+  * Nama geografis dan label
+* Vegetasi buatan (perkebunan, kebun)
+
+#### Warna Biru
+* Semua unsur perairan:
+  * Sungai dan anak sungai
+  * Danau dan waduk
+  * Rawa dan payau
+  * Sawah (dengan pola khusus)
+  * Pantai dan laut
+  * Mata air
+
+#### Warna Merah atau Merah Muda
+* Konstruksi batu dan bangunan permanen:
+  * Jalan beraspal (jalan raya utama)
+  * Bangunan penting
+  * Kawasan perkotaan yang padat
+  * Jembatan permanen
+
+#### Warna Hijau
+* Vegetasi alam:
+  * Hutan lebat
+  * Semak belukar
+  * Kebun campuran
+  * Taman
+* Semakin gelap warna hijau, semakin lebat vegetasinya
+
+#### Warna Cokelat
+* Kontur (garis ketinggian):
+  * Kontur utama: garis tebal
+  * Kontur bantu: garis tipis
+  * Kontur indeks: garis sangat tebal dengan angka ketinggian
+* Semakin rapat jarak antar kontur, semakin curam medannya
+
+#### Warna Kuning atau Orange
+* Daerah terbuka tanpa vegetasi
+* Lahan kering
+* Padang pasir atau padang rumput
+
+### Simbol-Simbol Penting
+
+**Simbol Titik:**
+* Puncak gunung (△)
+* Sumur (○)
+* Pohon tunggal (●)
+
+**Simbol Garis:**
+* Jalan setapak (- - -)
+* Pagar (┴┴┴)
+* Saluran air (~~~)
+
+**Simbol Area:**
+* Sawah (kotak-kotak kecil)
+* Rawa (rumput dengan air)
+* Hutan (simbol pohon berulang)
+
+### Membaca Legenda
+
+Legenda adalah kunci untuk memahami peta. Setiap peta memiliki legenda yang menjelaskan arti dari setiap simbol yang digunakan. Selalu periksa legenda terlebih dahulu sebelum membaca peta.
 `
               },
               {
                 id: 'navrat-1-article-4',
                 title: 'Koordinat Peta',
                 content: `
-* **Koordinat Geografis:** Menggunakan Lintang (Utara/Selatan) dan Bujur (Barat/Timur). Satuan: Derajat, Menit, Detik.
-* **Koordinat Grid (UTM):** Menggunakan sistem kotak (karvak). Pembacaan: **KIKA - BATAS** (Kiri ke Kanan [Timur], Bawah ke Atas [Utara]).
-    * 4 Angka: Menunjukkan satu kotak grid (akurasi 1 km).
-    * 6 Angka: Satu kotak dibagi 10 (akurasi 100 m).
-    * 8 Angka: Satu kotak dibagi 100 (akurasi 10 m).
+### Sistem Koordinat Geografis
+
+Koordinat geografis adalah sistem yang menggunakan garis lintang (latitude) dan garis bujur (longitude) untuk menentukan posisi di permukaan bumi.
+
+**Garis Lintang (Latitude):**
+* Garis horizontal yang sejajar dengan khatulistiwa
+* Dihitung dari 0° (khatulistiwa) hingga 90° (kutub)
+* Lintang Utara (LU) di atas khatulistiwa
+* Lintang Selatan (LS) di bawah khatulistiwa
+
+**Garis Bujur (Longitude):**
+* Garis vertikal yang menghubungkan kutub utara dan selatan
+* Dihitung dari 0° (Greenwich, Inggris) hingga 180°
+* Bujur Timur (BT) ke arah timur Greenwich
+* Bujur Barat (BB) ke arah barat Greenwich
+
+**Satuan:**
+* Derajat (°)
+* Menit (') → 1° = 60'
+* Detik (") → 1' = 60"
+
+**Contoh Penulisan:**
+* 7° 36' 45" LS, 110° 24' 30" BT (Koordinat kota Magelang)
+
+### Sistem Koordinat Grid (UTM)
+
+Universal Transverse Mercator (UTM) adalah sistem koordinat yang menggunakan grid persegi panjang untuk memudahkan pembacaan posisi.
+
+**Karakteristik:**
+* Menggunakan sistem kotak (karvak/grid)
+* Satuan dalam meter
+* Lebih praktis untuk navigasi darat
+* Digunakan pada peta topografi militer
+
+**Cara Pembacaan: KIKA-BATAS**
+* **KIKA** = Kiri ke Kanan (sumbu X, arah Timur)
+* **BATAS** = Bawah ke Atas (sumbu Y, arah Utara)
+
+**Tingkat Ketelitian:**
+
+1. **Koordinat 4 Angka (Grid Square)**
+   * Format: 1234 5678
+   * Akurasi: 1 km × 1 km
+   * Menunjukkan satu kotak grid
+   * Contoh: 1234 5678 = Grid kotak 12-34 (timur) dan 56-78 (utara)
+
+2. **Koordinat 6 Angka**
+   * Format: 123456 567890
+   * Akurasi: 100 m × 100 m
+   * Setiap kotak grid dibagi menjadi 10 bagian
+   * Contoh: 123456 567890
+
+3. **Koordinat 8 Angka**
+   * Format: 12345678 56789012
+   * Akurasi: 10 m × 10 m
+   * Setiap kotak grid dibagi menjadi 100 bagian
+   * Digunakan untuk posisi yang sangat presisi
+
+4. **Koordinat 10 Angka**
+   * Format: 1234567890 5678901234
+   * Akurasi: 1 m × 1 m
+   * Tingkat presisi tertinggi untuk operasi khusus
+
+### Cara Menentukan Koordinat Grid
+
+**Langkah-langkah:**
+1. Tentukan kotak grid tempat titik berada (2 angka pertama horizontal dan vertikal)
+2. Bagi kotak grid menjadi 10 bagian (untuk 6 angka) atau 100 bagian (untuk 8 angka)
+3. Hitung jarak dari garis grid kiri ke titik (angka timur)
+4. Hitung jarak dari garis grid bawah ke titik (angka utara)
+5. Gabungkan angka-angka tersebut
+
+**Tips:**
+* Gunakan penggaris atau alat bantu koordinat
+* Selalu baca KIKA dulu, baru BATAS
+* Periksa zona UTM pada sudut peta
+* Latih pembacaan dengan berbagai tingkat ketelitian
 `
               },
               {
                 id: 'navrat-1-article-5',
                 title: 'Kedar Peta dan Sudut Tanjakan',
                 content: `
-* **Kedar Peta:** Perbandingan jarak di peta dengan jarak di medan.
-    * *Rumus:* Kedar = Jarak Peta (JP) dibagi Jarak Medan (JM).
-* **Sudut Tanjakan:** Tingkat kemiringan lereng.
-    * *Rumus:* (Selisih Tinggi / Jarak Mendatar) x 57,3 derajat.
-    * Tanda (+) untuk mendaki, tanda (-) untuk menurun.
+### Kedar Peta (Skala)
+
+Kedar peta atau skala adalah perbandingan antara jarak di peta dengan jarak sebenarnya di medan.
+
+**Rumus Dasar:**
+
+Kedar = Jarak Peta (JP) : Jarak Medan (JM)
+
+**Jenis-Jenis Skala:**
+
+1. **Skala Angka (Numerical Scale)**
+   * Ditulis dalam bentuk pecahan atau rasio
+   * Contoh: 1:50.000 atau 1/50.000
+   * Artinya: 1 cm di peta = 50.000 cm (500 m) di medan
+
+2. **Skala Garis (Graphic Scale)**
+   * Berupa garis dengan pembagian jarak
+   * Lebih praktis karena tidak terpengaruh pembesaran/pengecilan peta
+   * Biasanya terletak di bagian bawah peta
+
+**Contoh Perhitungan:**
+
+Jika skala peta 1:25.000 dan jarak di peta 4 cm, maka:
+
+Jarak Medan = 4 cm × 25.000 = 100.000 cm = 1.000 m = 1 km
+
+Jika jarak medan 2,5 km dan skala 1:50.000, maka:
+
+Jarak Peta = 2.500 m : 50.000 = 2.500.000 cm : 50.000 = 5 cm
+
+**Klasifikasi Skala:**
+* **Skala Besar:** 1:10.000 atau lebih besar (detail tinggi)
+* **Skala Sedang:** 1:10.000 hingga 1:100.000
+* **Skala Kecil:** 1:100.000 atau lebih kecil (cakupan luas)
+
+### Sudut Tanjakan (Gradient)
+
+Sudut tanjakan adalah tingkat kemiringan lereng yang diukur dalam derajat.
+
+**Rumus:**
+
+Sudut Tanjakan = (Selisih Tinggi / Jarak Mendatar) × 57,3°
+
+Angka 57,3° adalah konversi dari radian ke derajat (180°/π)
+
+**Tanda:**
+* **(+)** untuk tanjakan (mendaki)
+* **(-)** untuk turunan (menurun)
+
+**Contoh Perhitungan:**
+
+Dari titik A (ketinggian 500 m) ke titik B (ketinggian 750 m) dengan jarak mendatar 1.000 m:
+
+Selisih Tinggi = 750 - 500 = 250 m
+Jarak Mendatar = 1.000 m
+Sudut Tanjakan = (250 / 1.000) × 57,3° = 0,25 × 57,3° = +14,3°
+
+Artinya: Tanjakan dengan kemiringan 14,3 derajat (cukup curam)
+
+**Klasifikasi Kemiringan:**
+* 0° - 8°: Landai (mudah dilalui)
+* 8° - 16°: Agak curam (butuh kehati-hatian)
+* 16° - 30°: Curam (sulit, perlu teknik khusus)
+* > 30°: Sangat curam (berbahaya, butuh peralatan)
+
+### Menghitung dari Kontur
+
+Untuk menghitung sudut tanjakan dari peta:
+
+1. Hitung selisih tinggi dari garis kontur
+2. Ukur jarak horizontal di peta
+3. Konversi jarak peta ke jarak medan menggunakan skala
+4. Gunakan rumus sudut tanjakan
+
+**Contoh:**
+* Interval kontur: 25 m
+* Jumlah kontur yang dilalui: 4 garis
+* Selisih tinggi: 4 × 25 m = 100 m
+* Jarak di peta: 2 cm
+* Skala: 1:25.000
+* Jarak medan: 2 cm × 25.000 = 50.000 cm = 500 m
+* Sudut: (100/500) × 57,3° = +11,46°
+
+### Aplikasi Praktis
+
+* **Perencanaan Rute:** Pilih jalur dengan kemiringan yang sesuai kemampuan
+* **Estimasi Waktu:** Medan curam membutuhkan waktu lebih lama
+* **Keamanan:** Hindari lereng sangat curam tanpa peralatan memadai
+* **Konsumsi Energi:** Tanjakan curam menghabiskan energi lebih banyak
 `
               }
             ]
@@ -109,26 +388,387 @@ Dibedakan menurut warna:
                 id: 'navrat-2-article-1',
                 title: 'Pengertian dan Jenis Kompas',
                 content: `
-Kompas adalah alat navigasi penunjuk arah magnetis.
-* **Kompas Bidik (Prisma):** Dilengkapi prisma dan kawat pisir untuk membidik sasaran dan membaca derajat secara bersamaan. Akurat untuk navigasi.
-* **Kompas Orienteering (Silva):** Badan transparan, memudahkan pembacaan langsung di atas peta. Ada jarum *travel arrow*.
-* **Kompas Biasa:** Kompas dasar penunjuk arah mata angin.
+### Pengertian Kompas
+
+Kompas adalah alat navigasi yang menunjukkan arah mata angin berdasarkan prinsip kemagnetan bumi. Jarum kompas selalu menunjuk ke arah kutub magnet bumi.
+
+### Prinsip Kerja Kompas
+
+Bumi memiliki medan magnet dengan dua kutub: Kutub Magnet Utara (dekat Kutub Utara geografis) dan Kutub Magnet Selatan (dekat Kutub Selatan geografis). Jarum kompas yang terbuat dari bahan magnetik akan selalu menunjuk ke arah kutub magnet utara.
+
+**Perbedaan Utara:**
+* **Utara Sebenarnya (True North):** Arah menuju Kutub Utara geografis
+* **Utara Magnetis (Magnetic North):** Arah yang ditunjuk jarum kompas
+* **Deklinasi Magnetis:** Perbedaan sudut antara Utara Sebenarnya dan Utara Magnetis (bervariasi per lokasi)
+
+### Bagian-Bagian Kompas
+
+**Komponen Utama:**
+1. **Badan/Rumah Kompas:** Wadah yang melindungi mekanisme kompas
+2. **Jarum Magnetis:** Jarum yang selalu menunjuk utara magnetis
+3. **Dial/Rose:** Lingkaran berderajat (0°-360°)
+4. **Garis Rambut/Pisir:** Garis penunjuk untuk bidikan
+5. **Cairan Peredam:** Cairan dalam rumah kompas untuk meredam getaran jarum
+6. **Kaca Pembesar:** Untuk membaca skala dengan jelas
+
+### Jenis-Jenis Kompas
+
+#### 1. Kompas Bidik (Prisma/Lensatic)
+
+**Karakteristik:**
+* Dilengkapi dengan prisma untuk membaca derajat sambil membidik
+* Memiliki kawat pisir (sight wire) dan celah bidik
+* Akurasi tinggi (± 1°)
+* Digunakan untuk navigasi presisi
+* Umum digunakan oleh militer dan pecinta alam profesional
+
+**Bagian Khusus:**
+* Tutup pelindung dengan celah bidik
+* Prisma pembaca sudut
+* Kawat pisir vertikal
+* Cincin untuk jempol
+* Bezel yang dapat diputar
+
+**Keunggulan:**
+* Sangat akurat
+* Tahan banting
+* Dapat digunakan siang dan malam (ada fitur luminous)
+* Dapat membidik sasaran jauh dengan presisi
+
+#### 2. Kompas Orienteering (Silva/Baseplate)
+
+**Karakteristik:**
+* Badan transparan sehingga dapat diletakkan langsung di atas peta
+* Memiliki travel arrow (panah arah perjalanan)
+* Bezel/cincin yang dapat diputar
+* Garis-garis orienteering untuk mensejajarkan dengan garis utara peta
+* Penggaris di tepi untuk mengukur jarak di peta
+
+**Bagian Khusus:**
+* Baseplate transparan
+* Direction of travel arrow
+* Orienting arrow (panah di dalam rumah kompas)
+* Meridian lines (garis-garis sejajar untuk orientasi)
+* Skala penggaris (biasanya 1:25.000 dan 1:50.000)
+
+**Keunggulan:**
+* Sangat praktis untuk navigasi dengan peta
+* Ringan dan tidak memakan tempat
+* Mudah digunakan untuk pemula
+* Ideal untuk orienteering dan hiking
+
+#### 3. Kompas Jari (Thumb Compass)
+
+**Karakteristik:**
+* Dipasang di jari dengan tali/gelang
+* Sangat kecil dan ringan
+* Digunakan khusus untuk lomba orienteering
+* Dapat dibaca sambil berlari
+
+**Keunggulan:**
+* Tangan bebas memegang peta
+* Sangat cepat untuk dibaca
+* Tidak mudah terjatuh atau hilang
+
+#### 4. Kompas Digital/GPS
+
+**Karakteristik:**
+* Menggunakan sensor elektronik
+* Terintegrasi dengan GPS
+* Menampilkan arah dalam format digital
+* Banyak fitur tambahan (altimeter, barometer)
+
+**Keunggulan:**
+* Akurasi tinggi dengan koreksi deklinasi otomatis
+* Banyak fitur navigasi tambahan
+* Dapat menyimpan waypoint dan track
+
+**Kelemahan:**
+* Memerlukan baterai
+* Lebih mahal
+* Rentan terhadap air dan benturan
+
+### Perbandingan Kompas
+
+| Jenis | Akurasi | Kemudahan | Harga | Penggunaan Ideal |
+|-------|---------|-----------|-------|------------------|
+| Prisma | Sangat Tinggi | Sedang | Mahal | Navigasi presisi, militer |
+| Orienteering | Tinggi | Mudah | Terjangkau | Hiking, orienteering |
+| Jari | Sedang | Sangat Mudah | Mahal | Lomba orienteering |
+| Digital | Sangat Tinggi | Mudah | Sangat Mahal | Teknologi modern |
+
+### Tips Penggunaan Kompas
+
+1. **Jauhkan dari Benda Magnetis:**
+   * Pisahkan min. 50 cm dari logam, elektronik, kendaraan
+   * Lepas jam tangan, pisau, atau benda metal lain saat menggunakan
+   * Hindari penggunaan dekat power lines atau bangunan baja
+
+2. **Posisi yang Benar:**
+   * Pegang kompas rata/horizontal di depan dada
+   * Berdiri tegak dan stabil
+   * Tunggu hingga jarum berhenti bergerak
+
+3. **Perawatan Kompas:**
+   * Simpan di tempat kering dan sejuk
+   * Hindari terjatuh atau benturan keras
+   * Jangan biarkan terkena sinar matahari langsung lama
+   * Bersihkan dengan kain lembut
+
+4. **Kalibrasi:**
+   * Cek akurasi dengan membandingkan arah matahari/bintang
+   * Periksa apakah gelembung udara ada (tanda kebocoran)
+   * Pastikan jarum bergerak bebas
+
+5. **Kondisi Khusus:**
+   * **Di Area Kutub:** Kompas standar tidak akurat, gunakan kompas khusus
+   * **Di Khatulistiwa:** Jarum kompas cenderung miring, butuh kompas balance global
+   * **Di Medan Vulkanik:** Kandungan mineral dapat mengganggu kompas
+
+### Kegunaan Kompas dalam Navigasi
+
+* **Menentukan Arah:** Mengetahui posisi mata angin
+* **Mengikuti Azimuth:** Berjalan lurus mengikuti sudut jurusan
+* **Orientasi Peta:** Menyelaraskan peta dengan medan sebenarnya
+* **Reseksi:** Menentukan posisi sendiri di peta
+* **Interseksi:** Menentukan posisi objek di medan
+* **Back Bearing:** Menentukan arah balik untuk kembali
+
+* Orienting lines (garis sejajar utara)
+* Scale ruler (penggaris skala)
+
+**Keunggulan:**
+* Sangat praktis untuk orienteering
+* Mudah digunakan dengan peta
+* Ringan dan compact
+* Cocok untuk pemula
+
+#### 3. Kompas Pelat Dasar (Baseplate Compass)
+
+Variasi dari kompas orienteering dengan fitur lebih sederhana, cocok untuk penggunaan umum dan pelajar.
+
+#### 4. Kompas Ibu Jari (Thumb Compass)
+
+Kompas kecil yang diikatkan di ibu jari, digunakan khusus untuk lomba orienteering agar dapat membaca kompas sambil berlari.
+
+#### 5. Kompas Digital/Elektronik
+
+**Karakteristik:**
+* Menggunakan sensor elektronik
+* Menampilkan arah dalam angka digital
+* Sering terintegrasi dengan GPS
+* Membutuhkan baterai
+
+**Kekurangan:**
+* Tergantung baterai
+* Rentan gangguan elektronik
+* Kurang akurat di area dengan banyak logam
+
+### Tips Menggunakan Kompas
+
+**Do (Lakukan):**
+* Jauhkan dari benda logam (minimal 1 meter)
+* Pegang dalam posisi rata (horizontal)
+* Tunggu jarum berhenti bergerak sebelum membaca
+* Kalibrasi secara berkala
+* Simpan di tempat kering
+
+**Don't (Hindari):**
+* Jangan gunakan dekat logam (pisau, jam, kendaraan)
+* Jangan dekat magnet atau peralatan elektronik
+* Jangan disimpan di tempat panas ekstrem
+* Jangan dijatuhkan atau dibenturkan
+
+### Perawatan Kompas
+
+* Bersihkan secara teratur dengan kain lembut
+* Periksa gelembung udara dalam cairan (tidak boleh terlalu besar)
+* Lindungi dari benturan
+* Simpan dalam tas pelindung
+* Jauhkan dari magnet kuat
+* Periksa akurasi dengan membandingkan beberapa kompas
 `
               },
               {
                 id: 'navrat-2-article-2',
-                title: 'Orientasi Peta',
+                title: 'Orientasi Peta dengan Kompas',
                 content: `
-Menyamakan kedudukan peta dengan medan sebenarnya (Utara Peta = Utara Magnetis).
-* **Caranya:** Buka peta, letakkan kompas di atasnya. Himpitkan garis rambut kompas sejajar garis grid utara peta. Putar peta dan kompas bersamaan sampai jarum utara kompas menunjuk ke utara peta.
+### Pengertian Orientasi Peta
+
+Orientasi peta adalah proses menyelaraskan peta dengan medan sebenarnya sehingga arah di peta sama dengan arah di lapangan. Setelah peta diorientasi, utara peta akan menunjuk ke utara sebenarnya, dan semua fitur di peta akan sesuai posisinya dengan medan.
+
+### Tujuan Orientasi Peta
+
+1. **Memudahkan Identifikasi Medan:** Fitur di peta sesuai dengan posisi sebenarnya
+2. **Menentukan Arah dengan Akurat:** Memastikan arah perjalanan benar
+3. **Menemukan Posisi:** Lebih mudah menentukan lokasi Anda di peta
+4. **Navigasi Efektif:** Mengurangi kesalahan dalam menentukan rute
+
+### Metode Orientasi Peta dengan Kompas
+
+#### Langkah-Langkah Detail:
+
+**1. Persiapan:**
+* Buka peta dan letakkan di permukaan datar
+* Pastikan kompas berfungsi dengan baik
+* Jauhkan dari benda magnetis (minimal 50 cm dari logam)
+* Identifikasi garis grid utara di peta (biasanya vertikal)
+
+**2. Posisikan Kompas:**
+* Letakkan kompas di atas peta
+* Sejajarkan sisi atau garis rambut kompas dengan garis grid utara peta
+* Pastikan titik 0° kompas mengarah ke atas peta
+
+**3. Putar Peta:**
+* Pegang kompas tetap pada posisinya
+* Putar peta (bersama kompas) secara perlahan
+* Tunggu hingga jarum utara kompas berhenti bergerak
+* Sejajarkan jarum utara dengan angka 0° atau 360° pada dial kompas
+
+**4. Verifikasi:**
+* Cek apakah fitur medan (gunung, sungai, jalan) sesuai dengan peta
+* Identifikasi minimal 2-3 landmark untuk memastikan orientasi benar
+
+### Tips Orientasi yang Akurat
+
+**Lakukan:**
+* Orientasi ulang setiap kali berhenti atau berbelok
+* Gunakan peta dengan skala yang sesuai (1:25.000 atau 1:50.000)
+* Latih orientasi di medan yang sudah dikenal dulu
+* Selalu cek minimal 2 fitur medan sebagai konfirmasi
+
+**Hindari:**
+* Mengandalkan satu metode saja
+* Orientasi di dekat kendaraan atau bangunan baja
+* Terburu-buru tanpa verifikasi
 `
               },
               {
                 id: 'navrat-2-article-3',
                 title: 'Penggunaan Kompas Siang dan Malam',
                 content: `
-* **Kompas Siang:** Buka tutup tegak lurus, angkat prisma. Masukkan jempol ke cincin, telunjuk menahan tutup. Bidik sasaran lewat celah, baca angka derajat lewat prisma.
-* **Kompas Malam:** Buka tutup hingga rata. Kendorkan sekrup, putar kaca kompas sesuai sudut yang diinginkan (azimuth). Kencangkan sekrup. Pegang di depan dada, putar badan sampai jarum bercahaya berimpit dengan tanda baca bercahaya. Arah garis rambut adalah arah perjalanan.
+### Kompas Siang (Daytime Compass)
+
+Kompas siang digunakan untuk membidik sasaran yang terlihat dan menentukan sudut jurusannya (azimuth).
+
+#### Langkah-Langkah Penggunaan Kompas Siang:
+
+**1. Buka Kompas:**
+* Buka tutup kompas hingga tegak lurus (90°) dengan badan kompas
+* Angkat prisma hingga posisi 45° (dapat dilihat melalui lubang prisma)
+* Pastikan jarum kompas bebas bergerak
+
+**2. Posisi Pegangan:**
+* Masukkan ibu jari ke cincin kompas
+* Telunjuk menahan bagian bawah tutup
+* Jari tengah dan manis di bawah badan kompas
+* Pegang kompas setinggi dada atau mata
+
+**3. Membidik Sasaran:**
+* Arahkan kompas ke sasaran yang ingin ditentukan sudut jurusannya
+* Lihat sasaran melalui celah bidik di tutup
+* Sejajarkan kawat pisir (sight wire) dengan sasaran
+* Pastikan sasaran, kawat pisir, dan celah bidik berada dalam satu garis lurus
+
+**4. Membaca Sudut:**
+* Tanpa mengubah arah bidikan, baca angka derajat melalui prisma
+* Angka yang sejajar dengan garis indeks adalah sudut jurusan (azimuth)
+* Tunggu jarum kompas berhenti bergerak sebelum membaca
+
+**5. Mencatat:**
+* Catat sudut jurusan yang terbaca
+* Format: "Sasaran [nama]: Azimuth [angka]°"
+* Contoh: "Puncak Gunung: Azimuth 075°"
+
+### Kompas Malam (Night Compass)
+
+Kompas malam digunakan untuk berjalan mengikuti sudut jurusan tertentu tanpa melihat sasaran (karena gelap atau sasaran tidak terlihat).
+
+#### Langkah-Langkah Penggunaan Kompas Malam:
+
+**1. Setting Azimuth:**
+* Buka tutup kompas hingga rata dengan badan (180°)
+* Kendorkan sekrup pengunci bezel (jika ada)
+* Putar kaca/bezel kompas hingga angka azimuth yang diinginkan sejajar dengan garis rambut
+* Contoh: Jika ingin jalan ke arah 045°, putar hingga angka 45 di garis rambut
+* Kencangkan sekrup pengunci
+
+**2. Aktivasi Luminous (jika perlu):**
+* Kompas modern memiliki cat fosfor yang menyerap cahaya
+* Sebelum gelap, charge kompas dengan cahaya senter selama 10-30 detik
+* Jarum dan tanda akan bercahaya selama beberapa jam
+
+**3. Posisi Kompas:**
+* Pegang kompas di depan dada, posisi horizontal
+* Pastikan garis rambut mengarah ke depan (arah perjalanan)
+* Jaga jarak aman dari benda logam
+
+**4. Orientasi Badan:**
+* Putar seluruh badan (bukan hanya kompas) perlahan
+* Tunggu jarum berhenti bergerak
+* Sejajarkan ujung jarum utara (merah/bercahaya) dengan tanda indeks atau angka yang sudah di-set
+* Saat jarum sejajar, arah garis rambut adalah arah perjalanan yang benar
+
+**5. Berjalan:**
+* Cari landmark di depan yang sejajar dengan garis rambut (pohon, batu, dll)
+* Berjalan menuju landmark tersebut
+* Setelah sampai di landmark, ulangi proses orientasi
+* Tetapkan landmark baru dan lanjutkan
+
+### Perbedaan Kompas Siang dan Malam
+
+| Aspek | Kompas Siang | Kompas Malam |
+|-------|--------------|---------------|
+| Posisi Tutup | Tegak lurus (90°) | Rata (180°) |
+| Fungsi | Membidik sasaran | Mengikuti azimuth |
+| Pembacaan | Membaca sudut lewat prisma | Setting azimuth di bezel |
+| Sasaran | Harus terlihat jelas | Tidak perlu melihat sasaran |
+| Fitur Utama | Prisma + sight wire | Luminous + bezel |
+| Aplikasi | Menentukan arah objek | Berjalan ke arah tertentu |
+
+### Sudut Jurusan (Azimuth)
+
+**Sistem Derajat:**
+* 000° atau 360° = Utara (North)
+* 090° = Timur (East)
+* 180° = Selatan (South)
+* 270° = Barat (West)
+
+**Sudut Antara:**
+* 045° = Timur Laut (Northeast)
+* 135° = Tenggara (Southeast)
+* 225° = Barat Daya (Southwest)
+* 315° = Barat Laut (Northwest)
+
+### Back Azimuth (Sudut Balik)
+
+**Rumus:**
+
+**Jika Azimuth < 180°:**
+Back Azimuth = Azimuth + 180°
+
+**Jika Azimuth > 180°:**
+Back Azimuth = Azimuth - 180°
+
+**Contoh:**
+* Azimuth maju: 045° → Back Azimuth: 045° + 180° = 225°
+* Azimuth maju: 270° → Back Azimuth: 270° - 180° = 090°
+
+### Tips Penggunaan Efektif
+
+**Untuk Kompas Siang:**
+1. Bidik sasaran yang spesifik (puncak gunung, bukan "gunung")
+2. Baca angka dengan mata sejajar prisma
+3. Tunggu jarum benar-benar stabil (3-5 detik)
+4. Catat segera sebelum lupa
+5. Verifikasi dengan bidik ulang
+
+**Untuk Kompas Malam:**
+1. Charge kompas dengan senter sebelum gelap
+2. Gunakan landmark interim setiap 50-100m
+3. Berjalan perlahan agar tidak menyimpang
+4. Re-check azimuth setiap berhenti
+5. Gunakan tongkat atau teman sebagai guide arah
 `
               }
             ]
@@ -153,10 +793,182 @@ Menyamakan kedudukan peta dengan medan sebenarnya (Utara Peta = Utara Magnetis).
                 id: 'navrat-3-article-1',
                 title: 'Resection dan Intersection',
                 content: `
-* **Resection (Mengikat ke Depan):** Menentukan posisi **sendiri** di peta menggunakan dua tanda medan yang dikenali.
-    * *Cara:* Bidik tanda A dan B. Hitung *Back Azimuth* (Sudut Balik) dari masing-masing bidikan. Tarik garis di peta dari tanda A dan B sesuai sudut balik. Perpotongan garis adalah posisi kita.
-* **Intersection (Mengikat ke Belakang):** Menentukan posisi **sasaran/musuh** di peta.
-    * *Cara:* Kita harus berpindah tempat. Dari posisi 1, bidik sasaran. Pindah ke posisi 2, bidik sasaran yang sama. Tarik garis dari posisi 1 dan 2 di peta sesuai sudut bidikan. Perpotongan garis adalah lokasi sasaran.
+### Pengertian Resection (Mengikat ke Belakang)
+
+**Resection** adalah teknik navigasi untuk menentukan **posisi sendiri** di peta dengan menggunakan dua atau lebih objek medan yang dapat diidentifikasi di peta.
+
+**Kapan Digunakan:**
+* Saat tersesat dan tidak tahu posisi di peta
+* Untuk memverifikasi posisi saat ini
+* Memulai navigasi dari titik yang tidak ditandai di peta
+* Operasi pencarian dan penyelamatan (SAR)
+
+### Langkah-Langkah Resection
+
+#### 1. Identifikasi Objek Medan
+
+**Syarat Objek:**
+* Harus terlihat jelas dari posisi Anda
+* Dapat diidentifikasi dengan pasti di peta (puncak gunung, menara, persimpangan)
+* Minimal 2 objek, idealnya 3 untuk akurasi
+* Sudut antara objek 30°-150° (hindari terlalu sempit atau terlalu lebar)
+
+#### 2. Bidik Objek dengan Kompas
+
+**Prosedur:**
+
+A. **Bidik Objek Pertama (A):**
+   * Buka kompas siang (tutup tegak lurus)
+   * Bidik objek melalui celah dan kawat pisir
+   * Baca azimuth melalui prisma
+   * Contoh: Puncak Gunung → Azimuth 045°
+   * Catat: "Objek A: 045°"
+
+B. **Bidik Objek Kedua (B):**
+   * Tanpa bergerak dari posisi, bidik objek kedua
+   * Baca dan catat azimuthnya
+   * Contoh: Menara → Azimuth 130°
+   * Catat: "Objek B: 130°"
+
+#### 3. Hitung Back Azimuth (Sudut Balik)
+
+Back azimuth adalah kebalikan arah dari objek ke posisi kita.
+
+**Rumus:**
+
+**Jika Azimuth < 180°:**
+Back Azimuth = Azimuth + 180°
+
+**Jika Azimuth ≥ 180°:**
+Back Azimuth = Azimuth - 180°
+
+**Contoh Perhitungan:**
+* Objek A: 045° → Back Azimuth = 045° + 180° = 225°
+* Objek B: 130° → Back Azimuth = 130° + 180° = 310°
+
+#### 4. Plot di Peta
+
+**Cara Plotting:**
+
+A. **Orientasikan Peta:**
+   * Selaraskan peta dengan kompas
+
+B. **Plot Garis Pertama:**
+   * Temukan Objek A di peta
+   * Letakkan kompas di objek A
+   * Sejajarkan kompas dengan arah back azimuth (225°)
+   * Tarik garis lurus dari Objek A mengikuti arah 225°
+
+C. **Plot Garis Kedua:**
+   * Temukan Objek B di peta
+   * Sejajarkan dengan back azimuth B (310°)
+   * Tarik garis dari Objek B mengikuti arah 310°
+
+D. **Tentukan Posisi:**
+   * Perpotongan 2 garis adalah posisi Anda
+   * Jika menggunakan 3 garis, idealnya bertemu di satu titik
+   * Jika membentuk segitiga kecil, posisi Anda di tengah segitiga
+
+### Pengertian Intersection (Mengikat ke Depan)
+
+**Intersection** adalah teknik navigasi untuk menentukan **posisi objek/sasaran** di peta dengan mengukur azimuth dari dua atau lebih posisi yang diketahui.
+
+**Kapan Digunakan:**
+* Menentukan posisi target yang tidak bisa didekati
+* Pemetaan lokasi baru
+* Operasi militer (menentukan posisi musuh)
+* SAR (menentukan lokasi korban yang terlihat tapi jauh)
+
+### Langkah-Langkah Intersection
+
+#### 1. Pilih Posisi Pengamatan
+
+**Syarat Posisi:**
+* Dua posisi harus diketahui dengan pasti di peta
+* Jarak antara kedua posisi cukup jauh (minimal 100m)
+* Sudut baseline 30°-150° untuk akurasi optimal
+* Objek harus terlihat dari kedua posisi
+
+#### 2. Bidik dari Posisi Pertama
+
+**Di Posisi 1:**
+* Pastikan Anda berada tepat di titik yang diketahui di peta
+* Orientasikan peta
+* Bidik objek target dengan kompas siang
+* Baca dan catat azimuth
+* Contoh: "Dari Persimpangan, Azimuth ke target: 075°"
+
+#### 3. Pindah ke Posisi Kedua
+
+* Navigasi ke posisi kedua yang sudah ditentukan
+* Pastikan tiba tepat di titik yang diketahui di peta
+
+#### 4. Bidik dari Posisi Kedua
+
+**Di Posisi 2:**
+* Orientasikan peta
+* Bidik objek target yang sama
+* Baca dan catat azimuth
+* Contoh: "Dari Jembatan, Azimuth ke target: 345°"
+
+#### 5. Plot di Peta
+
+**Cara Plotting:**
+
+A. **Plot Garis Pertama:**
+   * Temukan Posisi 1 di peta
+   * Letakkan penggaris di Posisi 1
+   * Sejajarkan dengan azimuth 075° (dari utara peta)
+   * Tarik garis lurus dari Posisi 1 ke arah target
+
+B. **Plot Garis Kedua:**
+   * Temukan Posisi 2 di peta
+   * Sejajarkan penggaris dengan azimuth 345°
+   * Tarik garis dari Posisi 2 ke arah target
+
+C. **Tentukan Lokasi Target:**
+   * Perpotongan kedua garis adalah posisi objek target
+   * Tandai dengan jelas di peta
+
+### Perbedaan Resection dan Intersection
+
+| Aspek | Resection | Intersection |
+|-------|-----------|---------------|
+| **Tujuan** | Mencari posisi sendiri | Mencari posisi target/objek |
+| **Yang Diketahui** | Lokasi objek referensi | Posisi pengamat sendiri |
+| **Yang Dicari** | Posisi pengamat | Lokasi target |
+| **Bidikan** | Ke objek yang diketahui | Ke target yang tidak diketahui |
+| **Garis yang Ditarik** | Back azimuth dari objek | Azimuth maju dari posisi |
+| **Pergerakan** | Tidak perlu pindah | Harus pindah ke posisi kedua |
+| **Penggunaan** | Saat tersesat | Pemetaan/lokasi target |
+
+### Tips untuk Akurasi Tinggi
+
+**Resection:**
+1. Gunakan 3 objek untuk triangulasi sempurna
+2. Pilih objek dengan sudut 60° atau 120° antara satu sama lain
+3. Hindari objek yang terlalu dekat (< 500m)
+4. Gunakan fitur terrain yang jelas dan mudah diidentifikasi
+
+**Intersection:**
+1. Baseline (jarak antar posisi) minimal 1/4 jarak ke target
+2. Sudut potong ideal 90° (45°-135°)
+3. Bidik dengan sangat hati-hati, kesalahan 1° bisa menghasilkan error puluhan meter
+4. Jika memungkinkan, gunakan 3 posisi untuk verifikasi
+
+### Aplikasi di Dunia Nyata
+
+**Resection:**
+* Hiking: Menentukan posisi saat tersesat
+* Sailing: Navigasi maritim dengan lighthouse
+* SAR: Tim pencari menentukan posisi sendiri
+* Military: Menentukan posisi pasukan
+
+**Intersection:**
+* Artillery: Menentukan koordinat target untuk tembakan
+* SAR: Menemukan korban dari kejauhan
+* Surveying: Pemetaan fitur medan baru
+* Tracking: Memantau pergerakan target
 `
               }
             ]
@@ -182,22 +994,784 @@ Menyamakan kedudukan peta dengan medan sebenarnya (Utara Peta = Utara Magnetis).
                 id: 'navrat-4-article-1',
                 title: 'Kegunaan dan Bagian GPS',
                 content: `
-GPS menentukan posisi dengan bantuan satelit.
-* **Bagian Fisik:** Antena (internal/eksternal), Tombol Interface (Zoom, Menu, Page, Enter, Rocker), Layar, Tempat Baterai, Slot Micro SD, Konektor Data USB.
+### Pengertian GPS
+
+**GPS (Global Positioning System)** adalah sistem navigasi berbasis satelit yang dikembangkan oleh Departemen Pertahanan Amerika Serikat. Sistem ini menggunakan jaringan satelit di orbit untuk menentukan posisi, kecepatan, dan waktu dengan akurasi tinggi di mana saja di bumi.
+
+### Sejarah GPS
+
+* **1973:** Proyek GPS dimulai oleh Departemen Pertahanan AS
+* **1978:** Satelit GPS pertama diluncurkan
+* **1995:** Sistem GPS mencapai Full Operational Capability (FOC) dengan 24 satelit
+* **2000:** Selective Availability (SA) dimatikan, meningkatkan akurasi untuk sipil
+* **Sekarang:** GPS terdiri dari 31+ satelit aktif
+
+### Prinsip Kerja GPS
+
+#### Trilaterasi Satelit:
+
+GPS bekerja berdasarkan prinsip **trilaterasi** - menghitung posisi berdasarkan jarak dari beberapa titik referensi (satelit).
+
+**Cara Kerja:**
+
+1. **Sinyal Satelit:**
+   * Setiap satelit GPS memancarkan sinyal radio berisi:
+     - Posisi satelit (ephemeris)
+     - Waktu pengiriman sinyal (atomic clock)
+     - Status satelit (almanac)
+
+2. **Perhitungan Jarak:**
+   * Receiver GPS menangkap sinyal
+   * Menghitung waktu tempuh sinyal (kecepatan cahaya × waktu)
+   * Jarak = Kecepatan Cahaya (300.000 km/s) × Waktu Tempuh
+
+3. **Penentuan Posisi:**
+   * **1 satelit:** Posisi Anda di permukaan bola (radius = jarak ke satelit)
+   * **2 satelit:** Posisi di perpotongan 2 bola (lingkaran)
+   * **3 satelit:** Posisi di perpotongan 3 bola (2 titik)
+   * **4 satelit:** Posisi akurat + koreksi kesalahan jam receiver
+
+**Minimal 4 satelit diperlukan untuk posisi 3D (latitude, longitude, altitude)**
+
+### Segmen GPS
+
+Sistem GPS terdiri dari 3 segmen:
+
+#### 1. Space Segment (Segmen Angkasa)
+
+* **Jumlah:** 31+ satelit aktif (minimum operasional: 24)
+* **Orbit:** MEO (Medium Earth Orbit), ketinggian ±20.200 km
+* **Periode orbit:** 11 jam 58 menit (2 putaran per hari)
+* **Konfigurasi:** 6 bidang orbit, masing-masing 4-5 satelit
+* **Jangkauan:** Minimal 4 satelit terlihat dari titik mana pun di bumi
+* **Umur satelit:** 10-15 tahun
+
+**Fungsi Satelit:**
+* Memancarkan sinyal navigasi
+* Menjaga waktu dengan atomic clock (akurasi 1 nanodetik)
+* Mengirim data posisi dan kesehatan satelit
+
+#### 2. Control Segment (Segmen Kontrol)
+
+* **Master Control Station:** Colorado Springs, AS
+* **Monitor Stations:** 6 stasiun di seluruh dunia
+* **Ground Antennas:** 4 antena upload
+
+**Fungsi:**
+* Memantau kesehatan dan orbit satelit
+* Mengirim update ephemeris dan koreksi jam
+* Mengatur maneuver satelit
+* Memastikan akurasi sistem
+
+#### 3. User Segment (Segmen Pengguna)
+
+* **Receiver GPS:** Perangkat yang menangkap sinyal satelit
+* **Aplikasi:** Navigasi darat, laut, udara, pemetaan, survei, militer
+
+### Bagian-Bagian GPS Handheld
+
+#### Komponen Fisik:
+
+**1. Antena**
+* **Fungsi:** Menangkap sinyal satelit GPS
+* **Jenis:**
+  - Internal: Tersembunyi di dalam badan GPS
+  - External: Antena tambahan untuk sinyal lebih kuat
+* **Tips:** Jangan tutup bagian atas GPS saat digunakan
+
+**2. Layar (Display)**
+* **Fungsi:** Menampilkan informasi navigasi
+* **Jenis:**
+  - Monochrome: Hemat baterai, baik di bawah sinar matahari
+  - Color: Lebih detail, mudah dibaca
+  - Touchscreen: Lebih intuitif
+* **Informasi yang ditampilkan:**
+  - Koordinat (Latitude, Longitude)
+  - Altitude (ketinggian)
+  - Kecepatan (Speed)
+  - Arah (Bearing/Heading)
+  - Waktu (UTC/Local)
+  - Akurasi (EPE - Estimated Position Error)
+  - Jumlah satelit terkunci
+  - Peta digital (jika ada)
+
+**3. Tombol Interface**
+
+* **Power/Light:** Menghidupkan/mematikan, backlight
+* **Page:** Berpindah antar halaman tampilan
+  - Satellite Page (status satelit)
+  - Map Page (peta)
+  - Compass Page (kompas)
+  - Trip Computer (data perjalanan)
+* **Enter/Mark:** Menyimpan waypoint (titik lokasi)
+* **Rocker/Joystick:** Navigasi menu, zoom, pan peta
+* **Zoom In/Out:** Memperbesar/memperkecil tampilan peta
+* **Menu/Quit:** Masuk/keluar menu setting
+* **Find:** Mencari waypoint, kota, atau POI (Point of Interest)
+
+**4. Baterai**
+* **Jenis:**
+  - AA/AAA alkaline (umum)
+  - Rechargeable (NiMH, Li-ion)
+* **Daya tahan:** 12-30 jam (tergantung model dan penggunaan)
+* **Tips:** Bawa baterai cadangan untuk perjalanan panjang
+
+**5. Port/Konektor**
+* **USB:** Transfer data, charging (model modern)
+* **Micro SD:** Slot kartu memori untuk peta tambahan
+* **External Antenna:** Port untuk antena eksternal (model tertentu)
+
+**6. Casing/Body**
+* **Material:** Plastik tahan banting, karet
+* **Rating:** IPX7 (tahan air 1 meter selama 30 menit)
+* **Desain:** Ergonomis, genggaman anti-slip
+
+### Kegunaan GPS
+
+#### Navigasi:
+
+**1. Menentukan Posisi (Position Finding)**
+* Koordinat geografis (Latitude/Longitude)
+* Koordinat UTM (Universal Transverse Mercator)
+* Altitude (ketinggian di atas permukaan laut)
+
+**Contoh Pembacaan:**
+* Lat: 7°47'30"S (atau -7.7917°)
+* Lon: 110°22'15"E (atau 110.3708°)
+* Alt: 115 m
+
+**2. Navigasi Point-to-Point**
+* Menyimpan titik tujuan (waypoint)
+* GPS menunjukkan arah dan jarak ke tujuan
+* Estimasi waktu tiba (ETA - Estimated Time of Arrival)
+
+**3. Tracking (Pelacakan Jalur)**
+* Merekam jejak perjalanan (track log)
+* Dapat diputar ulang untuk navigasi balik
+* Export ke komputer untuk analisis
+
+**4. Routing (Perencanaan Rute)**
+* Membuat rute multi-waypoint
+* GPS memandu dari satu waypoint ke waypoint berikutnya
+* Turn-by-turn navigation (model advanced)
+
+#### Aplikasi Khusus:
+
+**1. Hiking & Trekking:**
+* Mencegah tersesat di hutan/gunung
+* Menemukan kembali basecamp
+* Eksplorasi medan baru dengan aman
+
+**2. Geocaching:**
+* Permainan treasure hunting dengan GPS
+* Mencari cache tersembunyi berdasarkan koordinat
+
+**3. Search and Rescue (SAR):**
+* Koordinasi tim pencari
+* Menandai lokasi korban
+* Pemetaan area pencarian
+
+**4. Survey & Pemetaan:**
+* Pengukuran lahan
+* Pembuatan peta digital
+* Inventarisasi sumber daya alam
+
+**5. Militer:**
+* Navigasi pasukan
+* Penentuan koordinat target
+* Sinkronisasi operasi
+
+**6. Pertanian (Precision Farming):**
+* Pemetaan lahan
+* Tracking traktor
+* Aplikasi pupuk presisi
+
+**7. Transportasi:**
+* Navigasi kendaraan
+* Fleet management
+* Tracking logistik
+
+**8. Olahraga:**
+* Tracking jarak lari/bersepeda
+* Analisis performa (kecepatan, elevasi)
+* Virtual race
+
+### Akurasi GPS
+
+#### Tingkat Akurasi:
+
+**1. Standard GPS (Civilian)**
+* **Horizontal:** ±5-10 meter (95% waktu)
+* **Vertical:** ±10-15 meter
+* Cukup untuk navigasi umum
+
+**2. DGPS (Differential GPS)**
+* **Horizontal:** ±1-3 meter
+* Menggunakan stasiun referensi ground
+* WAAS/EGNOS (Wide Area Augmentation System)
+
+**3. Military GPS (P-Code)**
+* **Horizontal:** ±1 meter
+* Sinyal terenkripsi
+* Hanya untuk militer AS dan sekutu
+
+**4. RTK (Real-Time Kinematic)**
+* **Horizontal:** ±1-2 cm
+* Untuk survey profesional
+* Memerlukan base station
+
+#### Faktor yang Mempengaruhi Akurasi:
+
+**1. Jumlah Satelit:**
+* 4 satelit: Minimum untuk fix 3D
+* 5-7 satelit: Akurasi standar
+* 8+ satelit: Akurasi optimal
+
+**2. Geometri Satelit (PDOP - Position Dilution of Precision):**
+* **PDOP < 4:** Excellent (akurasi tinggi)
+* **PDOP 4-8:** Good (akurasi memadai)
+* **PDOP > 8:** Poor (akurasi rendah)
+* Satelit tersebar luas = PDOP rendah = akurat
+* Satelit berkumpul = PDOP tinggi = tidak akurat
+
+**3. Obstruksi (Halangan):**
+* **Multipath:** Sinyal memantul dari gedung/tebing → error
+* **Canopy:** Dedaunan tebal memblokir sinyal
+* **Urban Canyon:** Gedung tinggi menghalangi satelit
+* **Indoor:** Tidak ada sinyal
+
+**4. Atmospheric Effects:**
+* **Ionosphere:** Lapisan bermuatan di atmosfer atas
+* **Troposphere:** Lapisan atmosfer bawah
+* **Solusi:** Model koreksi, WAAS/EGNOS
+
+**5. Selective Availability (SA):**
+* Dulu: Militer AS sengaja menurunkan akurasi sipil
+* 2000: SA dimatikan, akurasi sipil meningkat dari ±100m ke ±10m
+
+### Kelebihan dan Keterbatasan GPS
+
+#### Kelebihan:
+
+* **Akurasi:** Posisi akurat dalam hitungan meter
+* **Real-time:** Informasi posisi langsung
+* **Global Coverage:** Tersedia di mana saja di bumi
+* **24/7 Operation:** Bekerja siang malam, segala cuaca
+* **Mudah Digunakan:** Interface user-friendly
+* **Multifungsi:** Navigasi, tracking, mapping, timing
+
+#### Keterbatasan:
+
+* **Tidak Bekerja di Indoor:** Sinyal tidak menembus atap
+* **Tergantung Baterai:** Mati jika baterai habis
+* **Butuh Langit Terbuka:** Tidak akurat di hutan tebal, ngarai
+* **Cold Start Lambat:** Butuh 5-15 menit untuk lock satelit pertama kali
+* **Drift:** Posisi bisa "melompat" beberapa meter
+* **Tidak Real-time 100%:** Update biasanya setiap 1 detik
+
+### GPS vs Kompas & Peta
+
+| Aspek | GPS | Kompas & Peta |
+|-------|-----|---------------|
+| **Akurasi** | ±5-10 m | ±50-100 m (tergantung skill) |
+| **Kecepatan** | Instant | Butuh waktu untuk plotting |
+| **Keandalan** | Tergantung baterai & satelit | Selalu bekerja |
+| **Kemudahan** | Mudah untuk pemula | Butuh latihan |
+| **Backup** | Harus ada backup tradisional | Kompas+peta adalah backup |
+| **Biaya** | Mahal (perangkat + peta digital) | Murah |
+| **Ketahanan** | Rentan rusak jika jatuh/basah | Sangat tahan lama |
+
+**Kesimpulan:** GPS adalah alat navigasi modern yang sangat efektif, TAPI kompas dan peta tetap wajib dibawa sebagai backup. Jangan pernah bergantung 100% pada GPS!
 `
               },
               {
                 id: 'navrat-4-article-2',
                 title: 'Pengoperasian GPS',
                 content: `
-* **Menghidupkan:** Tekan tombol Power (merah).
-* **Sinyal:** Tunggu hingga alat menangkap sinyal satelit (muncul konfigurasi satelit dan kekuatan sinyal di layar).
-* **Informasi Layar:** Menampilkan Koordinat (Location), Akurasi (Error), Arah (Heading Bug), dan Ketinggian.
-* **Tombol Penting:**
-    * *Mark/Enter:* Menyimpan lokasi saat ini (Waypoint).
-    * *Page:* Mengganti tampilan menu.
-    * *Rocker:* Menggeser kursor.
-    * *Zoom:* Memperbesar/memperkecil tampilan peta.
+### Persiapan Sebelum Menggunakan GPS
+
+#### 1. Periksa Perangkat
+
+* **Baterai:** Pastikan terisi penuh atau pasang baterai baru
+* **Kondisi Fisik:** Cek tidak ada retakan atau kerusakan
+* **Layar:** Bersihkan dari debu/kotoran
+* **Antena:** Pastikan tidak terhalang
+
+#### 2. Pengaturan Awal (Initial Setup)
+
+**Format Posisi:**
+* Pilih format koordinat sesuai peta yang digunakan:
+  - **hddd.ddddd°** (Decimal Degrees): -7.79167°, 110.37083°
+  - **hddd°mm.mmm'** (Degrees Decimal Minutes): 7°47.500'S, 110°22.250'E
+  - **hddd°mm'ss.s"** (Degrees Minutes Seconds): 7°47'30"S, 110°22'15"E
+  - **UTM/UPS:** 49M 459825mE 9138975mN
+
+**Datum Peta:**
+* Pilih datum sesuai peta:
+  - **WGS 84:** Standard GPS, paling umum
+  - **DMA (WGS 72):** Peta lama
+  - **Local Datum:** Indonesia uses WGS 84
+
+**Zona Waktu:**
+* Set sesuai lokasi: Indonesia WIB (UTC+7), WITA (UTC+8), WIT (UTC+9)
+
+**Unit Jarak:**
+* Metric (meter, kilometer) atau Imperial (feet, miles)
+
+**Format Waktu:**
+* 12-hour atau 24-hour
+
+### Menghidupkan GPS
+
+#### Langkah-Langkah:
+
+**1. Power On:**
+* Tekan dan tahan tombol **POWER** selama 2-3 detik
+* GPS akan melakukan self-test singkat
+* Layar menampilkan logo/welcome screen
+
+**2. Cold Start vs Warm Start:**
+
+**Cold Start (Pertama kali / lama tidak digunakan):**
+* GPS tidak tahu posisi terakhir
+* Butuh waktu **5-15 menit** untuk lock satelit
+* Harus mendownload almanac dari satelit
+* **Tips:** Letakkan di tempat terbuka dengan langit bebas
+
+**Warm Start (Baru dimatikan < 4 jam yang lalu):**
+* GPS ingat posisi terakhir
+* Lock satelit dalam **30-60 detik**
+* Lebih cepat karena almanac masih valid
+
+**Hot Start (Dimatikan sebentar):**
+* Lock satelit dalam **10-20 detik**
+* Data satelit masih tersimpan
+
+**3. Acquiring Satellites (Menangkap Sinyal):**
+
+**Halaman Satelit menampilkan:**
+* **Bar Chart:** Kekuatan sinyal dari setiap satelit
+  - Kosong: Satelit terdeteksi tapi belum lock
+  - Hitam solid: Satelit ter-lock (digunakan untuk posisi)
+* **Sky View:** Posisi satelit di langit
+  - Lingkaran luar: Horizon (0°)
+  - Lingkaran tengah: 45° elevasi
+  - Titik tengah: Zenith (90°, tepat di atas kepala)
+* **Accuracy (EPE):** Estimasi error posisi
+  - < 5m: Excellent
+  - 5-10m: Good
+  - 10-20m: Fair
+  - > 20m: Poor
+* **Status:**
+  - "Searching..." atau "Acquiring Satellites"
+  - "Ready to Navigate" atau "3D Fix" (minimal 4 satelit lock)
+
+**Tips untuk Lock Cepat:**
+* Berdiri di tempat terbuka (lapangan, puncak bukit)
+* Jauhi gedung tinggi, pohon lebat, tebing
+* Letakkan GPS horizontal di dada atau di tanah
+* Jangan bergerak saat acquiring satellites
+* Hindari penggunaan di dalam mobil (kecuali ada GPS eksternal)
+
+**4. Status Ready:**
+* GPS sudah lock minimal 4 satelit
+* Koordinat muncul di layar
+* Siap digunakan untuk navigasi
+
+### Halaman-Halaman Utama GPS
+
+#### 1. Satellite Page (Halaman Satelit)
+
+**Informasi:**
+* Jumlah satelit terdeteksi dan ter-lock
+* Kekuatan sinyal (bar chart)
+* Sky view (posisi satelit)
+* Akurasi (EPE/Error)
+* Receiver status
+
+**Kegunaan:**
+* Troubleshooting jika GPS tidak akurat
+* Cek jumlah satelit sebelum navigasi
+
+#### 2. Map Page (Halaman Peta)
+
+**Informasi:**
+* Peta digital (jika ada basemap)
+* Posisi Anda (ikon panah/titik)
+* Track log (jejak perjalanan) - garis berwarna
+* Waypoints yang disimpan
+* Garis navigasi ke tujuan (jika sedang navigasi)
+* Scale bar (skala peta)
+* Compass rose (arah utara)
+
+**Fungsi Tombol:**
+* **Zoom In/Out:** Ubah skala peta
+* **Pan:** Geser peta dengan rocker
+* **Re-center:** Kembalikan posisi Anda ke tengah layar
+
+**Zoom Levels:**
+* 20 ft - 800 mi (atau 5 m - 1200 km)
+* Zoom in untuk detail, zoom out untuk overview
+
+#### 3. Compass Page (Halaman Kompas)
+
+**Informasi:**
+* **Compass Rose:** Lingkaran kompas digital
+* **Heading:** Arah perjalanan Anda saat ini (0-360°)
+  - 0° = North, 90° = East, 180° = South, 270° = West
+* **Pointer:** Panah menunjuk ke waypoint tujuan
+* **Distance to Destination:** Jarak ke tujuan
+* **Bearing:** Sudut jurusan ke tujuan (azimuth)
+* **Speed:** Kecepatan perjalanan (km/h atau mph)
+* **ETE (Estimated Time Enroute):** Estimasi waktu tiba
+
+**Tips:**
+* GPS compass hanya akurat saat bergerak (> 5 km/h)
+* Jika diam, gunakan kompas magnetis biasa
+
+#### 4. Trip Computer (Komputer Perjalanan)
+
+**Data yang Ditampilkan:**
+* **Odometer:** Total jarak tempuh
+* **Trip Odometer:** Jarak perjalanan saat ini (bisa di-reset)
+* **Moving Time:** Waktu dalam keadaan bergerak
+* **Stopped Time:** Waktu berhenti/istirahat
+* **Average Speed:** Kecepatan rata-rata
+* **Maximum Speed:** Kecepatan tertinggi
+* **Elevation Gain/Loss:** Total pendakian/penurunan
+* **Sunrise/Sunset:** Waktu terbit/terbenam matahari di lokasi Anda
+
+**Kegunaan:**
+* Analisis performa perjalanan
+* Estimasi konsumsi energi
+* Perencanaan istirahat
+
+### Fungsi-Fungsi Dasar GPS
+
+#### 1. Marking Waypoint (Menyimpan Lokasi)
+
+**Langkah:**
+1. Berdiri di lokasi yang ingin disimpan
+2. Tekan tombol **MARK** atau **ENTER** (tahan 2 detik)
+3. GPS otomatis menyimpan koordinat saat ini
+4. Layar muncul info waypoint:
+   * Nama (default: "001", "002", dst.)
+   * Symbol (icon: flag, camp, food, dll.)
+   * Koordinat
+   * Elevation
+   * Tanggal/waktu
+5. Edit nama jika perlu (misal: "Basecamp", "Air Terjun")
+6. Pilih symbol yang sesuai
+7. Tekan **ENTER** untuk save, atau **QUIT** untuk batal
+
+**Contoh Penggunaan:**
+* Basecamp
+* Persimpangan penting
+* Sumber air
+* Landmark
+* Tempat parkir kendaraan
+* Titik evakuasi
+
+**Tips:**
+* Beri nama deskriptif (max 10 karakter)
+* Gunakan symbol yang mudah dikenali
+* Simpan waypoint penting di awal perjalanan
+* Backup waypoint ke komputer secara berkala
+
+#### 2. Go To (Navigasi ke Waypoint)
+
+**Langkah:**
+1. Tekan tombol **FIND** atau masuk ke **Waypoint Manager**
+2. Pilih waypoint tujuan dari daftar
+3. Pilih **Go To** atau **Navigate**
+4. GPS menampilkan:
+   * Pointer mengarah ke tujuan
+   * Bearing (sudut jurusan ke tujuan)
+   * Distance (jarak ke tujuan)
+   * ETE (estimasi waktu tiba)
+5. Ikuti petunjuk:
+   * Putar badan hingga pointer mengarah lurus ke depan
+   * Berjalan mengikuti arah pointer
+   * GPS akan update arah jika Anda menyimpang
+
+**Tips:**
+* Cek kompas page untuk arah yang jelas
+* Perhatikan obstacle di medan (tidak ada garis jalan)
+* GPS menunjuk garis lurus, bukan jalur jalan
+
+#### 3. Track Log (Merekam Jejak)
+
+**Pengertian:**
+Track log adalah rekaman posisi GPS setiap beberapa detik/meter yang membentuk jejak perjalanan Anda.
+
+**Setting Track Log:**
+* **Interval:** Waktu atau jarak antar titik track
+  - Time: Setiap 5 detik (smooth tapi boros memori)
+  - Distance: Setiap 10 meter (hemat memori)
+  - Auto: GPS memutuskan otomatis
+* **Memory:** GPS bisa menyimpan 10.000-20.000 track points
+* **Wrap:** Jika memori penuh, timpa track lama (on/off)
+
+**Kegunaan Track Log:**
+1. **Track Back (Pulang):**
+   * GPS membalik track dan memandu Anda kembali
+   * Useful jika tersesat atau ingin pulang via jalur yang sama
+   * Langkah: Menu → Tracks → Follow Track Backward
+
+2. **Analisis Perjalanan:**
+   * Panjang jalur
+   * Elevasi profile
+   * Kecepatan rata-rata
+
+3. **Sharing:**
+   * Save track dan share dengan teman
+   * Upload ke platform (Garmin Connect, Strava, dll.)
+
+**Tips:**
+* Aktifkan track log di awal perjalanan
+* Clear track log sebelum trip baru
+* Save track penting sebelum dihapus
+* Export track ke GPX format untuk backup
+
+#### 4. Route (Rute Multi-Waypoint)
+
+**Pengertian:**
+Route adalah kumpulan waypoint yang dihubungkan secara berurutan.
+
+**Membuat Route:**
+1. Menu → Route → Create New Route
+2. Tambahkan waypoint satu per satu:
+   * Waypoint 1: Basecamp
+   * Waypoint 2: Checkpoint Alpha
+   * Waypoint 3: Puncak
+   * Waypoint 4: Shelter
+3. Save route dengan nama (misal: "Jalur Pendakian")
+4. Navigate → GPS akan memandu dari waypoint 1 → 2 → 3 → dst.
+
+**Kegunaan:**
+* Perencanaan perjalanan multi-destinasi
+* Ekspedisi dengan banyak checkpoint
+* Lomba orienteering
+
+### Informasi di Layar GPS
+
+#### Data Fields yang Umum:
+
+**1. Location (Posisi):**
+* Lat/Lon atau UTM
+* Contoh: S 07°47.500' E 110°22.250'
+
+**2. Elevation (Ketinggian):**
+* Altitude di atas permukaan laut (MSL - Mean Sea Level)
+* Contoh: 2.950 m
+* Akurasi: ±10-20 m (kurang akurat dari posisi horizontal)
+
+**3. Accuracy (EPE):**
+* Estimated Position Error
+* Contoh: ±5 m
+* Semakin kecil, semakin akurat
+
+**4. Speed (Kecepatan):**
+* km/h atau mph
+* Hanya akurat saat bergerak > 5 km/h
+
+**5. Heading (Arah Perjalanan):**
+* 0-360° (0° = North)
+* Track bearing: arah Anda bergerak
+
+**6. Bearing (Sudut Jurusan ke Tujuan):**
+* Azimuth dari posisi Anda ke waypoint tujuan
+* Contoh: 125° (Southeast)
+
+**7. Distance (Jarak):**
+* Jarak garis lurus ke tujuan
+* Bukan jarak jalur (trail distance)
+
+**8. ETE (Estimated Time Enroute):**
+* Waktu perkiraan tiba di tujuan
+* Berdasarkan kecepatan rata-rata
+
+**9. ETA (Estimated Time of Arrival):**
+* Jam perkiraan tiba
+* Contoh: 14:35 WIB
+
+**10. Time (Waktu):**
+* UTC (Universal Time Coordinated) atau Local Time
+* GPS sync dengan atomic clock satelit (sangat akurat)
+
+### Tips Penggunaan GPS di Lapangan
+
+#### Teknik Efektif:
+
+**1. Hemat Baterai:**
+* Matikan backlight atau set otomatis
+* Gunakan mode power save (update posisi tiap 2-5 detik)
+* Matikan GPS saat tidak digunakan (misalnya saat istirahat lama)
+* Gunakan baterai lithium (lebih tahan di suhu dingin)
+
+**2. Akurasi Optimal:**
+* Pegang GPS horizontal di dada
+* Jangan tutup antena dengan tangan/tas
+* Tunggu hingga lock minimal 5 satelit
+* Cek PDOP < 4 (di Satellite Page)
+* Hindari penggunaan di ngarai sempit atau hutan lebat
+
+**3. Navigasi Aman:**
+* Selalu bawa peta dan kompas sebagai backup
+* Jangan 100% bergantung pada GPS
+* Mark waypoint basecamp di awal perjalanan
+* Aktifkan track log untuk bisa pulang
+* Simpan waypoint penting secara berkala
+
+**4. Manajemen Data:**
+* Hapus waypoint/track yang tidak perlu (menghemat memori)
+* Backup data ke komputer setelah trip
+* Export waypoint penting ke file GPX
+* Update basemap jika ada versi baru
+
+**5. Weather Protection:**
+* GPS rated IPX7 tahan cipratan, tapi tidak untuk direndam
+* Gunakan dry bag atau case waterproof saat hujan deras
+* Lindungi dari benturan dengan pouch busa
+
+### Troubleshooting GPS
+
+#### Masalah Umum dan Solusi:
+
+**1. GPS Tidak Lock Satelit:**
+
+**Gejala:** "Searching..." terus-menerus
+
+**Solusi:**
+* Pindah ke tempat terbuka
+* Tunggu 5-15 menit (cold start)
+* Reset GPS (power off → remove battery → reinsert)
+* Cek obstruksi (gedung, pohon)
+
+**2. Posisi "Melompat" (Jumping):**
+
+**Gejala:** Koordinat berubah drastis meski tidak bergerak
+
+**Solusi:**
+* Tunggu hingga EPE < 10m
+* Cek PDOP (harus < 6)
+* Pindah dari area multipath (gedung, tebing)
+
+**3. Akurasi Buruk (EPE > 20m):**
+
+**Gejala:** Error position tinggi
+
+**Solusi:**
+* Lock lebih banyak satelit (minimal 6)
+* Aktifkan WAAS/EGNOS (jika tersedia)
+* Hindari penggunaan di urban canyon
+
+**4. Altitude Tidak Akurat:**
+
+**Gejala:** Ketinggian berbeda dari peta/altimeter
+
+**Solusi:**
+* Kalibrasi dengan ketinggian yang diketahui
+* Gunakan altimeter barometrik (jika ada)
+* Ingat: GPS altitude akurasi ±15m
+
+**5. Baterai Cepat Habis:**
+
+**Solusi:**
+* Matikan backlight
+* Gunakan mode power save
+* Ganti baterai alkaline dengan lithium
+* Kurangi frekuensi update (setiap 5 detik vs setiap 1 detik)
+
+**6. GPS Tidak Respond:**
+
+**Solusi:**
+* Soft reset: Power off → on
+* Hard reset: Remove battery → tunggu 30 detik → reinsert
+* Factory reset (last resort, akan hapus semua data)
+
+### Latihan Praktis GPS
+
+#### Latihan 1: Mark & Go To
+
+**Tujuan:** Familiar dengan fungsi dasar
+
+1. Mark waypoint di titik awal ("Start")
+2. Jalan 200m ke arah bebas
+3. Mark waypoint kedua ("Point A")
+4. Jalan lagi 200m ke arah berbeda
+5. Go To "Point A"
+6. Ikuti petunjuk GPS hingga kembali ke Point A
+7. Go To "Start" dan kembali ke titik awal
+
+#### Latihan 2: Track Back
+
+**Tujuan:** Belajar pulang menggunakan track log
+
+1. Aktifkan track log
+2. Berjalan membentuk jalur berliku (500m+)
+3. Di titik akhir, pilih Track Back
+4. Ikuti track mundur hingga kembali ke awal
+
+#### Latihan 3: Waypoint Averaging
+
+**Tujuan:** Meningkatkan akurasi waypoint
+
+1. Mark waypoint di titik tertentu
+2. Tunggu 2 menit (EPE stabil)
+3. Mark waypoint yang sama lagi
+4. Ulangi 3-5 kali
+5. Rata-ratakan koordinat dari semua mark
+6. Akurasi meningkat hingga ±2-3m
+
+#### Latihan 4: Navigasi Multi-Waypoint
+
+**Tujuan:** Membuat dan mengikuti route
+
+1. Buat route dengan 4 waypoint (bentuk persegi)
+2. Setiap waypoint jarak 100m dari yang lain
+3. Navigate route dari awal hingga akhir
+4. Verifikasi apakah membentuk persegi
+
+### Etika Penggunaan GPS
+
+**Do:**
+* Backup data waypoint/track penting
+* Share track jalur pendakian dengan komunitas
+* Update software GPS secara berkala
+* Bawa peta dan kompas sebagai backup
+* Pelajari manual GPS sebelum trip pertama
+
+**Don't:**
+* Jangan 100% bergantung pada GPS
+* Jangan share koordinat tempat sensitif (habitat langka, situs arkeologi)
+* Jangan buang track sampah (GPS littering)
+* Jangan assume GPS selalu benar (cek dengan peta)
+* Jangan lupa mematikan GPS saat tidak digunakan (hemat baterai)
+
+### GPS dan Navigasi Tradisional: Best Practice
+
+**Pendekatan Terbaik:**
+
+1. **Sebelum Berangkat:**
+   * Pelajari peta, tandai waypoint penting
+   * Input waypoint ke GPS
+   * Print peta backup
+   * Cek baterai GPS + bawa cadangan
+
+2. **Selama Perjalanan:**
+   * Utamakan membaca medan dan peta
+   * GPS sebagai konfirmasi posisi
+   * Cek GPS setiap checkpoint
+   * Mark waypoint penting
+
+3. **Jika GPS Mati:**
+   * Jangan panik
+   * Gunakan kompas dan peta
+   * Orientasikan dengan landmark
+   * Navigate secara tradisional
+
+**Kesimpulan:** GPS adalah alat yang sangat berguna, tetapi keterampilan navigasi tradisional (peta, kompas, medan) tetap fundamental. Kombinasi keduanya adalah best practice untuk navigasi yang aman dan efektif.
 `
               }
             ]
@@ -235,6 +1809,37 @@ GPS menentukan posisi dengan bantuan satelit.
                 <li><strong>Peta Topografi:</strong> Berasal dari kata Yunani <em>topos</em> (tempat) dan <em>graphi</em> (menggambar). Menampilkan posisi mendatar dan tegak dari objek di permukaan bumi. Isi utama: relief (ketinggian), perairan, vegetasi, serta hasil budaya manusia.</li>
                 <li><strong>Peta Tematik:</strong> Menyajikan unsur tertentu sesuai tema, misalnya peta geologi, peta kependudukan, atau peta penggunaan lahan.</li>
               </ul>
+              
+              <div className="mt-4 bg-white rounded-lg border border-gray-200 overflow-hidden">
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="bg-gray-50 border-b border-gray-200">
+                        <th className="px-4 py-3 text-left font-semibold text-gray-700">Aspek</th>
+                        <th className="px-4 py-3 text-left font-semibold text-gray-700">Peta Topografi</th>
+                        <th className="px-4 py-3 text-left font-semibold text-gray-700">Peta Tematik</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b border-gray-100">
+                        <td className="px-4 py-3 font-medium text-gray-700">Tujuan</td>
+                        <td className="px-4 py-3 text-gray-600">Gambaran umum medan</td>
+                        <td className="px-4 py-3 text-gray-600">Informasi khusus tema tertentu</td>
+                      </tr>
+                      <tr className="border-b border-gray-100">
+                        <td className="px-4 py-3 font-medium text-gray-700">Skala</td>
+                        <td className="px-4 py-3 text-gray-600">Besar, detail</td>
+                        <td className="px-4 py-3 text-gray-600">Bervariasi</td>
+                      </tr>
+                      <tr className="border-b border-gray-100">
+                        <td className="px-4 py-3 font-medium text-gray-700">Pengguna</td>
+                        <td className="px-4 py-3 text-gray-600">Militer, pendaki, navigator</td>
+                        <td className="px-4 py-3 text-gray-600">Peneliti, perencana, analis</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
             <div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Keterangan Tepi Peta</h3>

@@ -113,6 +113,116 @@ export const quizzes = [
           "Jarak Medan dikurangi Jarak Peta"
         ],
         correctAnswer: 0
+      },
+      {
+        id: 11,
+        question: "Perbedaan utama antara Peta Topografi dan Peta Tematik adalah...",
+        options: [
+          "Peta Topografi menampilkan gambaran umum medan, Peta Tematik menampilkan informasi tema tertentu",
+          "Peta Topografi lebih murah dari Peta Tematik",
+          "Peta Topografi hanya untuk militer, Peta Tematik untuk sipil",
+          "Tidak ada perbedaan keduanya sama"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Interval kontur adalah...",
+        options: [
+          "Jarak horizontal antar garis kontur",
+          "Perbedaan ketinggian antara dua garis kontur yang berdekatan",
+          "Lebar garis kontur di peta",
+          "Jumlah total garis kontur"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Jika skala peta adalah 1:50.000 dan jarak di peta 4 cm, maka jarak sebenarnya di medan adalah...",
+        options: [
+          "2 km",
+          "20 km",
+          "200 m",
+          "2.000 m"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Warna hijau pada peta topografi menunjukkan...",
+        options: [
+          "Perairan dangkal",
+          "Vegetasi atau tumbuh-tumbuhan",
+          "Dataran tinggi",
+          "Jalan setapak"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Garis kontur yang rapat menandakan...",
+        options: [
+          "Medan datar/landai",
+          "Medan terjal/curam",
+          "Area perairan",
+          "Hutan lebat"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Koordinat geografis menggunakan satuan...",
+        options: [
+          "Meter",
+          "Kilometer",
+          "Derajat, Menit, Detik",
+          "Mil"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 17,
+        question: "Sudut tanjakan dihitung dengan rumus...",
+        options: [
+          "(Selisih Tinggi / Jarak Mendatar) × 57,3°",
+          "(Jarak Mendatar / Selisih Tinggi) × 57,3°",
+          "Selisih Tinggi + Jarak Mendatar",
+          "Jarak Mendatar - Selisih Tinggi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Sistem koordinat UTM menggunakan zona dengan lebar...",
+        options: [
+          "3 derajat",
+          "6 derajat",
+          "10 derajat",
+          "15 derajat"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Warna merah pada peta biasanya menunjukkan...",
+        options: [
+          "Hutan",
+          "Sungai",
+          "Jalan raya atau pemukiman",
+          "Gunung"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 20,
+        question: "Legenda peta berfungsi untuk...",
+        options: [
+          "Menunjukkan arah utara",
+          "Menjelaskan simbol-simbol yang digunakan di peta",
+          "Menghitung jarak",
+          "Menentukan ketinggian"
+        ],
+        correctAnswer: 1
       }
     ]
   },
@@ -228,6 +338,116 @@ export const quizzes = [
           "Dial",
           "Kaca Pembesar",
           "Tutup Kompas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Kompas siang digunakan dengan cara membuka tutup hingga posisi...",
+        options: [
+          "45 derajat",
+          "90 derajat (tegak lurus)",
+          "180 derajat (rata)",
+          "Ditutup rapat"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Kompas malam digunakan dengan cara membuka tutup hingga posisi...",
+        options: [
+          "45 derajat",
+          "90 derajat (tegak lurus)",
+          "180 derajat (rata dengan badan kompas)",
+          "Ditutup rapat"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 13,
+        question: "Jika azimuth adalah 320 derajat, maka back azimuth-nya adalah...",
+        options: [
+          "140 derajat (320 - 180)",
+          "500 derajat",
+          "180 derajat",
+          "40 derajat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Sudut 045 derajat menunjukkan arah...",
+        options: [
+          "Utara",
+          "Timur Laut",
+          "Timur",
+          "Tenggara"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Kompas harus dijaga agar tidak terkena...",
+        options: [
+          "Cahaya matahari",
+          "Angin kencang",
+          "Benda magnetis seperti logam dan elektronik",
+          "Air hujan"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 16,
+        question: "Fitur luminous pada kompas malam berfungsi untuk...",
+        options: [
+          "Membuat kompas lebih berat",
+          "Membuat jarum dan tanda baca bercahaya di malam hari",
+          "Mengukur suhu",
+          "Menambah akurasi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Saat menggunakan kompas, posisi yang benar adalah...",
+        options: [
+          "Dipegang miring",
+          "Dipegang tegak vertikal",
+          "Dipegang horizontal/datar setinggi dada",
+          "Diletakkan di tanah"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 18,
+        question: "Deklinasi magnetis adalah...",
+        options: [
+          "Perbedaan sudut antara Utara Sebenarnya dan Utara Magnetis",
+          "Jarak antara dua titik",
+          "Ketinggian tempat",
+          "Kecepatan angin"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Jenis kompas yang paling umum digunakan untuk orienteering dan hiking adalah...",
+        options: [
+          "Kompas Prisma",
+          "Kompas Silva (Baseplate)",
+          "Kompas Digital",
+          "Kompas Jari"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Saat membidik dengan kompas siang, pembacaan dilakukan melalui...",
+        options: [
+          "Kaca pembesar",
+          "Prisma",
+          "Layar digital",
+          "Cermin biasa"
         ],
         correctAnswer: 1
       }
@@ -347,6 +567,116 @@ export const quizzes = [
           "Anemometer dan GPS"
         ],
         correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Istilah lain untuk Resection adalah...",
+        options: [
+          "Mengikat ke depan",
+          "Mengikat ke belakang",
+          "Mengikat samping",
+          "Mengikat tengah"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Istilah lain untuk Intersection adalah...",
+        options: [
+          "Mengikat ke depan",
+          "Mengikat ke belakang",
+          "Mengikat atas",
+          "Mengikat bawah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Minimal berapa objek medan yang dibutuhkan untuk Resection yang akurat?",
+        options: [
+          "1 objek",
+          "2 objek",
+          "5 objek",
+          "10 objek"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Untuk Intersection, observer harus...",
+        options: [
+          "Diam di satu tempat",
+          "Berpindah ke posisi kedua yang diketahui",
+          "Berputar-putar",
+          "Menutup mata"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Resection sangat berguna saat...",
+        options: [
+          "Kita tersesat dan tidak tahu posisi di peta",
+          "Kita ingin tidur",
+          "Kita ingin makan",
+          "Cuaca sedang cerah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Intersection sering digunakan dalam operasi...",
+        options: [
+          "Memasak",
+          "Militer untuk menentukan posisi musuh atau SAR untuk lokasi korban",
+          "Berkemah biasa",
+          "Olahraga"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Setelah mendapat back azimuth dari dua objek dalam Resection, langkah selanjutnya adalah...",
+        options: [
+          "Pulang ke rumah",
+          "Menggambar garis di peta dari kedua objek, perpotongannya adalah posisi kita",
+          "Membuang peta",
+          "Menutup kompas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Sudut ideal antara dua objek untuk Resection adalah...",
+        options: [
+          "5-10 derajat (terlalu sempit)",
+          "30-150 derajat (ideal)",
+          "170-180 derajat (terlalu lebar)",
+          "Tidak ada aturan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Jika menggunakan 3 objek untuk Resection dan garis membentuk segitiga kecil, posisi kita adalah...",
+        options: [
+          "Di luar segitiga",
+          "Di tengah segitiga (triangle of error)",
+          "Di salah satu sudut",
+          "Tidak bisa ditentukan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Perbedaan utama Resection dan Intersection adalah...",
+        options: [
+          "Resection mencari posisi sendiri, Intersection mencari posisi target",
+          "Resection lebih sulit dari Intersection",
+          "Keduanya sama persis",
+          "Resection tidak memerlukan kompas"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -357,39 +687,6 @@ export const quizzes = [
     questions: [
       {
         id: 1,
-        question: "Apa kegunaan utama dari alat GPS?",
-        options: [
-          "Mengukur suhu dan kelembaban udara",
-          "Menentukan posisi suatu tempat dengan bantuan satelit",
-          "Berkomunikasi jarak jauh seperti radio",
-          "Memotret kondisi medan dari udara"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 2,
-        question: "Tombol Power untuk menghidupkan GPS biasanya berwarna...",
-        options: [
-          "Hijau",
-          "Biru",
-          "Merah",
-          "Kuning"
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 3,
-        question: "Pada layar GPS, informasi 'Accuracy' menunjukkan...",
-        options: [
-          "Ketinggian tempat dari permukaan laut",
-          "Arah mata angin yang dituju",
-          "Tingkat ketelitian atau error posisi dalam meter",
-          "Sisa daya baterai"
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 4,
         question: "Kepanjangan dari GPS adalah...",
         options: [
           "Global Positioning System",
@@ -400,19 +697,19 @@ export const quizzes = [
         correctAnswer: 0
       },
       {
-        id: 5,
-        question: "Berapa minimal satelit yang dibutuhkan untuk menentukan posisi 2D (Lintang & Bujur)?",
+        id: 2,
+        question: "GPS bekerja berdasarkan prinsip...",
         options: [
-          "1 Satelit",
-          "2 Satelit",
-          "3 Satelit",
-          "4 Satelit"
+          "Triangulasi peta",
+          "Trilaterasi satelit",
+          "Orientasi kompas",
+          "Resection medan"
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
-        id: 6,
-        question: "Berapa minimal satelit yang dibutuhkan untuk menentukan posisi 3D (termasuk Ketinggian)?",
+        id: 3,
+        question: "Berapa minimal satelit yang dibutuhkan untuk menentukan posisi 3D (latitude, longitude, altitude) yang akurat?",
         options: [
           "2 Satelit",
           "3 Satelit",
@@ -422,48 +719,191 @@ export const quizzes = [
         correctAnswer: 2
       },
       {
-        id: 7,
-        question: "Fitur 'Mark' atau 'Waypoint' pada GPS berfungsi untuk...",
+        id: 4,
+        question: "Sistem GPS terdiri dari 3 segmen utama, yaitu...",
         options: [
-          "Menghapus data",
-          "Menyimpan lokasi saat ini ke dalam memori",
-          "Mengukur kecepatan",
-          "Mematikan GPS"
+          "Satelit, Kompas, Peta",
+          "Space Segment, Control Segment, User Segment",
+          "Hardware, Software, Network",
+          "Antena, Layar, Baterai"
         ],
         correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "EPE (Estimated Position Error) pada layar GPS menunjukkan...",
+        options: [
+          "Ketinggian dari permukaan laut",
+          "Sisa daya baterai dalam persen",
+          "Tingkat akurasi atau error posisi dalam meter",
+          "Jumlah satelit yang terkunci"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 6,
+        question: "PDOP (Position Dilution of Precision) yang ideal untuk akurasi tinggi adalah...",
+        options: [
+          "PDOP > 8 (Poor)",
+          "PDOP 4-8 (Good)",
+          "PDOP < 4 (Excellent)",
+          "PDOP tidak berpengaruh"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: "Cold Start pada GPS adalah kondisi dimana...",
+        options: [
+          "GPS baru dihidupkan setelah lama tidak digunakan dan butuh waktu 5-15 menit untuk lock satelit",
+          "GPS digunakan di tempat dingin",
+          "GPS dalam mode hemat baterai",
+          "GPS tidak memiliki baterai cadangan"
+        ],
+        correctAnswer: 0
       },
       {
         id: 8,
-        question: "Fitur 'Track' pada GPS berfungsi untuk...",
+        question: "Fitur 'Mark' atau 'Waypoint' pada GPS berfungsi untuk...",
         options: [
-          "Merekam jejak perjalanan yang dilalui",
-          "Mencari sinyal satelit",
-          "Mengganti baterai",
-          "Mengatur kecerahan layar"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 9,
-        question: "Salah satu kelemahan utama GPS tipe handheld adalah...",
-        options: [
-          "Tidak tahan air",
-          "Sinyal bisa terhalang gedung tinggi atau pohon lebat",
-          "Terlalu berat dibawa",
-          "Layar terlalu besar"
+          "Menghapus data lama",
+          "Menyimpan koordinat lokasi tertentu ke memori",
+          "Mengukur kecepatan perjalanan",
+          "Mematikan GPS secara otomatis"
         ],
         correctAnswer: 1
       },
       {
-        id: 10,
-        question: "Sistem koordinat standar yang digunakan oleh GPS adalah...",
+        id: 9,
+        question: "Track Log pada GPS berguna untuk...",
         options: [
-          "WGS 84",
-          "ED 50",
-          "NAD 27",
-          "Bessel 1841"
+          "Merekam jejak perjalanan yang dapat diputar ulang untuk navigasi balik",
+          "Mengirim pesan darurat",
+          "Mengganti bahasa tampilan",
+          "Mengatur brightness layar"
         ],
         correctAnswer: 0
+      },
+      {
+        id: 10,
+        question: "Datum peta standar yang digunakan GPS dan paling umum adalah...",
+        options: [
+          "DMA (WGS 72)",
+          "Bessel 1841",
+          "WGS 84",
+          "NAD 27"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 11,
+        question: "Akurasi GPS civilian (standar) untuk posisi horizontal adalah sekitar...",
+        options: [
+          "±1-2 cm (RTK level)",
+          "±5-10 meter",
+          "±50-100 meter",
+          "±1 kilometer"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Salah satu faktor yang dapat mengurangi akurasi GPS adalah...",
+        options: [
+          "Cuaca cerah",
+          "Langit terbuka",
+          "Multipath (sinyal memantul dari gedung/tebing)",
+          "Jumlah satelit banyak"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 13,
+        question: "Pada Compass Page GPS, heading yang ditampilkan adalah...",
+        options: [
+          "Arah kompas magnetis",
+          "Arah perjalanan Anda saat ini (0-360°)",
+          "Arah ke basecamp",
+          "Arah matahari terbit"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "ETE (Estimated Time Enroute) pada GPS menunjukkan...",
+        options: [
+          "Waktu saat ini (jam)",
+          "Waktu yang sudah ditempuh",
+          "Estimasi waktu yang dibutuhkan untuk sampai tujuan",
+          "Waktu matahari terbenam"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 15,
+        question: "Untuk menghemat baterai GPS, sebaiknya...",
+        options: [
+          "Membiarkan GPS menyala terus-menerus",
+          "Matikan backlight, gunakan mode power save, dan matikan GPS saat tidak digunakan",
+          "Gunakan brightness maksimal",
+          "Aktifkan semua fitur sekaligus"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "GPS tidak dapat bekerja dengan baik di...",
+        options: [
+          "Lapangan terbuka",
+          "Puncak gunung",
+          "Dalam ruangan (indoor), hutan lebat, atau ngarai sempit",
+          "Pantai"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 17,
+        question: "Route pada GPS adalah...",
+        options: [
+          "Satu waypoint tunggal",
+          "Kumpulan waypoint yang dihubungkan secara berurutan",
+          "Jejak perjalanan otomatis",
+          "Fitur untuk menghapus data"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Sistem navigasi satelit GPS dikembangkan oleh...",
+        options: [
+          "Uni Eropa",
+          "Jepang",
+          "Departemen Pertahanan Amerika Serikat",
+          "NASA"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 19,
+        question: "Saat menggunakan GPS untuk navigasi, backup yang WAJIB dibawa adalah...",
+        options: [
+          "Smartphone kedua",
+          "GPS cadangan",
+          "Peta dan kompas tradisional",
+          "Radio komunikasi"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 20,
+        question: "Ketinggian orbit satelit GPS berada di sekitar...",
+        options: [
+          "500 km (Low Earth Orbit)",
+          "20.200 km (Medium Earth Orbit)",
+          "35.786 km (Geostationary Orbit)",
+          "100 km (Atmosfer)"
+        ],
+        correctAnswer: 1
       }
     ]
   },
@@ -579,6 +1019,116 @@ export const quizzes = [
           "Ikatan Silang",
           "Ikatan Kaki Tiga",
           "Ikatan Canggah"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 11,
+        question: "Perbedaan utama antara simpul, ikatan, dan jerat adalah...",
+        options: [
+          "Simpul untuk tali dengan tali, Ikatan untuk tali dengan benda, Jerat memiliki sifat khusus",
+          "Semuanya sama saja",
+          "Simpul lebih kuat dari ikatan",
+          "Jerat hanya untuk binatang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Jerat Pangkal (Clove Hitch) digunakan untuk...",
+        options: [
+          "Menyambung dua tali",
+          "Mengikat tali pada tiang, sering digunakan untuk memulai ikatan",
+          "Membuat loop tetap",
+          "Memendekkan tali"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Simpul Anyam (Sheet Bend) digunakan untuk menyambung...",
+        options: [
+          "Dua tali sama besar",
+          "Dua tali berbeda ukuran dalam keadaan kering",
+          "Tali dengan kayu",
+          "Tali dengan batu"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Simpul Anyam Berganda digunakan untuk...",
+        options: [
+          "Menyambung tali berbeda ukuran dalam keadaan basah/licin",
+          "Mengikat perahu",
+          "Membuat jembatan",
+          "Mengikat sepatu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Simpul Kursi (Bowline on a Bight) memiliki berapa lingkaran?",
+        options: [
+          "1 lingkaran",
+          "2 lingkaran (untuk ketiak dan lutut)",
+          "3 lingkaran",
+          "Tidak ada lingkaran"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Jerat Tambat (Timber Hitch) digunakan untuk...",
+        options: [
+          "Mengikat sepatu",
+          "Menyeret balok kayu atau memulai ikatan silang",
+          "Mengikat perban",
+          "Membuat tenda"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Cekikan (Frapping) pada ikatan berfungsi untuk...",
+        options: [
+          "Membuka ikatan",
+          "Mengencangkan ikatan agar lebih kuat",
+          "Memperlemah ikatan",
+          "Menghias ikatan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Simpul Kembar (Fisherman's Knot) cocok untuk menyambung tali yang...",
+        options: [
+          "Kering dan kasar",
+          "Basah dan licin dengan ukuran sama",
+          "Berbeda ukuran",
+          "Sangat tebal"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Simpul Mati sering digunakan untuk...",
+        options: [
+          "Mengikat perban/mitela dalam P3K",
+          "Memancing",
+          "Memanjat tebing",
+          "Berenang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Ikatan Palang (Square Lashing) digunakan untuk mengikat dua tongkat yang membentuk sudut...",
+        options: [
+          "45 derajat",
+          "60 derajat",
+          "90 derajat (tegak lurus)",
+          "120 derajat"
         ],
         correctAnswer: 2
       }
@@ -698,6 +1248,116 @@ export const quizzes = [
           "Kompas"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Jembatan Tepi Sederhana dibuat dengan cara...",
+        options: [
+          "Meletakkan satu batang kayu melintang",
+          "Mengikat banyak tali",
+          "Membuat menara",
+          "Menggali tanah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Jembatan Kuda-kuda menggunakan konstruksi berbentuk...",
+        options: [
+          "Segitiga untuk kekuatan",
+          "Lingkaran",
+          "Persegi panjang",
+          "Oval"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Jembatan Bambu Satu terdiri dari berapa batang bambu utama?",
+        options: [
+          "1 batang sebagai pijakan",
+          "2 batang",
+          "5 batang",
+          "10 batang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Jembatan Tarik menggunakan sistem...",
+        options: [
+          "Tali yang ditarik untuk menyeberang",
+          "Roda",
+          "Motor",
+          "Baling-baling"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Kekuatan jembatan darurat tergantung pada...",
+        options: [
+          "Warna tali",
+          "Cuaca",
+          "Kualitas ikatan dan bahan",
+          "Waktu pembuatan"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 16,
+        question: "Sebelum digunakan, jembatan darurat harus...",
+        options: [
+          "Dicat",
+          "Diuji kekuatannya dengan beban",
+          "Diberi nama",
+          "Difoto"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Jembatan improvisasi sebaiknya dibuat di...",
+        options: [
+          "Tengah sungai deras",
+          "Bagian sungai yang sempit dan stabil",
+          "Tempat terdalam",
+          "Asal saja"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Tiang penyangga jembatan harus ditanam...",
+        options: [
+          "Di pasir",
+          "Kokoh dengan kedalaman cukup",
+          "Di lumpur",
+          "Di atas rumput"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Jembatan kaki delapan memiliki berapa tiang penyangga utama?",
+        options: [
+          "4 tiang",
+          "6 tiang",
+          "8 tiang",
+          "10 tiang"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 20,
+        question: "Safety factor pada jembatan darurat minimal harus...",
+        options: [
+          "1:1",
+          "2:1 atau lebih untuk keamanan",
+          "0.5:1",
+          "Tidak perlu"
+        ],
+        correctAnswer: 1
       }
     ]
   },
@@ -813,6 +1473,116 @@ export const quizzes = [
           "Keamanan dan menandai batas wilayah perkemahan",
           "Menahan angin kencang",
           "Tempat tidur"
+        ],
+        correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Gapura perkemahan berfungsi sebagai...",
+        options: [
+          "Pintu masuk yang menandai identitas regu",
+          "Tempat memasak",
+          "Gudang",
+          "WC"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Barak adalah bangunan darurat untuk...",
+        options: [
+          "Tempat tinggal sementara dalam jumlah banyak",
+          "Menyimpan air",
+          "Tempat api unggun",
+          "Parkir"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Barak Tionghoa memiliki bentuk atap...",
+        options: [
+          "Bulat",
+          "Pelana memanjang",
+          "Datar",
+          "Segitiga terbalik"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Menara pandang digunakan untuk...",
+        options: [
+          "Mengawasi area perkemahan dari ketinggian",
+          "Menyimpan makanan",
+          "Mengeringkan pakaian",
+          "Bermain"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Tiang Ander pada barak berfungsi untuk...",
+        options: [
+          "Memberikan ruang kepala lebih tinggi di tengah",
+          "Menahan angin",
+          "Menggantung lampu",
+          "Dekorasi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Drainase/parit keliling barak berfungsi untuk...",
+        options: [
+          "Menampung air hujan agar tidak masuk barak",
+          "Memancing",
+          "Mandi",
+          "Irigasi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Jarak ideal antara barak dengan dapur adalah...",
+        options: [
+          "1 meter",
+          "5-10 meter untuk keamanan dari api",
+          "100 meter",
+          "Tidak ada aturan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Lantai barak sebaiknya dibuat lebih tinggi dari tanah untuk...",
+        options: [
+          "Mencegah banjir dan kelembaban",
+          "Pemandangan",
+          "Gaya",
+          "Hemat material"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Gapura perkemahan dibuat dari material...",
+        options: [
+          "Kayu/bambu dengan dekorasi tali temali",
+          "Besi",
+          "Beton",
+          "Plastik"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Menara Kaki Tiga (Tripod) menggunakan berapa tiang utama?",
+        options: [
+          "2 tiang",
+          "3 tiang sebagai kaki",
+          "5 tiang",
+          "10 tiang"
         ],
         correctAnswer: 1
       }
@@ -932,6 +1702,116 @@ export const quizzes = [
           "Kabel menjadi kaku"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Sumber air terbaik untuk perkemahan adalah...",
+        options: [
+          "Air sungai keruh",
+          "Mata air jernih",
+          "Air got",
+          "Air laut"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Metode filtrasi air menggunakan lapisan...",
+        options: [
+          "Pasir, arang, dan kerikil",
+          "Kapas",
+          "Kertas",
+          "Daun"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Air harus direbus minimal berapa menit untuk disinfeksi?",
+        options: [
+          "1 menit",
+          "3 menit",
+          "5-10 menit",
+          "30 menit"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 14,
+        question: "Tablet penjernih air mengandung...",
+        options: [
+          "Gula",
+          "Klorin atau iodine",
+          "Garam",
+          "Pewarna"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Genset mengubah energi...",
+        options: [
+          "Listrik menjadi mekanik",
+          "Mekanik menjadi listrik",
+          "Cahaya menjadi listrik",
+          "Suara menjadi listrik"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Instalasi seri menyebabkan...",
+        options: [
+          "Jika satu lampu mati, semua mati",
+          "Semua tetap nyala",
+          "Lampu lebih terang",
+          "Hemat listrik"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Instalasi paralel menyebabkan...",
+        options: [
+          "Jika satu mati, yang lain tetap nyala",
+          "Semua mati",
+          "Konslet",
+          "Hemat kabel"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Multimeter digunakan untuk mengukur...",
+        options: [
+          "Berat",
+          "Panjang",
+          "Tegangan, arus, dan hambatan listrik",
+          "Suhu"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 19,
+        question: "Test pen digunakan untuk...",
+        options: [
+          "Mengecek ada tidaknya tegangan listrik",
+          "Menulis",
+          "Menggambar",
+          "Mengukur panjang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Hukum Ohm menyatakan...",
+        options: [
+          "V = I × R",
+          "V = I + R",
+          "V = I - R",
+          "V = I / R"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -1049,6 +1929,116 @@ export const quizzes = [
           "Longgar dan nyaman"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Teknik dasar panjat tebing menggunakan prinsip...",
+        options: [
+          "Tiga titik tumpu selalu kontak dengan dinding",
+          "Satu tangan saja",
+          "Melompat",
+          "Bergelantungan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Harness digunakan untuk...",
+        options: [
+          "Mengikat tubuh pemanjat dengan tali pengaman",
+          "Mengikat kaki",
+          "Dekorasi",
+          "Menyimpan alat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Carabiner adalah alat berbentuk...",
+        options: [
+          "Cincin logam dengan kunci pengaman",
+          "Tali",
+          "Paku",
+          "Helm"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Belay adalah teknik...",
+        options: [
+          "Mengamankan pemanjat dari bawah dengan mengontrol tali",
+          "Memanjat",
+          "Melompat",
+          "Berenang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Jenis pegangan tangan dalam panjat tebing: Crimp adalah...",
+        options: [
+          "Genggaman dengan ujung jari",
+          "Genggaman penuh",
+          "Tidak memegang",
+          "Menggunakan kaki"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Jenis pegangan: Pinch adalah...",
+        options: [
+          "Menjumput dengan ibu jari dan jari lain",
+          "Menarik",
+          "Mendorong",
+          "Melompat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Tali dinamis digunakan untuk...",
+        options: [
+          "Panjat tebing karena elastis menyerap kejatuhan",
+          "Mengikat kayu",
+          "Membuat jembatan",
+          "Tali jemuran"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Figure 8 adalah jenis...",
+        options: [
+          "Simpul untuk mengikat tali ke harness",
+          "Alat panjat",
+          "Helm",
+          "Sepatu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Ascending adalah teknik...",
+        options: [
+          "Naik menggunakan ascender pada tali",
+          "Turun",
+          "Berayun",
+          "Melompat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Crux dalam panjat tebing adalah...",
+        options: [
+          "Bagian tersulit dari jalur panjat",
+          "Bagian termudah",
+          "Titik awal",
+          "Titik akhir"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -1166,6 +2156,116 @@ export const quizzes = [
           "Kecil dan tersembunyi"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Rappelling adalah teknik...",
+        options: [
+          "Turun tebing dengan bantuan tali",
+          "Naik tebing",
+          "Melompat",
+          "Berenang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Figure 8 descender digunakan untuk...",
+        options: [
+          "Mengontrol kecepatan turun dengan gesekan",
+          "Naik",
+          "Melompat",
+          "Istirahat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Posisi tangan saat rappelling: tangan kiri...",
+        options: [
+          "Memegang tali di depan descender untuk keseimbangan",
+          "Di belakang",
+          "Tidak memegang",
+          "Mengayun"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Posisi tangan kanan saat rappelling...",
+        options: [
+          "Memegang tali di belakang descender untuk kontrol kecepatan",
+          "Di depan",
+          "Di atas kepala",
+          "Tidak memegang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Posisi kaki saat rappelling harus...",
+        options: [
+          "Selebar bahu, menempel dinding, tegak lurus",
+          "Rapat",
+          "Silang",
+          "Menggantung"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Posisi tubuh saat rappelling adalah...",
+        options: [
+          "Tegak dengan punggung lurus, sedikit condong ke belakang",
+          "Membungkuk",
+          "Terlentang",
+          "Tengkurap"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Anchor point untuk rappelling harus...",
+        options: [
+          "Kokoh dan aman menahan beban",
+          "Kecil",
+          "Goyang",
+          "Rapuh"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Back-up rappelling dilakukan untuk...",
+        options: [
+          "Keamanan ekstra dengan tali cadangan",
+          "Percepatan",
+          "Dekorasi",
+          "Tidak perlu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Saat mendekati tepi atas saat rappelling, pemanjat harus...",
+        options: [
+          "Pelan-pelan mundur dengan posisi rendah",
+          "Melompat",
+          "Berlari",
+          "Terburu-buru"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Stopper knot pada rappelling berfungsi untuk...",
+        options: [
+          "Mencegah tali keluar dari descender jika terlalu pendek",
+          "Dekorasi",
+          "Tidak ada fungsi",
+          "Mempercepat"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -1283,6 +2383,116 @@ export const quizzes = [
           "Untuk berpegangan teman"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Pelintasan kering adalah teknik melintas...",
+        options: [
+          "Rintangan seperti jurang atau parit tanpa air",
+          "Sungai",
+          "Laut",
+          "Danau"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Jembatan tali 3 tali terdiri dari...",
+        options: [
+          "1 tali injak + 2 tali pegangan",
+          "3 tali injak",
+          "3 tali pegangan",
+          "1 tali saja"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Flying fox adalah teknik pelintasan dengan cara...",
+        options: [
+          "Meluncur pada tali miring dengan katrol",
+          "Berjalan",
+          "Melompat",
+          "Berenang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Tyrolean traverse menggunakan sistem...",
+        options: [
+          "Tali horizontal dengan karabiner dan harness",
+          "Tangga",
+          "Jembatan kayu",
+          "Perahu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Katrol pada flying fox berfungsi untuk...",
+        options: [
+          "Mengurangi gesekan sehingga bisa meluncur",
+          "Menahan",
+          "Memperlambat",
+          "Dekorasi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Tension pada tali pelintasan harus...",
+        options: [
+          "Cukup kencang untuk menahan beban",
+          "Kendor",
+          "Putus",
+          "Tidak perlu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Helmet pada pelintasan kering digunakan untuk...",
+        options: [
+          "Melindungi kepala dari benturan",
+          "Gaya",
+          "Menahan tali",
+          "Tidak perlu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Proses belay pada pelintasan adalah...",
+        options: [
+          "Mengamankan peserta dari bawah/samping",
+          "Melompat",
+          "Berenang",
+          "Tidak perlu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Commando crawl adalah teknik...",
+        options: [
+          "Merangkak di bawah jaring/rintangan rendah",
+          "Berdiri",
+          "Melompat",
+          "Berlari"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Safety briefing sebelum pelintasan penting untuk...",
+        options: [
+          "Menjelaskan prosedur dan bahaya",
+          "Mengobrol",
+          "Makan",
+          "Tidak perlu"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -1400,6 +2610,116 @@ export const quizzes = [
           "Ban dalam mobil bekas"
         ],
         correctAnswer: 2
+      },,
+      {
+        id: 11,
+        question: "Pelintasan basah adalah teknik melintas...",
+        options: [
+          "Sungai atau perairan",
+          "Gunung",
+          "Hutan kering",
+          "Padang rumput"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Saat menyeberang sungai, sebaiknya menyeberang di...",
+        options: [
+          "Bagian lebar dan dangkal dengan arus tenang",
+          "Bagian sempit dan dalam",
+          "Air terjun",
+          "Pusaran air"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Teknik menyeberang sungai dengan posisi...",
+        options: [
+          "Menyamping menghadap arus, kaki melangkah menggeser",
+          "Membelakangi arus",
+          "Melompat",
+          "Berenang melawan arus"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Tali pengaman saat menyeberang sungai diikat di...",
+        options: [
+          "Harness atau pinggang dengan bowline",
+          "Leher",
+          "Kaki",
+          "Tidak perlu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Tongkat penyeimbang saat menyeberang berfungsi untuk...",
+        options: [
+          "Menambah titik tumpu dan menjaga keseimbangan",
+          "Memukul ikan",
+          "Dekorasi",
+          "Tidak ada fungsi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Pendulum swing adalah teknik...",
+        options: [
+          "Berayun dengan tali dari satu sisi ke sisi lain",
+          "Melompat",
+          "Berenang",
+          "Berjalan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Zip line basah berbeda dengan flying fox karena...",
+        options: [
+          "Berakhir di air atau melintas di atas air",
+          "Lebih pendek",
+          "Tidak ada bedanya",
+          "Lebih tinggi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Sepatu yang cocok untuk pelintasan basah adalah...",
+        options: [
+          "Sepatu yang tidak licin dan cepat kering",
+          "Sepatu kulit",
+          "Sandal jepit",
+          "Telanjang kaki"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Arus sungai yang berbahaya untuk diseberangi adalah...",
+        options: [
+          "Arus deras > 1 m/detik dengan pusaran",
+          "Arus tenang",
+          "Air dangkal",
+          "Air jernih"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Jika terjatuh di sungai deras, posisi badan yang benar adalah...",
+        options: [
+          "Telentang, kaki ke arah hilir, kepala di hulu",
+          "Tengkurap",
+          "Berdiri",
+          "Menyelam"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -1517,6 +2837,116 @@ export const quizzes = [
           "Merebusnya dengan air garam"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Tumbuhan yang dapat dimakan di hutan adalah...",
+        options: [
+          "Pakis, rebung bambu, umbi-umbian tertentu",
+          "Semua jamur",
+          "Semua daun hijau",
+          "Semua bunga"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Ciri tumbuhan beracun umumnya adalah...",
+        options: [
+          "Getah putih susu, warna mencolok, bau menyengat",
+          "Hijau",
+          "Berdaun lebar",
+          "Berbunga"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Getah pohon yang bisa digunakan sebagai lem alami adalah...",
+        options: [
+          "Getah damar, pinus",
+          "Getah karet",
+          "Getah singkong",
+          "Semua getah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Tanaman bambu berguna untuk...",
+        options: [
+          "Konstruksi bangunan, wadah air, alat makan",
+          "Obat",
+          "Pewarna",
+          "Tidak berguna"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Tanaman rotan digunakan untuk...",
+        options: [
+          "Tali-temali pengikat yang kuat",
+          "Makanan",
+          "Obat demam",
+          "Cat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Daun pisang di survival berguna untuk...",
+        options: [
+          "Pembungkus makanan, atap darurat, alas tidur",
+          "Obat luka",
+          "Pewarna",
+          "Sabun"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Tumbuhan paku (pakis) muda bisa...",
+        options: [
+          "Dimakan setelah direbus",
+          "Beracun",
+          "Untuk pewarna",
+          "Untuk tali"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Umbi-umbian liar harus...",
+        options: [
+          "Diuji dulu atau direbus sebelum dimakan",
+          "Langsung dimakan mentah",
+          "Dibuang",
+          "Dijadikan obat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Tanaman obat di hutan: Sambiloto berkhasiat untuk...",
+        options: [
+          "Menurunkan demam dan infeksi",
+          "Patah tulang",
+          "Luka bakar",
+          "Keracunan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Cara menguji tumbuhan asing jika boleh dimakan: oleskan getah di...",
+        options: [
+          "Kulit tangan, tunggu reaksi alergi",
+          "Langsung makan",
+          "Mata",
+          "Mulut langsung"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -1632,6 +3062,116 @@ export const quizzes = [
           "Langsung ditelan hidup-hidup",
           "Direndam air garam semalaman",
           "Dijemur sampai kering"
+        ],
+        correctAnswer: 0
+      },,
+      {
+        id: 11,
+        question: "Tanda jejak harimau berbeda dengan kucing karena...",
+        options: [
+          "Ukuran lebih besar, cakar tidak terlihat (ditarik)",
+          "Lebih kecil",
+          "Berkuku",
+          "Tidak ada bedanya"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Jejak babi hutan memiliki ciri...",
+        options: [
+          "Dua kuku utama di depan, dua kuku samping lebih kecil",
+          "Telapak bundar",
+          "Tidak berkuku",
+          "Bercakar panjang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Ular berbisa umumnya memiliki ciri...",
+        options: [
+          "Kepala segitiga, pupil vertikal, taring panjang",
+          "Kepala bulat",
+          "Tidak ada taring",
+          "Pupil bulat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Jika bertemu ular, sebaiknya...",
+        options: [
+          "Mundur perlahan, jangan provokasi",
+          "Lari cepat",
+          "Lempar batu",
+          "Pegang ekornya"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Jika bertemu beruang, jangan...",
+        options: [
+          "Berlari atau berteriak, tetap tenang dan mundur perlahan",
+          "Berdiri diam",
+          "Berbicara pelan",
+          "Mundur"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Lintah dapat dilepaskan dengan...",
+        options: [
+          "Garam, tembakau, atau api (jangan dicabut paksa)",
+          "Dicabut langsung",
+          "Dibiarkan",
+          "Air dingin"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Kalajengking sering bersembunyi di...",
+        options: [
+          "Bawah batu, kayu, dan sepatu",
+          "Pohon tinggi",
+          "Air",
+          "Terbuka"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Jika digigit ular berbisa, pertolongan pertama adalah...",
+        options: [
+          "Tenangkan korban, immobilisasi, segera ke RS (JANGAN disedot)",
+          "Disedot racunnya",
+          "Lari",
+          "Dibiarkan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Burung Rangkong memiliki ciri...",
+        options: [
+          "Paruh besar dengan tanduk di atas",
+          "Paruh kecil",
+          "Tidak berparuh",
+          "Berparuh runcing"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Jejak kaki rusa memiliki bentuk...",
+        options: [
+          "Dua kuku runcing seperti hati",
+          "Bulat",
+          "Bercakar",
+          "Pipih"
         ],
         correctAnswer: 0
       }
@@ -1751,6 +3291,116 @@ export const quizzes = [
           "Air sungai"
         ],
         correctAnswer: 0
+      },,
+      {
+        id: 11,
+        question: "Prioritas utama survival di hutan adalah...",
+        options: [
+          "Mencari makanan",
+          "Mencari air dan shelter",
+          "Bermain",
+          "Tidur"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Shelter darurat di hutan bisa dibuat dari...",
+        options: [
+          "Ranting, daun, terpal, poncho",
+          "Batu saja",
+          "Tanah",
+          "Air"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Posisi shelter sebaiknya...",
+        options: [
+          "Di tempat tinggi, kering, aman dari bahaya",
+          "Di lembah",
+          "Di bawah pohon mati",
+          "Di tepi jurang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Api unggun berguna untuk...",
+        options: [
+          "Menghangatkan, memasak, sinyal, mengusir binatang",
+          "Membakar hutan",
+          "Bermain",
+          "Tidak ada gunanya"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Cara membuat api tanpa korek: menggunakan...",
+        options: [
+          "Gesekan kayu, lensa, batu api",
+          "Air",
+          "Tanah",
+          "Udara"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Tanda bahaya universal di survival adalah...",
+        options: [
+          "SOS atau tiga tanda berurutan (asap, suara, cahaya)",
+          "Tertawa",
+          "Tidur",
+          "Makan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Air sungai di hutan harus...",
+        options: [
+          "Disaring dan direbus sebelum diminum",
+          "Langsung diminum",
+          "Dibuang",
+          "Untuk mandi saja"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Jika tersesat di hutan, sebaiknya...",
+        options: [
+          "Tetap tenang, buat shelter, tunggu bantuan",
+          "Panik dan lari",
+          "Teriak terus",
+          "Tidur saja"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Pisau survival berguna untuk...",
+        options: [
+          "Memotong, membuat shelter, persiapan makanan",
+          "Berkelahi",
+          "Melempar",
+          "Mainan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Navigasi di hutan tanpa kompas bisa menggunakan...",
+        options: [
+          "Posisi matahari, bintang, lumut di pohon",
+          "Tebakan",
+          "Mata ditutup",
+          "Tidak bisa"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -1868,6 +3518,116 @@ export const quizzes = [
           "Tiram"
         ],
         correctAnswer: 2
+      },,
+      {
+        id: 11,
+        question: "Bahaya utama survival di rawa adalah...",
+        options: [
+          "Lumpur dalam, buaya, penyakit, sulit bergerak",
+          "Terlalu kering",
+          "Terlalu dingin",
+          "Tidak ada bahaya"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Cara berjalan di rawa agar tidak tenggelam...",
+        options: [
+          "Menggunakan papan lebar atau merangkak",
+          "Berlari",
+          "Melompat",
+          "Berdiri tegak"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Air rawa tidak boleh langsung diminum karena...",
+        options: [
+          "Mengandung bakteri dan parasit tinggi",
+          "Terlalu jernih",
+          "Terlalu dingin",
+          "Terlalu manis"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Survival di laut: cara mendapatkan air tawar adalah...",
+        options: [
+          "Menangkap air hujan, destilasi solar",
+          "Minum air laut",
+          "Tidak minum",
+          "Minum air seni"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Sinyal darurat di laut menggunakan...",
+        options: [
+          "Cermin, asap, pakaian warna cerah, peluit",
+          "Diam saja",
+          "Tidur",
+          "Berenang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Rakit darurat di laut bisa dibuat dari...",
+        options: [
+          "Pelampung, bambu, drum kosong, kayu",
+          "Batu",
+          "Besi",
+          "Tidak bisa"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Bahaya hipotermia di laut terjadi karena...",
+        options: [
+          "Air dingin menurunkan suhu tubuh",
+          "Terlalu panas",
+          "Lapar",
+          "Haus"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Jika ada hiu, sebaiknya...",
+        options: [
+          "Tetap tenang, jangan panik, hindari gerakan cepat",
+          "Berenang cepat",
+          "Teriak",
+          "Pukul hiu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Ikan yang aman dimakan di laut biasanya...",
+        options: [
+          "Berenang berkelompok, berwarna biasa",
+          "Warna cerah mencolok",
+          "Berduri tajam",
+          "Berbentuk aneh"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Dehidrasi di laut sangat berbahaya karena...",
+        options: [
+          "Air laut asin tidak bisa diminum",
+          "Air terlalu banyak",
+          "Udara lembab",
+          "Tidak ada alasan"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -1985,6 +3745,116 @@ export const quizzes = [
           "Transparan dan mudah pecah"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Survival kit harus berisi minimal...",
+        options: [
+          "Pisau, korek api, air, P3K, tali, peluit",
+          "Mainan",
+          "Uang",
+          "Makanan enak"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Korek api dalam survival kit sebaiknya...",
+        options: [
+          "Waterproof atau disimpan wadah kedap air",
+          "Basah",
+          "Dibiarkan",
+          "Tidak perlu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "P3K dalam survival kit berisi...",
+        options: [
+          "Perban, antiseptik, obat standar, plester",
+          "Permen",
+          "Mainan",
+          "Buku"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Peluit dalam survival kit berguna untuk...",
+        options: [
+          "Memberi sinyal darurat dengan hemat energi",
+          "Bermain",
+          "Musik",
+          "Tidak berguna"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Pisau survival yang baik memiliki...",
+        options: [
+          "Blade kuat, full tang, pegangan nyaman",
+          "Warna cerah saja",
+          "Kecil sekali",
+          "Tumpul"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Tali paracord 550 berguna untuk...",
+        options: [
+          "Tali serba guna, bisa diurai jadi benang kecil",
+          "Diikat saja",
+          "Tidak berguna",
+          "Dekorasi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Cermin sinyal (signal mirror) digunakan untuk...",
+        options: [
+          "Memantulkan cahaya matahari sebagai sinyal",
+          "Bercermin",
+          "Mainan",
+          "Tidak ada fungsi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Selimut thermal (space blanket) berguna untuk...",
+        options: [
+          "Menahan panas tubuh dan mencegah hipotermia",
+          "Dekorasi",
+          "Alas duduk",
+          "Tidak penting"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Tablet purifikasi air berfungsi untuk...",
+        options: [
+          "Membunuh bakteri dan virus dalam air",
+          "Memberi rasa",
+          "Pewarna",
+          "Tidak ada fungsi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Survival kit sebaiknya disimpan di...",
+        options: [
+          "Tempat mudah dijangkau dan waterproof",
+          "Gudang jauh",
+          "Di rumah saja",
+          "Tidak perlu disimpan"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -2102,6 +3972,116 @@ export const quizzes = [
           "Menghitung jumlah pohon"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Sanjak (tracking) adalah kemampuan...",
+        options: [
+          "Membaca dan mengikuti jejak",
+          "Menyanyi",
+          "Menari",
+          "Memasak"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Jejak kaki manusia di tanah lunak menunjukkan...",
+        options: [
+          "Arah perjalanan dan waktu relatif",
+          "Nama orang",
+          "Umur pasti",
+          "Hobi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Jejak baru biasanya memiliki ciri...",
+        options: [
+          "Tepi tajam, warna segar, belum tererosi",
+          "Kabur",
+          "Hilang",
+          "Tertutup rumput"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Jejak lama memiliki ciri...",
+        options: [
+          "Tepi terkikis, warna pudar, mungkin berisi air/daun",
+          "Tajam",
+          "Basah",
+          "Baru"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Sign cutting adalah teknik...",
+        options: [
+          "Mencari jejak di area luas dengan pola zigzag",
+          "Memotong tanda",
+          "Menggambar",
+          "Menulis"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Jejak di pasir berbeda dengan tanah karena...",
+        options: [
+          "Lebih jelas tapi cepat hilang tertiup angin",
+          "Tidak ada bedanya",
+          "Lebih awet",
+          "Tidak terlihat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Tracking stick digunakan untuk...",
+        options: [
+          "Mengukur panjang langkah dan jarak jejak",
+          "Memukul",
+          "Menggali",
+          "Tidak ada fungsi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Jejak ranting patah menunjukkan...",
+        options: [
+          "Arah perjalanan dan tinggi pelaku",
+          "Cuaca",
+          "Waktu pasti",
+          "Nama pelaku"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Kotoran binatang di tracking memberikan info...",
+        options: [
+          "Jenis binatang, waktu, dan makanannya",
+          "Warna favorit",
+          "Nama binatang",
+          "Umur pasti"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Aging tracks adalah teknik...",
+        options: [
+          "Memperkirakan umur jejak berdasarkan kondisi",
+          "Menua",
+          "Melukis",
+          "Bermain"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -2219,6 +4199,116 @@ export const quizzes = [
           "Menghabiskan anggaran"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Fase pra-bencana meliputi...",
+        options: [
+          "Mitigasi, kesiapsiagaan, peringatan dini",
+          "Evakuasi",
+          "Rekonstruksi",
+          "Pemulihan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Mitigasi bencana adalah...",
+        options: [
+          "Upaya mengurangi risiko bencana sebelum terjadi",
+          "Saat bencana",
+          "Setelah bencana",
+          "Tidak ada hubungan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Early warning system berfungsi untuk...",
+        options: [
+          "Memberi peringatan dini sebelum bencana",
+          "Hiburan",
+          "Komunikasi biasa",
+          "Tidak penting"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Evacuation route harus...",
+        options: [
+          "Jelas, aman, dan diketahui semua warga",
+          "Rahasia",
+          "Rumit",
+          "Tidak perlu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Assembly point adalah...",
+        options: [
+          "Titik kumpul aman saat evakuasi",
+          "Tempat bermain",
+          "Kantor",
+          "Rumah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Saat gempa bumi, jika di dalam ruangan sebaiknya...",
+        options: [
+          "Drop, Cover, Hold On di bawah meja kuat",
+          "Lari keluar",
+          "Berdiri di jendela",
+          "Naik tangga"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Saat tsunami, segera...",
+        options: [
+          "Lari ke tempat tinggi atau ke dalam bangunan tinggi",
+          "Ke pantai",
+          "Berenang",
+          "Berdiam diri"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Golden hour dalam SAR adalah...",
+        options: [
+          "Waktu kritis untuk menyelamatkan korban (1-6 jam pertama)",
+          "24 jam",
+          "1 minggu",
+          "Tidak ada"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Triage dalam bencana adalah...",
+        options: [
+          "Pemilahan korban berdasarkan prioritas penanganan",
+          "Makan",
+          "Tidur",
+          "Bermain"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Fase recovery pasca bencana meliputi...",
+        options: [
+          "Rehabilitasi dan rekonstruksi",
+          "Persiapan",
+          "Peringatan",
+          "Evakuasi"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -2336,6 +4426,116 @@ export const quizzes = [
           "Ditarik kakinya"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "Langkah pertama PPGD: Primary Survey dimulai dengan...",
+        options: [
+          "Cek Danger - Response - Send for help - Airway",
+          "Nafas buatan",
+          "Pijat jantung",
+          "Menelepon keluarga"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "CPR (Cardiopulmonary Resuscitation) dilakukan saat...",
+        options: [
+          "Korban tidak sadar dan tidak bernapas normal",
+          "Korban sadar",
+          "Luka ringan",
+          "Patah tulang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Rasio kompresi dan nafas pada CPR dewasa adalah...",
+        options: [
+          "30 kompresi : 2 nafas",
+          "15:2",
+          "5:1",
+          "2:30"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Kedalaman kompresi dada pada CPR dewasa minimal...",
+        options: [
+          "5-6 cm",
+          "1-2 cm",
+          "10 cm",
+          "Tidak perlu dalam"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Recovery position digunakan untuk...",
+        options: [
+          "Korban tidak sadar tapi bernapas normal",
+          "Patah tulang",
+          "Luka bakar",
+          "Tersedak"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Heimlich maneuver digunakan untuk...",
+        options: [
+          "Mengatasi tersedak (obstruksi jalan napas)",
+          "Patah tulang",
+          "Luka bakar",
+          "Pingsan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Perdarahan hebat diatasi dengan...",
+        options: [
+          "Tekanan langsung + elevasi + pressure point",
+          "Dibiarkan",
+          "Dikompres dingin",
+          "Ditutup plastik"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Luka bakar derajat 2 memiliki ciri...",
+        options: [
+          "Lepuh (blister), merah, nyeri",
+          "Hanya merah",
+          "Hitam hangus",
+          "Tidak nyeri"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Penanganan patah tulang: immobilisasi dilakukan dengan...",
+        options: [
+          "Bidai di atas dan bawah patahan",
+          "Digerakkan",
+          "Dipijat",
+          "Dibiarkan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Shock (syok) ditandai dengan...",
+        options: [
+          "Pucat, keringat dingin, nadi lemah cepat, kesadaran menurun",
+          "Wajah merah",
+          "Demam tinggi",
+          "Batuk"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -2453,6 +4653,116 @@ export const quizzes = [
           "Zigzag"
         ],
         correctAnswer: 1
+      },,
+      {
+        id: 11,
+        question: "HT (Handy Talky) adalah...",
+        options: [
+          "Radio komunikasi genggam portabel",
+          "Telepon",
+          "Komputer",
+          "Kamera"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Frequency radio adalah...",
+        options: [
+          "Gelombang yang digunakan untuk transmisi",
+          "Suara",
+          "Cahaya",
+          "Panas"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "VOX (Voice Operated Exchange) adalah fitur...",
+        options: [
+          "Transmisi otomatis saat berbicara tanpa tekan PTT",
+          "Volume",
+          "Frekuensi",
+          "Tidak ada"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "PTT (Push To Talk) adalah tombol...",
+        options: [
+          "Untuk transmit/berbicara",
+          "Volume",
+          "Power",
+          "Menu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Kode 'Roger' dalam komunikasi radio berarti...",
+        options: [
+          "Pesan diterima dan dimengerti",
+          "Tidak jelas",
+          "Ulangi",
+          "Selesai"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Kode 'Over' berarti...",
+        options: [
+          "Saya selesai bicara, silakan balas",
+          "Selesai total",
+          "Ulangi",
+          "Tidak jelas"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Kode 'Out' berarti...",
+        options: [
+          "Percakapan selesai, tidak perlu balas",
+          "Lanjutkan",
+          "Ulangi",
+          "Mulai"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Phonetic alphabet untuk huruf 'A' adalah...",
+        options: [
+          "Alpha",
+          "Adam",
+          "Apple",
+          "Ant"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Squelch pada radio berfungsi untuk...",
+        options: [
+          "Menghilangkan noise saat tidak ada sinyal",
+          "Volume",
+          "Frekuensi",
+          "Power"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Repeater dalam komunikasi radio adalah...",
+        options: [
+          "Perangkat yang memperluas jangkauan sinyal",
+          "Pengulang suara",
+          "Mikrofon",
+          "Speaker"
+        ],
+        correctAnswer: 0
       }
     ]
   },
@@ -2570,6 +4880,116 @@ export const quizzes = [
           "Mangkok keramik"
         ],
         correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Tungku improvisasi dari tanah liat atau batu bata disebut...",
+        options: [
+          "Tungku Anglo",
+          "Kompor gas",
+          "Microwave",
+          "Oven listrik"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 12,
+        question: "Cara memasak dengan bambu di lapangan disebut...",
+        options: [
+          "Lamtoro",
+          "Masak bambu/lidi bambu (bambu utuh diisi bahan)",
+          "Goreng",
+          "Rebus biasa"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Peralatan memasak lapangan minimal terdiri dari...",
+        options: [
+          "Wajan, panci, spatula, pisau, talenan",
+          "Hanya piring",
+          "Microwave",
+          "Tidak perlu alat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Cara menghemat bahan bakar saat memasak di lapangan adalah...",
+        options: [
+          "Api besar terus",
+          "Potong bahan lebih kecil agar cepat matang, gunakan tutup panci",
+          "Tidak pakai tutup",
+          "Masak dalam keadaan basah"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Cara mencuci peralatan masak di lapangan yang benar adalah...",
+        options: [
+          "Langsung disimpan tanpa cuci",
+          "Cuci dengan sabun, bilas air bersih, keringkan",
+          "Hanya dilap",
+          "Dikubur"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Menu 4 sehat 5 sempurna terdiri dari...",
+        options: [
+          "Nasi, lauk, sayur, buah, susu",
+          "Hanya nasi",
+          "Mie instan saja",
+          "Kopi dan roti"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Cara memeriksa kematangan nasi adalah...",
+        options: [
+          "Ditebak",
+          "Cek apakah air sudah menyerap dan nasi mengembang",
+          "Dicicipi mentah",
+          "Tidak perlu diperiksa"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Dapur lapangan sebaiknya beratap untuk...",
+        options: [
+          "Melindungi dari hujan dan panas matahari",
+          "Gaya saja",
+          "Tidak perlu atap",
+          "Menghalangi pandangan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Cara menyimpan air minum di lapangan agar tetap bersih adalah...",
+        options: [
+          "Dalam wadah terbuka",
+          "Dalam jerigen/tempat tertutup yang bersih",
+          "Di lubang tanah",
+          "Dibiarkan di tanah"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Bumbu dapur yang esensial dibawa ke lapangan minimal adalah...",
+        options: [
+          "Garam, gula, minyak, bawang, cabai",
+          "Hanya garam",
+          "Kecap saja",
+          "Tidak perlu bumbu"
+        ],
+        correctAnswer: 0
       }
     ]
   }
