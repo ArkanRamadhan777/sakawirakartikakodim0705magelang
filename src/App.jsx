@@ -11,10 +11,12 @@ import QuizPage from './pages/QuizPage';
 import ArticleDetail from './pages/ArticleDetail';
 import Gallery from './pages/Gallery';
 import References from './pages/References';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen font-gabarito">
+      <ScrollToTop />
       <Navbar />
       <main className="flex-grow">
         <Routes>

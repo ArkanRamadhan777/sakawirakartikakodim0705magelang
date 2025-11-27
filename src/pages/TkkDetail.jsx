@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { kridas } from '../data/kridas';
 import { quizzes } from '../data/quizzes';
-import { ArrowLeft, BookOpen, FileText, CheckCircle, ChevronDown, ChevronUp, HelpCircle, ChevronRight, ChevronLeft, Share2 } from 'lucide-react';
+import { ArrowLeft, BookOpen, FileText, CheckCircle, ChevronDown, ChevronUp, HelpCircle, ChevronRight, ChevronLeft, Share2, FileSignature } from 'lucide-react';
 
 const TkkDetail = () => {
   const { id } = useParams();
@@ -117,11 +117,11 @@ const TkkDetail = () => {
                             
                             <div className="flex flex-wrap items-center gap-3 text-xs md:text-sm text-gray-500 font-medium">
                               <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
-                                <FileText size={14} /> {module.articleCount} Artikel
+                                <FileText size={14} /> {module.items?.length || 0} Artikel
                               </span>
                               {quiz && (
                                 <span className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
-                                  <HelpCircle size={14} /> 1 Kuis
+                                  <FileSignature size={14} /> 1 Kuis
                                 </span>
                               )}
                             </div>
@@ -140,7 +140,7 @@ const TkkDetail = () => {
                                 className="flex items-center gap-4 p-4 hover:bg-white hover:shadow-sm border-b border-gray-100 last:border-0 transition-all group"
                               >
                                 <div className="shrink-0 text-gray-400 group-hover:text-primary transition-colors">
-                                  {item.type === 'quiz' ? <HelpCircle size={20} /> : <FileText size={20} />}
+                                  {item.type === 'quiz' ? <FileSignature size={20} /> : <FileText size={20} />}
                                 </div>
                                 <div className="flex-grow min-w-0">
                                   <p className="font-medium text-gray-700 group-hover:text-primary transition-colors truncate">
@@ -155,7 +155,7 @@ const TkkDetail = () => {
                                 className="flex items-center gap-4 p-4 hover:bg-white hover:shadow-sm border-b border-gray-100 last:border-0 transition-all group"
                               >
                                 <div className="shrink-0 text-gray-400 group-hover:text-primary transition-colors">
-                                  <HelpCircle size={20} />
+                                  <FileSignature size={20} />
                                 </div>
                                 <div className="flex-grow min-w-0">
                                   <p className="font-medium text-gray-700 group-hover:text-primary transition-colors truncate">

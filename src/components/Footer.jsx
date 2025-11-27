@@ -37,9 +37,18 @@ const Footer = () => {
         </nav> 
         <nav>
           <h6 className="footer-title font-anta text-white opacity-100 mb-4 border-b-2 border-primary pb-2 inline-block">Ikuti Kami</h6> 
-          <div className="grid grid-flow-col gap-4">
-            <a href="https://www.instagram.com/wirakartika_mgl/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all duration-300">
-              <Instagram size={20} />
+          <div className="flex flex-col gap-3">
+            <a href="https://www.instagram.com/sakawirakartika.mgl/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors group">
+              <div className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all duration-300 shrink-0">
+                <Instagram size={20} />
+              </div>
+              <span className="font-medium">@sakawirakartika.mgl</span>
+            </a>
+            <a href="https://www.instagram.com/wirakartika_mgl/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors group">
+              <div className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all duration-300 shrink-0">
+                <Instagram size={20} />
+              </div>
+              <span className="font-medium">@wirakartika_mgl</span>
             </a>
           </div>
         </nav>

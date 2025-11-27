@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,6 +20,14 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+    setIsMobileMenuOpen(false);
+  };
+
   const navLinks = [
     { name: 'Beranda', path: '/' },
     { name: 'Tentang Kami', path: '/about' },
@@ -37,12 +45,20 @@ const Navbar = () => {
           {isMobileMenuOpen && (
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-lg bg-black border border-gray-800 rounded-box w-52 text-white font-bold">
               {navLinks.map((link) => (
-                <li key={link.name}><Link to={link.path} onClick={() => setIsMobileMenuOpen(false)} className={`hover:text-primary hover:bg-gray-900 ${location.pathname === link.path ? '!text-primary' : ''}`}>{link.name}</Link></li>
+                <li key={link.name}>
+                  <Link 
+                    to={link.path} 
+                    onClick={scrollToTop} 
+                    className={`hover:text-primary hover:bg-gray-900 ${location.pathname === link.path ? '!text-primary' : ''}`}
+                  >
+                    {link.name}
+                  </Link>
+                </li>
               ))}
             </ul>
           )}
         </div>
-        <Link to="/" className="btn btn-ghost text-xl font-anta flex items-center gap-3 hover:bg-white/10 h-auto py-2">
+        <Link to="/" onClick={scrollToTop} className="btn btn-ghost text-xl font-anta flex items-center gap-3 hover:bg-white/10 h-auto py-2">
           <img src="/swk.webp" alt="Logo" className="h-14 w-14 drop-shadow-md" onError={(e) => e.target.style.display = 'none'} />
           <div className="flex flex-col items-start leading-none">
             <span className="font-bold font-anta text-lg text-primary tracking-wide uppercase">Saka Wira Kartika</span>
@@ -56,6 +72,7 @@ const Navbar = () => {
             <li key={link.name}>
               <Link 
                 to={link.path} 
+                onClick={scrollToTop}
                 className={`font-bold uppercase tracking-wide text-sm hover:text-primary transition-colors duration-200 ${location.pathname === link.path ? '!text-primary' : 'text-white'}`}
               >
                 {link.name}

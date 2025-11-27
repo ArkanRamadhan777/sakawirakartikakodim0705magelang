@@ -2,7 +2,8 @@ import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { kridas } from '../data/kridas';
-import { ArrowLeft, Clock, Calendar, Share2, ChevronRight, ChevronLeft } from 'lucide-react';
+import { quizzes } from '../data/quizzes';
+import { ArrowLeft, Clock, Calendar, Share2, ChevronRight, ChevronLeft, FileSignature } from 'lucide-react';
 
 const ArticleDetail = () => {
   const { articleId } = useParams();
@@ -49,6 +50,12 @@ const ArticleDetail = () => {
       const nextModule = foundTkk.syllabus[currentModuleIndex + 1];
       if (nextModule.items && nextModule.items.length > 0) {
         nextArticleLink = `/article/${nextModule.items[0].id}`;
+      }
+    } else {
+      // Check for quiz at the end of all modules
+      const quiz = quizzes.find(q => q.tkkId === foundTkk.id);
+      if (quiz) {
+        nextArticleLink = `/quiz/${foundTkk.id}`;
       }
     }
 
@@ -151,8 +158,19 @@ const ArticleDetail = () => {
 
             {/* Next Button */}
             {nextArticleLink ? (
-              <Link to={nextArticleLink} className="btn btn-circle btn-ghost" title="Selanjutnya">
-                <ChevronRight size={24} />
+              <Link 
+                to={nextArticleLink} 
+                className={`btn ${nextArticleLink.includes('/quiz/') ? 'btn-primary gap-2 px-4 w-auto rounded-full' : 'btn-circle btn-ghost'}`} 
+                title={nextArticleLink.includes('/quiz/') ? "Lanjut ke Kuis" : "Selanjutnya"}
+              >
+                {nextArticleLink.includes('/quiz/') ? (
+                  <>
+                    <span className="hidden sm:inline">Lanjut Kuis</span>
+                    <FileSignature size={20} />
+                  </>
+                ) : (
+                  <ChevronRight size={24} />
+                )}
               </Link>
             ) : (
               <div className="w-12"></div>

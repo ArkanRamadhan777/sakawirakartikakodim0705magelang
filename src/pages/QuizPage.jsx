@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { quizzes } from '../data/quizzes';
 import { kridas } from '../data/kridas';
-import { ArrowLeft, CheckCircle2, PlayCircle, RefreshCw, XCircle, Timer, Brain } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, PlayCircle, RefreshCw, XCircle, Timer, FileSignature } from 'lucide-react';
 
 const QuizPage = () => {
   const { tkkId } = useParams();
@@ -136,7 +136,7 @@ const QuizPage = () => {
             Kembali ke Materi {foundTkk ? foundTkk.title : ''}
           </Link>
           <h1 className="text-3xl font-bold font-anta text-gray-900 flex items-center gap-3">
-            <Brain className="text-primary" size={32} />
+            <FileSignature className="text-primary" size={32} />
             {quiz.title.replace('Quiz', 'Kuis')}
           </h1>
         </div>
@@ -146,7 +146,7 @@ const QuizPage = () => {
           {!quizStarted ? (
             <div className="p-8 text-center">
               <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Brain className="text-primary" size={48} />
+                <FileSignature className="text-primary" size={48} />
               </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">Siap untuk memulai?</h2>
               <p className="text-gray-600 mb-8 max-w-lg mx-auto">
@@ -225,9 +225,6 @@ const QuizPage = () => {
                     <div className={`flex items-center gap-2 font-mono font-bold text-lg ${timeLeft < 60 ? 'text-red-600 animate-pulse' : 'text-gray-700'}`}>
                       <Timer size={20} />
                       {formatTime(timeLeft)}
-                    </div>
-                    <div className="text-sm font-medium text-gray-700 bg-white px-3 py-1 rounded-md shadow-sm border border-gray-200">
-                      Skor Sementara: {score}
                     </div>
                   </div>
 

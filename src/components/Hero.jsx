@@ -2,10 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
   return (
-    <div className="hero min-h-screen relative overflow-hidden mt-20">
-      {/* Background slides (4 images) rendered via BackgroundSlider component */}
+    <div className="relative w-full mt-[110px] lg:mt-0 aspect-video lg:h-screen lg:aspect-auto overflow-hidden">
       <BackgroundSlider />
-      <div className="hero-overlay bg-black/10"></div>
+      <div className="absolute inset-0 bg-black/10 pointer-events-none"></div>
     </div>
   );
 };
@@ -21,9 +20,9 @@ function BackgroundSlider() {
     '/galeri swk/24.webp',
   ];
 
-  const [index, setIndex] = React.useState(0);
+  const [index, setIndex] = useState(0);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const id = setInterval(() => {
       setIndex((i) => (i + 1) % images.length);
     }, 5000);
@@ -31,12 +30,13 @@ function BackgroundSlider() {
   }, []);
 
   return (
-    <div className="absolute inset-0">
+    <div className="absolute inset-0 w-full h-full">
       {images.map((src, i) => (
-        <div
+        <img
           key={i}
-          className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${i === index ? 'opacity-100 scale-105 transform' : 'opacity-0'}`}
-          style={{ backgroundImage: `url('${src}')` }}
+          src={src}
+          alt={`Slide ${i + 1}`}
+          className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${i === index ? 'opacity-100 scale-105' : 'opacity-0 scale-100'}`}
         />
       ))}
     </div>

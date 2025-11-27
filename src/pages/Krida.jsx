@@ -33,16 +33,16 @@ const Krida = () => {
           ))}
           
           {/* Info Card */}
-          <div className="rounded-2xl p-8 bg-black shadow-2xl flex flex-col items-center justify-center text-center group hover:scale-105 transition-all duration-300 relative overflow-hidden">
+          <div className="rounded-2xl p-8 bg-black shadow-2xl flex flex-col items-center text-center group hover:scale-105 transition-all duration-300 relative overflow-hidden">
             <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-500"></div>
             <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-primary to-red-900 flex items-center justify-center mb-6 shadow-lg shadow-primary/30 group-hover:shadow-primary/50 transition-all duration-300 relative z-10">
               <span className="text-4xl font-bold text-white">i</span>
             </div>
             <h3 className="text-2xl font-bold font-anta text-white mb-4 relative z-10">Informasi Krida</h3>
-            <p className="font-gabarito text-gray-400 leading-relaxed relative z-10">
+            <p className="font-gabarito text-gray-400 leading-relaxed relative z-10 mb-6">
               Setiap anggota Saka Wira Kartika wajib memilih dan mendalami salah satu Krida sebagai spesialisasi untuk mendapatkan Tanda Kecakapan Khusus (TKK).
             </p>
-            <Link to="/referensi" className="mt-6 btn btn-outline btn-primary btn-sm relative z-10 hover:bg-primary hover:text-white transition-all">
+            <Link to="/referensi" className="btn btn-outline btn-primary btn-sm relative z-10 hover:bg-primary hover:text-white transition-all w-full mt-auto">
               Daftar Referensi
             </Link>
           </div>

@@ -2225,7 +2225,7 @@ export const quizzes = [
   {
     id: 'quiz-pba-2',
     tkkId: 'pba-2',
-    title: 'Quiz Perjalanan & PPGD',
+    title: 'Quiz PPGD',
     questions: [
       {
         id: 1,
@@ -2340,8 +2340,8 @@ export const quizzes = [
     ]
   },
   {
-    id: 'quiz-pba-3',
-    tkkId: 'pba-3',
+    id: 'quiz-pba-4',
+    tkkId: 'pba-4',
     title: 'Quiz Komunikasi Radio',
     questions: [
       {
@@ -2457,8 +2457,8 @@ export const quizzes = [
     ]
   },
   {
-    id: 'quiz-pba-4',
-    tkkId: 'pba-4',
+    id: 'quiz-pba-3',
+    tkkId: 'pba-3',
     title: 'Quiz Tata Cara Memasak',
     questions: [
       {
