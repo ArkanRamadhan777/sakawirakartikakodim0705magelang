@@ -11,6 +11,9 @@ import QuizPage from './pages/QuizPage';
 import ArticleDetail from './pages/ArticleDetail';
 import Gallery from './pages/Gallery';
 import References from './pages/References';
+import Login from './pages/Login';
+import QuizHistory from './pages/QuizHistory';
+import LeaderboardTabs from './pages/LeaderboardTabs';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -18,7 +21,7 @@ function App() {
     <div className="flex flex-col min-h-screen font-gabarito">
       <ScrollToTop />
       <Navbar />
-      <main className="flex-grow">
+      <main className="flex-grow pt-16">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -29,6 +32,9 @@ function App() {
           <Route path="/article/:articleId" element={<ArticleDetail />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/referensi" element={<References />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/history" element={<QuizHistory />} />
+          <Route path="/leaderboard" element={<LeaderboardTabs />} />
         </Routes>
       </main>
       <Footer />
