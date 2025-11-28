@@ -45,7 +45,7 @@ const Login = () => {
       navigate(from, { replace: true });
     } catch (error) {
       let errorMessage = 'Terjadi kesalahan. Silakan coba lagi.';
-      
+
       if (error.code === 'auth/email-already-in-use') {
         errorMessage = 'Email sudah terdaftar.';
       } else if (error.code === 'auth/invalid-email') {
@@ -59,7 +59,7 @@ const Login = () => {
       } else if (error.code === 'auth/invalid-credential') {
         errorMessage = 'Email atau password salah.';
       }
-      
+
       setError(errorMessage);
     }
 
@@ -101,7 +101,7 @@ const Login = () => {
                   <Link to="/" className="btn btn-outline w-full">
                     Kembali ke Beranda
                   </Link>
-                  <button 
+                  <button
                     onClick={handleLogout}
                     className="btn btn-outline btn-error w-full gap-2"
                   >
@@ -198,7 +198,14 @@ const Login = () => {
                       minLength={6}
                     />
                   </div>
-                  {!isLogin && (
+                  {isLogin ? (
+                    <label className="label">
+                      <span className="label-text-alt"></span>
+                      <Link to="/forgot-password" className="label-text-alt link link-hover text-primary">
+                        Lupa Password?
+                      </Link>
+                    </label>
+                  ) : (
                     <label className="label">
                       <span className="label-text-alt text-gray-500">Minimal 6 karakter</span>
                     </label>
@@ -223,7 +230,7 @@ const Login = () => {
 
               {/* Toggle */}
               <div className="divider my-6">atau</div>
-              
+
               <div className="text-center">
                 <p className="text-gray-600">
                   {isLogin ? 'Belum punya akun?' : 'Sudah punya akun?'}

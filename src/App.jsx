@@ -12,6 +12,7 @@ import ArticleDetail from './pages/ArticleDetail';
 import Gallery from './pages/Gallery';
 import References from './pages/References';
 import Login from './pages/Login';
+import ForgotPassword from './pages/ForgotPassword';
 import QuizHistory from './pages/QuizHistory';
 import LeaderboardTabs from './pages/LeaderboardTabs';
 import ScrollToTop from './components/ScrollToTop';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/referensi" element={<References />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/history" element={<QuizHistory />} />
           <Route path="/leaderboard" element={<LeaderboardTabs />} />
         </Routes>

@@ -37,7 +37,7 @@ export const getUserQuizHistory = async (userId, limitCount = 10) => {
 
     const querySnapshot = await getDocs(q);
     const results = [];
-    
+
     querySnapshot.forEach((doc) => {
       results.push({
         id: doc.id,
@@ -65,21 +65,20 @@ export const getTkkLeaderboard = async (tkkId, limitCount = 10) => {
 
     const querySnapshot = await getDocs(q);
     const results = [];
-    
+
     querySnapshot.forEach((doc) => {
+      const data = doc.data();
+      // Calculate time bonus: max 100 points, decreases with time used
+      const timeBonus = Math.max(0, 100 - data.timeUsed);
       results.push({
         id: doc.id,
-        ...doc.data()
+        ...data,
+        finalScore: data.score + timeBonus
       });
     });
 
-    // Sort manually: highest score first, then fastest time
-    results.sort((a, b) => {
-      if (b.score !== a.score) {
-        return b.score - a.score;
-      }
-      return a.timeUsed - b.timeUsed;
-    });
+    // Sort by final score (score + time bonus) descending
+    results.sort((a, b) => b.finalScore - a.finalScore);
 
     return results.slice(0, limitCount);
   } catch (error) {
