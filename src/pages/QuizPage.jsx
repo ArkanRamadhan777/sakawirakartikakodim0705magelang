@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { quizzes } from '../data/quizzes';
 import { kridas } from '../data/kridas';
 import { ArrowLeft, CheckCircle2, PlayCircle, RefreshCw, XCircle, Timer, FileSignature } from 'lucide-react';
@@ -18,6 +18,7 @@ const QuizPage = () => {
   const [timeLeft, setTimeLeft] = useState(600); // 10 minutes in seconds for 20 questions
   const [timeUsed, setTimeUsed] = useState(0); // Track time used by user
   const [saving, setSaving] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState(null); // Track selected answer for visual feedback
 
   // Find TKK info for context (title, etc.)
   let foundTkk = null;
@@ -89,9 +90,15 @@ const QuizPage = () => {
     setShowScore(false);
     setUserAnswers([]);
     setTimeLeft(600); // Reset timer to 10 minutes for 20 questions
+    setSelectedAnswer(null);
   };
 
   const handleAnswerOptionClick = (selectedOption) => {
+    // Prevent multiple clicks
+    if (selectedAnswer !== null) return;
+
+    setSelectedAnswer(selectedOption);
+
     const isCorrect = selectedOption.isCorrect;
     if (isCorrect) {
       setScore(score + 5); // 5 points per correct answer
@@ -107,20 +114,25 @@ const QuizPage = () => {
       correctAnswer: shuffledQuestions[currentQuestionIndex].options.find(o => o.isCorrect).text
     }]);
 
-    if (nextQuestion < shuffledQuestions.length) {
-      setCurrentQuestionIndex(nextQuestion);
-    } else {
-      // Calculate time used when quiz finishes
-      const totalTimeUsed = 600 - timeLeft;
-      setTimeUsed(totalTimeUsed);
+    // Delay before moving to next question to show visual feedback
+    setTimeout(() => {
+      setSelectedAnswer(null);
 
-      // Save to Firebase if user is logged in
-      if (currentUser) {
-        handleSaveResult(score + (isCorrect ? 5 : 0), totalTimeUsed, userAnswers.length + 1);
+      if (nextQuestion < shuffledQuestions.length) {
+        setCurrentQuestionIndex(nextQuestion);
+      } else {
+        // Calculate time used when quiz finishes
+        const totalTimeUsed = 600 - timeLeft;
+        setTimeUsed(totalTimeUsed);
+
+        // Save to Firebase if user is logged in
+        if (currentUser) {
+          handleSaveResult(score + (isCorrect ? 5 : 0), totalTimeUsed, userAnswers.length + 1);
+        }
+
+        setShowScore(true);
       }
-
-      setShowScore(true);
-    }
+    }, 800); // 800ms delay for visual feedback
   };
 
   // Save quiz result to Firebase
@@ -153,6 +165,7 @@ const QuizPage = () => {
     setUserAnswers([]);
     setTimeLeft(600); // Reset to 10 minutes
     setTimeUsed(0); // Reset time used
+    setSelectedAnswer(null);
   };
 
   if (!quiz) {
@@ -280,20 +293,34 @@ const QuizPage = () => {
                       {shuffledQuestions[currentQuestionIndex].question}
                     </h3>
                     <div className="space-y-3">
-                      {shuffledQuestions[currentQuestionIndex].options.map((option, idx) => (
-                        <button
-                          key={idx}
-                          onClick={() => handleAnswerOptionClick(option)}
-                          className="w-full text-left p-5 rounded-xl bg-white border-2 border-gray-100 md:hover:border-primary md:hover:bg-primary/5 transition-all duration-200 group"
-                        >
-                          <div className="flex items-center gap-3">
-                            <div className="w-8 h-8 rounded-full bg-gray-100 text-gray-500 flex items-center justify-center font-bold md:group-hover:bg-primary md:group-hover:text-white transition-colors">
-                              {String.fromCharCode(65 + idx)}
+                      {shuffledQuestions[currentQuestionIndex].options.map((option, idx) => {
+                        // Determine styling based on selection state
+                        const isSelected = selectedAnswer === option;
+                        let buttonClass = "w-full text-left p-5 rounded-xl bg-white border-2 border-gray-100 md:hover:border-primary md:hover:bg-primary/5 transition-all duration-200 group";
+                        let circleClass = "w-8 h-8 rounded-full bg-gray-100 text-gray-500 flex items-center justify-center font-bold md:group-hover:bg-primary md:group-hover:text-white transition-colors";
+                        let textClass = "text-gray-700 md:group-hover:text-gray-900 font-medium";
+
+                        if (isSelected) {
+                          buttonClass = "w-full text-left p-5 rounded-xl bg-primary/10 border-2 border-primary transition-all duration-200 group";
+                          circleClass = "w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold transition-colors";
+                          textClass = "text-gray-900 font-medium";
+                        }
+
+                        return (
+                          <button
+                            key={idx}
+                            onClick={() => handleAnswerOptionClick(option)}
+                            className={buttonClass}
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className={circleClass}>
+                                {String.fromCharCode(65 + idx)}
+                              </div>
+                              <span className={textClass}>{option.text}</span>
                             </div>
-                            <span className="text-gray-700 md:group-hover:text-gray-900 font-medium">{option.text}</span>
-                          </div>
-                        </button>
-                      ))}
+                          </button>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
