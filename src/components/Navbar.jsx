@@ -9,6 +9,14 @@ const Navbar = () => {
   const location = useLocation();
   const { currentUser } = useAuth();
 
+  const navLinks = [
+    { name: 'Beranda', path: '/' },
+    { name: 'Tentang Kami', path: '/about' },
+    { name: 'Krida', path: '/krida' },
+    { name: 'Galeri', path: '/gallery' },
+    ...(currentUser ? [{ name: 'Leaderboard', path: '/leaderboard' }] : []),
+  ];
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -29,14 +37,6 @@ const Navbar = () => {
     });
     setIsMobileMenuOpen(false);
   };
-
-  const navLinks = [
-    { name: 'Beranda', path: '/' },
-    { name: 'Tentang Kami', path: '/about' },
-    { name: 'Krida', path: '/krida' },
-    { name: 'Galeri', path: '/gallery' },
-    ...(currentUser ? [{ name: 'Leaderboard', path: '/leaderboard' }] : []),
-  ];
 
   return (
     <div
@@ -95,7 +95,7 @@ const Navbar = () => {
             <div className="mt-auto">
               {currentUser ? (
                 <Link
-                  to="/login"
+                  to="/profile"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 text-white hover:bg-white/20"
                 >
