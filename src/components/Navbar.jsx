@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, LogIn, User, X } from 'lucide-react'; // PERUBAHAN 1: Menambahkan X
+import { Menu, LogIn, User, X } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 const Navbar = () => {
@@ -35,13 +35,12 @@ const Navbar = () => {
     { name: 'Tentang Kami', path: '/about' },
     { name: 'Krida', path: '/krida' },
     { name: 'Galeri', path: '/gallery' },
-    { name: 'Leaderboard', path: '/leaderboard' },
+    ...(currentUser ? [{ name: 'Leaderboard', path: '/leaderboard' }] : []),
   ];
 
   return (
-    <div 
-      // Style inline untuk border merah yang sudah kita perbaiki
-      style={{ borderBottom: isScrolled ? '2px solid #DC2626' : 'none' }} 
+    <div
+      style={{ borderBottom: isScrolled ? '2px solid #DC2626' : 'none' }}
       className={`navbar fixed top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black text-white shadow-xl' : 'bg-black text-white'}`}
     >
       <div className="navbar-start">
@@ -68,15 +67,14 @@ const Navbar = () => {
             className="fixed top-0 right-0 h-full w-72 bg-black shadow-xl p-6 flex flex-col gap-4 text-white z-[101] border-l border-white/10"
             onClick={e => e.stopPropagation()}
           >
-            {/* PERUBAHAN 2: Menambahkan tombol Tutup (X) di header sidebar */}
             <div className="flex justify-between items-center mb-4">
-                <span className="text-primary font-bold uppercase tracking-wider text-xl">Menu</span>
-                <button
-                    className="btn btn-ghost btn-circle text-white hover:bg-white/20"
-                    onClick={() => setIsMobileMenuOpen(false)} // Aksi untuk menutup sidebar
-                >
-                    <X size={24} />
-                </button>
+              <span className="text-primary font-bold uppercase tracking-wider text-xl">Menu</span>
+              <button
+                className="btn btn-ghost btn-circle text-white hover:bg-white/20"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <X size={24} />
+              </button>
             </div>
 
             <nav className="flex-1">
