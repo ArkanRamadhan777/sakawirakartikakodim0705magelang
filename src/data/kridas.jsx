@@ -36,332 +36,199 @@ export const kridas = [
                 id: 'navrat-1-article-1',
                 title: 'Pengertian Peta dan Medan',
                 content: `
-### Definisi Dasar
+### 1) Pengertian Peta dan Medan
 
-**Peta** adalah gambaran permukaan bumi atau sebagian permukaan bumi yang diperkecil dengan menggunakan skala tertentu dan digambarkan pada bidang datar. Peta menampilkan unsur-unsur alam maupun buatan manusia yang ada di atas atau di bawah permukaan bumi.
+**a. Definisi**
+* **Peta:** Adalah gambaran sebagian atau seluruh permukaan bumi yang dipindahkan ke dalam bidang datar, baik benda alam maupun benda buatan manusia yang dapat dipertanggungjawabkan kebenarannya.
+* **Medan:** Adalah bagian dari permukaan bumi dengan segala benda yang tidak bergerak di atas permukaannya, baik benda alam maupun benda buatan manusia.
 
-**Medan** adalah bagian permukaan bumi dengan segala benda yang tidak bergerak di atasnya, seperti gunung, lembah, sungai, jalan, dan bangunan.
+**b. Dasar Hukum dan Skala**
+Menurut PP nomor 10 Tahun 2000 disebutkan bahwa peta adalah suatu gambaran dari unsur-unsur alam dan atau buatan manusia, yang berada di atas maupun di bawah permukaan bumi yang digambarkan pada suatu bidang datar dengan skala tertentu.
 
-### Unsur-Unsur Peta
+Salah satu peta yang dihasilkan oleh Bakosurtanal adalah Peta Rupabumi Indonesia (RBI). Peta RBI yang dihasilkan oleh Bakosurtanal meliputi skala:
+* 1:1.000.000
+* 1:250.000
+* 1:100.000
+* 1:50.000
+* 1:25.000
+* 1:10.000
 
-Setiap peta yang baik harus memiliki unsur-unsur berikut:
+Dimana seluruh wilayah Indonesia dibagi ke dalam grid-grid ukuran peta yang sistematis. Semua lembar peta tepat antara satu dengan lainnya, demikian pula ukurannya sama untuk setiap lembar. Ukuran lembar peta tergantung dari skala peta yang dibuat.
 
-* **Judul Peta:** Menunjukkan nama daerah yang dipetakan
-* **Nomor Peta:** Kode identifikasi peta
-* **Koordinat:** Sistem untuk menentukan posisi (geografis atau grid)
-* **Kontur:** Garis yang menghubungkan titik-titik dengan ketinggian yang sama dari permukaan laut
-* **Skala:** Perbandingan jarak di peta dengan jarak sebenarnya di lapangan
-* **Legenda:** Keterangan simbol-simbol yang digunakan dalam peta
-* **Orientasi:** Petunjuk arah utara
-* **Tahun Pembuatan:** Waktu peta dibuat atau direvisi
-
-### Fungsi Peta
-
-* Menunjukkan posisi dan lokasi suatu tempat
-* Memperlihatkan bentuk permukaan bumi (relief)
-* Membantu dalam perencanaan perjalanan dan navigasi
-* Menunjukkan jarak dan arah antar lokasi
-* Alat komunikasi informasi geografis
+**c. Unsur-unsur dalam Peta**
+Beberapa unsur yang bisa dilihat dalam peta:
+* **Judul peta:** Biasanya terdapat di atas, menunjukkan letak peta.
+* **Nomor peta:** Selain sebagai nomor registrasi dari badan pembuat, kita bisa menggunakannya sebagai petunjuk jika kelak kita akan mencari sebuah peta.
+* **Koordinat peta:** Penjelasannya dapat dilihat dalam sub berikutnya.
+* **Kontur:** Adalah garis khayal yang menghubungkan titik-titik yang berketinggian sama di atas permukaan laut.
+* **Skala peta:** Adalah perbandingan antara jarak peta dan jarak horizontal di lapangan. Ada dua macam skala yakni:
+    * *Skala angka:* Ditunjukkan dalam angka, misalkan 1:25.000 (satu senti di peta sama dengan 25.000 cm atau 250 meter di keadaan yang sebenarnya).
+    * *Skala garis:* Biasanya di peta skala garis berada di bawah skala angka.
+* **Legenda peta:** Adalah simbol-simbol yang dipakai dalam peta tersebut, dibuat untuk memudahkan pembaca menganalisa peta.
 `
               },
               {
                 id: 'navrat-1-article-2',
-                title: 'Jenis-Jenis Peta',
+                title: 'Jenis-jenis Peta',
                 content: `
-### Peta Topografi
+### 2) Jenis-jenis Peta
 
-Peta topografi adalah jenis peta yang menggambarkan posisi mendatar (planimetris) dan posisi tegak (altimetris) dari permukaan bumi. Kata "topografi" berasal dari bahasa Yunani: *topos* (tempat) dan *graphein* (menggambar).
+**a. Peta Topografi**
+Peta Topografi adalah peta yang menggambarkan posisi mendatar dan tegak dari semua benda medan yang tidak bergerak di permukaan bumi, atau jenis peta yang ditandai dengan skala besar dan detail, biasanya menggunakan garis kontur dalam pemetaan modern.
 
-**Karakteristik Peta Topografi:**
-* Menggunakan garis kontur untuk menunjukkan ketinggian
-* Skala besar dan sangat detail (biasanya 1:50.000 atau lebih besar)
-* Menampilkan relief medan, perairan, vegetasi, dan hasil budaya manusia
-* Sangat penting untuk kegiatan militer, pendakian, dan penjelajahan alam
-* Warna standar: cokelat (kontur), biru (air), hijau (vegetasi), hitam (buatan manusia), merah (jalan utama)
+* Sebuah peta topografi biasanya terdiri dari dua atau lebih peta yang tergabung untuk membentuk keseluruhan peta.
+* Sebuah garis kontur merupakan kombinasi dari dua segmen garis yang berhubungan namun tidak berpotongan, ini merupakan titik elevasi pada Peta Topografi.
+* Secara historis, perkembangan Peta Topografi sebagian besar didorong oleh kebutuhan militer. Saat ini, operasi taktis dan kegiatan tentara sedemikian kompleks sehingga sangat penting bagi semua prajurit untuk dapat membaca dan menafsirkan peta, agar dapat bergerak cepat dan efektif di medan perang.
+* Pengenalan medan dapat memberikan perbedaan nyata dalam medan pertempuran. Kemampuan membaca peta sangat dibutuhkan jika ingin memenangkan pertempuran.
+* Tidak hanya dalam medan pertempuran, hal ini juga berlaku untuk keperluan sipil seperti berburu, menempuh rimba, menyusur rawa, hiking, mendaki gunung, bukit atau penggunaan lainnya dimana ketepatan navigasi darat diperlukan.
+* Peta Topografi adalah representasi grafis dari bagian permukaan bumi yang ditarik ke skala, seperti yang terlihat dari atas. Menggunakan warna, simbol, dan label untuk mewakili fitur yang ditemukan pada permukaan bumi.
+* Pada peta skala 1:250.000:
+    * Simbol yang ditentukan untuk bangunan mencakup areal seluas 500 meter persegi di atas tanah.
+    * Simbol jalan adalah setara dengan lebar jalan sekitar 520 kaki di tanah.
+    * Simbol untuk rel kereta api tunggal adalah setara dengan rel kereta api sekitar 1.000 kaki pada tanah.
 
-**Kegunaan:**
-* Perencanaan rute perjalanan di medan sulit
-* Analisis medan untuk operasi militer
-* Kegiatan pendakian gunung dan orienteering
-* Penelitian geografi dan geologi
+**b. Peta Tematik**
+Peta Tematik adalah peta yang menyajikan tema tertentu dan untuk kepentingan tertentu (land status, penduduk, transportasi dan lain-lain) dengan menggunakan peta rupa bumi yang telah disederhanakan sebagai dasar untuk meletakkan informasi tematiknya. Atau adalah peta yang berisi gambaran satu atau dua tema khusus yang disusun berdasarkan data statistik seperti peta jenis tanah dan peta perairan.
 
-### Peta Tematik
+* *Sejarah:* Meskipun terkenal karena penemuan kometnya, Edmond Halley juga diakui sebagai pembuat peta tematik pertama dengan keahlian Kartografik yang diakui. Pada tahun 1686, Halley menghasilkan peta kecil yang menggambarkan arah angin perdagangan di Samudra Atlantik.
+* Salah satu contoh terkenal dari Peta Tematik awal berasal dari ahli medis London John Snow. Map kolera Snow pada 1855 adalah salah satu contoh terbaik penggunaan peta tematik untuk analisis (menggambarkan prinsip GIS). Dimulai dengan peta dasar yang akurat sekitar London termasuk jalan dan lokasi pompa, Snow memetakan kejadian peristiwa kematian karena kolera. Pola yang muncul berpusat di sekitar pompa tertentu di Broad Street.
 
-Peta tematik adalah peta yang menyajikan informasi khusus sesuai dengan tema tertentu.
+**(1) Peta Jenis Tanah**
+* Adalah sebuah peta yang menggambarkan variasi dan persebaran berbagai jenis tanah atau sifat-sifat tanah (seperti pH, tekstur, kadar organik, kedalaman, dan sebagainya) di suatu area.
+* Digunakan untuk evaluasi sumber daya lahan, pemetaan ruang, perluasan lahan pertanian, konservasi, dan sebagainya.
+* Terdapat data primer (pengukuran langsung) dan data sekunder (perhitungan/perkiraan).
+* *Contoh data sekunder:* Kapasitas produksi tanah, laju degradasi, dll.
+* *Contoh Data Peta (Wilayah Kodim 0504/Jaksel):*
+    * Kebayoran Lama, Kebayoran Baru, Mampang Prapatan, Setiabudi, Tebet, Cilandak, Pasar Minggu, Jagakarsa.
+    * Keterangan Tanah: Aluvial Endapan Sungai, Tanah Liat Berpasir, Tanah Lempung (Hidromorf Kelabu), Kerikil/Kerakal, Latosol Cokelat Kemerahan.
 
-**Jenis-Jenis Peta Tematik:**
-
-* **Peta Jenis Tanah (Pedologi):** Menampilkan variasi jenis tanah di suatu wilayah, termasuk pH, tekstur, dan kesuburan tanah
-
-* **Peta Perairan (Hidrologi):** Menjelaskan sistem sungai, danau, rawa, waduk, dan daerah aliran sungai
-
-* **Peta Geologi:** Menunjukkan jenis batuan, struktur geologi, dan potensi mineral
-
-* **Peta Iklim:** Menampilkan zona iklim, curah hujan, dan temperatur
-
-* **Peta Kependudukan:** Menunjukkan persebaran dan kepadatan penduduk
-
-* **Peta Penggunaan Lahan:** Memperlihatkan fungsi lahan (pertanian, permukiman, hutan, industri)
-
-### Perbedaan Utama
-
-| Aspek | Peta Topografi | Peta Tematik |
-|-------|----------------|---------------|
-| Tujuan | Gambaran umum medan | Informasi khusus tema tertentu |
-| Skala | Besar, detail | Bervariasi |
-| Pengguna | Militer, pendaki, navigator | Peneliti, perencana, analis |
+**(2) Peta Perairan**
+* Adalah peta yang hanya menjelaskan unsur perairan yang terdapat pada suatu wilayah (sungai, danau, rawa dan waduk).
 `
               },
               {
                 id: 'navrat-1-article-3',
-                title: 'Tanda-Tanda Peta (Simbol)',
+                title: 'Pengertian Tanda–Tanda Peta',
                 content: `
-### Sistem Warna pada Peta Topografi
+### 3) Pengertian Tanda–Tanda Peta
+Tanda peta adalah sejumlah gambar pengganti yang mewakili bagian medan, benda medan dan tanda medan. Tanda-tanda peta dapat dibedakan menurut warna dan bentuknya.
 
-Peta topografi menggunakan sistem warna standar internasional untuk memudahkan pembacaan:
-
-#### Warna Hitam
-* Benda-benda buatan manusia:
-  * Jalan kereta api
-  * Batas administratif (negara, provinsi, kabupaten)
-  * Jaringan komunikasi
-  * Nama geografis dan label
-* Vegetasi buatan (perkebunan, kebun)
-
-#### Warna Biru
-* Semua unsur perairan:
-  * Sungai dan anak sungai
-  * Danau dan waduk
-  * Rawa dan payau
-  * Sawah (dengan pola khusus)
-  * Pantai dan laut
-  * Mata air
-
-#### Warna Merah atau Merah Muda
-* Konstruksi batu dan bangunan permanen:
-  * Jalan beraspal (jalan raya utama)
-  * Bangunan penting
-  * Kawasan perkotaan yang padat
-  * Jembatan permanen
-
-#### Warna Hijau
-* Vegetasi alam:
-  * Hutan lebat
-  * Semak belukar
-  * Kebun campuran
-  * Taman
-* Semakin gelap warna hijau, semakin lebat vegetasinya
-
-#### Warna Cokelat
-* Kontur (garis ketinggian):
-  * Kontur utama: garis tebal
-  * Kontur bantu: garis tipis
-  * Kontur indeks: garis sangat tebal dengan angka ketinggian
-* Semakin rapat jarak antar kontur, semakin curam medannya
-
-#### Warna Kuning atau Orange
-* Daerah terbuka tanpa vegetasi
-* Lahan kering
-* Padang pasir atau padang rumput
-
-### Simbol-Simbol Penting
-
-**Simbol Titik:**
-* Puncak gunung (△)
-* Sumur (○)
-* Pohon tunggal (●)
-
-**Simbol Garis:**
-* Jalan setapak (- - -)
-* Pagar (┴┴┴)
-* Saluran air (~~~)
-
-**Simbol Area:**
-* Sawah (kotak-kotak kecil)
-* Rawa (rumput dengan air)
-* Hutan (simbol pohon berulang)
-
-### Membaca Legenda
-
-Legenda adalah kunci untuk memahami peta. Setiap peta memiliki legenda yang menjelaskan arti dari setiap simbol yang digunakan. Selalu periksa legenda terlebih dahulu sebelum membaca peta.
+**a. Tanda peta menurut warna**
+1.  **Warna Hitam:** Untuk menunjukkan sebagian besar benda-benda medan buatan manusia.
+    * *Contoh:* Rel kereta api rangkap, Titik triangulasi, Batas daerah, Tumbuh-tumbuhan.
+2.  **Warna Biru:** Untuk menunjukkan tanda-tanda perairan.
+    * *Contoh:* Sungai dan anak sungai, Danau, Sawah.
+3.  **Warna Merah:** Untuk menentukan tanda-tanda peta berupa konstruksi dari batu/bangunan, jalan keras.
+    * *Contoh:* Jalan, Bangunan.
+4.  **Warna Hijau:** Untuk menentukan tanda-tanda peta berupa daerah/tempat yang didiami manusia (perkampungan).
+    * *Contoh:* Perkampungan.
+5.  **Warna Cokelat:** Untuk menentukan tanda-tanda peta berupa ketinggian.
+    * *Contoh:* Garis ketinggian/kontur, Kedalaman permukaan bumi, Sebagian jalan keras yang lebih rendah.
 `
               },
               {
                 id: 'navrat-1-article-4',
-                title: 'Koordinat Peta',
+                title: 'Pengertian Koordinat Peta',
                 content: `
-### Sistem Koordinat Geografis
+### 4) Pengertian Koordinat Peta
+Titik koordinat adalah pertemuan antara garis tegak dengan garis mendatar di atas peta. Pada setiap lembar peta terdapat grid (garis tegak lurus) yang membentuk kotak bujur sangkar yang disebut **Karvak**. Menghitungnya dari Barat ke Timur (KI/KA), selanjutnya dari Selatan ke Utara (BA/TAS).
 
-Koordinat geografis adalah sistem yang menggunakan garis lintang (latitude) dan garis bujur (longitude) untuk menentukan posisi di permukaan bumi.
+Secara teori, koordinat merupakan titik pertemuan antara Absis dan Ordinat. Sistem koordinat yang resmi dipakai ada dua macam yaitu:
 
-**Garis Lintang (Latitude):**
-* Garis horizontal yang sejajar dengan khatulistiwa
-* Dihitung dari 0° (khatulistiwa) hingga 90° (kutub)
-* Lintang Utara (LU) di atas khatulistiwa
-* Lintang Selatan (LS) di bawah khatulistiwa
+**a. Koordinat Geografis (Geographical Coordinate)**
+* Sumbu yang digunakan adalah **Garis Bujur** (Bujur Barat dan Bujur Timur) yang tegak lurus dengan garis khatulistiwa, dan **Garis Lintang** (Lintang Utara dan Lintang Selatan) yang sejajar dengan garis khatulistiwa.
+* Koordinat geografis dinyatakan dalam satuan derajat, menit dan detik.
+* Pada peta Bakosurtanal, biasanya menggunakan koordinat geografis sebagai koordinat utama.
+* Pada peta ini, satu kotak (Karvak) lebarnya adalah 3.7 cm.
+    * Pada skala 1:25.000, satu karvak sama dengan 30 detik (30").
+    * Pada peta skala 1:50.000, satu karvak sama dengan 1 menit (60").
+* **Garis Lintang (Latitude):** Garis khayal yang digunakan untuk menentukan lokasi di Bumi terhadap Khatulistiwa (utara atau selatan). Posisi Lintang merupakan penghitungan sudut dari 0° di Khatulistiwa sampai ke +90° di Kutub Utara dan -90° di Kutub Selatan.
+* **Garis Bujur (Longitude):** Menggambarkan lokasi sebuah tempat di timur atau barat Bumi dari sebuah garis utara-selatan yang disebut Meridian Utama (Greenwich). Berkisar dari 0° di Meridian Utama ke +180° arah timur dan −180° arah barat.
 
-**Garis Bujur (Longitude):**
-* Garis vertikal yang menghubungkan kutub utara dan selatan
-* Dihitung dari 0° (Greenwich, Inggris) hingga 180°
-* Bujur Timur (BT) ke arah timur Greenwich
-* Bujur Barat (BB) ke arah barat Greenwich
-
-**Satuan:**
-* Derajat (°)
-* Menit (') → 1° = 60'
-* Detik (") → 1' = 60"
-
-**Contoh Penulisan:**
-* 7° 36' 45" LS, 110° 24' 30" BT (Koordinat kota Magelang)
-
-### Sistem Koordinat Grid (UTM)
-
-Universal Transverse Mercator (UTM) adalah sistem koordinat yang menggunakan grid persegi panjang untuk memudahkan pembacaan posisi.
-
-**Karakteristik:**
-* Menggunakan sistem kotak (karvak/grid)
-* Satuan dalam meter
-* Lebih praktis untuk navigasi darat
-* Digunakan pada peta topografi militer
-
-**Cara Pembacaan: KIKA-BATAS**
-* **KIKA** = Kiri ke Kanan (sumbu X, arah Timur)
-* **BATAS** = Bawah ke Atas (sumbu Y, arah Utara)
-
-**Tingkat Ketelitian:**
-
-1. **Koordinat 4 Angka (Grid Square)**
-   * Format: 1234 5678
-   * Akurasi: 1 km × 1 km
-   * Menunjukkan satu kotak grid
-   * Contoh: 1234 5678 = Grid kotak 12-34 (timur) dan 56-78 (utara)
-
-2. **Koordinat 6 Angka**
-   * Format: 123456 567890
-   * Akurasi: 100 m × 100 m
-   * Setiap kotak grid dibagi menjadi 10 bagian
-   * Contoh: 123456 567890
-
-3. **Koordinat 8 Angka**
-   * Format: 12345678 56789012
-   * Akurasi: 10 m × 10 m
-   * Setiap kotak grid dibagi menjadi 100 bagian
-   * Digunakan untuk posisi yang sangat presisi
-
-4. **Koordinat 10 Angka**
-   * Format: 1234567890 5678901234
-   * Akurasi: 1 m × 1 m
-   * Tingkat presisi tertinggi untuk operasi khusus
-
-### Cara Menentukan Koordinat Grid
-
-**Langkah-langkah:**
-1. Tentukan kotak grid tempat titik berada (2 angka pertama horizontal dan vertikal)
-2. Bagi kotak grid menjadi 10 bagian (untuk 6 angka) atau 100 bagian (untuk 8 angka)
-3. Hitung jarak dari garis grid kiri ke titik (angka timur)
-4. Hitung jarak dari garis grid bawah ke titik (angka utara)
-5. Gabungkan angka-angka tersebut
-
-**Tips:**
-* Gunakan penggaris atau alat bantu koordinat
-* Selalu baca KIKA dulu, baru BATAS
-* Periksa zona UTM pada sudut peta
-* Latih pembacaan dengan berbagai tingkat ketelitian
+**b. Koordinat Grid (Grid Coordinate atau UTM)**
+* Dalam koordinat grid, kedudukan suatu titik dinyatakan dalam ukuran jarak setiap titik acuan.
+* Untuk wilayah Indonesia, titik acuan berada di sebelah barat Jakarta (60 LU, 980 BT).
+* Garis vertikal diberi nomor urut dari selatan ke utara, sedangkan horizontal dari barat ke timur.
+* Sistem koordinat mengenal penomoran 4 angka, 6 angka dan 8 angka.
+* Pada peta AMS, biasanya menggunakan koordinat grid. Satu karvak sebanding dengan 2 cm.
+* *Cara penentuan:*
+    * Koordinat 4 angka: Dapat langsung ditentukan.
+    * Koordinat 6 angka: Satu karvak dibagi menjadi 10 bagian (per 2 mm).
+    * Koordinat 8 angka: Satu karvak dibagi menjadi sepuluh bagian (per 1 mm).
+* **Contoh Koordinat Peta 8 Angka:**
+    * Co. 2343 3056
+    * Artinya: X = 2343, Y = 3056.
 `
               },
               {
                 id: 'navrat-1-article-5',
-                title: 'Kedar Peta dan Sudut Tanjakan',
+                title: 'Teknik Menyambung Peta',
                 content: `
-### Kedar Peta (Skala)
-
-Kedar peta atau skala adalah perbandingan antara jarak di peta dengan jarak sebenarnya di medan.
-
-**Rumus Dasar:**
-
-Kedar = Jarak Peta (JP) : Jarak Medan (JM)
-
-**Jenis-Jenis Skala:**
-
-1. **Skala Angka (Numerical Scale)**
-   * Ditulis dalam bentuk pecahan atau rasio
-   * Contoh: 1:50.000 atau 1/50.000
-   * Artinya: 1 cm di peta = 50.000 cm (500 m) di medan
-
-2. **Skala Garis (Graphic Scale)**
-   * Berupa garis dengan pembagian jarak
-   * Lebih praktis karena tidak terpengaruh pembesaran/pengecilan peta
-   * Biasanya terletak di bagian bawah peta
-
-**Contoh Perhitungan:**
-
-Jika skala peta 1:25.000 dan jarak di peta 4 cm, maka:
-
-Jarak Medan = 4 cm × 25.000 = 100.000 cm = 1.000 m = 1 km
-
-Jika jarak medan 2,5 km dan skala 1:50.000, maka:
-
-Jarak Peta = 2.500 m : 50.000 = 2.500.000 cm : 50.000 = 5 cm
-
-**Klasifikasi Skala:**
-* **Skala Besar:** 1:10.000 atau lebih besar (detail tinggi)
-* **Skala Sedang:** 1:10.000 hingga 1:100.000
-* **Skala Kecil:** 1:100.000 atau lebih kecil (cakupan luas)
-
-### Sudut Tanjakan (Gradient)
-
-Sudut tanjakan adalah tingkat kemiringan lereng yang diukur dalam derajat.
+### 5) Teknik Menyambung Peta
+Bila daerah yang dipelajari luas, maka peta yang digunakan terdiri dari beberapa lembar peta. Untuk menyambung peta-peta tersebut dapat dilihat pada petunjuk nomor peta yang terdapat pada setiap lembar peta di bagian kiri bawah (ada 9 kotak bujur sangkar kecil yang masing-masing berisi nomor peta dan kotak yang di tengah diarsir).
+`
+              },
+              {
+                id: 'navrat-1-article-6',
+                title: 'Pengertian Kedar Peta',
+                content: `
+### 6) Pengertian Kedar Peta
+Kedar peta adalah perbandingan jarak mendatar antara dua titik di peta dengan dua titik yang sama di medan.
 
 **Rumus:**
+* **K = JP / JM**
+* **JM = JP / K**
+* **JP = JM x K**
 
-Sudut Tanjakan = (Selisih Tinggi / Jarak Mendatar) × 57,3°
+*Keterangan:*
+* K = Kedar
+* JM = Jarak Mendatar di Medan
+* JP = Jarak di Peta
 
-Angka 57,3° adalah konversi dari radian ke derajat (180°/π)
+**Contoh soal:**
+* Diketahui:
+    * JP = 2 cm
+    * JM = 1000 m
+* Ditanya: Berapa kedarnya?
+* Jawab:
+    * K = JP / JM
+    * K = 2 cm / 1000 m
+    * (Ubah satuan meter ke cm) -> 1000 m = 100.000 cm
+    * K = 2 cm / 100.000 cm
+    * **K = 1 : 50.000**
+`
+              },
+              {
+                id: 'navrat-1-article-7',
+                title: 'Pengertian Sudut Tanjakan',
+                content: `
+### 7) Pengertian Sudut Tanjakan
+Sudut tanjakan adalah perbandingan selisih dua titik ketinggian dengan jarak mendatarnya di medan. Bagi anggota Pramuka sangat penting untuk mengetahui terjalnya suatu tanjakan karena dengan mengetahui terjalnya suatu tanjakan tersebut kita dapat melakukan pergerakan lanjutan di lapangan sebenarnya.
 
-**Tanda:**
-* **(+)** untuk tanjakan (mendaki)
-* **(-)** untuk turunan (menurun)
+**Rumus Sudut Tanjakan = Selisih Tinggi / Jarak Mendatar**
 
-**Contoh Perhitungan:**
+*Catatan:* Untuk perbandingan antara selisih tinggi dengan jarak mendatar maka satuan panjangnya harus sama (meter).
 
-Dari titik A (ketinggian 500 m) ke titik B (ketinggian 750 m) dengan jarak mendatar 1.000 m:
+**a. Perbandingan antara selisih tinggi dengan jarak mendatar**
+* *Contoh:*
+    * Selisih Tinggi = 25 meter
+    * Jarak mendatar = 100 meter
+* *Maka besar sudut tanjakan:*
+    * = 25 / 100
+    * = **1/4**
 
-Selisih Tinggi = 750 - 500 = 250 m
-Jarak Mendatar = 1.000 m
-Sudut Tanjakan = (250 / 1.000) × 57,3° = 0,25 × 57,3° = +14,3°
+**b. Menyatakan selisih tinggi dengan jarak mendatar dalam derajat**
+* *Rumus:*
+    * Sudut Tanjakan = (Selisih Tinggi / Jarak Mendatar) x 57,3°
+* *Perhitungan:*
+    * = (25 / 100) X 57,3°
+    * = (1 / 4) X 57,3°
+    * = **14° 19' 30"**
 
-Artinya: Tanjakan dengan kemiringan 14,3 derajat (cukup curam)
-
-**Klasifikasi Kemiringan:**
-* 0° - 8°: Landai (mudah dilalui)
-* 8° - 16°: Agak curam (butuh kehati-hatian)
-* 16° - 30°: Curam (sulit, perlu teknik khusus)
-* > 30°: Sangat curam (berbahaya, butuh peralatan)
-
-### Menghitung dari Kontur
-
-Untuk menghitung sudut tanjakan dari peta:
-
-1. Hitung selisih tinggi dari garis kontur
-2. Ukur jarak horizontal di peta
-3. Konversi jarak peta ke jarak medan menggunakan skala
-4. Gunakan rumus sudut tanjakan
-
-**Contoh:**
-* Interval kontur: 25 m
-* Jumlah kontur yang dilalui: 4 garis
-* Selisih tinggi: 4 × 25 m = 100 m
-* Jarak di peta: 2 cm
-* Skala: 1:25.000
-* Jarak medan: 2 cm × 25.000 = 50.000 cm = 500 m
-* Sudut: (100/500) × 57,3° = +11,46°
-
-### Aplikasi Praktis
-
-* **Perencanaan Rute:** Pilih jalur dengan kemiringan yang sesuai kemampuan
-* **Estimasi Waktu:** Medan curam membutuhkan waktu lebih lama
-* **Keamanan:** Hindari lereng sangat curam tanpa peralatan memadai
-* **Konsumsi Energi:** Tanjakan curam menghabiskan energi lebih banyak
+**Catatan:**
+1.  1 T radial = 57,3°
+2.  Rumus di atas dapat digunakan untuk sudut tanjakan yang lebih kecil dari 30°.
+3.  Perhitungan untuk lereng-lereng yang mendaki dinyatakan dengan tanda Plus (+), sedangkan yang menurun dinyatakan dengan tanda Minus (-) dalam penulisannya.
 `
               }
             ]
@@ -386,389 +253,145 @@ Untuk menghitung sudut tanjakan dari peta:
             items: [
               {
                 id: 'navrat-2-article-1',
-                title: 'Pengertian dan Jenis Kompas',
+                title: 'Pengertian Kompas',
                 content: `
-### Pengertian Kompas
+### 1) Pengertian Kompas
 
-Kompas adalah alat navigasi yang menunjukkan arah mata angin berdasarkan prinsip kemagnetan bumi. Jarum kompas selalu menunjuk ke arah kutub magnet bumi.
+Kompas adalah alat navigasi untuk menentukan arah berupa sebuah panah penunjuk magnetis yang bebas menyelaraskan dirinya dengan medan magnet bumi secara akurat.
+* Kompas memberikan rujukan arah tertentu, sehingga sangat membantu dalam bidang navigasi.
+* Arah mata angin yang ditunjuknya adalah utara, selatan, timur, dan barat.
+* Apabila digunakan bersama-sama dengan jam dan sekstan, maka kompas akan lebih akurat dalam menunjukkan arah.
+* Alat ini membantu perkembangan perdagangan maritim dengan membuat perjalanan jauh lebih aman dan efisien dibandingkan saat manusia masih berpedoman pada kedudukan bintang untuk menentukan arah.
 
-### Prinsip Kerja Kompas
+**Sejarah dan Perkembangan:**
+* Penemuan bahwa jarum magnetik selalu mengarah ke utara dan selatan terjadi di Cina dan diuraikan dalam buku *Loven Heng*.
+* Di abad kesembilan, orang Cina telah mengembangkan kompas berupa jarum yang mengambang dan jarum yang berputar.
+* Pelaut Persia memperoleh kompas dari orang Cina dan kemudian memperdagangkannya.
+* Pada tahun 1877 orang Inggris, William Thomson, 1st Baron Kelvin (Lord Kelvin) membuat kompas yang dapat diterima oleh semua negara dengan memperbaiki kesalahan-kesalahan yang timbul dari deviasi magnetik karena meningkatnya penggunaan besi dalam arsitektur kapal.
 
-Bumi memiliki medan magnet dengan dua kutub: Kutub Magnet Utara (dekat Kutub Utara geografis) dan Kutub Magnet Selatan (dekat Kutub Selatan geografis). Jarum kompas yang terbuat dari bahan magnetik akan selalu menunjuk ke arah kutub magnet utara.
+**Prinsip Kerja:**
+* Alat apa pun yang memiliki batang atau jarum magnetis yang bebas bergerak menunjuk arah utara magnetis dari Magnetosfer sebuah planet sudah bisa dianggap sebagai kompas.
+* **Kompas jam:** Kompas yang dilengkapi dengan jam matahari.
+* **Kompas variasi:** Alat khusus berstruktur rapuh yang digunakan dengan cara mengamati variasi pergerakan jarum.
+* **Giro kompas:** Digunakan untuk menentukan utara sejati.
+* **Pergeseran Magnet:** Lokasi magnet di Kutub Utara selalu bergeser dari masa ke masa. Penelitian terakhir oleh *The Geological Survey of Canada* melaporkan bahwa posisi magnet ini bergerak kira-kira 40 Km per tahun ke arah barat laut.
 
-**Perbedaan Utara:**
-* **Utara Sebenarnya (True North):** Arah menuju Kutub Utara geografis
-* **Utara Magnetis (Magnetic North):** Arah yang ditunjuk jarum kompas
-* **Deklinasi Magnetis:** Perbedaan sudut antara Utara Sebenarnya dan Utara Magnetis (bervariasi per lokasi)
-
-### Bagian-Bagian Kompas
-
-**Komponen Utama:**
-1. **Badan/Rumah Kompas:** Wadah yang melindungi mekanisme kompas
-2. **Jarum Magnetis:** Jarum yang selalu menunjuk utara magnetis
-3. **Dial/Rose:** Lingkaran berderajat (0°-360°)
-4. **Garis Rambut/Pisir:** Garis penunjuk untuk bidikan
-5. **Cairan Peredam:** Cairan dalam rumah kompas untuk meredam getaran jarum
-6. **Kaca Pembesar:** Untuk membaca skala dengan jelas
-
-### Jenis-Jenis Kompas
-
-#### 1. Kompas Bidik (Prisma/Lensatic)
-
-**Karakteristik:**
-* Dilengkapi dengan prisma untuk membaca derajat sambil membidik
-* Memiliki kawat pisir (sight wire) dan celah bidik
-* Akurasi tinggi (± 1°)
-* Digunakan untuk navigasi presisi
-* Umum digunakan oleh militer dan pecinta alam profesional
-
-**Bagian Khusus:**
-* Tutup pelindung dengan celah bidik
-* Prisma pembaca sudut
-* Kawat pisir vertikal
-* Cincin untuk jempol
-* Bezel yang dapat diputar
-
-**Keunggulan:**
-* Sangat akurat
-* Tahan banting
-* Dapat digunakan siang dan malam (ada fitur luminous)
-* Dapat membidik sasaran jauh dengan presisi
-
-#### 2. Kompas Orienteering (Silva/Baseplate)
-
-**Karakteristik:**
-* Badan transparan sehingga dapat diletakkan langsung di atas peta
-* Memiliki travel arrow (panah arah perjalanan)
-* Bezel/cincin yang dapat diputar
-* Garis-garis orienteering untuk mensejajarkan dengan garis utara peta
-* Penggaris di tepi untuk mengukur jarak di peta
-
-**Bagian Khusus:**
-* Baseplate transparan
-* Direction of travel arrow
-* Orienting arrow (panah di dalam rumah kompas)
-* Meridian lines (garis-garis sejajar untuk orientasi)
-* Skala penggaris (biasanya 1:25.000 dan 1:50.000)
-
-**Keunggulan:**
-* Sangat praktis untuk navigasi dengan peta
-* Ringan dan tidak memakan tempat
-* Mudah digunakan untuk pemula
-* Ideal untuk orienteering dan hiking
-
-#### 3. Kompas Jari (Thumb Compass)
-
-**Karakteristik:**
-* Dipasang di jari dengan tali/gelang
-* Sangat kecil dan ringan
-* Digunakan khusus untuk lomba orienteering
-* Dapat dibaca sambil berlari
-
-**Keunggulan:**
-* Tangan bebas memegang peta
-* Sangat cepat untuk dibaca
-* Tidak mudah terjatuh atau hilang
-
-#### 4. Kompas Digital/GPS
-
-**Karakteristik:**
-* Menggunakan sensor elektronik
-* Terintegrasi dengan GPS
-* Menampilkan arah dalam format digital
-* Banyak fitur tambahan (altimeter, barometer)
-
-**Keunggulan:**
-* Akurasi tinggi dengan koreksi deklinasi otomatis
-* Banyak fitur navigasi tambahan
-* Dapat menyimpan waypoint dan track
-
-**Kelemahan:**
-* Memerlukan baterai
-* Lebih mahal
-* Rentan terhadap air dan benturan
-
-### Perbandingan Kompas
-
-| Jenis | Akurasi | Kemudahan | Harga | Penggunaan Ideal |
-|-------|---------|-----------|-------|------------------|
-| Prisma | Sangat Tinggi | Sedang | Mahal | Navigasi presisi, militer |
-| Orienteering | Tinggi | Mudah | Terjangkau | Hiking, orienteering |
-| Jari | Sedang | Sangat Mudah | Mahal | Lomba orienteering |
-| Digital | Sangat Tinggi | Mudah | Sangat Mahal | Teknologi modern |
-
-### Tips Penggunaan Kompas
-
-1. **Jauhkan dari Benda Magnetis:**
-   * Pisahkan min. 50 cm dari logam, elektronik, kendaraan
-   * Lepas jam tangan, pisau, atau benda metal lain saat menggunakan
-   * Hindari penggunaan dekat power lines atau bangunan baja
-
-2. **Posisi yang Benar:**
-   * Pegang kompas rata/horizontal di depan dada
-   * Berdiri tegak dan stabil
-   * Tunggu hingga jarum berhenti bergerak
-
-3. **Perawatan Kompas:**
-   * Simpan di tempat kering dan sejuk
-   * Hindari terjatuh atau benturan keras
-   * Jangan biarkan terkena sinar matahari langsung lama
-   * Bersihkan dengan kain lembut
-
-4. **Kalibrasi:**
-   * Cek akurasi dengan membandingkan arah matahari/bintang
-   * Periksa apakah gelembung udara ada (tanda kebocoran)
-   * Pastikan jarum bergerak bebas
-
-5. **Kondisi Khusus:**
-   * **Di Area Kutub:** Kompas standar tidak akurat, gunakan kompas khusus
-   * **Di Khatulistiwa:** Jarum kompas cenderung miring, butuh kompas balance global
-   * **Di Medan Vulkanik:** Kandungan mineral dapat mengganggu kompas
-
-### Kegunaan Kompas dalam Navigasi
-
-* **Menentukan Arah:** Mengetahui posisi mata angin
-* **Mengikuti Azimuth:** Berjalan lurus mengikuti sudut jurusan
-* **Orientasi Peta:** Menyelaraskan peta dengan medan sebenarnya
-* **Reseksi:** Menentukan posisi sendiri di peta
-* **Interseksi:** Menentukan posisi objek di medan
-* **Back Bearing:** Menentukan arah balik untuk kembali
-
-* Orienting lines (garis sejajar utara)
-* Scale ruler (penggaris skala)
-
-**Keunggulan:**
-* Sangat praktis untuk orienteering
-* Mudah digunakan dengan peta
-* Ringan dan compact
-* Cocok untuk pemula
-
-#### 3. Kompas Pelat Dasar (Baseplate Compass)
-
-Variasi dari kompas orienteering dengan fitur lebih sederhana, cocok untuk penggunaan umum dan pelajar.
-
-#### 4. Kompas Ibu Jari (Thumb Compass)
-
-Kompas kecil yang diikatkan di ibu jari, digunakan khusus untuk lomba orienteering agar dapat membaca kompas sambil berlari.
-
-#### 5. Kompas Digital/Elektronik
-
-**Karakteristik:**
-* Menggunakan sensor elektronik
-* Menampilkan arah dalam angka digital
-* Sering terintegrasi dengan GPS
-* Membutuhkan baterai
-
-**Kekurangan:**
-* Tergantung baterai
-* Rentan gangguan elektronik
-* Kurang akurat di area dengan banyak logam
-
-### Tips Menggunakan Kompas
-
-**Do (Lakukan):**
-* Jauhkan dari benda logam (minimal 1 meter)
-* Pegang dalam posisi rata (horizontal)
-* Tunggu jarum berhenti bergerak sebelum membaca
-* Kalibrasi secara berkala
-* Simpan di tempat kering
-
-**Don't (Hindari):**
-* Jangan gunakan dekat logam (pisau, jam, kendaraan)
-* Jangan dekat magnet atau peralatan elektronik
-* Jangan disimpan di tempat panas ekstrem
-* Jangan dijatuhkan atau dibenturkan
-
-### Perawatan Kompas
-
-* Bersihkan secara teratur dengan kain lembut
-* Periksa gelembung udara dalam cairan (tidak boleh terlalu besar)
-* Lindungi dari benturan
-* Simpan dalam tas pelindung
-* Jauhkan dari magnet kuat
-* Periksa akurasi dengan membandingkan beberapa kompas
+**Bagian-bagian Kompas:**
+1.  Tutup Kompas
+2.  Kotak Kompas
+3.  Skala Puluhan Derajat
+4.  Skala Limaan Derajat
+5.  Takik
+6.  Garis Tanda Bercahaya
+7.  Bibir Pelindung
+8.  Garis Rambut
+9.  Skala Satuan Derajat
+10. Pelindung Tutup Kompas
+11. Sekrup Pengapit
+12. Kaca Tutup Kompas
+13. Lingkaran Kompas dengan Pembagian Mata Angin
+14. Tanda bercahaya arah kompas menuju utara magnit
+15. Cincin Ibu Jari
+16. Tanda bercahaya di bawah piringan kaca
+17. Prisma
 `
               },
               {
                 id: 'navrat-2-article-2',
-                title: 'Orientasi Peta dengan Kompas',
+                title: 'Jenis dan Fungsi Kompas',
                 content: `
-### Pengertian Orientasi Peta
+### 2) Jenis dan Fungsi Kompas
+Kompas terdiri dari 3 jenis, yaitu Kompas Bidik (Kompas Prisma), Kompas Orienteering (Kompas Silva), dan Kompas Biasa.
 
-Orientasi peta adalah proses menyelaraskan peta dengan medan sebenarnya sehingga arah di peta sama dengan arah di lapangan. Setelah peta diorientasi, utara peta akan menunjuk ke utara sebenarnya, dan semua fitur di peta akan sesuai posisinya dengan medan.
+**a. Kompas Bidik (Kompas Prisma)**
+Fungsi utamanya untuk mempermudah menghitung sudut sasaran bidik (tempat atau benda) secara langsung. Cara pemakaiannya dengan membidikkan kompas ke sasaran secara langsung sekaligus membaca sudut sasaran pada skala kompas. Besar sudut yang dibuat oleh arah bidikan dan arah jarum (utara) itulah sudut sasarannya (*bearing*).
 
-### Tujuan Orientasi Peta
+**(1) Komponen Kompas Bidik:**
+1.  **Kawat Pisir:** Berfungsi sebagai garis pemandu ketepatan ke arah objek bidikan.
+2.  **Piringan skala derajat:** Sebagai penunjuk derajat hasil bidikan dan arah mata angin.
+3.  **Jarum kompas:** Magnet sebagai penunjuk arah utara selatan magnetis bumi, sekaligus sebagai pemutar piringan skala derajat secara otomatis.
+4.  **Rumah kompas:** Berfungsi sebagai pelindung komponen utama kompas (skala, jarum, tanda arah mata angin).
+5.  **Lensa pembidik:** Sebagai alat bantu untuk membaca hasil derajat bidikan dan mensejajarkan kompas dengan objek bidik.
 
-1. **Memudahkan Identifikasi Medan:** Fitur di peta sesuai dengan posisi sebenarnya
-2. **Menentukan Arah dengan Akurat:** Memastikan arah perjalanan benar
-3. **Menemukan Posisi:** Lebih mudah menentukan lokasi Anda di peta
-4. **Navigasi Efektif:** Mengurangi kesalahan dalam menentukan rute
+**(2) Cara Pemakaian Kompas Bidik:**
+1.  Buka kompas bidik.
+2.  Masukkan jempol kanan ke handle pengait.
+3.  Arahkan posisi kita ke objek yang akan dibidik.
+4.  Dekatkan mata kita pada lensa kompas untuk mempermudah bidikan objek.
+5.  Arahkan kompas (kawat pisir) pada objek yang akan dibidik setepat mungkin. Lensa pembidik, kawat pisir, dan objek bidik harus satu garis lurus atau sejajar.
+6.  Setelah dipastikan sejajar, pertahankan bidikan sambil melihat (membaca) hasil yang ditunjukkan pada skala derajat. Hasil penunjukan tersebut merupakan sudut objek bidik (Azimut) yang digunakan sebagai dasar perhitungan untuk mengetahui posisi kita dan objek itu sendiri.
 
-### Metode Orientasi Peta dengan Kompas
+**b. Kompas Orienteering (Kompas Silva)**
+Fungsi utamanya untuk mempermudah perhitungan dan pembacaan pada peta secara langsung. Badan atau pembungkus kompas silva selalu dibuat transparan untuk mempermudah pembacaan peta yang diletakkan di bawahnya.
 
-#### Langkah-Langkah Detail:
+**(1) Cara Pemakaian:**
+1.  Letakkan kompas anda pada peta kawasan tersebut dengan ujung *Base Plate* menghubungkan lokasi anda berada dengan arah lokasi anda akan dituju.
+2.  Tetapkan garisan tengah dalam kompas dengan memutarkan *Dial* kompas mengikuti garisan pada peta anda, sejajar dengan Utara Magnetik (MN) pada peta.
+3.  Keluarkan kompas dari peta dan hadapkan ke hadapan anda dengan *Travel Arrow* menunjuk ke depan/lokasi. Putarkan badan anda sehingga ujung merah jarum kompas berubah dengan menunjuk kepada "N" pada di dalam dial kompas. Arah Perjalanan *Arrow* kini menunjukkan tepat ke destinasi anda. Lihat pada satu mercu tanda (bukit, puncak gunung, pohon) dan berjalan kepadanya. Ulang prosedur ini sehingga anda sampai ke destinasi anda.
 
-**1. Persiapan:**
-* Buka peta dan letakkan di permukaan datar
-* Pastikan kompas berfungsi dengan baik
-* Jauhkan dari benda magnetis (minimal 50 cm dari logam)
-* Identifikasi garis grid utara di peta (biasanya vertikal)
-
-**2. Posisikan Kompas:**
-* Letakkan kompas di atas peta
-* Sejajarkan sisi atau garis rambut kompas dengan garis grid utara peta
-* Pastikan titik 0° kompas mengarah ke atas peta
-
-**3. Putar Peta:**
-* Pegang kompas tetap pada posisinya
-* Putar peta (bersama kompas) secara perlahan
-* Tunggu hingga jarum utara kompas berhenti bergerak
-* Sejajarkan jarum utara dengan angka 0° atau 360° pada dial kompas
-
-**4. Verifikasi:**
-* Cek apakah fitur medan (gunung, sungai, jalan) sesuai dengan peta
-* Identifikasi minimal 2-3 landmark untuk memastikan orientasi benar
-
-### Tips Orientasi yang Akurat
-
-**Lakukan:**
-* Orientasi ulang setiap kali berhenti atau berbelok
-* Gunakan peta dengan skala yang sesuai (1:25.000 atau 1:50.000)
-* Latih orientasi di medan yang sudah dikenal dulu
-* Selalu cek minimal 2 fitur medan sebagai konfirmasi
-
-**Hindari:**
-* Mengandalkan satu metode saja
-* Orientasi di dekat kendaraan atau bangunan baja
-* Terburu-buru tanpa verifikasi
+**c. Kompas Biasa**
+Fungsi utamanya hanya sebagai penunjuk arah berdasarkan prinsip gaya magnet. Jadi kompas biasa adalah kompas dasar. Ukuran kompas biasa umumnya lebih kecil dari 2 jenis kompas yang lain. Untuk sekedar penunjuk arah mata angin kompas biasa lebih dapat diandalkan karena lebih praktis.
 `
               },
               {
                 id: 'navrat-2-article-3',
-                title: 'Penggunaan Kompas Siang dan Malam',
+                title: 'Orientasi Peta dengan Kompas',
                 content: `
-### Kompas Siang (Daytime Compass)
+### 3) Orientasi Peta dengan Kompas
+Sebelum peta digunakan terlebih dahulu peta harus diorientasi sehingga peta tersebut terletak horisontal dalam kedudukan utara/selatan peta sesuai dengan utara selatan medan.
 
-Kompas siang digunakan untuk membidik sasaran yang terlihat dan menentukan sudut jurusannya (azimuth).
+**a. Cara mengorientasi peta dengan kompas:**
+1.  Buka peta dan letakkan di atas bidang datar.
+2.  Buka kompas dan letakkan di atas peta.
+3.  Himpitkan garis rambut dan tanda baca yang bercahaya pada kompas sejajar dengan garis grid utara selatan pada peta.
+4.  Putar peta dan kompas sehingga jarum kompas searah dengan garis utara magnit.
+5.  Dengan demikian peta telah terorientasi ke arah utara.
 
-#### Langkah-Langkah Penggunaan Kompas Siang:
+**b. Menghitung Bearing (Azimuth)**
+Menghitung arah kelurusan/jurus dari bidang vertikal yang melalui garis tetapi tidak menunjukan arah penunjaman garis tersebut (menunjukkan arah–arah di mana, salah satu arahnya merupakan sudut pelurusnya).
+* Setiap arah bisa dinyatakan sebagai sudut yang terhubung dengan utara. Pada militer ini disebut "Azimuth" (sudut antara sasaran terhadap kutub magnetik bumi/sudut kompas) dan bearing dinyatakan sebagai jumlah derajat.
+* *Orienteer* mengambil jalan keluar yang gampang, dengan mensetting sudut pada kompasnya dan menjaga jarum kompasnya, dan ini membuat mereka tetap bergerak pada arah yang benar.
 
-**1. Buka Kompas:**
-* Buka tutup kompas hingga tegak lurus (90°) dengan badan kompas
-* Angkat prisma hingga posisi 45° (dapat dilihat melalui lubang prisma)
-* Pastikan jarum kompas bebas bergerak
+**Instruksi langkah-langkah mudah cara mengeset bearing pada dasar kompas tipe baseplate:**
+1.  Letakan kompas di atas peta penunjuk arah mengarah ke arah tujuan kita.
+2.  Putar rumah kompas sehingga tanda panahnya yang terdapat pada dasar plastiknya paralel dengan panah yang tergambar pada peta (pastikan mata anak panahnya mengarah ke utara bukan selatan).
+3.  Pisahkan kompas dengan peta dan peganglah peta di depan kita jadi dengan begitu arah perjalanan kita terbentang di depan kita.
+4.  Putarlah tubuh sehingga jarum kompas tepat pada tanda panah di dasar rumah kompas.
+5.  Lalu pilihlah sebuah objek jelas di depan kita yang terletak di jalur perjalanan kita, ulangi proses ini (dengan cara ini kita bisa memutari rintangan dan tetap berada pada jalur bearing kita).
+`
+              },
+              {
+                id: 'navrat-2-article-4',
+                title: 'Pengertian Kompas Siang dan Kompas Malam',
+                content: `
+### 4) Pengertian Kompas Siang dan Kompas Malam
 
-**2. Posisi Pegangan:**
-* Masukkan ibu jari ke cincin kompas
-* Telunjuk menahan bagian bawah tutup
-* Jari tengah dan manis di bawah badan kompas
-* Pegang kompas setinggi dada atau mata
+**a. Pengertian Kompas Siang**
+Kompas siang adalah suatu cara yang digunakan untuk menentukan arah/menuju sasaran yang telah ditentukan pada siang hari.
 
-**3. Membidik Sasaran:**
-* Arahkan kompas ke sasaran yang ingin ditentukan sudut jurusannya
-* Lihat sasaran melalui celah bidik di tutup
-* Sejajarkan kawat pisir (sight wire) dengan sasaran
-* Pastikan sasaran, kawat pisir, dan celah bidik berada dalam satu garis lurus
+**Langkah-langkah penggunaan Kompas Siang adalah:**
+1.  Buka tutup kompas hingga berdiri tegak.
+2.  Letakkan/angkat prisma ke atas kaca kompas.
+3.  Masukkan ibu jari ke dalam cincin kompas, dan luruskan telunjuk ke depan sehingga rapat pada bagian tutup kompas dengan maksud agar pada waktu kompas dibidikkan tidak bergerak.
+4.  Dari tiang bidikan, kedua kaki rapat/sikap sempurna dan menghadap penuh ke sasaran.
+5.  Bawa kompas ke depan mata dan langsung membidik, mata yang tidak membidik dipejamkan.
+6.  Lihat standar melalui prisma.
+7.  Luruskan garis rambut pada tutup kompas dengan sasaran.
+8.  Baca garis-garis/angka derajat dalam kompas melalui prisma yang sejajar dengan garis rambut pada kaca kompas dan sasaran.
+9.  Itulah sudut yang dimaksud.
+10. Melaksanakan *Back Azimuth* (Bidikan ke belakang) sebagai koreksi sudut jurusan.
 
-**4. Membaca Sudut:**
-* Tanpa mengubah arah bidikan, baca angka derajat melalui prisma
-* Angka yang sejajar dengan garis indeks adalah sudut jurusan (azimuth)
-* Tunggu jarum kompas berhenti bergerak sebelum membaca
+**b. Pengertian Kompas Malam**
+Kompas malam adalah suatu cara yang digunakan untuk menentukan arah/menuju sasaran yang telah ditentukan yang dilaksanakan pada malam hari.
 
-**5. Mencatat:**
-* Catat sudut jurusan yang terbaca
-* Format: "Sasaran [nama]: Azimuth [angka]°"
-* Contoh: "Puncak Gunung: Azimuth 075°"
-
-### Kompas Malam (Night Compass)
-
-Kompas malam digunakan untuk berjalan mengikuti sudut jurusan tertentu tanpa melihat sasaran (karena gelap atau sasaran tidak terlihat).
-
-#### Langkah-Langkah Penggunaan Kompas Malam:
-
-**1. Setting Azimuth:**
-* Buka tutup kompas hingga rata dengan badan (180°)
-* Kendorkan sekrup pengunci bezel (jika ada)
-* Putar kaca/bezel kompas hingga angka azimuth yang diinginkan sejajar dengan garis rambut
-* Contoh: Jika ingin jalan ke arah 045°, putar hingga angka 45 di garis rambut
-* Kencangkan sekrup pengunci
-
-**2. Aktivasi Luminous (jika perlu):**
-* Kompas modern memiliki cat fosfor yang menyerap cahaya
-* Sebelum gelap, charge kompas dengan cahaya senter selama 10-30 detik
-* Jarum dan tanda akan bercahaya selama beberapa jam
-
-**3. Posisi Kompas:**
-* Pegang kompas di depan dada, posisi horizontal
-* Pastikan garis rambut mengarah ke depan (arah perjalanan)
-* Jaga jarak aman dari benda logam
-
-**4. Orientasi Badan:**
-* Putar seluruh badan (bukan hanya kompas) perlahan
-* Tunggu jarum berhenti bergerak
-* Sejajarkan ujung jarum utara (merah/bercahaya) dengan tanda indeks atau angka yang sudah di-set
-* Saat jarum sejajar, arah garis rambut adalah arah perjalanan yang benar
-
-**5. Berjalan:**
-* Cari landmark di depan yang sejajar dengan garis rambut (pohon, batu, dll)
-* Berjalan menuju landmark tersebut
-* Setelah sampai di landmark, ulangi proses orientasi
-* Tetapkan landmark baru dan lanjutkan
-
-### Perbedaan Kompas Siang dan Malam
-
-| Aspek | Kompas Siang | Kompas Malam |
-|-------|--------------|---------------|
-| Posisi Tutup | Tegak lurus (90°) | Rata (180°) |
-| Fungsi | Membidik sasaran | Mengikuti azimuth |
-| Pembacaan | Membaca sudut lewat prisma | Setting azimuth di bezel |
-| Sasaran | Harus terlihat jelas | Tidak perlu melihat sasaran |
-| Fitur Utama | Prisma + sight wire | Luminous + bezel |
-| Aplikasi | Menentukan arah objek | Berjalan ke arah tertentu |
-
-### Sudut Jurusan (Azimuth)
-
-**Sistem Derajat:**
-* 000° atau 360° = Utara (North)
-* 090° = Timur (East)
-* 180° = Selatan (South)
-* 270° = Barat (West)
-
-**Sudut Antara:**
-* 045° = Timur Laut (Northeast)
-* 135° = Tenggara (Southeast)
-* 225° = Barat Daya (Southwest)
-* 315° = Barat Laut (Northwest)
-
-### Back Azimuth (Sudut Balik)
-
-**Rumus:**
-
-**Jika Azimuth < 180°:**
-Back Azimuth = Azimuth + 180°
-
-**Jika Azimuth > 180°:**
-Back Azimuth = Azimuth - 180°
-
-**Contoh:**
-* Azimuth maju: 045° → Back Azimuth: 045° + 180° = 225°
-* Azimuth maju: 270° → Back Azimuth: 270° - 180° = 090°
-
-### Tips Penggunaan Efektif
-
-**Untuk Kompas Siang:**
-1. Bidik sasaran yang spesifik (puncak gunung, bukan "gunung")
-2. Baca angka dengan mata sejajar prisma
-3. Tunggu jarum benar-benar stabil (3-5 detik)
-4. Catat segera sebelum lupa
-5. Verifikasi dengan bidik ulang
-
-**Untuk Kompas Malam:**
-1. Charge kompas dengan senter sebelum gelap
-2. Gunakan landmark interim setiap 50-100m
-3. Berjalan perlahan agar tidak menyimpang
-4. Re-check azimuth setiap berhenti
-5. Gunakan tongkat atau teman sebagai guide arah
+**Langkah-langkah penggunaan Kompas pada malam hari adalah:**
+1.  Buka tutup kompas hingga rata.
+2.  Kendorkan sekrup pengapit.
+3.  Putar kaca kompas sesuai sudut yang dikehendaki.
+4.  Kencangkan sekrup pengapit.
+5.  Kompas dibawa ke depan dada.
+6.  Putar badan dan kompas sehingga jarum kompas yang bercahaya berhimpit dengan tanda baca yang bercahaya.
+7.  Garis rambut dan tanda baca yang bercahaya menunjukkan arah kompas.
 `
               }
             ]
@@ -791,184 +414,40 @@ Back Azimuth = Azimuth - 180°
             items: [
               {
                 id: 'navrat-3-article-1',
-                title: 'Resection dan Intersection',
+                title: 'Pengertian Resection dan Intersection',
                 content: `
-### Pengertian Resection (Mengikat ke Belakang)
+### 1) Pengertian Resection dan Intersection
 
-**Resection** adalah teknik navigasi untuk menentukan **posisi sendiri** di peta dengan menggunakan dua atau lebih objek medan yang dapat diidentifikasi di peta.
+**a) Resection (Mengikat ke Depan)**
+Adalah cara untuk menentukan tempat/kedudukan sendiri di medan ke titik di peta dengan menggunakan dua titik pertolongan yang terdapat di peta dan di medan sebenarnya.
 
-**Kapan Digunakan:**
-* Saat tersesat dan tidak tahu posisi di peta
-* Untuk memverifikasi posisi saat ini
-* Memulai navigasi dari titik yang tidak ditandai di peta
-* Operasi pencarian dan penyelamatan (SAR)
+**b) Intersection (Mengikat ke Belakang)**
+Adalah cara untuk menentukan tempat/kedudukan pihak lain di medan ke titik yang ada di peta dengan menggunakan titik pertolongan yang terdapat di peta dan di medan.
+`
+              },
+              {
+                id: 'navrat-3-article-2',
+                title: 'Cara Melaksanakan Resection dan Intersection',
+                content: `
+### 2) Cara Melaksanakan Resection dan Intersection
 
-### Langkah-Langkah Resection
+**a) Resection (Mengikat ke Depan) dengan Kompas**
+1.  Pilih dua titik tanda yang sudah dikenali di lapangan dan juga di peta.
+    * **Contoh:** Titik 1 Menara (Arah kompas 146°).
+2.  Dari arah kompas 146° ditarik garis *Back Azimuth* (bidikan arah balik/ke belakang) sebesar 326°.
+3.  **Contoh:** Titik 2 Pura (Arah kompas 248°).
+    * Dari arah kompas 248° ditarik garis *Back Azimuth* (arah balik) sebesar 68°.
+4.  Dari hasil perpotongan kedua garis tersebut merupakan kedudukan kita sendiri.
+    * *(Data Gambar: 77°, Kedudukan Sendiri, 123°, 154°, 234°)*
 
-#### 1. Identifikasi Objek Medan
-
-**Syarat Objek:**
-* Harus terlihat jelas dari posisi Anda
-* Dapat diidentifikasi dengan pasti di peta (puncak gunung, menara, persimpangan)
-* Minimal 2 objek, idealnya 3 untuk akurasi
-* Sudut antara objek 30°-150° (hindari terlalu sempit atau terlalu lebar)
-
-#### 2. Bidik Objek dengan Kompas
-
-**Prosedur:**
-
-A. **Bidik Objek Pertama (A):**
-   * Buka kompas siang (tutup tegak lurus)
-   * Bidik objek melalui celah dan kawat pisir
-   * Baca azimuth melalui prisma
-   * Contoh: Puncak Gunung → Azimuth 045°
-   * Catat: "Objek A: 045°"
-
-B. **Bidik Objek Kedua (B):**
-   * Tanpa bergerak dari posisi, bidik objek kedua
-   * Baca dan catat azimuthnya
-   * Contoh: Menara → Azimuth 130°
-   * Catat: "Objek B: 130°"
-
-#### 3. Hitung Back Azimuth (Sudut Balik)
-
-Back azimuth adalah kebalikan arah dari objek ke posisi kita.
-
-**Rumus:**
-
-**Jika Azimuth < 180°:**
-Back Azimuth = Azimuth + 180°
-
-**Jika Azimuth ≥ 180°:**
-Back Azimuth = Azimuth - 180°
-
-**Contoh Perhitungan:**
-* Objek A: 045° → Back Azimuth = 045° + 180° = 225°
-* Objek B: 130° → Back Azimuth = 130° + 180° = 310°
-
-#### 4. Plot di Peta
-
-**Cara Plotting:**
-
-A. **Orientasikan Peta:**
-   * Selaraskan peta dengan kompas
-
-B. **Plot Garis Pertama:**
-   * Temukan Objek A di peta
-   * Letakkan kompas di objek A
-   * Sejajarkan kompas dengan arah back azimuth (225°)
-   * Tarik garis lurus dari Objek A mengikuti arah 225°
-
-C. **Plot Garis Kedua:**
-   * Temukan Objek B di peta
-   * Sejajarkan dengan back azimuth B (310°)
-   * Tarik garis dari Objek B mengikuti arah 310°
-
-D. **Tentukan Posisi:**
-   * Perpotongan 2 garis adalah posisi Anda
-   * Jika menggunakan 3 garis, idealnya bertemu di satu titik
-   * Jika membentuk segitiga kecil, posisi Anda di tengah segitiga
-
-### Pengertian Intersection (Mengikat ke Depan)
-
-**Intersection** adalah teknik navigasi untuk menentukan **posisi objek/sasaran** di peta dengan mengukur azimuth dari dua atau lebih posisi yang diketahui.
-
-**Kapan Digunakan:**
-* Menentukan posisi target yang tidak bisa didekati
-* Pemetaan lokasi baru
-* Operasi militer (menentukan posisi musuh)
-* SAR (menentukan lokasi korban yang terlihat tapi jauh)
-
-### Langkah-Langkah Intersection
-
-#### 1. Pilih Posisi Pengamatan
-
-**Syarat Posisi:**
-* Dua posisi harus diketahui dengan pasti di peta
-* Jarak antara kedua posisi cukup jauh (minimal 100m)
-* Sudut baseline 30°-150° untuk akurasi optimal
-* Objek harus terlihat dari kedua posisi
-
-#### 2. Bidik dari Posisi Pertama
-
-**Di Posisi 1:**
-* Pastikan Anda berada tepat di titik yang diketahui di peta
-* Orientasikan peta
-* Bidik objek target dengan kompas siang
-* Baca dan catat azimuth
-* Contoh: "Dari Persimpangan, Azimuth ke target: 075°"
-
-#### 3. Pindah ke Posisi Kedua
-
-* Navigasi ke posisi kedua yang sudah ditentukan
-* Pastikan tiba tepat di titik yang diketahui di peta
-
-#### 4. Bidik dari Posisi Kedua
-
-**Di Posisi 2:**
-* Orientasikan peta
-* Bidik objek target yang sama
-* Baca dan catat azimuth
-* Contoh: "Dari Jembatan, Azimuth ke target: 345°"
-
-#### 5. Plot di Peta
-
-**Cara Plotting:**
-
-A. **Plot Garis Pertama:**
-   * Temukan Posisi 1 di peta
-   * Letakkan penggaris di Posisi 1
-   * Sejajarkan dengan azimuth 075° (dari utara peta)
-   * Tarik garis lurus dari Posisi 1 ke arah target
-
-B. **Plot Garis Kedua:**
-   * Temukan Posisi 2 di peta
-   * Sejajarkan penggaris dengan azimuth 345°
-   * Tarik garis dari Posisi 2 ke arah target
-
-C. **Tentukan Lokasi Target:**
-   * Perpotongan kedua garis adalah posisi objek target
-   * Tandai dengan jelas di peta
-
-### Perbedaan Resection dan Intersection
-
-| Aspek | Resection | Intersection |
-|-------|-----------|---------------|
-| **Tujuan** | Mencari posisi sendiri | Mencari posisi target/objek |
-| **Yang Diketahui** | Lokasi objek referensi | Posisi pengamat sendiri |
-| **Yang Dicari** | Posisi pengamat | Lokasi target |
-| **Bidikan** | Ke objek yang diketahui | Ke target yang tidak diketahui |
-| **Garis yang Ditarik** | Back azimuth dari objek | Azimuth maju dari posisi |
-| **Pergerakan** | Tidak perlu pindah | Harus pindah ke posisi kedua |
-| **Penggunaan** | Saat tersesat | Pemetaan/lokasi target |
-
-### Tips untuk Akurasi Tinggi
-
-**Resection:**
-1. Gunakan 3 objek untuk triangulasi sempurna
-2. Pilih objek dengan sudut 60° atau 120° antara satu sama lain
-3. Hindari objek yang terlalu dekat (< 500m)
-4. Gunakan fitur terrain yang jelas dan mudah diidentifikasi
-
-**Intersection:**
-1. Baseline (jarak antar posisi) minimal 1/4 jarak ke target
-2. Sudut potong ideal 90° (45°-135°)
-3. Bidik dengan sangat hati-hati, kesalahan 1° bisa menghasilkan error puluhan meter
-4. Jika memungkinkan, gunakan 3 posisi untuk verifikasi
-
-### Aplikasi di Dunia Nyata
-
-**Resection:**
-* Hiking: Menentukan posisi saat tersesat
-* Sailing: Navigasi maritim dengan lighthouse
-* SAR: Tim pencari menentukan posisi sendiri
-* Military: Menentukan posisi pasukan
-
-**Intersection:**
-* Artillery: Menentukan koordinat target untuk tembakan
-* SAR: Menemukan korban dari kejauhan
-* Surveying: Pemetaan fitur medan baru
-* Tracking: Memantau pergerakan target
+**b) Intersection (Mengikat ke Belakang) dengan Kompas**
+1.  Pilih dua titik tanda yang sudah dikenali di medan dan di peta.
+    * **Contoh:**
+        * Titik 1: Menara (Arah kompas 146°).
+        * Titik 2: Pura (Arah kompas 248°).
+2.  Dari titik 1 (satu) kita melaksanakan pergerakan ke arah titik 2 (dua) minimal sejauh 50 meter s.d 100 m.
+3.  Dari titik 2 (dua) melaksanakan kompas ke sasaran (mercusuar).
+4.  Dari hasil perpotongan kedua garis tersebut merupakan kedudukan pihak lain.
 `
               }
             ]
@@ -992,786 +471,71 @@ C. **Tentukan Lokasi Target:**
             items: [
               {
                 id: 'navrat-4-article-1',
-                title: 'Kegunaan dan Bagian GPS',
+                title: 'Kegunaan Alat GPS',
                 content: `
-### Pengertian GPS
-
-**GPS (Global Positioning System)** adalah sistem navigasi berbasis satelit yang dikembangkan oleh Departemen Pertahanan Amerika Serikat. Sistem ini menggunakan jaringan satelit di orbit untuk menentukan posisi, kecepatan, dan waktu dengan akurasi tinggi di mana saja di bumi.
-
-### Sejarah GPS
-
-* **1973:** Proyek GPS dimulai oleh Departemen Pertahanan AS
-* **1978:** Satelit GPS pertama diluncurkan
-* **1995:** Sistem GPS mencapai Full Operational Capability (FOC) dengan 24 satelit
-* **2000:** Selective Availability (SA) dimatikan, meningkatkan akurasi untuk sipil
-* **Sekarang:** GPS terdiri dari 31+ satelit aktif
-
-### Prinsip Kerja GPS
-
-#### Trilaterasi Satelit:
-
-GPS bekerja berdasarkan prinsip **trilaterasi** - menghitung posisi berdasarkan jarak dari beberapa titik referensi (satelit).
-
-**Cara Kerja:**
-
-1. **Sinyal Satelit:**
-   * Setiap satelit GPS memancarkan sinyal radio berisi:
-     - Posisi satelit (ephemeris)
-     - Waktu pengiriman sinyal (atomic clock)
-     - Status satelit (almanac)
-
-2. **Perhitungan Jarak:**
-   * Receiver GPS menangkap sinyal
-   * Menghitung waktu tempuh sinyal (kecepatan cahaya × waktu)
-   * Jarak = Kecepatan Cahaya (300.000 km/s) × Waktu Tempuh
-
-3. **Penentuan Posisi:**
-   * **1 satelit:** Posisi Anda di permukaan bola (radius = jarak ke satelit)
-   * **2 satelit:** Posisi di perpotongan 2 bola (lingkaran)
-   * **3 satelit:** Posisi di perpotongan 3 bola (2 titik)
-   * **4 satelit:** Posisi akurat + koreksi kesalahan jam receiver
-
-**Minimal 4 satelit diperlukan untuk posisi 3D (latitude, longitude, altitude)**
-
-### Segmen GPS
-
-Sistem GPS terdiri dari 3 segmen:
-
-#### 1. Space Segment (Segmen Angkasa)
-
-* **Jumlah:** 31+ satelit aktif (minimum operasional: 24)
-* **Orbit:** MEO (Medium Earth Orbit), ketinggian ±20.200 km
-* **Periode orbit:** 11 jam 58 menit (2 putaran per hari)
-* **Konfigurasi:** 6 bidang orbit, masing-masing 4-5 satelit
-* **Jangkauan:** Minimal 4 satelit terlihat dari titik mana pun di bumi
-* **Umur satelit:** 10-15 tahun
-
-**Fungsi Satelit:**
-* Memancarkan sinyal navigasi
-* Menjaga waktu dengan atomic clock (akurasi 1 nanodetik)
-* Mengirim data posisi dan kesehatan satelit
-
-#### 2. Control Segment (Segmen Kontrol)
-
-* **Master Control Station:** Colorado Springs, AS
-* **Monitor Stations:** 6 stasiun di seluruh dunia
-* **Ground Antennas:** 4 antena upload
-
-**Fungsi:**
-* Memantau kesehatan dan orbit satelit
-* Mengirim update ephemeris dan koreksi jam
-* Mengatur maneuver satelit
-* Memastikan akurasi sistem
-
-#### 3. User Segment (Segmen Pengguna)
-
-* **Receiver GPS:** Perangkat yang menangkap sinyal satelit
-* **Aplikasi:** Navigasi darat, laut, udara, pemetaan, survei, militer
-
-### Bagian-Bagian GPS Handheld
-
-#### Komponen Fisik:
-
-**1. Antena**
-* **Fungsi:** Menangkap sinyal satelit GPS
-* **Jenis:**
-  - Internal: Tersembunyi di dalam badan GPS
-  - External: Antena tambahan untuk sinyal lebih kuat
-* **Tips:** Jangan tutup bagian atas GPS saat digunakan
-
-**2. Layar (Display)**
-* **Fungsi:** Menampilkan informasi navigasi
-* **Jenis:**
-  - Monochrome: Hemat baterai, baik di bawah sinar matahari
-  - Color: Lebih detail, mudah dibaca
-  - Touchscreen: Lebih intuitif
-* **Informasi yang ditampilkan:**
-  - Koordinat (Latitude, Longitude)
-  - Altitude (ketinggian)
-  - Kecepatan (Speed)
-  - Arah (Bearing/Heading)
-  - Waktu (UTC/Local)
-  - Akurasi (EPE - Estimated Position Error)
-  - Jumlah satelit terkunci
-  - Peta digital (jika ada)
-
-**3. Tombol Interface**
-
-* **Power/Light:** Menghidupkan/mematikan, backlight
-* **Page:** Berpindah antar halaman tampilan
-  - Satellite Page (status satelit)
-  - Map Page (peta)
-  - Compass Page (kompas)
-  - Trip Computer (data perjalanan)
-* **Enter/Mark:** Menyimpan waypoint (titik lokasi)
-* **Rocker/Joystick:** Navigasi menu, zoom, pan peta
-* **Zoom In/Out:** Memperbesar/memperkecil tampilan peta
-* **Menu/Quit:** Masuk/keluar menu setting
-* **Find:** Mencari waypoint, kota, atau POI (Point of Interest)
-
-**4. Baterai**
-* **Jenis:**
-  - AA/AAA alkaline (umum)
-  - Rechargeable (NiMH, Li-ion)
-* **Daya tahan:** 12-30 jam (tergantung model dan penggunaan)
-* **Tips:** Bawa baterai cadangan untuk perjalanan panjang
-
-**5. Port/Konektor**
-* **USB:** Transfer data, charging (model modern)
-* **Micro SD:** Slot kartu memori untuk peta tambahan
-* **External Antenna:** Port untuk antena eksternal (model tertentu)
-
-**6. Casing/Body**
-* **Material:** Plastik tahan banting, karet
-* **Rating:** IPX7 (tahan air 1 meter selama 30 menit)
-* **Desain:** Ergonomis, genggaman anti-slip
-
-### Kegunaan GPS
-
-#### Navigasi:
-
-**1. Menentukan Posisi (Position Finding)**
-* Koordinat geografis (Latitude/Longitude)
-* Koordinat UTM (Universal Transverse Mercator)
-* Altitude (ketinggian di atas permukaan laut)
-
-**Contoh Pembacaan:**
-* Lat: 7°47'30"S (atau -7.7917°)
-* Lon: 110°22'15"E (atau 110.3708°)
-* Alt: 115 m
-
-**2. Navigasi Point-to-Point**
-* Menyimpan titik tujuan (waypoint)
-* GPS menunjukkan arah dan jarak ke tujuan
-* Estimasi waktu tiba (ETA - Estimated Time of Arrival)
-
-**3. Tracking (Pelacakan Jalur)**
-* Merekam jejak perjalanan (track log)
-* Dapat diputar ulang untuk navigasi balik
-* Export ke komputer untuk analisis
-
-**4. Routing (Perencanaan Rute)**
-* Membuat rute multi-waypoint
-* GPS memandu dari satu waypoint ke waypoint berikutnya
-* Turn-by-turn navigation (model advanced)
-
-#### Aplikasi Khusus:
-
-**1. Hiking & Trekking:**
-* Mencegah tersesat di hutan/gunung
-* Menemukan kembali basecamp
-* Eksplorasi medan baru dengan aman
-
-**2. Geocaching:**
-* Permainan treasure hunting dengan GPS
-* Mencari cache tersembunyi berdasarkan koordinat
-
-**3. Search and Rescue (SAR):**
-* Koordinasi tim pencari
-* Menandai lokasi korban
-* Pemetaan area pencarian
-
-**4. Survey & Pemetaan:**
-* Pengukuran lahan
-* Pembuatan peta digital
-* Inventarisasi sumber daya alam
-
-**5. Militer:**
-* Navigasi pasukan
-* Penentuan koordinat target
-* Sinkronisasi operasi
-
-**6. Pertanian (Precision Farming):**
-* Pemetaan lahan
-* Tracking traktor
-* Aplikasi pupuk presisi
-
-**7. Transportasi:**
-* Navigasi kendaraan
-* Fleet management
-* Tracking logistik
-
-**8. Olahraga:**
-* Tracking jarak lari/bersepeda
-* Analisis performa (kecepatan, elevasi)
-* Virtual race
-
-### Akurasi GPS
-
-#### Tingkat Akurasi:
-
-**1. Standard GPS (Civilian)**
-* **Horizontal:** ±5-10 meter (95% waktu)
-* **Vertical:** ±10-15 meter
-* Cukup untuk navigasi umum
-
-**2. DGPS (Differential GPS)**
-* **Horizontal:** ±1-3 meter
-* Menggunakan stasiun referensi ground
-* WAAS/EGNOS (Wide Area Augmentation System)
-
-**3. Military GPS (P-Code)**
-* **Horizontal:** ±1 meter
-* Sinyal terenkripsi
-* Hanya untuk militer AS dan sekutu
-
-**4. RTK (Real-Time Kinematic)**
-* **Horizontal:** ±1-2 cm
-* Untuk survey profesional
-* Memerlukan base station
-
-#### Faktor yang Mempengaruhi Akurasi:
-
-**1. Jumlah Satelit:**
-* 4 satelit: Minimum untuk fix 3D
-* 5-7 satelit: Akurasi standar
-* 8+ satelit: Akurasi optimal
-
-**2. Geometri Satelit (PDOP - Position Dilution of Precision):**
-* **PDOP < 4:** Excellent (akurasi tinggi)
-* **PDOP 4-8:** Good (akurasi memadai)
-* **PDOP > 8:** Poor (akurasi rendah)
-* Satelit tersebar luas = PDOP rendah = akurat
-* Satelit berkumpul = PDOP tinggi = tidak akurat
-
-**3. Obstruksi (Halangan):**
-* **Multipath:** Sinyal memantul dari gedung/tebing → error
-* **Canopy:** Dedaunan tebal memblokir sinyal
-* **Urban Canyon:** Gedung tinggi menghalangi satelit
-* **Indoor:** Tidak ada sinyal
-
-**4. Atmospheric Effects:**
-* **Ionosphere:** Lapisan bermuatan di atmosfer atas
-* **Troposphere:** Lapisan atmosfer bawah
-* **Solusi:** Model koreksi, WAAS/EGNOS
-
-**5. Selective Availability (SA):**
-* Dulu: Militer AS sengaja menurunkan akurasi sipil
-* 2000: SA dimatikan, akurasi sipil meningkat dari ±100m ke ±10m
-
-### Kelebihan dan Keterbatasan GPS
-
-#### Kelebihan:
-
-* **Akurasi:** Posisi akurat dalam hitungan meter
-* **Real-time:** Informasi posisi langsung
-* **Global Coverage:** Tersedia di mana saja di bumi
-* **24/7 Operation:** Bekerja siang malam, segala cuaca
-* **Mudah Digunakan:** Interface user-friendly
-* **Multifungsi:** Navigasi, tracking, mapping, timing
-
-#### Keterbatasan:
-
-* **Tidak Bekerja di Indoor:** Sinyal tidak menembus atap
-* **Tergantung Baterai:** Mati jika baterai habis
-* **Butuh Langit Terbuka:** Tidak akurat di hutan tebal, ngarai
-* **Cold Start Lambat:** Butuh 5-15 menit untuk lock satelit pertama kali
-* **Drift:** Posisi bisa "melompat" beberapa meter
-* **Tidak Real-time 100%:** Update biasanya setiap 1 detik
-
-### GPS vs Kompas & Peta
-
-| Aspek | GPS | Kompas & Peta |
-|-------|-----|---------------|
-| **Akurasi** | ±5-10 m | ±50-100 m (tergantung skill) |
-| **Kecepatan** | Instant | Butuh waktu untuk plotting |
-| **Keandalan** | Tergantung baterai & satelit | Selalu bekerja |
-| **Kemudahan** | Mudah untuk pemula | Butuh latihan |
-| **Backup** | Harus ada backup tradisional | Kompas+peta adalah backup |
-| **Biaya** | Mahal (perangkat + peta digital) | Murah |
-| **Ketahanan** | Rentan rusak jika jatuh/basah | Sangat tahan lama |
-
-**Kesimpulan:** GPS adalah alat navigasi modern yang sangat efektif, TAPI kompas dan peta tetap wajib dibawa sebagai backup. Jangan pernah bergantung 100% pada GPS!
+### 1) Kegunaan Alat Global Position System (GPS)
+GPS adalah alat untuk menentukan posisi suatu tempat secara teliti dengan bantuan satelit yang ada dan dapat digunakan untuk melaksanakan navigasi.
+* Menentukan koordinat posisi (Lintang/Bujur atau UTM) di permukaan bumi.
+* Menentukan ketinggian (altitude) dari permukaan laut.
+* Menentukan kecepatan bergerak dan waktu perjalanan.
+* Membuat rekam jejak perjalanan (*track*) dan rute navigasi.
 `
               },
               {
                 id: 'navrat-4-article-2',
-                title: 'Pengoperasian GPS',
+                title: 'Bagian-bagian Alat GPS',
                 content: `
-### Persiapan Sebelum Menggunakan GPS
-
-#### 1. Periksa Perangkat
-
-* **Baterai:** Pastikan terisi penuh atau pasang baterai baru
-* **Kondisi Fisik:** Cek tidak ada retakan atau kerusakan
-* **Layar:** Bersihkan dari debu/kotoran
-* **Antena:** Pastikan tidak terhalang
-
-#### 2. Pengaturan Awal (Initial Setup)
-
-**Format Posisi:**
-* Pilih format koordinat sesuai peta yang digunakan:
-  - **hddd.ddddd°** (Decimal Degrees): -7.79167°, 110.37083°
-  - **hddd°mm.mmm'** (Degrees Decimal Minutes): 7°47.500'S, 110°22.250'E
-  - **hddd°mm'ss.s"** (Degrees Minutes Seconds): 7°47'30"S, 110°22'15"E
-  - **UTM/UPS:** 49M 459825mE 9138975mN
-
-**Datum Peta:**
-* Pilih datum sesuai peta:
-  - **WGS 84:** Standard GPS, paling umum
-  - **DMA (WGS 72):** Peta lama
-  - **Local Datum:** Indonesia uses WGS 84
-
-**Zona Waktu:**
-* Set sesuai lokasi: Indonesia WIB (UTC+7), WITA (UTC+8), WIT (UTC+9)
-
-**Unit Jarak:**
-* Metric (meter, kilometer) atau Imperial (feet, miles)
-
-**Format Waktu:**
-* 12-hour atau 24-hour
-
-### Menghidupkan GPS
-
-#### Langkah-Langkah:
-
-**1. Power On:**
-* Tekan dan tahan tombol **POWER** selama 2-3 detik
-* GPS akan melakukan self-test singkat
-* Layar menampilkan logo/welcome screen
-
-**2. Cold Start vs Warm Start:**
-
-**Cold Start (Pertama kali / lama tidak digunakan):**
-* GPS tidak tahu posisi terakhir
-* Butuh waktu **5-15 menit** untuk lock satelit
-* Harus mendownload almanac dari satelit
-* **Tips:** Letakkan di tempat terbuka dengan langit bebas
-
-**Warm Start (Baru dimatikan < 4 jam yang lalu):**
-* GPS ingat posisi terakhir
-* Lock satelit dalam **30-60 detik**
-* Lebih cepat karena almanac masih valid
-
-**Hot Start (Dimatikan sebentar):**
-* Lock satelit dalam **10-20 detik**
-* Data satelit masih tersimpan
-
-**3. Acquiring Satellites (Menangkap Sinyal):**
-
-**Halaman Satelit menampilkan:**
-* **Bar Chart:** Kekuatan sinyal dari setiap satelit
-  - Kosong: Satelit terdeteksi tapi belum lock
-  - Hitam solid: Satelit ter-lock (digunakan untuk posisi)
-* **Sky View:** Posisi satelit di langit
-  - Lingkaran luar: Horizon (0°)
-  - Lingkaran tengah: 45° elevasi
-  - Titik tengah: Zenith (90°, tepat di atas kepala)
-* **Accuracy (EPE):** Estimasi error posisi
-  - < 5m: Excellent
-  - 5-10m: Good
-  - 10-20m: Fair
-  - > 20m: Poor
-* **Status:**
-  - "Searching..." atau "Acquiring Satellites"
-  - "Ready to Navigate" atau "3D Fix" (minimal 4 satelit lock)
-
-**Tips untuk Lock Cepat:**
-* Berdiri di tempat terbuka (lapangan, puncak bukit)
-* Jauhi gedung tinggi, pohon lebat, tebing
-* Letakkan GPS horizontal di dada atau di tanah
-* Jangan bergerak saat acquiring satellites
-* Hindari penggunaan di dalam mobil (kecuali ada GPS eksternal)
-
-**4. Status Ready:**
-* GPS sudah lock minimal 4 satelit
-* Koordinat muncul di layar
-* Siap digunakan untuk navigasi
-
-### Halaman-Halaman Utama GPS
-
-#### 1. Satellite Page (Halaman Satelit)
-
-**Informasi:**
-* Jumlah satelit terdeteksi dan ter-lock
-* Kekuatan sinyal (bar chart)
-* Sky view (posisi satelit)
-* Akurasi (EPE/Error)
-* Receiver status
-
-**Kegunaan:**
-* Troubleshooting jika GPS tidak akurat
-* Cek jumlah satelit sebelum navigasi
-
-#### 2. Map Page (Halaman Peta)
-
-**Informasi:**
-* Peta digital (jika ada basemap)
-* Posisi Anda (ikon panah/titik)
-* Track log (jejak perjalanan) - garis berwarna
-* Waypoints yang disimpan
-* Garis navigasi ke tujuan (jika sedang navigasi)
-* Scale bar (skala peta)
-* Compass rose (arah utara)
-
-**Fungsi Tombol:**
-* **Zoom In/Out:** Ubah skala peta
-* **Pan:** Geser peta dengan rocker
-* **Re-center:** Kembalikan posisi Anda ke tengah layar
-
-**Zoom Levels:**
-* 20 ft - 800 mi (atau 5 m - 1200 km)
-* Zoom in untuk detail, zoom out untuk overview
-
-#### 3. Compass Page (Halaman Kompas)
-
-**Informasi:**
-* **Compass Rose:** Lingkaran kompas digital
-* **Heading:** Arah perjalanan Anda saat ini (0-360°)
-  - 0° = North, 90° = East, 180° = South, 270° = West
-* **Pointer:** Panah menunjuk ke waypoint tujuan
-* **Distance to Destination:** Jarak ke tujuan
-* **Bearing:** Sudut jurusan ke tujuan (azimuth)
-* **Speed:** Kecepatan perjalanan (km/h atau mph)
-* **ETE (Estimated Time Enroute):** Estimasi waktu tiba
-
-**Tips:**
-* GPS compass hanya akurat saat bergerak (> 5 km/h)
-* Jika diam, gunakan kompas magnetis biasa
-
-#### 4. Trip Computer (Komputer Perjalanan)
-
-**Data yang Ditampilkan:**
-* **Odometer:** Total jarak tempuh
-* **Trip Odometer:** Jarak perjalanan saat ini (bisa di-reset)
-* **Moving Time:** Waktu dalam keadaan bergerak
-* **Stopped Time:** Waktu berhenti/istirahat
-* **Average Speed:** Kecepatan rata-rata
-* **Maximum Speed:** Kecepatan tertinggi
-* **Elevation Gain/Loss:** Total pendakian/penurunan
-* **Sunrise/Sunset:** Waktu terbit/terbenam matahari di lokasi Anda
-
-**Kegunaan:**
-* Analisis performa perjalanan
-* Estimasi konsumsi energi
-* Perencanaan istirahat
-
-### Fungsi-Fungsi Dasar GPS
-
-#### 1. Marking Waypoint (Menyimpan Lokasi)
-
-**Langkah:**
-1. Berdiri di lokasi yang ingin disimpan
-2. Tekan tombol **MARK** atau **ENTER** (tahan 2 detik)
-3. GPS otomatis menyimpan koordinat saat ini
-4. Layar muncul info waypoint:
-   * Nama (default: "001", "002", dst.)
-   * Symbol (icon: flag, camp, food, dll.)
-   * Koordinat
-   * Elevation
-   * Tanggal/waktu
-5. Edit nama jika perlu (misal: "Basecamp", "Air Terjun")
-6. Pilih symbol yang sesuai
-7. Tekan **ENTER** untuk save, atau **QUIT** untuk batal
-
-**Contoh Penggunaan:**
-* Basecamp
-* Persimpangan penting
-* Sumber air
-* Landmark
-* Tempat parkir kendaraan
-* Titik evakuasi
-
-**Tips:**
-* Beri nama deskriptif (max 10 karakter)
-* Gunakan symbol yang mudah dikenali
-* Simpan waypoint penting di awal perjalanan
-* Backup waypoint ke komputer secara berkala
-
-#### 2. Go To (Navigasi ke Waypoint)
-
-**Langkah:**
-1. Tekan tombol **FIND** atau masuk ke **Waypoint Manager**
-2. Pilih waypoint tujuan dari daftar
-3. Pilih **Go To** atau **Navigate**
-4. GPS menampilkan:
-   * Pointer mengarah ke tujuan
-   * Bearing (sudut jurusan ke tujuan)
-   * Distance (jarak ke tujuan)
-   * ETE (estimasi waktu tiba)
-5. Ikuti petunjuk:
-   * Putar badan hingga pointer mengarah lurus ke depan
-   * Berjalan mengikuti arah pointer
-   * GPS akan update arah jika Anda menyimpang
-
-**Tips:**
-* Cek kompas page untuk arah yang jelas
-* Perhatikan obstacle di medan (tidak ada garis jalan)
-* GPS menunjuk garis lurus, bukan jalur jalan
-
-#### 3. Track Log (Merekam Jejak)
-
-**Pengertian:**
-Track log adalah rekaman posisi GPS setiap beberapa detik/meter yang membentuk jejak perjalanan Anda.
-
-**Setting Track Log:**
-* **Interval:** Waktu atau jarak antar titik track
-  - Time: Setiap 5 detik (smooth tapi boros memori)
-  - Distance: Setiap 10 meter (hemat memori)
-  - Auto: GPS memutuskan otomatis
-* **Memory:** GPS bisa menyimpan 10.000-20.000 track points
-* **Wrap:** Jika memori penuh, timpa track lama (on/off)
-
-**Kegunaan Track Log:**
-1. **Track Back (Pulang):**
-   * GPS membalik track dan memandu Anda kembali
-   * Useful jika tersesat atau ingin pulang via jalur yang sama
-   * Langkah: Menu → Tracks → Follow Track Backward
-
-2. **Analisis Perjalanan:**
-   * Panjang jalur
-   * Elevasi profile
-   * Kecepatan rata-rata
-
-3. **Sharing:**
-   * Save track dan share dengan teman
-   * Upload ke platform (Garmin Connect, Strava, dll.)
-
-**Tips:**
-* Aktifkan track log di awal perjalanan
-* Clear track log sebelum trip baru
-* Save track penting sebelum dihapus
-* Export track ke GPX format untuk backup
-
-#### 4. Route (Rute Multi-Waypoint)
-
-**Pengertian:**
-Route adalah kumpulan waypoint yang dihubungkan secara berurutan.
-
-**Membuat Route:**
-1. Menu → Route → Create New Route
-2. Tambahkan waypoint satu per satu:
-   * Waypoint 1: Basecamp
-   * Waypoint 2: Checkpoint Alpha
-   * Waypoint 3: Puncak
-   * Waypoint 4: Shelter
-3. Save route dengan nama (misal: "Jalur Pendakian")
-4. Navigate → GPS akan memandu dari waypoint 1 → 2 → 3 → dst.
-
-**Kegunaan:**
-* Perencanaan perjalanan multi-destinasi
-* Ekspedisi dengan banyak checkpoint
-* Lomba orienteering
-
-### Informasi di Layar GPS
-
-#### Data Fields yang Umum:
-
-**1. Location (Posisi):**
-* Lat/Lon atau UTM
-* Contoh: S 07°47.500' E 110°22.250'
-
-**2. Elevation (Ketinggian):**
-* Altitude di atas permukaan laut (MSL - Mean Sea Level)
-* Contoh: 2.950 m
-* Akurasi: ±10-20 m (kurang akurat dari posisi horizontal)
-
-**3. Accuracy (EPE):**
-* Estimated Position Error
-* Contoh: ±5 m
-* Semakin kecil, semakin akurat
-
-**4. Speed (Kecepatan):**
-* km/h atau mph
-* Hanya akurat saat bergerak > 5 km/h
-
-**5. Heading (Arah Perjalanan):**
-* 0-360° (0° = North)
-* Track bearing: arah Anda bergerak
-
-**6. Bearing (Sudut Jurusan ke Tujuan):**
-* Azimuth dari posisi Anda ke waypoint tujuan
-* Contoh: 125° (Southeast)
-
-**7. Distance (Jarak):**
-* Jarak garis lurus ke tujuan
-* Bukan jarak jalur (trail distance)
-
-**8. ETE (Estimated Time Enroute):**
-* Waktu perkiraan tiba di tujuan
-* Berdasarkan kecepatan rata-rata
-
-**9. ETA (Estimated Time of Arrival):**
-* Jam perkiraan tiba
-* Contoh: 14:35 WIB
-
-**10. Time (Waktu):**
-* UTC (Universal Time Coordinated) atau Local Time
-* GPS sync dengan atomic clock satelit (sangat akurat)
-
-### Tips Penggunaan GPS di Lapangan
-
-#### Teknik Efektif:
-
-**1. Hemat Baterai:**
-* Matikan backlight atau set otomatis
-* Gunakan mode power save (update posisi tiap 2-5 detik)
-* Matikan GPS saat tidak digunakan (misalnya saat istirahat lama)
-* Gunakan baterai lithium (lebih tahan di suhu dingin)
-
-**2. Akurasi Optimal:**
-* Pegang GPS horizontal di dada
-* Jangan tutup antena dengan tangan/tas
-* Tunggu hingga lock minimal 5 satelit
-* Cek PDOP < 4 (di Satellite Page)
-* Hindari penggunaan di ngarai sempit atau hutan lebat
-
-**3. Navigasi Aman:**
-* Selalu bawa peta dan kompas sebagai backup
-* Jangan 100% bergantung pada GPS
-* Mark waypoint basecamp di awal perjalanan
-* Aktifkan track log untuk bisa pulang
-* Simpan waypoint penting secara berkala
-
-**4. Manajemen Data:**
-* Hapus waypoint/track yang tidak perlu (menghemat memori)
-* Backup data ke komputer setelah trip
-* Export waypoint penting ke file GPX
-* Update basemap jika ada versi baru
-
-**5. Weather Protection:**
-* GPS rated IPX7 tahan cipratan, tapi tidak untuk direndam
-* Gunakan dry bag atau case waterproof saat hujan deras
-* Lindungi dari benturan dengan pouch busa
-
-### Troubleshooting GPS
-
-#### Masalah Umum dan Solusi:
-
-**1. GPS Tidak Lock Satelit:**
-
-**Gejala:** "Searching..." terus-menerus
-
-**Solusi:**
-* Pindah ke tempat terbuka
-* Tunggu 5-15 menit (cold start)
-* Reset GPS (power off → remove battery → reinsert)
-* Cek obstruksi (gedung, pohon)
-
-**2. Posisi "Melompat" (Jumping):**
-
-**Gejala:** Koordinat berubah drastis meski tidak bergerak
-
-**Solusi:**
-* Tunggu hingga EPE < 10m
-* Cek PDOP (harus < 6)
-* Pindah dari area multipath (gedung, tebing)
-
-**3. Akurasi Buruk (EPE > 20m):**
-
-**Gejala:** Error position tinggi
-
-**Solusi:**
-* Lock lebih banyak satelit (minimal 6)
-* Aktifkan WAAS/EGNOS (jika tersedia)
-* Hindari penggunaan di urban canyon
-
-**4. Altitude Tidak Akurat:**
-
-**Gejala:** Ketinggian berbeda dari peta/altimeter
-
-**Solusi:**
-* Kalibrasi dengan ketinggian yang diketahui
-* Gunakan altimeter barometrik (jika ada)
-* Ingat: GPS altitude akurasi ±15m
-
-**5. Baterai Cepat Habis:**
-
-**Solusi:**
-* Matikan backlight
-* Gunakan mode power save
-* Ganti baterai alkaline dengan lithium
-* Kurangi frekuensi update (setiap 5 detik vs setiap 1 detik)
-
-**6. GPS Tidak Respond:**
-
-**Solusi:**
-* Soft reset: Power off → on
-* Hard reset: Remove battery → tunggu 30 detik → reinsert
-* Factory reset (last resort, akan hapus semua data)
-
-### Latihan Praktis GPS
-
-#### Latihan 1: Mark & Go To
-
-**Tujuan:** Familiar dengan fungsi dasar
-
-1. Mark waypoint di titik awal ("Start")
-2. Jalan 200m ke arah bebas
-3. Mark waypoint kedua ("Point A")
-4. Jalan lagi 200m ke arah berbeda
-5. Go To "Point A"
-6. Ikuti petunjuk GPS hingga kembali ke Point A
-7. Go To "Start" dan kembali ke titik awal
-
-#### Latihan 2: Track Back
-
-**Tujuan:** Belajar pulang menggunakan track log
-
-1. Aktifkan track log
-2. Berjalan membentuk jalur berliku (500m+)
-3. Di titik akhir, pilih Track Back
-4. Ikuti track mundur hingga kembali ke awal
-
-#### Latihan 3: Waypoint Averaging
-
-**Tujuan:** Meningkatkan akurasi waypoint
-
-1. Mark waypoint di titik tertentu
-2. Tunggu 2 menit (EPE stabil)
-3. Mark waypoint yang sama lagi
-4. Ulangi 3-5 kali
-5. Rata-ratakan koordinat dari semua mark
-6. Akurasi meningkat hingga ±2-3m
-
-#### Latihan 4: Navigasi Multi-Waypoint
-
-**Tujuan:** Membuat dan mengikuti route
-
-1. Buat route dengan 4 waypoint (bentuk persegi)
-2. Setiap waypoint jarak 100m dari yang lain
-3. Navigate route dari awal hingga akhir
-4. Verifikasi apakah membentuk persegi
-
-### Etika Penggunaan GPS
-
-**Do:**
-* Backup data waypoint/track penting
-* Share track jalur pendakian dengan komunitas
-* Update software GPS secara berkala
-* Bawa peta dan kompas sebagai backup
-* Pelajari manual GPS sebelum trip pertama
-
-**Don't:**
-* Jangan 100% bergantung pada GPS
-* Jangan share koordinat tempat sensitif (habitat langka, situs arkeologi)
-* Jangan buang track sampah (GPS littering)
-* Jangan assume GPS selalu benar (cek dengan peta)
-* Jangan lupa mematikan GPS saat tidak digunakan (hemat baterai)
-
-### GPS dan Navigasi Tradisional: Best Practice
-
-**Pendekatan Terbaik:**
-
-1. **Sebelum Berangkat:**
-   * Pelajari peta, tandai waypoint penting
-   * Input waypoint ke GPS
-   * Print peta backup
-   * Cek baterai GPS + bawa cadangan
-
-2. **Selama Perjalanan:**
-   * Utamakan membaca medan dan peta
-   * GPS sebagai konfirmasi posisi
-   * Cek GPS setiap checkpoint
-   * Mark waypoint penting
-
-3. **Jika GPS Mati:**
-   * Jangan panik
-   * Gunakan kompas dan peta
-   * Orientasikan dengan landmark
-   * Navigate secara tradisional
-
-**Kesimpulan:** GPS adalah alat yang sangat berguna, tetapi keterampilan navigasi tradisional (peta, kompas, medan) tetap fundamental. Kombinasi keduanya adalah best practice untuk navigasi yang aman dan efektif.
+### 2) Bagian-bagian Alat Global Position System (GPS)
+*(Secara umum GPS tipe genggam memiliki bagian-bagian sebagai berikut):*
+
+**a. Fisik Luar**
+1.  **Antena:** Bagian penerima sinyal dari satelit (biasanya menonjol di bagian atas atau internal).
+2.  **Layar (Display):** Menampilkan peta, koordinat, menu, dan data navigasi.
+3.  **Tempat Baterai:** Terletak di bagian belakang, biasanya menggunakan baterai tipe AA.
+4.  **Port Data:** Lubang koneksi (USB) untuk menyambungkan GPS ke komputer.
+
+**b. Tombol-tombol Fungsi (Keypad)**
+1.  **Tombol Power (On/Off):** Untuk menghidupkan, mematikan, dan mengatur lampu layar (*backlight*). Biasanya bergambar lampu atau simbol power berwarna merah.
+2.  **Tombol Zoom (In/Out):** Untuk memperbesar atau memperkecil tampilan peta.
+3.  **Tombol Page/Menu:** Untuk berpindah halaman (dari halaman satelit, peta, kompas, hingga menu utama).
+4.  **Tombol Rocker/Kursor:** Tombol arah (atas, bawah, kiri, kanan) untuk menggeser panah di layar.
+5.  **Tombol Enter:** Untuk memilih atau mengonfirmasi perintah.
+6.  **Tombol Mark:** Untuk menyimpan posisi saat ini (*Marking Waypoint*).
+7.  **Tombol Find:** Untuk mencari titik atau tujuan yang telah disimpan.
+`
+              },
+              {
+                id: 'navrat-4-article-3',
+                title: 'Pengoperasian Alat GPS',
+                content: `
+### 3) Pengoperasian Alat GPS
+
+**a. Menghidupkan dan Inisialisasi (Memulai)**
+1.  Bawalah GPS ke tempat terbuka (luar ruangan) agar antena tidak terhalang gedung atau pohon rapat.
+2.  Tekan tombol **Power/On** (biasanya bergambar lampu warna merah) beberapa detik hingga layar menyala.
+3.  Tunggu beberapa saat. GPS akan mencari sinyal satelit (*Acquiring Satellites*).
+4.  Jika alat belum dapat menjejak sinyal satelit, maka akan keluar layar konfigurasi angka-angka berupa gambar dua lingkaran dan beberapa tanda nomor satelit (batang sinyal).
+5.  Biarkan hingga akurasi sinyal stabil (biasanya muncul tulisan "3D GPS Location" atau akurasi mencapai angka kecil, misal: ± 3 meter).
+
+**b. Menandai Posisi (Marking Waypoint)**
+*Proses menyimpan koordinat tempat kita berdiri:*
+1.  Pastikan GPS sudah mendapatkan sinyal kuat.
+2.  Tekan tombol **MARK**.
+3.  Akan muncul halaman *Mark Waypoint* berisi simbol, nomor/nama titik, dan koordinat.
+4.  Jika ingin mengganti nama, gunakan tombol kursor ke kolom nama, tekan Enter, lalu ganti namanya (misal: "POS 1").
+5.  Arahkan kursor ke tombol **OK** atau **SAVE**, lalu tekan Enter. Posisi tersimpan di memori.
+
+**c. Mencari Tujuan (Go To / Navigasi)**
+*Proses menuju ke titik yang sudah disimpan:*
+1.  Tekan tombol **FIND**.
+2.  Pilih menu *Waypoints*, tekan Enter.
+3.  Pilih nama titik tujuan yang diinginkan dari daftar, tekan Enter.
+4.  Pilih tombol **GO TO**, tekan Enter.
+5.  Layar akan berubah menjadi halaman Peta atau Kompas yang menunjukkan arah panah dan jarak menuju tujuan tersebut. Ikuti arah panah tersebut.
+
+**d. Mematikan Alat**
+1.  Tekan dan tahan tombol **Power** sampai layar padam.
+2.  Jika akan disimpan lama, sebaiknya lepas baterai untuk menghindari kebocoran.
 `
               }
             ]
@@ -1809,7 +573,7 @@ Route adalah kumpulan waypoint yang dihubungkan secara berurutan.
                 <li><strong>Peta Topografi:</strong> Berasal dari kata Yunani <em>topos</em> (tempat) dan <em>graphi</em> (menggambar). Menampilkan posisi mendatar dan tegak dari objek di permukaan bumi. Isi utama: relief (ketinggian), perairan, vegetasi, serta hasil budaya manusia.</li>
                 <li><strong>Peta Tematik:</strong> Menyajikan unsur tertentu sesuai tema, misalnya peta geologi, peta kependudukan, atau peta penggunaan lahan.</li>
               </ul>
-              
+
               <div className="mt-4 bg-white rounded-lg border border-gray-200 overflow-hidden">
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
@@ -1996,98 +760,310 @@ Route adalah kumpulan waypoint yang dihubungkan secara berurutan.
                 id: 'pioneering-1-article-1',
                 title: 'Simpul',
                 content: `
-### Pendahuluan
-Tali temali adalah salah satu keterampilan dasar yang wajib dimiliki oleh seorang pramuka. Dalam kegiatan di alam terbuka, tali bukan sekadar alat pengikat, melainkan sarana vital untuk membuat bangunan darurat (pioneering), penyelamatan (rescue), hingga kegiatan sehari-hari di perkemahan.
+### Simpul
 
-### Pengertian Simpul, Ikatan, dan Jerat
-Seringkali kita menyamakan istilah simpul, ikatan, dan jerat, padahal ketiganya memiliki perbedaan mendasar:
-*   **Simpul:** Hubungan antara tali dengan tali.
-*   **Ikatan:** Hubungan antara tali dengan benda lain (misalnya kayu, balok, bambu).
-*   **Jerat:** Hubungan antara tali dengan benda lain (seperti ikatan), namun jerat memiliki sifat khusus yaitu dapat melonggar atau mempererat (misalnya jerat leher binatang).
+Simpul adalah suatu bentukan tertentu (lilitan, tekukan) yang dibuat pada tali yang difungsikan untuk menambatkan tali pada anchor, maupun untuk keperluan tertentu. Pengetahuan tentang simpul dan kemampuan membuat simpul dengan mudah dan cepat adalah bagian penting yang harus dimiliki seorang anggota Pramuka. Menguasai dan memahami simpul yang penting saja (yang sering dipakai, dan dapat digunakan pada saat emergency) jauh lebih baik daripada hanya mengenal bermacam-macam simpul tanpa tahu fungsi dan kegunaannya.
 
-![Macam-Macam Simpul](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Blue_Knot.jpg/640px-Blue_Knot.jpg)
+Seorang anggota Pramuka yang baik harus ingat seperti apa simpul yang baik, dan tahu cara meneliti lagi apakah simpul yang dibuat/akan dipergunakan sudah benar atau belum. Faktor keamanan yang dimaksud adalah kemampuan simpul tetap terikat kuat setelah dibebani. Beberapa simpul dalam bentuk dasarnya cenderung kehilangan fungsi kerjanya bila tidak diberi beban lilitannya.
 
-### Macam-Macam Simpul dan Kegunaannya
-Berikut adalah penjelasan mendalam mengenai beberapa simpul penting:
+#### Macam-macam simpul diantaranya:
 
-1.  **Simpul Hidup (Overhand Knot)**
-    Simpul ini adalah simpul yang paling sederhana. Fungsinya bukan untuk menyambung tali yang putus, melainkan untuk menjaga ujung tali agar tidak terurai (sebagai simpul ujung tali). Simpul ini mudah dilepas kembali.
+**a. Simpul Hidup**
+Simpul hidup merupakan simpul paling dasar. Simpul hidup atau *overhand knot* juga menjadi simpul yang mendasari pembuatan simpul-simpul lainnya seperti simpul mati dan simpul nelayan atau simpul kembar. Simpul hidup digunakan sebagai simpul pada ujung tali untuk menjaga agar jalinan tali di ujung tali tidak terurai serta menjaga tali dari pergeseran.
 
-2.  **Simpul Mati (Reef Knot)**
-    Simpul mati digunakan untuk menyambung dua utas tali yang **sama besarnya** dan dalam keadaan **kering**. Simpul ini sangat populer karena bentuknya yang rapi dan datar, sehingga sering digunakan dalam P3K untuk mengikat perban (mitela). Namun, simpul ini bisa menjadi sulit dilepas jika basah atau tertarik sangat kencang.
+Di Kepramukaan, Simpul Hidup termasuk salah satu simpul yang harus dikuasai oleh para Pramuka. Simpul ini termasuk salah satu simpul yang diujikan dalam Syarat Kecakapan Umum baik untuk pramuka siaga (SKU Bantu Nomor 34) maupun SKU Penggalang (SKU Penggalang Ramu Nomor 23).
 
-3.  **Simpul Anyam (Sheet Bend)**
-    Digunakan untuk menyambung dua utas tali yang **tidak sama besarnya** dalam keadaan **kering**. Tali yang lebih kecil mengikat tali yang lebih besar.
+*Cara membuatnya sebagai berikut:*
+1. Buat simpul biasa pada kedua ujung tali.
+2. Tekuk/lipat kedua ujung simpul, sehingga ujung simpul sejajar dengan bagian tali yang panjang.
+3. Tarik kedua tali secara berlawanan, sehingga sambungan menjadi kencang.
 
-4.  **Simpul Anyam Berganda (Double Sheet Bend)**
-    Fungsinya sama dengan simpul anyam, yaitu menyambung dua tali beda ukuran. Bedanya, simpul ini digunakan jika tali dalam keadaan **basah** atau licin. Lilitan ganda memberikan cengkeraman yang lebih kuat.
+**b. Simpul Hidup dengan Sosok**
+Digunakan untuk menyambung tali yang sama besarnya, dengan tujuan agar sambungan tersebut mudah dilepaskan kembali.
 
-5.  **Simpul Kembar (Fisherman's Knot)**
-    Digunakan untuk menyambung dua utas tali yang **sama besarnya** dalam keadaan **licin** atau basah. Simpul ini sangat kuat dan aman, sering digunakan oleh pemancing untuk menyambung senar.
+*Cara membuatnya sebagai berikut:*
+1. Buat simpul hidup pada ujung tali.
+2. Salah satu ujung pendeknya putar ke yang berlawanan sehingga membentuk sosok baru.
+3. Tarik bagian tali yang panjang berlawanan arah dengan kuat-kuat, sehingga sambungan menjadi kencang.
 
-6.  **Simpul Kursi (Fireman's Chair Knot)**
-    Simpul ini memiliki dua "mata" atau lingkaran yang bisa digunakan untuk mengangkat atau menurunkan orang (misalnya korban pingsan) dari ketinggian. Satu lingkaran untuk di bawah ketiak, dan satu lagi untuk di bawah lutut.
+**c. Simpul Tenun/Simpul Anyam (Sheet Bend)**
+Membuat simpul anyam atau sheet bend menjadi salah satu Teknik Kepramukaan bidang tali temali yang paling dasar. Bersama dengan Simpul Mati, Simpul Hidup, Simpul Pangkal, Simpul Jangkar, dan beberapa lagi, Simpul Anyam akan sangat sering dipakai dalam kegiatan tali temali di Kepramukaan. Karena peran pentingnya itu para Pramuka, mulai dari Siaga, Penggalang, maupun anggota dewasa, sudah selayaknya menguasai dengan benar teknik pembuatan simpul anyam (sheet bend). Simpul anyam digunakan untuk menyambung dua buah utas tali kering yang ukurannya tidak sama besar. Dalam arti, jika ingin menyambung dua utas tali di mana yang satu berukuran besar dan satunya lagi berukuran kecil, gunakanlah Simpul Anyam.
 
-7.  **Simpul Laso (Bowline)**
-    Simpul ini membentuk lingkaran yang tidak bisa membesar atau mengecil (tetap). Sangat berguna untuk mengikat leher binatang agar tidak tercekik, atau sebagai loop pengaman di pinggang pendaki.
+*Cara membuatnya sebagai berikut:*
+1. Buat sosok pada ujung tali yang besar.
+2. Melalui sosok tersebut susupkan tali kecil dan putar sehingga melilit sosok dan membentuk mata.
+3. Tarik kedua ujung tali besar dan kedua ujung tali kecil secara berlawanan.
 
-8.  **Simpul Penarik (Manharness Hitch)**
-    Digunakan untuk menarik benda yang berat bersama-sama. Simpul ini dibuat pada tali penarik sedemikian rupa sehingga orang dapat memasukkan bahunya ke dalam lingkaran simpul untuk membantu menarik.
+**d. Simpul Tenun Berganda / Simpul Anyam Rangkap**
+Simpul anyam rangkap merupakan pengembangan dari simpul anyam terutama untuk meningkatkan daya ikat (kekuatan) tali dalam menyimpul. Simpul anyam berganda atau dalam bahasa Inggris dikenal sebagai *double sheet bend*, tidak hanya mempunyai kemiripan bentuk dengan simpul anyam, namun fungsi atau kegunaan simpul ini pun nyaris sama. Keduanya berguna untuk menyambung dua buah utas tali kering yang ukurannya tidak sama besar.
+
+Bedanya, simpul anyam berganda digunakan jika perbedaan ukuran antara dua utas tali yang disambung tersebut sangat besar, sehingga bisa dikatakan bahwa jika ingin menyambung dua utas tali kering yang ukurannya sama, gunakan simpul mati. Jika kedua utas tali berbeda ukuran (yang satu besar dan satunya lagi kecil), gunakan simpul anyam dan jika perbedaan ukuran tersebut sangat mencolok (yang satu sangat besar dan satunya sangat kecil), gunakanlah simpul anyam berganda.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat sosok pada ujung tali yang besar.
+2. Buat mata pada ujung tali yang kecil, yang dililit sosok tali besar.
+3. Lilitkan sekali lagi tali kecil pada sosok tali besar, sehingga ujung tali kecil membentuk mata.
+4. Tarik kedua ujung tali secara berlawanan.
+
+**e. Simpul Penarik**
+Digunakan untuk menambatkan benda/hewan pada patok.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat simpul biasa di tengah-tengah tali.
+2. Tarik lingkaran tengah simpul melalui sela-sela kaki simpul.
+3. Masukkan sosok dari hasil tarikan simpul tersebut pada patok yang telah disiapkan.
+4. Tarik kedua ujung tali sehingga simpul menjadi kuat kencang.
+
+**f. Simpul Kelapa**
+Digunakan untuk menyambung tali yang sama besar agar sambungan lebih kuat.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat mata pada salah satu ujung tali yang akan disambung.
+2. Buat mata satu lagi pada ujung tali yang lain, dengan jalan menyusupkan melalui sela-sela mata pada tali yang pertama secara bersilangan.
+3. Tarik kedua ujung tali secara berlawanan.
+
+**g. Simpul Kursi (Bowline on a Bight)**
+Digunakan untuk mengangkut orang sakit dari bawah ke atas atau sebaliknya.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat dua buah mata di tengah-tengah tali yang sejajar.
+2. Geser mata dengan jalan menganyamnya.
+3. Buat sosok yang besar dari kedua mata yang telah dianyam tersebut.
+4. Dari kedua ujung tali masing-masing buat mata yang melilit sosok yang baru dibuat.
+
+**h. Simpul Aceh**
+Digunakan untuk membawa atau mengikat tawanan.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat dua buah mata di tengah-tengah tali yang sejajar.
+2. Geserkan kedua mata dengan cara menganyam.
+3. Buat sosok yang besar dari kedua mata yang dianyam, masukkan ke bahu kanan atau bahu kiri tawanan.
+4. Tarik kedua ujung tali sehingga simpul mengikat dengan ketat pada bahu tawanan.
+
+**i. Simpul Mati (Reef Knot/Square Knot)**
+Simpul mati atau reef knot (biasa disebut juga sebagai square knot) merupakan salah satu simpul mendasar dalam Kepramukaan. Simpul ini merupakan simpul yang sangat mudah untuk dipelajari. Kegunaan simpul mati adalah untuk menyambung dua buah tali yang sama besar dan dalam keadaan kering. Ini berbeda dengan simpul anyam yang digunakan untuk menyambung dua buah tali yang besarnya berbeda, ataupun dengan simpul nelayan (simpul Inggris) yang digunakan untuk menyambung tali yang basah atau licin. Di samping untuk menyambung tali atau digunakan untuk mengakhiri suatu ikatan, simpul mati dapat juga digunakan untuk menali perban segi tiga (mitela) saat melakukan PPPK. Dengan fungsi dan kegunaannya, simpul mati akan sangat sering digunakan oleh seorang pramuka baik ketika mengikuti kegiatan kepramukaan maupun di kehidupan sehari-hari.
+
+*Cara membuatnya sebagai berikut:*
+1. Letakkan ujung tali merah di atas ujung tali biru.
+2. Lingkarkan ujung tali merah ke bawah tali biru kemudian lingkarkan lagi ke atas.
+3. Balik arah ujung tali biru yang tadinya ke arah kanan menjadi ke arah kiri. Demikian juga dengan ujung tali merah, balik ke arah kanan dan letakkan ujungnya di atas ujung tali biru.
+4. Ulangi langkah pada nomor dua.
+5. Tarik masing-masing ujung tali sehingga simpul menjadi kencang.
+6. Dan selesai, simpul mati atau *reef knot* atau *square knot* telah jadi.
+
+**j. Simpul Mata dengan Sosok**
+Digunakan untuk memperkuat ikatan.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat sosok pada ujung tali.
+2. Buat mata pada ujung tali yang pendek.
+3. Belitkan kaki mata pada bagian tali yang panjang dan susupkan melalui mata.
+4. Belitkan sekali lagi kaki mata pada kaki sosok dan susupkan ke mata lagi.
+5. Tarik bagian tali yang panjang dan tahan pada sosok sehingga simpul menjadi kuat.
 `
               },
               {
                 id: 'pioneering-1-article-2',
                 title: 'Bentuk Jerat',
                 content: `
-### Pengertian Jerat
-Jerat adalah salah satu bentuk ikatan tali pada benda lain (biasanya kayu atau tongkat) yang memiliki sifat khusus. Sifat ini bisa berupa cengkeraman yang semakin kuat jika ditarik, atau sebaliknya, mudah dilepas.
+### Bentuk Jerat
 
-![Macam-Macam Jerat](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Blue_Knot.jpg/640px-Blue_Knot.jpg)
+**a. Jerat Rangkap**
+Digunakan untuk membuat tangga dari tali, mencabut patok.
 
-### Macam-Macam Jerat dan Kegunaannya
+*Cara membuatnya sebagai berikut:*
+1. Buat mata yang sedang di tengah tali.
+2. Putarkan mata sehingga berhimpit dan kedudukan kedua ujung tali di antara kedua mata.
+3. Masukkan kedua mata pada balok.
+4. Tarik kedua ujung tali secara berlawanan.
 
-1.  **Jerat Pangkal (Clove Hitch)**
-    Ini adalah jerat yang paling sering digunakan dalam pioneering. Hampir semua ikatan (seperti ikatan palang, silang, canggah) diawali dengan jerat pangkal. Jerat ini mengikat tali pada tiang dengan kuat namun mudah dibuka.
+**b. Jerat Tukang Kayu**
+Digunakan untuk ikat permulaan pada balok.
 
-2.  **Jerat Tiang (Bowline)**
-    Sering disebut juga simpul tiang. Jerat ini menghasilkan lingkaran yang tidak menjerat (tidak mengecil saat ditarik). Sangat aman digunakan untuk mengikat leher hewan atau mengikat pinggang orang saat rescue.
+*Cara membuatnya sebagai berikut:*
+1. Buat mata pada ujung tali yang melingkar balok, lipat ujung tali pendek melingkar pada tali panjang, lilitkan ujung tali tersebut pada mata secara berulang-ulang.
+2. Tarik ujung yang panjang sehingga jerat dengan kuat mengikat pada balok.
 
-3.  **Jerat Tambat (Timber Hitch)**
-    Digunakan untuk menyeret balok kayu atau batang pohon. Jerat ini juga sering digunakan untuk memulai ikatan silang. Sifatnya adalah semakin ditarik, cengkeramannya semakin kuat karena gesekan tali dengan kayu.
+**c. Jerat Memperpendek Tali**
+Digunakan untuk memperpendek tali yang terlalu panjang.
 
-4.  **Jerat Tarik**
-    Digunakan untuk menambatkan tali pada tiang yang sifatnya sementara dan ingin mudah dilepas. Cukup dengan menarik ujung tali yang aktif, maka jerat akan terlepas seluruhnya. Sangat berguna saat kita turun tebing dan ingin mengambil kembali tali kita dari bawah.
+*Cara membuatnya sebagai berikut:*
+1. Buat dua buah sosok secara berurutan di tengah-tengah tali.
+2. Dari masing-masing ujung tali, buat mata yang membelit pada sosok yang telah dibuat tersebut.
+3. Tarik kedua ujung tali sehingga kencang.
 
-5.  **Jerat Kupu-Kupu (Butterfly Loop)**
-    Digunakan untuk membuat loop (lingkaran) di tengah tali tanpa harus menggunakan ujung tali. Loop ini sangat kuat dan bisa dibebani ke tiga arah. Sering digunakan oleh pendaki gunung untuk mengikatkan diri pada tali utama.
+**d. Jerat Rangkap Berganda**
+Digunakan untuk mengikatkan tali pada balok.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat dua belitan pada balok.
+2. Buat belitan sekali lagi pada tali pendek di sisi tali yang panjang.
+3. Tarik ujung tali yang pendek dan ujung tali yang panjang.
+
+**e. Jerat Mata Kait**
+Digunakan untuk mengangkat benda dengan bantuan katrol.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat mata pada tali.
+2. Masukkan mata tersebut pada pengait katrol.
+3. Tarik katrol, sehingga jerat menjadi kencang.
+
+**f. Jerat Tiang Rangkap**
+Digunakan untuk menambatkan perahu atau hewan pada pohon atau patok.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat mata pada ujung tali.
+2. Buat dua buah sosok pada ujung tali pendek dan selipkan ke dalam mata.
+3. Belitkan ujung sosok pada bagian tali yang panjang dan ujungnya selipkan pada mata lagi.
+4. Tarik tali panjang dan ujung tali pendek secara berlawanan.
+
+**g. Jerat Tangga**
+Digunakan untuk membuat tangga dari tali.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat mata pada ujung tali.
+2. Belitkan ujung tali panjang pada ujung tali pendek, sehingga berlawanan.
+3. Selipkan tongkat pada mata dan tali panjang.
+4. Tarik ujung tali pendek dan tali panjang berlawanan.
+
+**h. Jerat Sauh**
+Digunakan untuk mengikat cincin besi/cincin kait.
+
+*Cara membuatnya sebagai berikut:*
+1. Belitkan ujung tali dua kali pada cincin/balok atau sauh, buat mata pada ujung tali pendek dengan membelitkan pada tali panjang dan susupkan/selipkan pada sela-sela belitan tali dengan cincin.
+2. Belitkan ujung tali pendek pada tali panjang beberapa kali dan ujung terakhirnya ikat menjadi satu dengan bagian tali yang panjang.
+
+**i. Jerat Setengah**
+Digunakan untuk mengikat tali pada pohon.
+
+*Cara membuatnya sebagai berikut:*
+1. Belitkan tali pada balok/pohon.
+2. Belitkan ujung tali pendek pada bagian tali panjang secara berulang-ulang.
+3. Rapatkan ujung tali pendek dengan tali panjang dan ikat dengan ikat belit.
+
+**j. Jerat Sosok Berganda**
+Digunakan untuk mengaitkan katrol.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat sosok yang besar pada ujung tali.
+2. Buat dua buah sosok lagi dengan menarik dua kali sosok pertama secara berlawanan.
+3. Puntir sosok dari tali panjang sehingga membentuk mata.
+4. Rapatkan sosok dari tali pendek, puntir dan tekuk/lipat masukkan ke dalam mata tali yang panjang.
+
+**k. Jerat Penuh dan Setengah**
+Digunakan untuk mengikat tali pada pohon atau patok/cincin.
+
+*Cara membuatnya sebagai berikut:*
+1. Belitkan ujung tali dua kali pada pohon/patok cincin.
+2. Belitkan kembali ujung tali yang pendek pada bagian tali yang panjang dengan bentuk mata beberapa kali.
+3. Ikat ujung tali pendek dengan tali panjang.
+
+**l. Jerat Mata Rangkap dengan Sosok**
+Digunakan untuk mengaitkan tali pada katrol.
+
+*Cara membuatnya sebagai berikut:*
+1. Lipat/tekuk tali menjadi dua bagian.
+2. Buat mata dan sosok pada tali yang ditekuk/dilipat.
+3. Masukkan sosok kedalam mata dan tekuk keluar.
+4. Masukkan kaki sosok dan tali panjang ke sela-sela sosok yang ditekuk.
+5. Tarik tali panjang sehingga jerat menjadi kuat.
+
+**m. Jerat Angka Delapan dengan Sosok**
+Digunakan untuk mengaitkan tali pada patok.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat mata pada ujung tali dan masukkan ke dalam patok.
+2. Tekuk ujung tali yang pendek dan buat angka 8.
+3. Selipkan sisi ujung tali yang pendek ke dalam mata dan angka delapan.
+
+**n. Jerat Laso**
+Digunakan untuk mengikatkan tali pada patok.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat sosok pada ujung tali yang membelit patok.
+2. Buat simpul biasa pada ujung tali yang pendek pada sosok yang membelit tali panjang.
+3. Tarik tali panjang dan tahan tali pendek.
 `
               },
               {
                 id: 'pioneering-1-article-3',
                 title: 'Bentuk Ikat Belit',
                 content: `
-### Pengertian Ikatan
-Ikatan adalah teknik menghubungkan tali dengan benda lain, biasanya dua tongkat atau lebih, untuk membentuk suatu konstruksi (bangunan darurat). Kunci dari bangunan yang kokoh adalah ikatan yang rapi dan kuat.
+### Bentuk Ikat Belit
 
-![Macam-Macam Ikatan](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Blue_Knot.jpg/640px-Blue_Knot.jpg)
+**a. Ikat Belit Pokok**
+Digunakan untuk mengikat dua buah benda yang disambung lurus atau sejajar.
 
-### Macam-Macam Ikatan dan Kegunaannya
+*Cara membuatnya sebagai berikut:*
+1. Sejajarkan balok yang akan disambung 30-50 cm.
+2. Buat jerat tukang kayu sebagai permulaan ikatan pada kedua ujung pokok.
+3. Belitkan tali panjang pada kedua balok, belitan tersebut harus rapat, arah belitan berlawanan dengan belitan tukang kayu.
+4. Selipkan ujung tali ke dalam belitan, buat jerat setengah.
 
-1.  **Ikatan Palang (Square Lashing)**
-    Digunakan untuk mengikat dua tongkat yang posisinya **saling tegak lurus** (membentuk sudut 90 derajat).
-    *   **Cara:** Dimulai dengan simpul pangkal pada salah satu tongkat, lalu lilitkan tali menyilang di antara kedua tongkat sebanyak 3-4 kali. Akhiri dengan "cekikan" (frapping) di antara tongkat untuk mengencangkan, dan tutup dengan simpul pangkal.
+**b. Ikat Belit Pokok Diubah**
+Digunakan untuk menyambung dua buah benda yang disambung lurus atau sejajar.
 
-2.  **Ikatan Silang (Cross Lashing)**
-    Digunakan untuk mengikat dua tongkat yang bersilangan namun **tidak membentuk sudut 90 derajat** (seperti huruf X).
-    *   **Cara:** Dimulai dengan simpul tambat pada persilangan, lalu lilitkan tali secara diagonal bergantian. Akhiri dengan cekikan dan simpul pangkal.
+*Cara membuatnya sebagai berikut:*
+1. Sejajarkan balok yang akan disambung 30-50 cm.
+2. Buat jerat tukang kayu sebagai permulaan pada kedua ujung balok.
+3. Buat belitan pada tali panjang beberapa kali pada kedua balok, belitan harus rapat satu sama lain.
+4. Rubah dengan membuat antara pada belitan pertama dan kedua, antara dibuat dengan membuat persilangan tali.
+5. Selipkan ujung tali pada belitan dan buat jerat setengah di ujungnya.
 
-3.  **Ikatan Canggah (Shear Lashing)**
-    Digunakan untuk menyambung dua tongkat secara memanjang (agar menjadi lebih panjang) atau untuk membuat tiang bendera.
-    *   **Cara:** Dua tongkat diimpitkan dengan overlap yang cukup. Mulai dengan simpul pangkal pada salah satu tongkat, lilitkan tali mengelilingi kedua tongkat dengan erat. Beri cekikan di sela-sela tongkat, dan akhiri dengan simpul pangkal.
+**c. Ikat Belit Pokok Dicekik**
+Digunakan untuk membuat sambungan, silang atau lurus pada pekerjaan jembatan maupun kemah/barak/sengkuap.
 
-4.  **Ikatan Kaki Tiga (Tripod Lashing)**
-    Digunakan untuk menggabungkan tiga tongkat untuk membentuk kaki tiga (tripod), yang biasanya digunakan sebagai dasar menara pandang atau tiang bendera.
-    *   **Cara:** Susun tiga tongkat sejajar. Mulai dengan simpul pangkal di salah satu tongkat pinggir. Anyam tali melewati atas-bawah tongkat-tongkat tersebut. Beri cekikan di sela-sela tongkat, lalu akhiri dengan simpul pangkal. Dirikan tongkat dan atur posisinya.
+*Cara membuatnya sebagai berikut:*
+1. Buat jerat tukang kayu pada awal ikatan.
+2. Belitkan bagian tali yang panjang satu sama lain.
+3. Buat cekikan pada belitan dengan menggunakan sisa ujung tali, dengan cara menyelipkan tali di antara kedua benda.
+4. Lilitkan beberapa kali dan matikan ujung tali dengan jerat setengah atau jerat rangkap.
+
+**d. Ikat Belit Silang**
+Digunakan untuk menyambung dua buah benda yang tegak lurus.
+
+*Cara membuatnya sebagai berikut:*
+1. Ikat Jerat tukang kayu.
+2. Belitkan tali panjang pada persilangan, empat atau lima kali.
+3. Buat cekikan di sela-sela sambungan dua atau tiga belitan, ujung tali ikat belit dan jerat tukang kayu eratkan dengan simpul hidup atau jerat rangkap.
+
+**e. Ikat Belit Puntir**
+Digunakan untuk mengeraskan ikatan atau klem penjepit.
+
+*Cara membuatnya sebagai berikut:*
+1. Ikatkan tali pada gelagar dan menggapit dengan simpul mati.
+2. Masukkan kayu penusuk pada sela-sela tali dengan penggapit.
+3. Putar hingga ikatan kencang.
+
+**f. Ikat Belit Peneguh**
+Digunakan untuk memperkuat patok peneguh (dua buah patok atau lebih).
+
+*Cara membuatnya sebagai berikut:*
+1. Buat jerat tukang kayu pada salah satu patok.
+2. Belitkan tali panjang pada kedua patok rapat-rapat.
+3. Lilitkan ujung tali pada tali di antara patok beberapa kali.
+4. Matikan ujung tali dengan jerat setengah.
+5. Buat jerat tukang kayu sebagai awal ikatan.
+6. Buat belitan dengan tali panjang pada pasak dengan balok mendatar beberapa kali.
+7. Buat cekikan antara balok dengan pasak.
+8. Matikan ujung jerat dengan ujung lilitan memakai simpul atau jerat rangkap.
+
+**g. Ikat Belit Hidup**
+Digunakan untuk menyambung dua buah benda yang disambung tegak lurus.
+
+*Cara membuatnya sebagai berikut:*
+1. Buat jerat tukang kayu pada awal ikatan.
+2. Belitkan tali panjang pada sambungan secara berurutan secukupnya.
+3. Rubah belitan dengan mencekik belitan pertama pada sela-sela sambungan dua atau tiga belitan.
+4. Matikan ujung tali dengan ujung jerat menggunakan simpul hidup.
+
+**h. Jerat Penuh Rangkap**
+Digunakan untuk mengaitkan katrol pada patok.
+
+*Cara membuatnya sebagai berikut:*
+1. Belitkan tali dua kali pada patok/pohon.
+2. Buat simpul pada kedua ujung tali yang membelit kedua belitan tali tersebut.
+3. Kaitkan katrol pada tali dan tarik hingga kencang.
 `
               }
             ]
@@ -2115,114 +1091,163 @@ Ikatan adalah teknik menghubungkan tali dengan benda lain, biasanya dua tongkat 
                 id: 'pioneering-2-article-1',
                 title: 'Jembatan Tepi Sederhana',
                 content: `
-### Pendahuluan
-Dalam situasi darurat atau penjelajahan, seringkali kita dihadapkan pada rintangan alam seperti sungai yang deras, parit yang lebar, atau jurang. Kemampuan membuat jembatan darurat (improvisasi) menjadi sangat krusial untuk menjaga mobilitas tim. Jembatan ini dibuat dengan memanfaatkan bahan-bahan yang tersedia di alam (kayu, bambu, rotan) dan tali.
+### Jembatan Tepi Sederhana
 
-![Jembatan Darurat](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Blue_Knot.jpg/640px-Blue_Knot.jpg)
+**a. Pekerjaan awal**
+1. Pembersihan tempat/lokasi yang akan dibangun jembatan.
+2. Merambu yang meliputi pengukuran lebar jembatan, penentuan sumbu as jembatan dan kedalaman sungai serta memeriksa kondisi tanah.
+3. Menentukan tempat kerja di daerah tepi dekat dan tepi jauh.
 
-### Prinsip Dasar Pembuatan Jembatan
-1.  **Kekuatan (Strength):** Jembatan harus mampu menahan beban orang atau barang yang melintas.
-2.  **Kestabilan (Stability):** Jembatan tidak boleh goyang berlebihan saat dilintasi.
-3.  **Efisiensi:** Menggunakan bahan dan tenaga seefisien mungkin.
-4.  **Keamanan (Safety):** Faktor keselamatan adalah yang utama. Setiap ikatan harus dicek ulang.
+**b. Pekerjaan pangkal jembatan**
+1. Menyiapkan tempat pangkal jembatan.
+2. Gali tanah secukupnya untuk kedudukan balok penyangga.
+3. Apabila kondisi tanah pada tebing pangkal jembatan mudah longsor, diperkuat dengan turapan.
+4. Pasang balok penyangga melintang tegak lurus sumbu jembatan.
+5. Di samping kanan dan kiri balok penyangga dipasang patok agar tidak goyah.
 
-### Macam-Macam Jembatan Darurat
+**c. Pemasangan gelagar**
+1. Pasang gelagar di atas balok penyangga sejajar arah sumbu jembatan (panjang gelagar maksimal 6 M) apabila dari bambu atau batang kayu bulat minimal 10 Cm.
+2. Gelagar yang bertumpu di atas balok penyangga diratakan dan dipaku/diikat dengan kawat.
+3. Gelagar dipasang rapat apabila di atasnya ditimbun tanah.
+4. Untuk jembatan yang dilalui kendaraan jumlah gelagar dibuat minimal 8 batang pohon kelapa/pohon yang berdiameter 25-30 Cm disusun berjajar rapat dengan pucuk dan pangkal batang satu dengan batang yang lain berlawanan.
+5. Pada ujung-ujung gelagar dipasang balok penahan kemudian dipasang piket (patok) di sisi luar dan ujung-ujung balok penahan.
 
-1.  **Jembatan Tepi Sederhana (Log Bridge)**
-    Ini adalah bentuk jembatan paling purba dan sederhana. Prinsipnya adalah meletakkan batang kayu atau bambu yang cukup panjang dan kuat melintasi sungai dari satu tepi ke tepi lainnya.
-    *   **Konstruksi:** Jika sungai lebar, bisa menggunakan dua batang kayu sejajar. Untuk kenyamanan, di atasnya bisa diberi lantai papan atau anyaman bambu.
-    *   **Pangkal Jembatan:** Tanah di kedua tepi harus digali dan dipadatkan untuk menahan ujung jembatan agar tidak bergeser.
+**d. Pembuatan lantai**
+1. Lantai dibuat dari papan kayu bulat yang utuh atau dibelah.
+2. Dipasang melintang di atas gelagar memanjang diikat dengan kawat atau dipaku.
+3. Untuk memperkuat kedudukan lantai dipasang balok penutup atau penjepit lantai.
 
-2.  **Jembatan Kuda-Kuda (A-Frame Bridge)**
-    Jika bentang sungai terlalu lebar untuk satu batang kayu, kita perlu membuat penyangga di tengah atau di tepi yang menjorok ke tengah. Penyangga ini berbentuk segitiga atau huruf A (kuda-kuda).
-    *   **Cara Kerja:** Kuda-kuda berfungsi memperpendek bentang jembatan dan menyalurkan beban ke dasar sungai atau tebing.
-    *   **Ikatan:** Menggunakan ikatan palang dan silang yang sangat kuat.
-
-3.  **Jembatan Gantung (Suspension Bridge)**
-    Digunakan jika sungai sangat lebar dan dalam, sehingga tidak memungkinkan memasang tiang penyangga di tengah.
-    *   **Konstruksi:** Mengandalkan tali baja atau tali manila besar yang dibentangkan di antara dua pohon besar di kedua tepi sungai. Lantai jembatan digantungkan pada tali utama tersebut.
-    *   **Kesulitan:** Membutuhkan teknik penarikan tali yang kuat (pulleys system) agar tali bentangan tidak melendut terlalu dalam.
-
-4.  **Jembatan Tarik (Drawbridge)**
-    Jembatan ini unik karena bisa diangkat atau ditarik. Biasanya digunakan untuk melintasi parit pertahanan atau sungai kecil yang juga dilalui perahu.
-    *   **Mekanisme:** Menggunakan sistem katrol dan pemberat (counterweight) untuk mengangkat lantai jembatan.
+**e. Pembuatan sandaran**
+1. Sandaran dibuat dari kayu persegi, kayu bulat atau bambu.
+2. Tiang sandaran dipasang pada bagian ujung-ujung pangkal jembatan ditanam di tanah.
+3. Kayu/bambu sandaran dihubungkan dengan tiang sandaran diikat kawat atau dipaku.
 `
               },
               {
                 id: 'pioneering-2-article-2',
                 title: 'Jembatan Kuda-kuda',
                 content: `
-### Detail Konstruksi Jembatan Kuda-Kuda
-Jembatan kuda-kuda adalah solusi cerdas untuk mengatasi bentang sungai yang lebar tanpa harus mencari kayu utuh yang sangat panjang.
+### Jembatan Kuda-kuda
 
-*   **Prinsip A-Frame:**
-    Bentuk segitiga (A) adalah bentuk geometri yang paling stabil dan kaku. Beban vertikal dari atas akan disalurkan menjadi gaya tekan pada kaki-kaki segitiga.
+**a. Pekerjaan awal**
+1. Pembersihan tempat/lokasi yang akan dibangun jembatan.
+2. Merambu yang meliputi pengukuran lebar jembatan, kedalaman sungai serta kondisi tanah.
+3. Menentukan tempat kerja di daerah tepi dekat dan tepi jauh.
 
-*   **Langkah Pembuatan:**
-    1.  **Siapkan Bahan:** Dua batang kayu panjang untuk kaki, satu batang pendek untuk palang bawah, dan satu batang pendek untuk palang atas.
-    2.  **Rakit Kuda-Kuda:** Ikat kedua batang panjang di bagian atas dengan ikatan silang (shear lashing) sehingga membentuk huruf V terbalik. Pasang palang bawah dan atas dengan ikatan palang (square lashing) untuk membentuk huruf A.
-    3.  **Dirikan:** Letakkan kaki kuda-kuda di dasar sungai (pastikan dasar sungai keras/berbatu).
-    4.  **Pasang Gelagar:** Letakkan balok utama jembatan di atas palang segitiga tersebut.
+**b. Pekerjaan pangkal jembatan**
+1. Menyiapkan tempat pangkal jembatan.
+2. Gali tanah secukupnya untuk kedudukan balok penyangga.
+3. Apabila keadaan tanah tebing pada pangkal jembatan mudah longsor diperkuat dengan turapan.
+4. Pasang balok penyangga melintang atau tegak lurus sumbu jembatan.
+5. Di samping kiri dan kanan balok penyangga dipasang patok agar kedudukan balok tidak goyah.
 
-*   **Tips Keamanan:**
-    Pastikan sudut kaki kuda-kuda cukup lebar agar tidak mudah terguling ke samping. Jika arus sungai deras, kaki kuda-kuda harus ditanam atau diberi pemberat batu.
+**c. Pembuatan kuda-kuda**
+
+**(1) Kuda-kuda kaki sejajar**
+* (a) Membuat mal kuda-kuda dari tali di atas tanah sesuai dengan lebar jembatan yang akan dibuat.
+* (b) Buat kuda-kuda dari batang kayu bulat/bambu diameter 10 Cm sesuai dengan mal yang sudah dibuat.
+* (c) Pasang batang kayu bulat/bambu diameter 10 Cm pada kaki kuda-kuda bagian bawah sebagai balok lumpur.
+* (d) Pasang penopang dari batang kayu/bambu bersilangan di atas kedua kaki kuda-kuda dan semua sambungan diikat dengan belit silang.
+
+**(2) Kuda-kuda kaki silang**
+* (a) Dua buah batang kayu bulat/bambu minimal diameter 10 Cm diikat dengan ikatan belit silang pada bagian persilangan bagian bawah sebagai kaki kuda-kuda.
+* (b) Pasang batang kayu bulat/bambu diameter 10 Cm pada kaki kuda-kuda pada bagian bawah sebagai balok lumpur.
+
+**d. Pembuatan gelagar**
+1. Pasang gelagar dari batang kayu bulat/bambu diameter 10 Cm minimal 3 batang di atas kuda-kuda dan balok penyangga dengan diikat memakai ikat belit silang.
+2. Pasang balok penahan pada ujung-ujung balok gelagar yang bertumpu pada balok penyangga.
+
+**e. Pembuatan lantai jembatan**
+1. Potong kayu bulat yang telah dibelah atau papan, sesuai dengan lebar jembatan yang telah direncanakan.
+2. Pasang potongan papan, kayu bulat tersebut melintang di atas gelagar diikat dengan ikat silang atau dipaku.
+3. Bila menggunakan bambu maka harus dianyam atau dibuat sasak.
+
+**f. Pembuatan sandaran**
+1. Sandaran dibuat dari kayu persegi, kayu bulat/bambu.
+2. Tanam bambu/kayu bulat pada ujung jembatan setinggi 90-100 Cm sebagai tiang sandaran.
+3. Pasang bambu/kayu bulat pada tiang sandaran tersebut sebagai titihan, untuk bagian tengah titihan diikatkan pada kaki kuda-kuda sebagai tiang sandaran.
 `
               },
               {
                 id: 'pioneering-2-article-3',
                 title: 'Jembatan Bambu Satu',
                 content: `
-### Jembatan Bambu Satu (Single Bamboo Bridge)
-Jembatan ini sangat ringan dan cepat dibuat, cocok untuk penyeberangan perorangan dengan beban ringan.
+### Jembatan Bambu Satu
 
-*   **Konstruksi:**
-    Hanya menggunakan satu batang bambu besar (betung) sebagai titian utama.
-*   **Keseimbangan:**
-    Karena pijakan sangat sempit (hanya selebar bambu), maka mutlak diperlukan **tali pegangan tangan** (handrail) yang dibentangkan sejajar di atas bambu titian setinggi pinggang.
-*   **Penggunaan:**
-    Penyeberang berjalan menyamping (seperti kepiting) sambil berpegangan pada tali tangan.
+**a. Kebutuhan Bambu**
+1. **Bambu besar:**
+   * 4 potong (ukuran 3 M)
+   * 1 potong (ukuran 250 Cm)
+2. **Bambu sedang:**
+   * 2 potong (ukuran 100 Cm, 60 Cm, 3 M)
+
+**b. Kebutuhan Tali**
+1. 16 Gulung (ukuran panjang 6 M)
+2. 2 Gulung (ukuran panjang 4 M)
 `
               },
               {
                 id: 'pioneering-2-article-4',
                 title: 'Jembatan Tarik',
                 content: `
-### Jembatan Tarik (Drawbridge)
-Jembatan tarik adalah karya engineering klasik yang bisa diadopsi dalam skala kecil untuk pioneering.
+### Jembatan Tarik
 
-*   **Fungsi Taktis:**
-    Dalam konteks pertahanan, jembatan ini bisa ditarik ke atas untuk memutus akses musuh. Dalam konteks pramuka, ini adalah latihan mekanika (katrol dan tuas).
-*   **Komponen Utama:**
-    1.  **Lantai Jembatan:** Engsel di satu sisi (pangkal).
-    2.  **Menara Penarik:** Tiang tinggi di pangkal jembatan untuk menempatkan katrol.
-    3.  **Tali Penarik:** Tali yang menghubungkan ujung jembatan, melewati katrol di menara, ke tangan operator.
-    4.  **Pemberat (Counterweight):** Opsional, untuk meringankan beban saat menarik.
+**a. Kebutuhan Bambu**
+1. **Bambu besar:**
+   * 2 potong (ukuran 250 Cm)
+   * 2 potong (ukuran 160 Cm)
+2. **Bambu sedang:**
+   * 4 potong (ukuran 3 M)
+   * 5 potong (ukuran 1 M)
+   * 2 potong (ukuran 2 M)
+   * 1 potong (ukuran 160 Cm)
+   * 20 potong (ukuran 120 Cm)
+3. **Bambu kecil:**
+   * 14 potong (ukuran 50 Cm)
+
+**b. Kebutuhan Tali**
+1. 21 Gulung (ukuran panjang 6 M)
+2. 1 Gulung (ukuran panjang 7 M)
+3. 2 Gulung (ukuran panjang 15 M)
 `
               },
               {
                 id: 'pioneering-2-article-5',
                 title: 'Jembatan Kaki Delapan Bersudut Dua',
                 content: `
-### Jembatan Kompleks (Kaki Delapan)
-Ini adalah proyek pioneering tingkat lanjut yang membutuhkan kerjasama tim yang solid.
+### Jembatan Kaki Delapan Bersudut Dua
 
-*   **Struktur:**
-    Menggunakan kombinasi beberapa kuda-kuda yang saling menopang, sehingga membentuk struktur yang terlihat seperti memiliki banyak kaki.
-*   **Keunggulan:**
-    Sangat stabil dan mampu menahan beban berat. Bisa digunakan untuk bentang yang cukup jauh tanpa tiang di tengah sungai (cantilever principle).
+**a. Kebutuhan Bambu**
+1. **Bambu besar:**
+   * 4 potong (ukuran 5 M)
+   * 4 potong (ukuran 4 M)
+2. **Bambu sedang:**
+   * 2 potong (ukuran 3 M)
+   * 6 potong (ukuran 2 M)
+   * 7 potong (ukuran 150 Cm)
+   * 60 buah (ukuran 150 Cm)
+
+**b. Kebutuhan Tali**
+1. 26 Gulung (ukuran panjang 6 M)
+2. 6 Gulung (ukuran panjang 15 M)
 `
               },
               {
                 id: 'pioneering-2-article-6',
                 title: 'Jembatan Topang',
                 content: `
-### Jembatan Topang (Strut Bridge)
-Jembatan ini menggunakan balok miring (topang/strut) yang menumpu pada tebing sungai untuk menahan gelagar jembatan dari bawah.
+### Jembatan Topang
 
-*   **Syarat Lokasi:**
-    Tebing sungai harus curam dan keras (batu atau tanah padat) agar bisa menjadi tumpuan balok miring.
-*   **Kelebihan:**
-    Tidak perlu tiang di tengah sungai, sehingga aman dari hanyut akibat banjir bandang.
+**a. Jembatan Topang Tunggal**
+Jembatan Topang hanya dapat digunakan untuk jembatan kelas 5 Ton dan biasanya hanya digunakan jika tidak terdapat bahan-bahan lain seperti tali-tali pengikat dan kayu bulat yang dapat ditebang di tempat itu. Jika di tepi-tepi terdapat peletak-peletak yang dapat digunakan, lebih baik digunakan jembatan topang lain.
+
+* Terdiri dari dua kuda-kuda yang diikat, yang duduk pada tebing-tebing rintangan dan ujung lainnya saling bertemu. Pada titik pertemuan ini kuda-kuda menyangga pemikul lintang, yang di atasnya terletak bangunan atas jembatan.
+* Kuda-kuda harus dibuat sedemikian rupa, supaya satu dengan yang lainnya dapat tepat.
+* Kemiringan kuda-kuda tidak boleh kurang dari 1:2 dan lantai jembatan harus dengan kemiringan 1:60.
+* Tempat-tempat peletak dari kuda-kuda harus dapat tepat berhadap-hadapan dan pada ketinggian yang sama, dan harus diusahakan supaya kaki jembatan macam ini dapat dikerjakan pada bentangan 10 M oleh 30 orang, dalam waktu kurang lebih 2 jam, jika bahan-bahan sudah ada di tempat itu.
+
+**b. Jembatan Topang Berganda**
+Dapat dibuat sampai bentangan 12 M. Kedua kuda-kuda tidak saling bertemu, tetapi dihubungkan dengan balok mendatar, dan oleh karenanya terdapat dua titik tumpu.
 `
               }
             ]
@@ -2248,72 +1273,186 @@ Jembatan ini menggunakan balok miring (topang/strut) yang menumpu pada tebing su
                 id: 'pioneering-3-article-1',
                 title: 'Sengkuap',
                 content: `
-### Pendahuluan
-Perkemahan adalah "rumah" bagi pramuka di alam bebas. Membuat perkemahan yang nyaman, aman, dan sehat adalah seni tersendiri. Bukan sekadar mendirikan tenda, tapi mengatur tata letak (layout) agar aktivitas berjalan lancar.
+### Sengkuap
 
-### Jenis-Jenis Bangunan Perkemahan (Shelter)
+**a. Sengkuap Satu Banjar Tiang**
+*Cara membuatnya adalah sebagai berikut:*
+1. Lebar sengkuap kurang lebih 3 meter.
+2. Panjang sengkuap tergantung jumlah personel yang menempatinya.
+3. Panjang petak 2 s.d. 4 meter, menurut kekuatan bahan yang digunakan.
+4. Tinggi tiang kurang lebih 2,5 meter dan ditanam 0,5 meter.
+5. Belandar depan dipasang setinggi 1,8 meter.
+6. Panjang kasau 4,25 meter dan dipasang dengan jarak 0,5 meter, kasau menggunakan bambu belah maka belahannya menghadap ke atas. Ujung kasau bagian atas (depan) dilebihkan di atas belandar kurang lebih 0,6 meter.
+7. Pada bagian belakang tidak harus menggunakan belandar, untuk itu ujung-ujung kasau ditancapkan ke tanah.
+8. Bila penutup atas menggunakan daun pisang atau alang-alang maka lebih dulu dipasang reng di atas kasau dengan jarak 0,3 meter untuk mengikat atap.
+9. Di sekeliling sengkuap dibuatkan parit, tanah bekas galiannya yang kering dapat digunakan untuk meninggikan lantai.
+10. Sebagai bahan penutup dapat menggunakan daun palem atau anyaman bambu, dan lain-lain.
 
-1.  **Sengkuap (Lean-to)**
-    Tenda darurat paling sederhana yang terbuka di satu sisi.
-    *   **Fungsi:** Melindungi dari angin dan hujan dari satu arah. Biasanya digunakan untuk istirahat sebentar atau dapur umum.
-    *   **Konstruksi:** Dibuat dengan menyandarkan atap (ponco, daun, rumbia) pada sebatang kayu melintang yang diikatkan pada dua pohon.
+**b. Sengkuap Dua Banjar Tiang**
+*Cara membuatnya sebagai berikut:*
+1. Lebar sengkuap kurang lebih 3 meter.
+2. Panjang sengkuap tergantung jumlah personel yang menempatinya.
+3. Panjang petak 2 s.d. 4 meter.
+4. Tinggi tiang depan kurang lebih 3 meter dan ditanam ke tanah 50 cm.
+5. Tinggi tiang belakang kurang lebih 2,5 meter dan ditanam ke tanah 50 cm.
+6. Panjang kasau 4,25 meter dengan jarak pemasangan 0,5 meter dan dilebihkan ke depan 0,6 meter serta dilebihkan ke belakang 0,75 meter.
+7. **Pemasangan bale-bale:**
+   * (a) Belandar depan menempel pada tiang depan atau di atas, tiang bale-bale setinggi 0,5 meter.
+   * (b) Belandar belakang menempel pada tiang belakang atau di atas tiang bale-bale setinggi 0,55 meter.
+   * (c) Tiang bale-bale ditanam 0,25 meter dengan jarak 1 meter.
+   * (d) Gelagar bale-bale diletakkan di atas belandar dengan jarak 0,2 s.d. 0,5 meter.
 
-![Sengkuap](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tarpaulin_fly_tent.jpg/640px-Tarpaulin_fly_tent.jpg)
+**c. Sengkuap Dua Banjar Tiang dengan Serambi**
+Cara membuatnya sama dengan Sengkuap 2 banjar tiang hanya ditambah dengan serambi kurang lebih 1 meter dari depan, panjang tiang serambi 2,2 meter dan ditanam 0,5 meter.
 
-2.  **Tenda Regu (Ridge Tent)**
-    Tenda berbentuk prisma segitiga memanjang. Ini adalah tenda standar pramuka.
-    *   **Bagian:** Terdiri dari tiang utama (tegak), tiang penyangga (ridge pole), dan pasak.
-    *   **Tips:** Pastikan tali tenda ditarik kencang agar atap tidak menampung air hujan. Buat parit di sekeliling tenda untuk aliran air.
+1. Ujung kaso atas dengan gelandar diikat satu per satu.
+2. Ujung kaso bawah ± 20 cm dari belandar bawah diikat satu per satu.
+3. **Penutup atap dengan welit disusun sebagai berikut:**
+   * (a) Disusun dari bawah ke atas dengan jarak 0,04 - 0,10 meter.
+   * (b) Menyambung ke samping dengan bertalipan 0,10 - 0,20 meter.
+   * (c) Tiap welit diikat pada kasau dan paling bawah dibalik.
+4. Bale-bale dipasang secara memanjang/melintang dengan menggunakan pelupuk.
+5. Tinggi tiang bale-bale bagian depan 0,50 meter dan bagian belakang 0,55 meter.
+6. Jarak tiang bale-bale 1,0 meter.
+7. Antara tiang bale-bale depan dan belakang diberi tiang tambahan dan belandar.
+8. **Pembuatan Parit penguras:** Di sekeliling barak harus dibuat parit penguras, bekas galian parit yang digali tanahnya dapat dipakai mempertinggi lantai barak, kemiringan lantai 1 : 20.
+9. **Adapun teknik menghitungnya sebagai berikut (panjang 11M / 3 Petak):**
 
-3.  **Menara Pandang (Watch Tower)**
-    Bangunan tinggi yang ikonik dalam perkemahan.
-    *   **Fungsi:** Untuk mengawasi area perkemahan, memantau bahaya (api, hewan liar), atau sekadar sebagai landmark.
-    *   **Konstruksi:** Biasanya menggunakan kaki tiga (tripod) atau kaki empat (quadpod) sebagai dasar. Membutuhkan ikatan yang sangat presisi demi keselamatan pemanjat.
+   **(a) Bahan yang dibutuhkan:**
+   * i. Bambu Bitung panjang efektif 6 M diameter 15 Cm.
+   * ii. Bambu Kaso panjang efektif 5 M diameter 7 Cm.
+   * iii. Atap atau Welit panjang 1 M Jarak welit 20 Cm.
+   * iv. Bahan pengikat dan penutup (Ijuk, Gedeg).
 
-4.  **Gapura (Camp Gate)**
-    Pintu gerbang masuk ke area perkemahan.
-    *   **Fungsi:** Menunjukkan identitas regu atau pasukan, serta sebagai pos penjagaan.
-    *   **Kreativitas:** Gapura adalah ajang pameran kemampuan tali-temali dan estetika.
+   **(b) Kebutuhan Bambu Bitung:**
+   * i. Jumlah rangka = Jumlah petak + 1 = 3 + 1 = 4 rangka.
+   * ii. Bahan Rangka:
+       * Tiang Depan = 3,00 M
+       * Tiang Belakang = 1,50 M
+       * Tiang Serambi = 2,50 M
+       * Tiang Bale Depan = 0,75 M
+       * Tiang Bale Tengah = 0,77 M
+       * Tiang Bale Belakang = 0,80 M
+       * **Total = 9,32 M**
+       * Jadi: 9,32 X 4 = 37,28 M
 
-### Sanitasi dan Higiene Perkemahan
-*   **Latrine (Kakus):** Harus dibuat jauh dari sumber air dan dapur (minimal 10-20 meter).
-*   **Lubang Sampah:** Pisahkan sampah organik (basah) dan anorganik (kering). Sampah organik bisa ditimbun, anorganik dibawa pulang.
-*   **Dapur:** Harus memiliki sirkulasi udara yang baik dan terlindung dari hujan.
+   **(c) Belandar:**
+   * i. Belandar Sengkuap = 3 X 12,00 = 36,00 M
+   * ii. Belandar Bale = 3 X 11,45 = 34,35 M
+   * **Total = 70,35 M**
+   * Jadi Kebutuhan Bambu Bitung = 37,28 + 70,35 = 107,63 M = 108 M
+   * 108 M / 6 = 18 Batang.
+   * Keamanan 10% = 18 + 1,8 = 19,8 dibulatkan **20 Batang**.
+
+   **(d) Kebutuhan Bambu Kaso:**
+   * **Kaso Sengkuap:**
+       * = (P. Bldr Sengkuap + 1) / Jarak Kaso X 4,25 M
+       * = (12 + 1) / 0,5 X 4,25 M
+       * = 25 X 4,25 = 106,25 M
+   * **Kaso Serambi:**
+       * = (P. Bldr Skuap + 1) / Jarak Kaso X 1,60 M
+       * = (12 + 1) / 0,5 X 1,60 M
+       * = 25 X 1,60 = 40,00 M
+   * **Kaso Bale:**
+       * = (Pj. Bld Bale + 1) / Jarak Kaso X 2,50 M
+       * = (11,45 + 1) / 0,5 X 2,50 M
+       * = 23 X 2,50 = 57,50 M
+   * **Total:**
+       * Jadi Kebutuhan Bambu Kaso 106,25 + 40,00 + 57,50 = 203,75 M dibulatkan 204 M
+       * 204 / 5 = 40,4 dibulatkan 41 Batang.
+       * Keamanan 10% = 41 + 4,1 = 45,1 dibulatkan **46 Batang**.
+
+   **(e) Kebutuhan Atap / welit:**
+   * **Atap Sengkuap:**
+       * = (Panj. Bldr Sengkuap / Panjang Welit) X (Panj. Kaso / Jarak Welit)
+       * = (12,00 / 1,00) X (4,25 / 0,20)
+       * = 12 X 22 = 264 Lembar.
+   * **Atap Serambi:**
+       * = (Panj. Bldr Sengkuap / Panj. Welit) X (Panj Kaso / Jarak)
+       * = 12 X 8 = 96 Lembar.
+   * **Total:**
+       * Jadi Kebutuhan Atap / Welit = 264 + 96 = 360 Lembar.
+       * Keamanan 10% = 360 + 36 = **396 Lembar**.
 `
               },
               {
                 id: 'pioneering-3-article-2',
                 title: 'Barak',
                 content: `
-### Barak (Barracks)
-Barak adalah bangunan penampungan yang lebih besar dan permanen dibandingkan tenda regu biasa. Biasanya digunakan untuk menampung satu pasukan atau pleton.
+### Barak
 
-![Barak](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tarpaulin_fly_tent.jpg/640px-Tarpaulin_fly_tent.jpg)
+**a. Barak Tionghoa**
+*Cara membuatnya sebagai berikut:*
+1. Panjang barak disesuaikan dengan jumlah penghuninya, jarak antar tiang 2 meter.
+2. Lebar kurang lebih 4 meter, dan tinggi 3 meter.
+3. Tiang ditanam kurang lebih 0,5 meter.
+4. Memasang kuda-kuda di atas tiang.
+5. Memasang belandar di atas kaki kuda-kuda.
+6. Memasang kaso dari kayu/bambu dengan jarak kurang lebih 50 cm.
+7. Memasang atap welit/kajang.
+8. Memasang dinding/bilik bambu.
+9. Membuat parit keliling barak.
 
-*   **Barak Tionghoa:**
-    Bentuknya memanjang dengan atap pelana. Konstruksinya menggunakan tiang-tiang bambu yang ditanam kuat. Dindingnya bisa dibuat dari anyaman bambu (bilik) atau terpal. Dilengkapi dengan parit keliling untuk drainase.
-
-*   **Barak Biasa:**
-    Mirip dengan tenda regu tapi ukurannya raksasa. Menggunakan tiang *Ander* (tiang vertikal pendek di tengah kuda-kuda) untuk memberikan ruang kepala yang lebih tinggi di bagian tengah.
+**b. Barak Biasa**
+*Cara membuatnya sebagai berikut:*
+1. Panjang barak kurang lebih 6 meter atau disesuaikan dengan penghuninya, jarak antar tiang 3 meter.
+2. Lebar kurang lebih 4 meter, tinggi tiang 3 meter dan ander 1 meter.
+3. Memasang tiang dengan belandar.
+4. Memasang ander.
+5. Memasang kaso dengan jarak kurang lebih 50 cm.
+6. Memasang bale-bale dengan pelupuh.
+7. Memasang atap dengan welit/jerami/alang-alang.
+8. Memasang dinding/bilik dari bambu.
+9. Membuat parit sekeliling barak.
 `
               },
               {
                 id: 'pioneering-3-article-3',
                 title: 'Menara',
                 content: `
-### Menara Pandang (Observation Tower)
-Menara pandang adalah puncak dari keterampilan pioneering. Membangun menara membutuhkan perhitungan beban dan simpul yang sempurna.
+### Menara
 
-![Menara Pandang](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Blue_Knot.jpg/640px-Blue_Knot.jpg)
+**a. Menara tinjau di atas pohon**
+*Cara membuatnya sebagai berikut:*
+1. Memilih dahan yang baik letaknya.
+2. Dahan yang sudah dipilih dipasang bambu-bambu mendatar sebagai gelagar dan di atasnya dipasang lantai yang terbuat dari belahan bambu atau bambu kecil.
+3. Membuat sandaran/dinding pengaman dari bambu atau kayu.
+4. Membuat tangga yang terbuat dari bambu atau tali.
 
-*   **Menara Kaki Tiga (Tripod Tower):**
-    Paling mudah dibuat. Tiga batang bambu panjang diikat ujungnya (tripod lashing), lalu didirikan. Di antara kaki-kaki tersebut dipasang palang-palang untuk tangga dan lantai panggung.
+**b. Menara tinjau yang terbuat dari bambu berkaki tiga**
+1. Tiga batang bambu betung yang lurus panjangnya kurang lebih 8 meter, di bagian atas diikat dengan kawat atau ijuk.
+2. Ujung-ujung bambu kurang lebih 1 meter dari atas dipasang pasak besi atau kayu, masing-masing bambu bisa bergerak.
+3. Hubungkan antar tiang dengan bambu sebagai gelagar lantai kurang lebih 2,5 meter dari pasak yang telah terpasang.
+4. Pasang lantai di atas gelagar lantai dengan bambu yang telah dibelah/bambu dengan diameter kecil.
+5. Gali kurang lebih dalamnya 1 meter dan diameter lubangnya 30 cm untuk menempatkan kaki menara dengan jarak kurang lebih 3 meter.
+6. Dirikan menara pada lubang yang telah digali dan ditimbun kembali dengan tanah yang banyak batuan dan dipadatkan.
+7. Hubungkan kaki menara yang satu dengan kaki yang lain dengan bambu sebagai skor/penguat.
+8. **Kebutuhan Bambu:**
+   * (a) Bambu besar: 3 potong (ukuran 5,5 M).
+   * (b) Bambu sedang: 3 potong (ukuran 2 M).
+   * (c) Bambu kecil:
+       * 3 potong (ukuran 115 Cm).
+       * 1 buah (ukuran 150, 40, 130, 10, 120, 100, 90, 80, 70, 60 Cm).
+       * 10 potong (ukuran 50 Cm).
+9. **Kebutuhan Tali:**
+   * (a) 12 Gulung (ukuran panjang 6 M).
+   * (b) 1 Gulung (ukuran panjang 8 M).
+   * (c) 2 Gulung (ukuran panjang 12 M).
+   * (d) 2 Gulung (ukuran panjang 15 M).
 
-*   **Menara Kaki Empat (Quadpod Tower):**
-    Lebih stabil dan luas panggungnya. Menggunakan empat tiang utama. Konstruksinya mirip dengan membuat meja atau kursi raksasa.
-
-*   **Menara Pohon:**
-    Memanfaatkan pohon besar yang hidup sebagai tiang utama. Panggung dibuat menempel pada batang pohon. Sangat kokoh namun harus hati-hati agar tidak merusak pohon.
+**c. Menara Tinjau / Pandang Berkaki Empat**
+1. **Kebutuhan Bambu:**
+   * (a) Bambu besar: 8 potong (ukuran 3 M).
+   * (b) Bambu sedang:
+       * 4 potong (ukuran 2 M).
+       * 11 potong (ukuran 150 Cm).
+       * 4 potong (ukuran 60 Cm).
+       * 20 buah (ukuran 180 Cm).
+   * (c) Bambu kecil: 14 potong (ukuran 50 Cm).
+2. **Kebutuhan Tali:**
+   * (a) 42 Gulung (ukuran panjang 6 M).
+   * (b) 2 Gulung (ukuran panjang 15 M).
+   * (c) 2 Gulung (ukuran panjang 12 M).
 `
               }
             ]
@@ -2341,85 +1480,244 @@ Menara pandang adalah puncak dari keterampilan pioneering. Membangun menara memb
                 id: 'pioneering-4-article-1',
                 title: 'Bekal Air',
                 content: `
-### Pendahuluan
-Air dan listrik adalah dua kebutuhan vital yang seringkali langka di lokasi perkemahan. Kemampuan untuk mengelola sumber daya ini sangat menentukan kenyamanan dan kelangsungan hidup di alam bebas.
+### Bekal Air
 
-### Bekal Air (Water Supply)
-Air bersih mutlak diperlukan untuk minum dan memasak.
+**a. Macam-macam sumber air**
+1. **Air permukaan:**
+   * (a) Rawa, Danau.
+   * (b) Air sungai.
+   * (c) Air Waduk.
+2. **Air tanah:**
+   * (a) Mata Air.
+   * (b) Sumur Artetis.
+   * (c) Sumur Biasa.
+   * (d) Sumur Bor.
 
-1.  **Mencari Sumber Air:**
-    *   **Mata Air:** Sumber terbaik. Biasanya ada di lereng bukit atau di bawah pohon besar.
-    *   **Sungai:** Air sungai harus dijernihkan dan dimasak sebelum diminum.
-    *   **Air Hujan:** Tampung air hujan langsung dari langit (bukan tetesan pohon) menggunakan ponco bersih.
+**b. Penyediaan sumber air tanah**
+1. **Mata air:**
+   * (a) Merupakan sumber perbekalan air.
+   * (b) Sediakan tempat penampungan.
+   * (c) Cegah pengotoran.
+2. **Sumber Artetis:**
+   * (a) Sumur yang dibuat di atas saluran air tanah.
+   * (b) Semburan tergantung pada tekanan air.
+   * (c) Biasa terdapat di pegunungan batu.
+3. **Sumur Biasa:**
+   * (a) Sebagian besar digunakan penduduk.
+   * (b) Perlu perkuatan dinding agar tidak runtuh.
+   * (c) Dapat digunakan pompa air.
+4. **Sumur Bor:**
+   * (a) Pengeboran dengan alat.
+   * (b) Baik di tanah yang kohesif (campuran tanah liat dan pasir).
 
-2.  **Penjernihan Air (Water Purification):**
-    *   **Penyaringan (Filtrasi):** Gunakan kain bersih atau buat saringan dari botol bekas yang diisi lapisan pasir, arang, dan kerikil.
-    *   **Pengendapan:** Biarkan air keruh diam selama beberapa jam hingga kotoran turun ke dasar.
-    *   **Disinfeksi:** Rebus air hingga mendidih (minimal 5-10 menit) untuk membunuh bakteri. Atau gunakan tablet penjernih air (water purification tablets).
+**c. Menempatkan alat peralatan pompa air**
+1. **Pada air yang dangkal:**
+   * (a) Gali dasarnya.
+   * (b) Bekas galian isi koral.
+   * (c) Tempatkan saringan pada koral.
+2. **Pada air sungai.**
+3. **Pada waduk/danau:**
+   * (a) Buat alat pembantu apung.
+   * (b) Pasang ujung pipa/saringan pengisap di atas pengapung.
+   * (c) Alat pengapung dibuat dari balok dolken atau drum-drum.
+4. **Sungai rembesan:**
+   * (a) Buat parit-parit di sepanjang sungai.
+   * (b) Isi batu koral biar tidak longsor.
 
-### Bekal Listrik (Electricity)
-Di era modern, listrik dibutuhkan untuk penerangan dan komunikasi.
+**d. Mencari sumber air**
+1. **Pelajari Peta:**
+   * (a) Kenali lokasi tempatnya.
+   * (b) Tentukan sasaran (sungai, danau, mata air).
+   * (c) Cari dan cetak keterangan yang dapat dipercaya.
+2. **Sasaran Danau:**
+   * (a) Catat keadaan danau.
+   * (b) Catat data umum (luas, dalam, warna air, perkiraan debit).
+3. **Sasaran Sungai:**
+   * (a) Catat data sungai (lebar, dalam, deras air, dan debet air).
+   * (b) Catat jalan-jalan pendekat.
+   * (c) Buat denah.
 
-1.  **Sumber Listrik Darurat:**
-    *   **Baterai/Accu:** Sumber DC yang paling umum.
-    *   **Genset (Generator Set):** Mengubah energi mekanik (bensin/solar) menjadi listrik AC.
-    *   **Panel Surya (Solar Panel):** Ramah lingkungan, cocok untuk perkemahan jangka panjang di area terbuka.
-
-2.  **Instalasi Sederhana:**
-    *   **Seri:** Lampu disusun berderet. Jika satu mati, semua mati. Hemat kabel.
-    *   **Paralel:** Lampu disusun sejajar. Jika satu mati, yang lain tetap menyala. Nyala lampu lebih terang merata.
+**e. Penjernihan air**
+1. **Bahan penjernih air:**
+   * **(a) Bahan alam:**
+       * i. Pasir beton.
+       * ii. Ijuk.
+       * iii. Batu.
+       * iv. Kerikil.
+       * v. Batu apung.
+       * vi. Karang aktif.
+       * vii. Kain kasa/kapas.
+       * viii. Bambu.
+   * **(b) Bahan kimia:**
+       * i. Tawas.
+       * ii. Kaporit.
+       * iii. Garam dapur.
+       * iv. Kapur tohor.
+       * v. Phenol red.
+       * vi. Ph tablet.
+       * vii. Kertas indikator.
+       * viii. Soda.
+2. **Proses pengendapan:**
+   * **(a) Secara alamiah:**
+       * i. Tidak menggunakan bahan kimia.
+       * ii. Mengendapkan kotoran-kotoran.
+       * iii. Waktu relatif lama.
+   * **(b) Dengan bahan kimia:**
+       * i. Hampir sama dengan alamiah.
+       * ii. Disini proses pengendapan dipercepat dengan mencampur bahan kimia berupa tawas.
+   * **(c)** Pengendapan juga merupakan proses pendahuluan dalam penyaringan.
+3. **Penyaringan:**
+   * **(a) Penyaringan dengan pasir lambat:**
+       * i. Tanpa bahan pengawet.
+       * ii. Dapat menghilangkan sel-sel amuba.
+   * **(b) Penyaringan dengan pasir cepat:**
+       * i. Cara ini hampir sama dengan air lambat.
+       * ii. Disini diberi tekanan untuk mempercepat perembesan air.
+       * iii. Biasanya kurang baik.
+   * **(c) Beberapa cara saringan pasir lambat:**
+       * i. Cara petak.
+       * ii. Cara langsung.
+       * iii. Dengan drum.
+       * iv. Dengan tempat.
+4. **Pembunuhan kuman:**
+   * (a) Secara ilmu alam, dipanaskan sampai mendidih.
+   * (b) Secara ilmu hayat dengan memasukan baksil ke dalam saringan (jarang dilakukan).
+   * (c) Secara kimia penyempurnaan chlor dengan air.
+   * (d) Untuk menghilangkan bau dan rasa chlor, sebelum chlor dituang dicampur terlebih dulu air dengan bahan amoniak.
 `
               },
               {
                 id: 'pioneering-4-article-2',
                 title: 'Dasar-Dasar Pengetahuan Tentang Listrik',
                 content: `
-### Teori Dasar Listrik
-Untuk dapat menangani listrik dengan aman, kita harus memahami konsep dasarnya.
+### Dasar-Dasar Pengetahuan Tentang Listrik
 
-*   **Tegangan (Voltage - V):** Beda potensial yang mendorong arus listrik. Ibarat tekanan water dalam pipa.
-*   **Arus (Current - I):** Aliran muatan listrik. Ibarat debit air yang mengalir.
-*   **Hambatan (Resistance - R):** Sesuatu yang menahan aliran arus. Ibarat sumbatan pada pipa.
-*   **Daya (Power - P):** Energi yang digunakan per satuan waktu (Watt).
+**a. Proses terjadinya listrik**
+1. **Karena gesekan dua buah benda:**
+   * (a) Ebonit digosok bulu kucing.
+   * (b) Kaca digosok dengan sutera.
+2. **Karena proses kimia:**
+   * (a) Acumulator.
+   * (b) Bateray.
+3. **Karena perpotongan konduktor dengan garis gaya listrik:**
+   * (a) Generator.
+   * (b) Dinamo.
 
-### Hukum Ohm
-V = I x R
-Tegangan berbanding lurus dengan Arus dan Hambatan.
+**b. Istilah dalam listrik**
+1. **Tegangan:**
+   * (a) Adalah besar muatan listrik pada suatu tempat.
+   * (b) Simbulnya "E".
+   * (c) Satuan Volt "V".
+   * (d) Ada dua macam tegangan:
+       * i. Tegangan searah (DC) contohnya baterai, accu.
+       * ii. Tegangan bolak-balik (AC) contohnya generator.
+2. **Arus:**
+   * (a) Adalah aliran listrik yang mengalir pada penghantar.
+   * (b) Simbulnya "I".
+   * (c) Satuannya Amper (A).
+3. **Tahanan:**
+   * (a) Adalah besar kemampuannya yang menghambat suatu bahan listrik.
+   * (b) Simbulnya "R".
+   * (c) Satuannya "Ohm".
+4. **Daya:**
+   * (a) Kemampuan yang dihasilkan oleh alat listrik.
+   * (b) Simbolnya "P".
+   * (c) Satuannya "Watt" (W).
 
-### Keamanan Listrik (Safety)
-*   Jangan pernah menyentuh kabel terbuka dengan tangan basah.
-*   Gunakan alas kaki karet saat bekerja dengan listrik.
-*   Selalu matikan sumber listrik sebelum memperbaiki instalasi.
+**c. Hubungan listrik**
+1. **Seri:**
+   * (a) Lampu.
+   * (b) Baterai.
+   * (c) Tahanan.
+2. **Pararel:**
+   * (a) Lampu.
+   * (b) Baterai.
+   * (c) Tahanan.
+3. **Kombinasi:**
+   * (a) Lampu.
+   * (b) Baterai.
+   * (c) Tahanan.
 `
               },
               {
                 id: 'pioneering-4-article-3',
                 title: 'Alat Peralatan dan Instalasi Listrik',
                 content: `
-### Alat Ukur Listrik
-*   **Multimeter (Avometer):** Alat wajib punya. Bisa mengukur Ampere (arus), Volt (tegangan), dan Ohm (hambatan).
-*   **Test Pen:** Alat sederhana berbentuk obeng untuk mengecek apakah ada tegangan listrik pada suatu kabel/stopkontak.
+### Alat Peralatan dan Instalasi Listrik
 
-### Instalasi Perkemahan
-*   **Kabel:** Gunakan kabel serabut (flexible) yang kuat dan tahan cuaca (outdoor cable).
-*   **Fitting Lampu:** Gunakan fitting gantung yang kedap air (waterproof) jika dipasang di luar tenda.
-*   **Saklar:** Pasang saklar di tempat yang mudah dijangkau namun terlindung dari hujan.
-`
-              },
-              {
-                id: 'pioneering-4-article-4',
-                title: 'Pengetahuan dasar tentang alat pembangkit listrik',
-                content: `
-### Generator Set (Genset)
-Genset adalah mesin pembangkit listrik portabel yang paling umum digunakan di lapangan.
+**a. Alat tukang listrik**
 
-*   **Cara Kerja:** Mesin berbahan bakar (bensin/solar) memutar dinamo (alternator) untuk menghasilkan listrik.
-*   **Perawatan:** Cek oli mesin secara berkala. Jangan biarkan bahan bakar mengendap terlalu lama di tangki jika tidak digunakan.
-*   **Pengoperasian:**
-    1.  Pastikan beban (lampu/alat) dicabut dulu.
-    2.  Nyalakan mesin, biarkan pemanasan sebentar.
-    3.  Baru colokkan beban satu per satu.
-    4.  Saat mematikan, cabut beban dulu, baru matikan mesin.
+**b. Bahan Instalasi listrik**
+1. Macam kawat.
+2. Instalasi lain.
+
+**c. Alat ukur listrik**
+1. **Avometer:**
+   * (a) Mengukur besarnya arus.
+   * (b) Mengukur tegangan.
+   * (c) Mengukur tahanan isolasi instalasi.
+2. **Watt meter:**
+   * (a) Mengukur daya listrik.
+   * (b) Disambung seri dan paralel.
+3. **Tang meter:**
+   * Mengukur besarnya arus.
+4. **Megger:**
+   * (a) Mengukur tahanan isolasi instalasi.
+   * (b) Saluran bebas dari tegangan listrik.
+   * (c) Semua lampu dilepas dan saklar pada kedudukan mati/off.
+5. **Frekwensi meter:**
+   * (a) Mengukur frekwensi.
+   * (b) Pengukuran disambung paralel.
+
+**d. Pengetahuan dasar tentang alat pembangkit listrik**
+1. **Pembangkit listrik AC (Arus bolak-balik):**
+   * **(a) Macam generator:**
+       * i. Generator satu phass.
+       * ii. Generator dua phass.
+       * iii. Generator tiga phass, tiga kawat (hubungan segitiga) dan empat kawat (hubungan bintang).
+   * **(b) Bahan generator (Stator):**
+       * i. Merupakan bagian yang tidak bergerak.
+       * ii. Terdiri dari gardan, kutub utama, kutub bantu dan kumparan stator.
+       * iii. Merupakan bagian yang berputar (Rotor).
+       * iv. Terdiri dari as penahan, komulator, kumparan rotor.
+   * **(c) Prinsip kerja:**
+       * i. Belitan digerakan pada medan magnet, sehingga timbul tegangan listrik.
+       * ii. Besarnya tegangan tergantung:
+           * Putaran.
+           * Jumlah belitan.
+           * Besar medan magnet.
+           * Celah udara antara belitan dan medan magnet.
+   * **(d) Penggunaan generator:**
+       * i. Untuk penerangan.
+       * ii. Untuk tenaga peralatan listrik.
+2. **Pembangkit listrik arus searah:**
+   * **(a) Macamnya:**
+       * i. Generator/dinamo DC.
+       * ii. Accumulator.
+       * iii. Bateray.
+   * **(b) Macam dinamo DC.**
+   * **(c) Prinsip kerja dinamo:**
+       * i. Belitan konduktor digerakkan.
+       * ii. Gerakan pada medan magnet.
+       * iii. Timbul tegangan.
+   * **(d) Penggunaan dinamo DC:**
+       * i. Untuk penerangan.
+       * ii. Untuk tenaga peralatan listrik.
+   * **(e) Penggunaan Accumulator dan baterai:**
+       * i. Untuk penerangan.
+       * ii. Untuk tenaga peralatan listrik DC.
+
+**e. Merawat Generator**
+1. Melumasi bantalan-bantalan.
+2. Usahakan generator selalu dalam keadaan kering, jangan sampai lembab.
+3. Kontrol baut-baut dan mur-mur pada generator.
+4. Jangan merubah hubungan yang sudah ada pada generator.
+
+**f. Mengoperasikan generator**
+1. Beban yang terpasang pada generator dilepas dahulu.
+2. Jalankan mesin penggerak sesuai putaran yang sudah ditentukan.
+3. Lihat Volt meter untuk mengetahui tegangan yang harus dicapai.
+4. Setelah mesin penggerak dan generator berjalan normal, baru masukan sakelar beban. Apabila tegangan beban turun, tambah putaran generator.
 `
               }
             ]
@@ -2593,74 +1891,89 @@ Genset adalah mesin pembangkit listrik portabel yang paling umum digunakan di la
                 id: 'mountaineering-1-article-1',
                 title: 'Panjat Bebas (Free Climbing)',
                 content: `
-### Pendahuluan
-Panjat tebing (Rock Climbing) adalah seni menaklukkan ketinggian dengan mengandalkan kekuatan fisik, teknik, dan mental. Dalam konteks Saka Wira Kartika, kemampuan ini bukan hanya olahraga, tapi juga keterampilan taktis untuk melintasi medan vertikal yang sulit.
+### 1) Panjat bebas (Free Climbing)
+Sesuai dengan namanya free climbing alat pengaman yang paling baik adalah diri sendiri. Namun keselamatan dapat ditingkatkan dengan adanya keterampilan yang diperoleh dari latihan yang baik dan mengikuti prosedur yang benar, dengan latihan yang baik otot-otot tangan dan kaki akan cukup kuat dan terlatih, begitu pula dengan keseimbangan badan dan gerakan-gerakan akan terlatih dengan sendirinya disamping itu dapat memperkirakan kemampuan dan memperhitungkan lintasan yang akan dilalui.
 
-### Pengertian Free Climbing
-Free Climbing atau Panjat Bebas adalah metode pemanjatan di mana seorang pendaki menggunakan kekuatan tubuhnya sendiri (tangan dan kaki) untuk mencari pegangan dan pijakan pada tebing guna menambah ketinggian.
-
-![Free Climbing](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Climber_with_equipment.jpg/640px-Climber_with_equipment.jpg)
-
-*   **Peran Alat:**
-    Peralatan seperti tali, harness, carabiner, dan pengaman sisip (chock/friend) **tetap digunakan**, namun fungsinya semata-mata sebagai **pengaman keselamatan** (safety) apabila pendaki terjatuh. Alat-alat tersebut **tidak boleh** digunakan untuk menarik tubuh ke atas atau dijadikan pijakan (kecuali saat istirahat gantung).
-
-*   **Prinsip Utama:**
-    "Memanjat dengan otot, mengamankan dengan alat." Ini membutuhkan latihan fisik yang prima, kelenturan tubuh, dan teknik keseimbangan yang baik.
+Pada free climbing peralatan berfungsi hanya sebagai pengaman, peralatan yang digunakan antara lain tali, carabiner, sling, chock, dan piton tetap dipakai tetapi hanya berfungsi sebagai pengaman bila jatuh. Dalam pelaksanaannya pendaki bergerak sambil memasang jadi kalaupun tanpa alat-alat tersebut pendaki masih mampu bergerak atau melanjutkan pendakian. Dalam tipe ini pendaki diamankan oleh belayer.
 `
               },
               {
                 id: 'mountaineering-1-article-2',
                 title: 'Panjat dengan Alat Bantu (Artificial Climbing)',
                 content: `
-### Pengertian Artificial Climbing
-Berbeda dengan Free Climbing, Artificial Climbing (Panjat Bantuan) adalah teknik memanjat tebing dengan **menggunakan peralatan secara aktif** untuk menambah ketinggian. Teknik ini biasanya digunakan pada tebing yang sangat sulit, licin (blank wall), atau overhang (menggantung) di mana tidak terdapat pegangan atau pijakan alami yang cukup.
+### 2) Panjat dengan alat bantu (Artificial Climbing)
+Merupakan panjat bebas dengan menggunakan bantuan peralatan tambahan seperti paku tebing, bor, stirrup, palu/hammer, pengaman sisip, cincin kait, seling pendek, harnes, bedak magnesium.
 
-![Artificial Climbing](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rock_Climbing_using_Aid_Equipment.jpg/640px-Rock_Climbing_using_Aid_Equipment.jpg)
-
-*   **Peralatan Khusus:**
-    Selain alat standar, pemanjat menggunakan:
-    *   **Tangga Gantung (Stirrup/Etrier):** Tangga tali pendek untuk pijakan kaki.
-    *   **Paku Tebing (Piton) & Bor (Bolt):** Ditanam ke tebing sebagai tumpuan.
-    *   **Skyhook:** Pengait kecil untuk celah batuan sempit.
-
-*   **Cara Kerja:**
-    Pendaki memasang alat pada tebing, mengaitkan tangga gantung pada alat tersebut, lalu menaiki tangga itu. Dari posisi tinggi itu, ia memasang alat berikutnya di atasnya, dan begitu seterusnya.
+Alat-alat tersebut digunakan untuk menambah ketinggian. Hal ini dilakukan secara berkelompok, dengan pembagian tugas yang jelas antara leader dan belayer, sehingga kelompok tersebut dapat mencapai ketinggian, baik secara perorangan maupun secara bersama-sama.
 `
               },
               {
                 id: 'mountaineering-1-article-3',
                 title: 'Panjat Tanpa Alat Bantu (Free Soloing)',
                 content: `
-### Bahaya Free Soloing
-Free Soloing adalah bentuk paling murni sekaligus paling berbahaya dari panjat tebing. Pendaki memanjat sendirian **tanpa menggunakan tali pengaman sama sekali**.
+### 3) Panjat tanpa alat bantu (Free Soloing)
+Merupakan bagian dari free climbing, tetapi si pendaki benar-benar melakukannya dengan segala resiko yang dihadapinya seorang diri, dalam pergerakannya tidak memerlukan peralatan pengaman, untuk melakukan free solo climbing pendaki harus benar-benar mengetahui segala bentuk rintangan atau bentuk pergerakan pada rute yang dilaluinya serta menghafalkan dahulu segala gerakan, tumpuan dan pegangan, biasanya free solo climbing dilakukan oleh pendaki yang sudah pernah mendaki pada lintasan yang sama.
 
-*   **Risiko Fatal:**
-    Satu kesalahan kecil (terpleset, pegangan patah, kram otot) berarti jatuh bebas yang hampir pasti berakibat kematian.
-
-*   **Syarat Mutlak:**
-    Hanya boleh dilakukan oleh profesional dengan jam terbang sangat tinggi yang sudah menghafal mati setiap inci rute pemanjatan tersebut. Dalam kegiatan pendidikan kepramukaan, teknik ini **sangat tidak disarankan** dan biasanya dilarang karena faktor risiko yang tidak bisa ditoleransi.
+Resiko yang dihadapi pendaki tipe ini sangat fatal sehingga hanya orang-orang yang mampu dan benar-benar profesional yang akan melakukannya.
 `
               },
               {
                 id: 'mountaineering-1-article-4',
-                title: 'Teknik Melintasi Panjat Tebing',
+                title: 'Cara Melintasi',
                 content: `
-### Teknik Pergerakan di Tebing
-Memanjat bukan sekadar menarik tubuh dengan tangan (pull up). Justru kaki yang memegang peranan utama.
+### 4) Cara melintasi Panjat bebas, Panjat dengan alat bantu, panjat tanpa alat bantu
 
-![Teknik Panjat](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Climber_with_equipment.jpg/640px-Climber_with_equipment.jpg)
+a) Membaca tebing dan menentukan titik-titik rawan dengan alternatif mengatasinya.
 
-1.  **Prinsip Tiga Titik (Three Point Contact):**
-    Selalu pertahankan tiga titik tumpuan pada tebing saat bergerak.
-    *   Contoh: Dua kaki berpijak dan satu tangan memegang, sementara satu tangan lain mencari pegangan baru.
-    *   Ini menjamin kestabilan jika salah satu pegangan meleset.
+b) Kecuali tali dinamic semua peralatan pada tebing dipasang pada sabuk si pemanjat dengan rapi agar tidak mengganggu gerakan memanjat.
 
-2.  **Manajemen Berat Badan:**
-    *   Jaga tubuh tetap dekat dengan tebing, tapi pinggul jangan terlalu menempel agar kaki bisa melihat pijakan.
-    *   Tumpukan berat badan pada kaki. Otot kaki jauh lebih kuat dan tahan lama dibanding otot lengan. Tangan hanya berfungsi sebagai penyeimbang dan penahan agar tidak jatuh ke belakang.
+c) Ujung tali dinamic dililitkan pada cincin kait dan digantung pada tali pipih yang diikatkan pada sabuk bagian depan.
+`
+              },
+              {
+                id: 'mountaineering-1-article-5',
+                title: 'Tehnik Melintasi',
+                content: `
+### 5) Tehnik melintasi
 
-3.  **Membaca Jalur (Route Reading):**
-    Sebelum memanjat, amati tebing dari bawah. Rencanakan di mana akan berpijak, di mana akan istirahat, dan di mana akan memasang pengaman. Ini menghemat tenaga saat sudah di atas.
+a) Bergerak memanjat dengan menggunakan ruas jari tangan dan injakan kaki pada lekukan dan benjolan tebing.
+
+b) Apabila tidak mungkin dengan cara itu maka dapat digunakan celah yang ada pada tebing dengan menggunakan stopper/chock/friends lalu pasang cincin kait dan masukkan tali dinamic kedalamnya demikian seterusnya.
+
+c) Bila tidak terdapat celah lekukan dan benjolan tebing maka pasang paku tebing dan pukul dengan palu pasang cincin kait dan masukkan ujung tali dinamic demikian seterusnya.
+
+d) Agar tetap dijaga keseimbangan badan sampai ke tempat yang kita tuju.
+
+e) Panjat tebing.
+`
+              },
+              {
+                id: 'mountaineering-1-article-6',
+                title: 'Jenis–jenis Alat dan Prasarana',
+                content: `
+### 6) Jenis–jenis alat dan prasarana panjat tebing
+
+a) Tali dinamic.
+b) Tali tubuh.
+c) Sisip pengaman: Stopper, chok dan friends.
+d) Tali sling atau tali pipih.
+e) Cincin kait.
+f) Paku tebing, palu tebing.
+g) Alat bantu memperlambat luncur (sticht plate belay).
+h) Magnesium.
+`
+              },
+              {
+                id: 'mountaineering-1-article-7',
+                title: 'Tehnik Pemasangan',
+                content: `
+### 7) Tehnik pemasangan panjat tebing
+
+a) Membaca tebing.
+
+b) Mempersiapkan alat–alat yang digunakan dalam pemanjatan.
+
+c) Bergerak memanjat dengan menggunakan benjolan tebing apabila tidak terdapat celah atau benjolan tebing, kita pergunakan dengan paku tebing sampai ke tempat yang kita tuju.
 `
               }
             ]
@@ -2685,53 +1998,72 @@ Memanjat bukan sekadar menarik tubuh dengan tangan (pull up). Justru kaki yang m
             items: [
               {
                 id: 'mountaineering-2-article-1',
-                title: 'Turun Hesty',
+                title: 'Kegunaan Turun Hesty dan Naik Togle',
                 content: `
-### Pendahuluan
-Setelah mencapai puncak, seorang pendaki harus bisa turun kembali dengan aman. Turun tebing seringkali lebih berbahaya daripada naik karena faktor kelelahan dan gravitasi.
+### 1) Kegunaan Turun Hesty dan Naik Togle
 
-### Teknik Turun Hesty (Hesty Method)
-Teknik ini digunakan untuk menuruni tebing yang tidak terlalu curam (kemiringan sekitar 45-60 derajat) tanpa menggunakan alat khusus seperti harness atau figure 8. Teknik ini sangat berguna dalam situasi darurat militer atau survival.
+**a) Kegunaan turun hesty**
+Untuk melintasi medan yang tidak terlalu curam dan tidak bisa dilalui dengan jalan kaki biasa dengan menggunakan tali Peleton.
 
-![Turun Tebing](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Abseiling_Greece.jpg/640px-Abseiling_Greece.jpg)
-
-*   **Prinsip Kerja:**
-    Menggunakan gesekan tali yang dibelitkan pada tubuh sendiri untuk menahan laju turun.
-
-*   **Cara Melakukan:**
-    1.  Tali utama ditambatkan kuat di atas.
-    2.  Pendaki berdiri membelakangi tebing.
-    3.  Tali dilewatkan di antara kedua kaki dari depan ke belakang.
-    4.  Tali ditarik menyilang ke dada, lalu dilewatkan ke bahu yang berlawanan.
-    5.  Tangan memegang sisa tali untuk mengontrol pengereman.
-
-*   **Peringatan:**
-    Gesekan tali pada baju/kulit akan sangat panas. **Wajib** menggunakan pakaian tebal (jaket kanvas/PDL) dan sarung tangan kulit. Jangan gunakan baju berbahan nilon tipis karena bisa meleleh.
+**b) Kegunaan naik togle rope**
+Untuk melintasi medan yang tidak terlalu terjal yang sulit dilewati jalan kaki biasa.
 `
               },
               {
                 id: 'mountaineering-2-article-2',
-                title: 'Rappelling',
+                title: 'Cara Melintasi Turun Hesty dan Rappelling',
                 content: `
-### Teknik Rappelling (Abseiling)
-Rappelling adalah teknik menuruni tebing tegak lurus (vertikal) atau menggantung (overhang) menggunakan tali dan alat pengereman mekanis. Ini adalah cara turun paling cepat, aman, dan terkontrol.
+### 2) Cara Melintasi Turun Hesty dan Rappelling
 
-*   **Peralatan Wajib:**
-    *   **Tali Statis:** Tali yang kaku dan minim kelenturan, agar tidak membal saat dipakai turun.
-    *   **Harness:** Sabuk pengaman tubuh.
-    *   **Descender:** Alat pengereman saat turun tebing.
-    *   **Carabiner:** Pengait berulir (screw gate).
-    *   **Helm & Sarung Tangan:** Pelindung kepala dari batu jatuh dan tangan dari panas gesekan.
+**a) Hesty**
+1.  Tali lintasan berada di belakang punggung, kedua tangan direntangkan sambil memegang tali lintasan dan telapak tangan menghadap ke atas dengan menggunakan sarung tangan.
+2.  Kedua kaki dibuka selebar bahu digeser ke samping, bersamaan itu kedua tangan yang direntangkan mengikuti gerakan.
 
-*   **Prosedur Keamanan (Safety Procedure):**
-    1.  **Cek Anchor:** Pastikan tambatan di atas (pohon/batu) 100% kuat. Gunakan minimal dua titik tambat (backup).
-    2.  **Simpul Ujung Tali:** Wajib membuat simpul mati di ujung bawah tali. Ini mencegah pendaki meluncur keluar dari tali jika ternyata talinya kurang panjang sampai ke tanah.
-    3.  **Posisi Tangan:**
-        *   **Tangan Rem (Brake Hand):** Tangan kanan memegang tali di bawah alat descender. Posisi tangan ini menentukan laju turun. Jika tangan ditarik ke belakang pinggang, tali terkunci (berhenti). Jika tangan dilonggarkan ke depan, tali meluncur. **Tangan ini tidak boleh lepas!**
-        *     **Tangan Pemandu (Guide Hand):** Tangan kiri memegang tali di atas alat, hanya untuk menjaga keseimbangan badan, jangan mencengkeram erat.
+**b) Rappelling**
+1.  Menggunakan peralatan tali saja, dibelitkan sedemikian rupa pada badan, cara ini terjadi gesekan antara badan dengan tali, sehingga bagian badan yang bergesekan akan terasa panas.
+2.  Menggunakan tali tubuh, carabiner dan descender memakainya hampir sama dimana gaya gesek diberikan pada descender.
 
-*   **Posisi Badan:**
-    Kaki dibuka selebar bahu menapak pada tebing. Lutut sedikit ditekuk (mengeper). Badan condong ke belakang membentuk sudut L (duduk di udara). Pandangan ke bawah melihat jalur pendaratan.
+**c) Melintasi Turun Hesty**
+1.  Turun hesty.
+2.  Rappelling.
+`
+              },
+              {
+                id: 'mountaineering-2-article-3',
+                title: 'Jenis–jenis Alat dan Prasarana',
+                content: `
+### 3) Jenis–jenis alat dan prasarana turun hesty dan rappelling
+
+**(1) Turun hesty**
+* (a) Tali peleton Ø 1,5 Cm, Panjang 225 M.
+* (b) Sarung tangan.
+* (c) Pohon, batu, patok sebagai tambatan ikatan pokok.
+
+**(2) Rappelling**
+* (a) Tali statik/dinamik.
+* (b) Sarung tangan.
+* (c) Cincin kait.
+* (d) Carabiner.
+* (e) Descender (figure 8).
+`
+              },
+              {
+                id: 'mountaineering-2-article-4',
+                title: 'Teknik Pemasangan',
+                content: `
+### 4) Teknik pemasangan turun hesty dan Rappelling
+
+**(1) Turun hesty**
+* (a) Gunakan medan yang memiliki sudut ± 60º.
+* (b) Ikatan tali peleton pada tambatan yang kuat dengan ikatan pokok sisa tali diuraikan ke bawah tebing sampai pada medan yang cukup rata.
+* (c) Periksa dan coba lintasan sebelum digunakan.
+
+**(2) Rappelling**
+* (a) Cari medan yang memiliki sudut ± 90˚.
+* (b) Pasang sit harness, cincin kait dan sarung tangan.
+* (c) Masukkan tali jalur ke descender yang dihubungkan dengan cincin kait.
+* (d) Masukkan tali jalur ke carabiner yang dihubungkan dengan cincin kait.
+* (e) Periksa dan coba sebelum digunakan.
 `
               }
             ]
@@ -2756,99 +2088,201 @@ Rappelling adalah teknik menuruni tebing tegak lurus (vertikal) atau menggantung
             items: [
               {
                 id: 'mountaineering-3-article-1',
-                title: 'Rayapan Tali Satu',
+                title: 'Rayapan Tali Satu dan Dua',
                 content: `
-### Pendahuluan
-Pelintasan kering (Dry Crossing) adalah teknik menyeberangi rintangan alam seperti jurang, sungai kering, atau celah antar tebing menggunakan instalasi tali, tanpa menyentuh dasar rintangan tersebut.
+### 1) Rayapan Tali Satu dan Dua
 
-### Rayapan Tali Satu (One Rope Bridge)
-Teknik menyeberang paling sederhana namun paling menguras tenaga karena hanya menggunakan seutas tali tunggal.
+**a. Kegunaan Rayapan Tali Satu dan Dua**
+1.  **Rayapan Tali Satu:** Untuk melintasi medan yang tidak dapat dilalui oleh jalan kaki biasa.
+2.  **Rayapan Tali Dua:** Sama seperti Rayapan Tali satu.
 
-![Rayapan Tali Satu](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Scout_bridge_7965.jpg/640px-Scout_bridge_7965.jpg)
+**b. Cara Melintasi Rayapan Tali Satu dan Dua**
 
-*   **Teknik Komando (Tiarap):**
-    Tubuh tiarap di atas tali. Satu kaki dilipat di atas tali (sebagai pengait), kaki lain menjuntai ke bawah untuk penyeimbang (seperti ekor). Tangan menarik badan ke depan.
-    *   *Kelebihan:* Lebih cepat.
-    *   *Kekurangan:* Risiko terbalik (berputar) jika keseimbangan hilang.
+**(1) Rayapan Tali Satu**
+* (a) Pertama anggota Pramuka duduk di atas lintasan Rayapan Tali satu, kemudian badan direbahkan dan kedua tangan memegang tali lintasan.
+* (b) Salah satu kaki dikaitkan pada tali lintasan, kaki yang satu tergantung lemas untuk keseimbangan.
+* (c) **Teknik melintasi:** Kedua tangan dijulurkan ke depan kemudian memegang erat tali, lalu menarik badan ke depan diikuti dengan kaki yang terkait di tali lintasan, demikian selanjutnya sampai ke ujung lintasan.
 
-*   **Teknik Kera (Menggantung):**
-    Tubuh menggantung di bawah tali. Tangan memegang tali, kaki dikaitkan menyilang di atas tali.
-    *   *Kelebihan:* Lebih stabil, tidak mungkin jatuh terbalik.
-    *   *Kekurangan:* Sangat melelahkan otot tangan dan perut.
+**(2) Rayapan Tali Dua**
+* (a) Peserta Pramuka duduk di atas tali lintasan Rayapan Tali dua, kemudian badan direbahkan dan kedua tangan dijulurkan ke depan dengan tetap berpegangan pada kedua tali lintasan.
+* (b) Kedua kaki dikaitkan pada masing-masing lintasan kanan dan kiri.
+* (c) **Teknik melintasi:** Kedua tangan dijulurkan ke depan di masing-masing lintasan, kemudian badan ditarik ke depan diikuti dengan gerakan kedua kaki, demikian selanjutnya sampai ke ujung lintasan.
+
+**c. Melintasi Rayapan Tali Satu dan Dua**
+1.  Melintasi Rayapan Tali satu.
+2.  Melintasi Rayapan Tali dua.
+
+**d. Jenis–jenis Alat dan Prasarana Rayapan Tali Satu dan Dua**
+
+**(1) Alat dan Prasarana Rayapan Tali Satu**
+* (a) Tali manila Ø 3,5 Cm, panjang 225 M.
+* (b) Tali perorangan.
+* (c) Katrol atau alat pengencang.
+* (d) Pohon, batu, untuk tambatan tali.
+
+**(2) Alat dan Prasarana Rayapan Tali Dua**
+* (a) Tali manila Ø 2,5 Cm, panjang 225 M.
+* (b) Tali perorangan.
+* (c) Katrol atau alat pengencang.
+* (d) Bambu–bambu stabilisator.
+* (e) Pohon, batu, untuk tambatan tali.
+
+**e. Teknik dan Pemasangan Rayapan Tali Satu dan Dua**
+
+**(1) Rayapan Tali Satu**
+* (a) Buat ikatan pokok pada tepi dekat.
+* (b) Kencangkan tali, sementara buat gelung rangkap ± 4 langkah dari tepi jauh.
+* (c) Kencangkan lintasan dengan bantuan katrol.
+* (d) Ikat dan kunci agar tidak kendor.
+* (e) Periksa lintasan sebelum digunakan.
+
+**(2) Rayapan Tali Dua**
+* (a) Cari atau gunakan pancangan yang kuat untuk tambatan ikatan pokok.
+* (b) Kencangkan tali satu per satu dengan jarak antara tali ± 40 Cm.
+* (c) Pasang bambu stabilisator dan ikat dengan tali perorangan.
+* (d) Jarak antara bambu stabilisator ± 5 M.
+* (e) Periksa lintasan sebelum digunakan.
 `
               },
               {
                 id: 'mountaineering-3-article-2',
-                title: 'Rayapan Tali Dua',
+                title: 'Titian Tali 2 dan 3',
                 content: `
-### Rayapan Tali Dua (Double Rope Bridge)
-Menggunakan dua utas tali yang dibentangkan sejajar mendatar dengan jarak sekitar 40-50 cm (selebar bahu).
+### 2) Titian Tali 2 dan 3
 
-![Rayapan Tali Dua](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Scout_bridge_7965.jpg/640px-Scout_bridge_7965.jpg)
+**a. Kegunaan Titian Tali Dua dan Tali Tiga**
+1.  **Titian Tali Dua:** Untuk melintasi medan yang tidak bisa dilewati oleh kendaraan.
+2.  **Titian Tali Tiga:** Untuk melintasi medan yang tidak bisa dilewati oleh kendaraan.
 
-*   **Cara Melintasi:**
-    1.  Letakkan kedua tangan pada masing-masing tali (kiri dan kanan).
-    2.  Kaitkan kedua kaki pada masing-masing tali.
-    3.  Posisi badan menggantung di tengah-tengah.
-    4.  Gerakkan tangan dan kaki secara bergantian untuk maju.
+**b. Cara Melintasi Titian Tali Dua dan Tali Tiga**
 
-*   **Kegunaan:**
-    Lebih stabil daripada tali satu, sering digunakan untuk evakuasi tandu korban (tandu diletakkan di atas dua tali tersebut).
+**(1) Titian Tali Dua**
+* (a) Berdiri di atas lintasan dan salah satu tangan menjepit tali lintasan bagian atas, yang satunya dijulurkan ke depan dengan telapak tangan menghadap ke atas.
+* (b) Tangan digeser ke depan bersamaan menarik badan dan kedua kaki digeser ke samping selanjutnya sampai menuju ke seberang.
+* (c) **Teknik melintasi:** Kedua tangan dijulurkan ke depan kemudian memegang erat tali, lalu menarik badan ke depan diikuti dengan kaki yang terkait di tali lintasan, demikian selanjutnya sampai ke ujung lintasan.
+
+**(2) Titian Tali Tiga**
+* (a) Kedua kaki berdiri di atas tali lintasan yang di bawah dengan posisi kaki menyilang, kedua tangan masing-masing memegang tali lintasan yang ada di atas (kanan, kiri) dengan posisi telapak tangan menghadap ke atas.
+* (b) **Teknik melintasi:** Kedua tangan digeser ke depan dengan tetap berpegangan pada tali lintasan (kanan, kiri) sambil menarik badan, bersamaan dengan itu kaki belakang melangkah ke depan dan tetap menyilang pada tali lintasan bawah, demikian selanjutnya sampai ke ujung lintasan.
+
+**c. Melintasi Titian Tali Dua dan Titian Tali Tiga**
+1.  Melintasi titian tali dua.
+2.  Melintasi titian tali tiga.
+
+**d. Jenis–jenis Alat dan Prasarana Titian Tali Dua dan Tiga**
+
+**(1) Titian Tali Dua**
+* (a) Tali manila Ø 2,5 Cm, panjang 225 M.
+* (b) Tali perorangan untuk jari–jari.
+* (c) Katrol atau alat pengencang.
+* (d) Pohon–pohon, batu–batu besar, patok-patok untuk tambatan ikatan pokok.
+
+**(2) Titian Tali Tiga**
+* (a) Tali manila Ø 2,5 Cm, panjang 225 M.
+* (b) Tali perorangan untuk jari–jari.
+* (c) Katrol atau alat pengencang.
+* (d) Bambu stabilisator.
+* (e) Pohon–pohon, batu–batu besar, patok-patok untuk tambatan ikatan pokok.
+
+**e. Teknik Pemasangan Titian Tali Dua dan Tali Tiga**
+
+**(1) Titian Tali Dua**
+* (a) Ikat tali pokok satu per satu pada pohon (tambatan) pasang tali yang bawah terlebih dahulu dan kencangkan.
+* (b) Pasang tali bagian atas dengan jarak ± 1,5 M.
+* (c) Pasang jari-jari dengan tali perorangan setelah kedua tali kencang.
+* (d) **Cara memasang jari-jari:**
+    * i. Buat ikatan pokok pada lintasan bagian atas.
+    * ii. Tali yang terurai ke bawah dikaitkan dengan kaki, kemudian dibawa ke atas dan diikat.
+    * iii. Jarak antara jari-jari ± 2 M – 3 M.
+* (e) Periksa lintasan sebelum digunakan.
+
+**(2) Titian Tali Tiga**
+* Pasang tali satu persatu dari lintasan bawah.
+* Pasang jari-jari dan bambu stabilisator seperti pada pemasangan Rayapan Tali dua.
+* Periksa lintasan sebelum digunakan.
 `
               },
               {
                 id: 'mountaineering-3-article-3',
-                title: 'Titian Tali Dua',
+                title: 'Peluncuran',
                 content: `
-### Titian Tali Dua (Two Rope Bridge)
-Instalasi jembatan tali yang terdiri dari satu tali di bawah (untuk pijakan kaki) dan satu tali di atas (untuk pegangan tangan). Jarak antar tali disesuaikan dengan tinggi rata-rata dada manusia (sekitar 120-150 cm).
+### 3) Peluncuran
 
-![Titian Tali Dua](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Scout_bridge_7965.jpg/640px-Scout_bridge_7965.jpg)
+**a. Kegunaan Peluncuran**
+Untuk melintasi medan yang curam atau mempercepat ke tempat yang dituju.
 
-*   **Cara Melintasi:**
-    Berjalan menyamping (side step). Tangan memegang tali atas untuk menjaga keseimbangan, kaki melangkah geser di tali bawah.
+**b. Cara dan Teknik Melintasinya**
+Togle rope membentuk ”8” kemudian disilangkan di atas tali peluncuran dan toglenya berada di atas, kedua tangan memegang tali togle rope, siku–siku tangan lurus dan salah satu kaki dijulurkan ke bawah yang satunya ditekuk dan siap untuk meluncur.
+
+**c. Jenis–jenis Alat dan Prasarana Peluncuran**
+1.  Tali manila Ø 3,5 Cm, Panjang 225 M.
+2.  Tali peleton Ø 1,5 Cm.
+3.  Tali perorangan.
+4.  Togle rope, cincin kait.
+5.  Sarung tangan.
 `
               },
               {
                 id: 'mountaineering-3-article-4',
-                title: 'Titian Tali Tiga',
+                title: 'Hand Traves dan Rappelling',
                 content: `
-### Titian Tali Tiga (Three Rope Bridge)
-Jembatan tali yang paling nyaman dan stabil. Terdiri dari satu tali pijakan di bawah, dan dua tali pegangan di atas (kiri dan kanan), membentuk lorong segitiga (huruf V).
+### 4) Hand Traves (Bergerak ke Samping)
 
-![Titian Tali Tiga](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Scout_bridge_7965.jpg/640px-Scout_bridge_7965.jpg)
+**a. Kegunaan Hand Traves**
+Untuk bergerak ke samping dilakukan bila pegangan ideal sangat minim dan memanjat vertikal sudah tidak memungkinkan.
 
-*   **Cara Melintasi:**
-    Berjalan biasa ke depan (bukan menyamping). Kedua tangan memegang tali kiri dan kanan. Badan condong sedikit ke depan. Sangat cocok untuk menyeberangkan pasukan dengan beban ransel tempur yang berat.
-`
-              },
-              {
-                id: 'mountaineering-3-article-5',
-                title: 'Peluncuran',
-                content: `
-### Peluncuran (Flying Fox)
-Teknik menyeberang dengan meluncur cepat dari tempat tinggi ke tempat rendah memanfaatkan gaya gravitasi.
+**b. Cara dan Teknik Melintasi**
+Teknik ini sangat rawan dan banyak memakan tenaga, karena seluruh berat badan tergantung pada pegangan tangan, sedapat mungkin pegangan tangan dibantu dengan pijakan kaki (ujung kaki), agar berat badan dapat terbagi lebih merata.
 
-![Peluncuran](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Abseiling_Greece.jpg/640px-Abseiling_Greece.jpg)
+**c. Rappelling**
+1.  Pasang Seat Harness dan cincin kait serta sarung tangan, masukkan tali jalur ke Descender yang dihubungkan dengan cincin kait.
+2.  Sikap awal, tangan kanan berada di bawah di samping paha di sebelah kanan meremas tali, tali jalur berada di sebelah kanan tangan kiri berada di atas lurus dan meremas tali tidak kaku.
+3.  Berat badan pada kedua kaki dan tali pandangan ke depan badan tegak seperti duduk di kursi.
+4.  Gerakannya, tolak dengan kedua ujung telapak kaki tangan kanan dan kiri mengulur tali pada saat melayang posisi kaki tidak berubah tangan kanan yang berada di bawah di samping paha mengendalikan kecepatan pada saat mendarat dengan kedua ujung telapak kaki mengeper dan tangan kanan mengerem.
 
-*   **Fungsi Utama:**
-    Evakuasi korban atau logistik dengan cepat. Juga untuk pendaratan pasukan secara cepat (misal dari helikopter - fast roping).
+**d. Jenis–jenis Alat dan Prasarana Peluncuran, Snap Link dan Rappelling**
 
-*   **Peralatan:**
-    Membutuhkan katrol (pulley) khusus agar tidak terjadi gesekan panas yang merusak tali. Pengereman dilakukan di ujung lintasan menggunakan sistem *belay* atau jaring penahan.
-`
-              },
-              {
-                id: 'mountaineering-3-article-6',
-                title: 'Hand Traverse',
-                content: `
-### Hand Traverse
-Teknik bergerak menyamping (traverse) pada tebing batu hanya dengan mengandalkan pegangan tangan dan pijakan kaki pada celah tebing, tanpa bantuan tali jembatan.
+**(1) Peluncuran**
+* (a) Tali manila Ø 3,5 Cm, Panjang 225 M.
+* (b) Tali peleton Ø 1,5 Cm.
+* (c) Tali perorangan.
+* (d) Togle rope, cincin kait.
+* (e) Sarung tangan.
 
-![Hand Traverse](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Climber_with_equipment.jpg/640px-Climber_with_equipment.jpg)
+**(2) Katrol atau alat pengencang**
+* (a) Patok-patok, untuk tambatan ikatan pokok.
+* (b) Karung.
 
-*   **Kapan Digunakan?**
-    Saat menyusuri tebing pantai (coasteering) atau menghindari rintangan air di bawah tebing.
+**(3) Snap Link**
+* i. Tali peleton Ø 1,5 Cm.
+* ii. Tali perorangan.
+* iii. Cincin kait dan sarung tangan.
+* iv. Pohon–pohon atau patok–patok, untuk tambatan ikatan pokok.
+
+**(4) Rappelling**
+* (a) Tali dinamic (sebagai jalur).
+* (b) Cincin kait atau Descender (alat bantu).
+* (c) Tali sling (pipih).
+* (d) Sarung tangan.
+
+**e. Teknik Pemasangan Peluncuran, Snap Link dan Rappelling**
+
+**(1) Peluncuran**
+* (a) Cari atau pilih tempat yang memenuhi syarat dengan sudut ± 30º - 40º dan tempat pendaratan yang rata dan tidak berbatu.
+* (b) Buat para-para dan tangga tali bila ikatan pokok di atas pohon.
+* (c) Bersihkan lintasan jalur dari pohon atau ranting yang menghalangi.
+* (d) Bila sudah kencang pasang Belayer atas dan bawah dengan ikatan jerat kambing.
+* (e) Periksa dan coba sebelum digunakan.
+
+**(2) Snap Link**
+* (a) Cari dan gunakan tebing dengan sudut 60˚ kemudian buat jalur lintasan Snap Link.
+* (b) Ikat tali Peleton dengan ikatan pokok pada pohon atau batu dan sisa tali diurai ke bawah.
+* (c) Periksa dan coba sebelum digunakan.
+
+**(3) Rappelling**
+* (a) Pasang tali jalur atau jalur static pada pohon yang ada di atas tebing.
+* (b) Pasang Seat Harness cincin kait serta sarung tangan.
+* (c) Masukkan tali jalur ke Descender yang dihubungkan dengan cincin kait.
 `
               }
             ]
@@ -2875,85 +2309,124 @@ Teknik bergerak menyamping (traverse) pada tebing batu hanya dengan mengandalkan
                 id: 'mountaineering-4-article-1',
                 title: 'Melintasi Rawa',
                 content: `
-### Karakteristik Rawa
-Rawa adalah daerah rendah yang tergenang air dan biasanya tertutup vegetasi lebat. Dasarnya bisa berupa lumpur dalam yang berbahaya (lumpur hisap).
+### 1) Melintasi Rawa
 
-![Melintasi Rawa](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Climber_with_equipment.jpg/640px-Climber_with_equipment.jpg)
+Rawa adalah permukaan bumi yang selalu digenangi oleh air dan lumpur yang tinggi rendah permukaannya dapat berubah-ubah karena pengaruh air laut/sungai.
 
-*   **Teknik Melintas:**
-    1.  **Tongkat Duga:** Selalu gunakan tongkat panjang untuk mengecek kedalaman lumpur di depan sebelum melangkah.
-    2.  **Pijakan Akar:** Usahakan menginjak akar-akar pohon yang menjalar di permukaan lumpur.
-    3.  **Merayap:** Jika lumpur sangat dalam, jangan berjalan tegak. Tiaraplah dan merayap (berenang di atas lumpur) untuk membagi berat badan agar tidak terperosok.
-    4.  **Lumpur Hisap:** Jika terjebak, **JANGAN MERONTA**. Tenangkan diri, rebahkan badan ke belakang atau depan perlahan untuk memperluas permukaan, lalu gerakkan kaki pelan-pelan seperti mengayuh sepeda untuk naik ke permukaan.
+**a. Bergerak tanpa menggunakan alat**
+1.  Memperhatikan bekas pasang surut.
+2.  Memperhatikan arah mengalirnya air.
+3.  Apabila melintasi lumpur yang relatif dalam lakukan dengan merayap (berenang di atas lumpur).
+4.  Dalam kondisi air surut bergeraklah di tepi sungai jangan bergerak di tengah sungai walaupun sungai dalam kondisi kering.
+5.  Apabila terjebak dalam lumpur hidup jangan meronta tapi bergeraklah secara pelan dan berusaha untuk tetap dalam posisi tiarap dan selanjutnya berenang.
+
+**b. Bergerak dengan menggunakan alat**
+1.  Siapkan alat bantu berupa papan luncur, bambu atau batang pisang, gunakan tali tubuh, pasang cincin kait dan hubungkan dengan tali.
+2.  Peralatan dibawa dengan cara disandang.
+3.  Tiarap di atas papan luncur, bambu atau batang pisang.
+4.  **Teknik Gerakan:**
+    * (1) Dengan tarikan, pegang papan luncur/bambu mengikuti tarikan.
+    * (2) Tanpa tarikan, gerakan kedua tangan seperti berenang gaya katak.
 `
               },
               {
                 id: 'mountaineering-4-article-2',
-                title: 'Melintasi Sungai (Tanpa Tali)',
+                title: 'Melintasi Sungai',
                 content: `
-### Teknik Menyeberang Sungai Tanpa Tali
-Menyeberang sungai beraus deras sangat berbahaya. Jangan pernah meremehkan kekuatan air.
+### 2) Melintasi Sungai
 
-![Melintasi Sungai](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Climber_with_equipment.jpg/640px-Climber_with_equipment.jpg)
+Sungai adalah permukaan bumi yang selalu digenangi air yang mengalir dari hulu menuju muara yang dapat dilalui dengan alat ataupun tanpa alat.
 
-*   **Membaca Sungai:**
-    Cari bagian sungai yang **melebar** dan **dangkal**. Hindari tikungan luar sungai karena arusnya paling kuat dan dalam. Hindari bagian yang banyak batu besar licin.
+**a. Teknik melintasi sungai dengan tali ada beberapa macam:**
+1.  Rayapan tali satu.
+2.  Jembatan tali dua.
+3.  Jembatan tali tiga.
+4.  Meluncur.
 
-*   **Teknik Perorangan:**
-    Gunakan tongkat yang kuat sebagai "kaki ketiga". Tancapkan tongkat di bagian hulu (atas arus) untuk memecah arus sebelum menghantam kaki. Berjalanlah menyamping menghadap arus.
+**b. Teknik Pelintasan Kering dengan tali**
+Adalah suatu usaha, pekerjaan, kegiatan dan tindakan yang dilaksanakan dari tepi dekat menuju tepi jauh sebuah sungai/air, melalui alat yang sudah disiapkan di permukaannya. Melintasinya dengan tidak menyentuh air.
 
-*   **Teknik Beregu (Kereta Manusia):**
-    Berbaris memanjang ke belakang (banjar). Orang paling kuat di depan sebagai pemecah arus. Anggota di belakang memegang erat pinggang atau ransel teman di depannya. Bergerak bersamaan.
+**(1) Persiapan**
+* (a) Pasang tali membentang dari tepi dekat ke tepi jauh sungai.
+* (b) Kaitkan cincin kait pada jalur lintasan pelintasan dan periksa benar-benar aman.
+* (c) Berdiri tegak menghadap ke tepi.
+* (d) Laporan kesiapan untuk melaksanakan penyeberangan.
+
+**(2) Gerakan**
+* (a) Kedua tangan memegang tali lintasan dengan jarak selebar bahu di bawah cincin kait.
+* (b) Badan berada di bawah tali lintasan, posisi kedua kaki tergantung lemas pandangan ke arah sasaran.
+* (c) Tangan secara bergantian menarik badan sampai tepi jauh.
+* (d) Lakukan dengan penuh konsentrasi dan penuh percaya diri.
+
+**c. Teknik pelintasan basah dengan tali**
+Adalah suatu usaha, pekerjaan, kegiatan dan tindakan yang dilaksanakan dari tepi dekat menuju tepi jauh sungai/air, dengan alat yang ada disekitarnya untuk melintasinya.
+
+**(1) Persiapan**
+* (a) Pasang tali membentang dari tepi dekat ke tepi jauh sungai.
+* (b) Kaitkan cincin kait pada jalur lintasan pelintasan basah dan yakinkan bahwa benar-benar aman.
+* (c) Badan tegak menghadap ke hulu sungai.
+* (d) Siapkan mental untuk melaksanakan pelintasan.
+
+**(2) Gerakan**
+* (a) Kedua tangan memegang tali lintasan dengan posisi kedua tangan selebar bahu, ibu jari di bawah.
+* (b) Badan menghadap tali lintasan dan melawan datangnya arus.
+* (c) Cincin kait yang dipasang pada jalur lintasan berada di antara kedua tangan.
+* (d) Tangan yang belakang bergeser ke arah gerakan sambil mendorong cincin kait.
+* (e) Tangan yang di depan digeser ke arah gerakan dan berfungsi sebagai pembersih kotoran yang menyangkut pada tali.
+* (f) Posisi badan mengapung dengan gerakan kaki seperti renang gaya bebas.
+* (g) Setelah sampai di tepi jauh pada tempat yang dangkal maka berdiri dan buka cincin kait.
+* (h) Pelintasan dapat dilaksanakan dengan membawa alat perlengkapan perorangan dan diselempangkan di punggung.
+
+**d. Teknik Penyeberangan dengan Ransel**
+Apabila terpaksa, apabila tidak ada sarana lain dapat menggunakan alat bantu penyebaran sungai berupa ransel atau bodypack sebagai sarana penyeberangan dengan teknik sbb:
+1.  Ransel dikemas dengan rapat dan kencang.
+2.  Gunakan plastik untuk pembungkus ransel.
+3.  Jadikan ransel sebagai pelampung dalam melintasi sungai.
+4.  **Teknik gerakan:**
+    * (1) Ransel dipegang dengan dua tangan di depan badan.
+    * (2) Berenang dengan gaya katak atau gaya bebas.
+    * (3) Dorong ransel sampai ke seberang sungai.
 `
               },
               {
                 id: 'mountaineering-4-article-3',
-                title: 'Teknik Pelintasan Basah dengan Tali',
+                title: 'Melintasi Laut dan Pantai Menggunakan (LCR)',
                 content: `
-### Penyeberangan Sungai dengan Tali
-Jika arus terlalu deras untuk dilawan dengan berjalan, gunakan tali pengaman yang dibentangkan melintang sungai.
+### 3) Melintasi Laut dan Pantai Menggunakan (LCR)
 
-![Penyeberangan Tali](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Climber_with_equipment.jpg/640px-Climber_with_equipment.jpg)
+**a. Persiapan**
 
-*   **Persiapan:**
-    Satu orang perenang kuat (belayer) harus menyeberang lebih dulu membawa ujung tali ke seberang. Setelah tali terpasang kuat di kedua tepi, anggota lain menyeberang.
+**(1) Pembagian tugas regu LCR**
+* (a) Ketua regu sebagai pemandu arah.
+* (b) Kelompok lambung (pendayung) kanan.
+* (c) Kelompok lambung (pendayung) kiri.
+* (d) Wakil ketua regu sebagai pengemudi.
 
-*   **Teknik Melintas:**
-    1.  Kaitkan carabiner (cincin kait) dari harness ke tali bentangan.
-    2.  Posisi badan menghadap ke hulu (melawan arus).
-    3.  Tangan memegang tali, kaki mengapung di air (jangan menjejak dasar jika dalam).
-    4.  Tarik badan menyusuri tali. Arus akan mendorong badan, tapi tali menahannya.
-`
-              },
-              {
-                id: 'mountaineering-4-article-4',
-                title: 'Penyeberangan dengan Ransel',
-                content: `
-### Ransel Sebagai Pelampung
-Dalam keadaan darurat, ransel (carrier) bisa berfungsi sebagai pelampung yang sangat efektif.
+**(2) Penyiapan perahu**
+* (a) Perahu disiapkan di tepi sungai/pantai.
+* (b) Pengepakan perlengkapan regu ke dalam perahu.
+* (c) Aba-aba diberikan pada saat air setinggi dada oleh orang terdepan dan tidak ada gelombang.
+* (d) Perahu segera diletakkan di atas air tanpa hentakan, anggota tetap berpegang pada perahu/tali perahu.
 
-![Ransel Pelampung](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/A_mini_survival_kit_kept_in_a_medium_tin_box.jpg/640px-A_mini_survival_kit_kept_in_a_medium_tin_box.jpg)
+**b. Gerakan masuk perahu**
+1.  Pegang tali lambung dan angkat badan seperti gerakan pull up.
+2.  Anggota yang telah masuk perahu segera menolong kawannya.
+3.  Usahakan dengan cepat mendayung untuk mencegah perahu terdorong ombak ke daratan (pantai).
+4.  Pimpinan perahu masuk perahu terakhir untuk menahan perahu dari dorongan ombak dan menjaga arah perahu agar tetap lurus ke depan.
 
-*   **Cara Membuat Ransel Pelampung:**
-    1.  Kosongkan ransel.
-    2.  Masukkan semua barang ke dalam kantong plastik besar (trash bag) yang tebal, ikat rapat agar kedap air.
-    3.  Masukkan kembali ke dalam ransel. Udara yang terperangkap di dalam plastik akan membuat ransel mengapung.
-    4.  Peluk ransel di dada, gunakan sebagai pelampung saat berenang menyeberang.
-`
-              },
-              {
-                id: 'mountaineering-4-article-5',
-                title: 'Operasi Perahu Karet (LCR - Landing Craft Rubber)',
-                content: `
-Melintasi perairan luas atau pendaratan pantai (amfibi) menggunakan perahu karet.
+**c. Gerakan melintasi Laut dan pantai dengan perahu LCR**
+1.  Perhatikan arah arus air.
+2.  Bergerak sesuai rute ekspedisi.
+3.  Pertimbangkan waktu pasang surut air.
+4.  Hindari benda-benda tajam yang dapat merusak perahu karet.
+5.  Mendayung dilaksanakan secara bersama-sama dengan mata dayung masuk ke dalam air.
 
-![Perahu Karet](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Climber_with_equipment.jpg/640px-Climber_with_equipment.jpg)
-
-*   **Tim Dayung:**
-    Kekompakan adalah kunci. Komandan tim memberi aba-aba "Dayung... Maju!". Semua pendayung harus memasukkan dayung ke air secara bersamaan dan menariknya dengan kekuatan yang sama agar perahu melaju lurus.
-
-*   **Teknik Pendaratan Pantai (Beach Landing):**
-    Saat mendekati pantai, perhatikan ombak. Tunggu ombak besar lewat, lalu dayung sekuat tenaga mengikuti punggung ombak menuju pasir pantai. Segera lompat turun dan tarik perahu ke darat sebelum ombak berikutnya datang menyeret kembali ke laut.
+**d. Gerakan turun perahu**
+1.  Pada saat perahu merapat ke tepi pantai kayuhan dayung dilakukan dengan cepat dan kuat.
+2.  Sampai di tepi pantai pimpinan perahu loncat ke darat dengan menarik tali perahu kemudian diikat pada pohon atau benda yang kuat.
+3.  Anggota yang berada di lambung kanan turun ke sebelah kanan.
+4.  Anggota yang berada di lambung kiri turun ke sebelah kiri.
+5.  Pengemudi turun terakhir dengan terlebih dahulu merapihkan dayung dan perahu.
 `
               }
             ]
@@ -2988,7 +2461,7 @@ Melintasi perairan luas atau pendaratan pantai (amfibi) menggunakan perahu karet
     tkk: [
       {
         id: 'survival-1',
-        title: 'TKK Tumbuhan yang Dapat Dimakan',
+        title: 'TKK Jenis-Jenis Tumbuhan',
         image: '/tkk survival/TKK JENIS-JENIS TUMBUHAN.webp',
         requirements: [
           'Mampu membedakan tumbuhan yang dapat dimakan dan yang beracun.',
@@ -2998,54 +2471,102 @@ Melintasi perairan luas atau pendaratan pantai (amfibi) menggunakan perahu karet
         syllabus: [
           {
             id: 'survival-1-modul-1',
-            title: 'Botani Praktis',
+            title: 'Jenis-Jenis Tumbuhan',
             items: [
               {
                 id: 'survival-1-article-1',
-                title: 'Botani Praktis',
+                title: 'Tumbuhan yang Dapat Dimakan',
                 content: `
-### Membedakan Tumbuhan
-Membedakan tumbuhan beracun dan tidak.
-*   **Ciri-ciri Umum Tumbuhan Beracun (Hindari):**
-    *   Mengeluarkan getah putih seperti susu (kecuali nangka, sukun, sawo).
-    *   Warna mencolok.
-    *   Bau menyengat.
-`
+### Tumbuhan yang Dapat Dimakan
+                  * (Meliputi: Nama lokal, bagian yang dimakan, dan habitat) *
+
+#### a.Tumbuhan Rawa Laut(Mangrove)
+1. ** Api - api:** Daun muda.
+2. ** Jeruk Rawa:** Buah.
+3. ** Nipah:** Daging buah.
+4. ** Gebang:** Pucuk / bunga yang muda(umbut).
+5. ** Tanjau:** Buah.
+
+#### b.Tumbuhan Pesisir Pantai
+1. ** Kelapa:** Buah dan airnya.
+2. ** Ketapang:** Biji dalam buah.
+3. ** Beluntas:** Daun muda.
+4. ** Pohon Bumi:** Tangkai bunga.
+5. ** Putri:** Daun / buah.
+
+#### c.Tumbuhan Rawa Sungai
+1. ** Nipah:** Buah dan nira.
+2. ** Sagu:** Pati batang.
+3. ** Aren:** Nira dan buah(kolang - kaling).
+4. ** Bambu:** Rebung(tunas muda).
+5. ** Jamur:** Berbagai jenis jamur yang dapat dimakan.
+
+#### d.Tumbuhan Rimba Sekunder
+1. ** Ki Cemang:** Daun.
+2. ** Haria:** Daun.
+3. ** Balaka Toa:** Umbut.
+4. ** Tepus(Tepuis):** Umbut / tunas.
+5. ** Kondang(Komdang):** Buah.
+6. ** Kaliandra:** Daun muda / pucuk.
+7. ** Sintrong(Simtrong):** Daun.
+
+#### e.Tumbuhan Daerah Pegunungan
+                  * (Data belum tersedia dalam daftar) *
+                    `
               },
               {
                 id: 'survival-1-article-2',
-                title: 'Bagian yang Dimakan',
+                title: 'Tumbuhan yang Mengandung Air',
                 content: `
-### Bagian Tumbuhan Pangan
-*   **Umbi:** Talas, ubi jalar liar.
-*   **Batang Muda (Rebung):** Bambu, pisang.
-*   **Daun Muda (Pucuk):** Pakis, melinjo.
-*   **Bunga:** Turi, pisang (jantung).
-*   **Buah:** Arbei, markisa.
-`
+### Tumbuhan yang Mengandung Air
+
+#### a.Tumbuhan Penghasil Air Langsung
+1. ** Kaktus **
+                    2. ** Rotan Cincin **
+                  3. ** Ruas Bambu **
+                  4. ** Kelopak Daun Nipah **
+                  5. ** Bonggol Pisang **
+
+#### b.Buah - buahan yang Banyak Mengandung Air
+1. Mangga
+2. Manggis
+3. Jambu Air
+4. Kedondong
+5. Langsat
+                    `
               },
               {
                 id: 'survival-1-article-3',
-                title: 'Contoh Tumbuhan',
+                title: 'Cara Mengambil Air dari Tumbuhan',
                 content: `
-### Tumbuhan Survival Populer
-*   **Pakis (Paku Sayur):** Daun muda yang melingkar bisa dimakan.
-*   **Begonia:** Batang mengandung air dan rasanya asam segar.
-*   **Pohon Pisang:** Bonggol (bagian putih di bawah) dan jantung pisang bisa dimakan.
-*   **Rotan:** Pucuk muda (umbut) bisa dibakar atau direbus.
-`
-              },
-              {
-                id: 'survival-1-article-4',
-                title: 'Uji Makan (Edibility Test)',
-                content: `
-### Prosedur Mencicipi Tumbuhan Asing
-Jika terpaksa memakan tumbuhan yang tidak dikenal, lakukan langkah berikut:
-1.  **Oles Kulit:** Oleskan getah/daun di kulit sensitif, tunggu reaksi gatal/panas.
-2.  **Oles Bibir:** Oleskan sedikit di bibir.
-3.  **Ujung Lidah:** Tempelkan di ujung lidah.
-4.  **Telan Sedikit:** Makan sedikit saja.
-5.  **Tunggu Reaksi:** Tunggu beberapa jam sebelum memakan lebih banyak.
+### Cara Mengambil Air dari Tumbuhan
+
+#### a.Tumbuhan Kaktus
+                  * Potong beberapa ujung batang kaktus yang masih muda.
+* Tunggu hingga air menetes sedikit demi sedikit.
+* Pasang wadah untuk menampung air tersebut.
+
+#### b.Tumbuhan Rotan Cincin
+                  * Potong batang tumbuhan rotan cincin yang masih muda(biasanya bagian dekat pangkal).
+* Air akan menetes dan dapat langsung diminum.
+
+#### c.Ruas Bambu
+1. Cari pohon bambu yang masih muda.
+2. Buat lubang di bagian atas atau bawah ruas bambu.
+3. Air akan mengalir dari lubang tersebut.
+4. Tampung air yang keluar; air ini dapat langsung diminum.
+
+#### d.Kelopak Daun Nipah
+1. Pilih pelepah daun nipah yang muda.
+2. Ikat pelepah tersebut, kemudian potong bagian ujungnya.
+3. Pukul - pukul perlahan batang pelepah agar memar(untuk merangsang aliran air).
+4. Air akan menetes keluar.
+
+#### e.Bonggol Pisang
+1. Tebang pohon pisang yang ukurannya agak besar.
+2. Buat lubang(cekungan) pada bagian bonggol atau pangkal batang bawah menggunakan golok/ pisau.
+3. Tunggu beberapa saat hingga lubang tersebut terisi air yang keluar dari serat batang.
+4. Air yang terkumpul dapat diminum.
 `
               }
             ]
@@ -3064,45 +2585,73 @@ Jika terpaksa memakan tumbuhan yang tidak dikenal, lakukan langkah berikut:
         syllabus: [
           {
             id: 'survival-2-modul-1',
-            title: 'Zoologi Praktis',
+            title: 'Jenis-Jenis Binatang',
             items: [
               {
                 id: 'survival-2-article-1',
-                title: 'Zoologi Praktis',
+                title: 'Jenis-jenis Binatang Darat',
                 content: `
-### Mengenal Perilaku Binatang
-Memahami kebiasaan binatang hutan membantu dalam berburu dan menghindari bahaya. Binatang biasanya aktif pada pagi dan sore hari, serta berkumpul di dekat sumber air.
-`
+### Jenis - jenis Binatang Darat
+1. Macam - macam ular
+2. Tupai
+3. Monyet
+4. Babi
+5. Kelabang
+6. Kelinci
+7. Belalang
+8. Tikus
+9. Katak
+10. Landak
+11. Musang
+12. Biawak
+13. Kadal
+            `
               },
               {
                 id: 'survival-2-article-2',
-                title: 'Jejak (Tracks)',
+                title: 'Jenis-jenis Binatang Air',
                 content: `
-### Membaca Jejak
-Membaca jejak kaki di tanah basah untuk mengetahui jenis binatang dan arah gerak.
-*   **Jejak Kuku Belah:** Babi hutan, rusa, kancil.
-*   **Jejak Bantalan:** Macan, kucing hutan (kuku tidak terlihat).
-*   **Jejak Cakar:** Anjing hutan, beruang.
-`
+### Jenis - jenis Binatang Air
+1. Ikan
+2. Siput
+3. Kepiting
+4. Kerang
+5. Ganggang
+6. Dan lain - lain
+            `
               },
               {
                 id: 'survival-2-article-3',
-                title: 'Perangkap (Trapping)',
+                title: 'Macam-macam Alat / Perangkap',
                 content: `
-### Membuat Jerat Sederhana
-Membuat jerat sederhana (snare) dari tali atau rotan untuk menangkap hewan kecil (ayam hutan, kelinci) guna survival.
-*   **Jerat Leher:** Menggunakan simpul hidup yang mengencang saat ditarik.
-*   **Pemicu:** Menggunakan ranting lentur sebagai pegas.
-`
+### Macam - macam Alat / Perangkap
+
+#### a.Perangkap Binatang Darat
+1. Perangkap kurungan
+2. Perangkap getah
+3. Perangkap jaring kail
+4. Perangkap kaki rusa
+5. Perangkap puyuh
+
+#### b.Alat Menangkap Ikan
+1. Kail
+2. Tombak
+3. Sumpit
+4. Panah
+5. Bubu
+6. Jala
+            `
               },
               {
                 id: 'survival-2-article-4',
-                title: 'Binatang Berbahaya',
+                title: 'Cara Membuat Api Tanpa Korek Api',
                 content: `
-### Menghindari Bahaya
-*   **Ular Berbisa:** Waspada di semak-semak dan tumpukan kayu.
-*   **Kalajengking & Lipan:** Periksa sepatu sebelum dipakai.
-*   **Hewan Buas:** Hindari konfrontasi, jangan lari membelakangi.
+### Cara Membuat Api Tanpa Korek Api
+1. Lensa cembung dengan pertolongan sinar matahari.
+2. Gesekan bambu dengan bambu.
+3. Gesekan batu dengan batu.
+4. Menggunakan busur dengan gundik.
+5. Gesekan kayu dengan rotan.
 `
               }
             ]
@@ -3121,49 +2670,137 @@ Membuat jerat sederhana (snare) dari tali atau rotan untuk menangkap hewan kecil
         syllabus: [
           {
             id: 'survival-3-modul-1',
-            title: 'Teknik Bertahan Hidup',
+            title: 'Survival Hutan Gunung',
             items: [
               {
                 id: 'survival-3-article-1',
-                title: 'Psikologi Survival',
+                title: 'Prinsip-Prinsip Survival (HARUS HIDUP)',
                 content: `
-### STOP
-Mengendalikan panik dengan prosedur **STOP**:
-*   **S - Sit (Duduk):** Tenangkan diri, istirahat.
-*   **T - Thinking (Berpikir):** Analisa situasi dan persediaan.
-*   **O - Observe (Observasi):** Amati lingkungan sekitar.
-*   **P - Plan (Rencana):** Buat rencana tindakan.
+### Prinsip - Prinsip Survival(HARUS HIDUP)
+          * (Pedoman mental saat menghadapi kondisi darurat)*
+
+          1. ** H ** – Hadapi setiap kesukaran dengan tenang dan bijaksana.
+2. ** A ** – Akal yang sehat adalah senjata yang paling ampuh dalam menghadapi survival.
+3. ** R ** – Rasa takut dan panik harus dihilangkan.
+4. ** U ** – Usahakan mencari jalan keluar untuk membebaskan diri dari survival dan bergabung dengan kawan.
+5. ** S ** – Semangat dan keyakinan tetap hidup harus tertanam.
+6. ** H ** – Hindari dan jauhi tempat berbahaya yang dapat mengancam keselamatan diri, serta hormati adat istiadat setempat dan tiru tata cara hidupnya.
+7. ** I ** – Istirahat dan tenangkan pikiran apabila timbul kekacauan.
+8. ** D ** – Dengar, lihat, dan waspada terhadap perangkap alam.
+9. ** U ** – Utamakan kesehatan dan keselamatan diri.
+10. ** P ** – Praktekkan dan latih kembali pengetahuan dan keterampilan * Jungle Survival * yang pernah didapat.
 `
               },
               {
                 id: 'survival-3-article-2',
-                title: 'Bivak (Shelter)',
+                title: 'Teknik Mencari Hubungan',
                 content: `
-### Tempat Berlindung Darurat
-Membuat tempat berlindung darurat dari bahan alam (daun, ranting) atau ponco/flysheet.
-*   **Bivak Alam:** Menggunakan rangka kayu dan atap daun lebar/ijuk.
-*   **Bivak Ponco:** Menggunakan jas hujan ponco yang dibentangkan dengan tali.
+### Teknik Mencari Hubungan(Komunikasi Darurat)
+          * Dalam keadaan darurat dimana hubungan dengan kawan terputus, lakukan kontak dengan cara:*
+
+          1. ** Api dan Asap:** Membuat api dan asap tebal untuk menarik perhatian.
+2. ** Cahaya Lampu:** Menggunakan senter / lampu, sangat efektif jika menguasai sandi Morse.
+3. ** Kain Berwarna:** Digunakan sebagai panel sinyal bagi pesawat terbang, atau dilambaikan(seperti Semaphore) untuk kapal laut.
+4. ** Cermin / Benda Mengkilat:** Memantulkan cahaya matahari(heliograf) sebagai tanda atau morse.
+5. ** Peluit:** Bunyi peluit sebagai tanda bahaya atau isyarat lokasi.
+6. ** Jejak dan Tanda:**
+   * Meninggalkan jejak yang dipahami kawan.
+   * Membuat huruf besar(seperti SOS) di tanah terbuka atau pantai.
+   * Menebang pohon di hutan membentuk lorong ukuran 5x5 meter dan membuat api unggun di tengahnya.
 `
               },
               {
                 id: 'survival-3-article-3',
-                title: 'Api',
+                title: 'Mencari Air dan Makanan',
                 content: `
-### Teknik Membuat Api
-*   **Tanpa Korek:** Fire starter (magnesium), gesekan kayu (bow drill).
-*   **Jenis Api:**
-    *   *Api Masak:* Kecil dan terpusat.
-    *   *Api Hangat:* Besar untuk malam hari.
-    *   *Api Sinyal:* Menghasilkan asap tebal (siang) atau cahaya terang (malam).
+### Mencari Air dan Makanan
+
+#### a.Mencari Air
+          * Air sangat vital.Jika persediaan menipis, berhematlah.Jangan minum air kotor sembarangan.*
+
+          1. ** Tanah Gembur / Lembah:** Menggali tanah di area lembah, biasanya air dekat dengan permukaan.
+2. ** Padang Pasir / Tandus:** Perhatikan indikator alam(burung, kumpulan pohon, jejak binatang mengais).Gunakan teknik kondensasi(mengumpulkan embun dengan kain).
+3. ** Pegunungan:** Gali bekas aliran sungai, peras lumut basah, atau kumpulkan salju(cairkan terlebih dahulu).
+4. ** Air dari Tumbuhan:**
+   * Batang kaktus.
+   * Rotan(potong pangkalnya).
+   * Palem.
+   * Bambu(ruas).
+   * Bonggol pohon pisang.
+   * Akar alang - alang.
+
+#### b.Mencari Makanan(Botani & Zoologi Praktis)
+
+          ** (1) Tumbuh - tumbuhan Rimba yang Dapat Dimakan **
+          1. ** Melinjo(Tangkil):** Daun dan buah.
+2. ** Keluwek / Pangi:** Daging buah lunak(ungu kehitaman). * Catatan: Tidak boleh dimakan mentah karena mengandung Asam Sianida.*
+          3. ** Sukun / Nangka / Cempedak:** Daging buah.
+4. ** Durian:** Berbagai jenis durian hutan.
+5. ** Petai dan Jengkol.**
+          6. ** Rambutan Hutan:** Banyak di Kalimantan.
+7. ** Jambu Klutuk & Jambu Monyet.**
+          8. ** Aren & Sagu:** Mengambil patinya.
+9. ** Tayapa:** Semacam ubi jalar, daun merayap melingkar di pohon.
+10. ** Pisang Monyet:** Umbut pohonnya dapat disayur.
+11. ** Karet:** Buah dan daun dapat dimakan ** setelah dimasak **.
+12. ** Nanas / Lidah Buaya Hutan:** Bagian putih / tengah pangkal daun dapat digoreng / dimakan.
+13. ** Daun Suji:** Akar dimakan setelah dibakar / rebus.
+14. ** Gelagah:** Pucuk batang muda(umbut) dimakan mentah / rebus.
+15. ** Rasamala:** Daun muda(kemerahan) dimakan mentah.
+16. ** Klanting & Pohpohan:** Daun muda dimakan mentah / rebus.
+17. ** Putat & Catok Ayam:** Daun muda dimakan mentah.
+18. ** Pandan Hutan(Jaksi):** Umbut dimakan mentah / rebus.
+19. ** Bayam Duri:** Daun muda direbus.
+
+** (2) Tumbuh - tumbuhan Beracun(Tidak Boleh Dimakan) **
+          1. ** Jarak:** Biji menyebabkan muntah dan pusing(daun hanya untuk obat luar).
+2. ** Pangi / Picung(Mentah):** Mengandung asam sianida(racun).
+3. ** Kecubung(* Datura metel *):** Mengandung atropin(penyebab halusinasi).
+4. ** Jamur * Amanita verna *:** Mengandung muskarin(sangat mematikan).
+5. ** Jamur * Psilocybe sp *:** Mengandung psilocybin(penyebab halusinasi).
+
+** (3) Tumbuhan Pegunungan & Buah Tropika **
+* ** Pinus:** Biji buah(seperti kenari) dapat dimakan mentah.
+* ** Buah - buahan:** Langsat, Mangga, Pala, Manggis, Sawo, Delima, Jambu Air, Srikaya(Buah Nona), Jamblang(Duwet), Kenari, Nanas, Namu - namu, Tomi - tomi.
+
+** (4) Binatang yang Dapat Dimakan **
+* Hampir semua binatang berjalan, merayap, terbang, dan berenang dapat dimakan, kecuali yang beracun.*
+* ** Jenis:** Gajah, harimau, rusa, babi hutan, kera, tikus hutan, ayam alas, ikan, dll.
+
+#### c.Pengolahan Makanan(Binatang)
+1. ** Mamalia(Berkaki empat / berambut):** Harus dikuliti atau rambut dibakar(seperti mengolah kambing).
+2. ** Reptil berkulit keras(Buaya / Biawak):** Balikkan badan(terlentang) untuk membelah bagian perut yang lunak.
+3. ** Ular:** Kuliti(* skinning *) mulai dari bagian kepala ke bawah.
 `
               },
               {
                 id: 'survival-3-article-4',
-                title: 'Air',
+                title: 'Teknik Survival Hutan Gunung',
                 content: `
-### Sumber Kehidupan
-*   **Mencari Air:** Mata air, embun di daun, akar gantung (liana), batang pisang.
-*   **Penjernihan:** Saring air keruh menggunakan kain, pasir, dan arang. Rebus hingga mendidih untuk membunuh bakteri.
+### Teknik Survival Hutan Gunung
+
+#### a.Cara Bergerak(* Moving *)
+1. ** Punggung Gunung:** Ikuti punggung gunung untuk menghindari tersesat di lembah luas.
+2. ** Bukit Berbatu:** Hati - hati saat melintas(biasanya indikasi dekat pantai / tebing).
+3. ** Menyusuri Sungai:** Peluang menemukan desa lebih besar. * Waspada:* Banjir bandang, buaya, atau arus deras.
+4. ** Menyusuri Pantai:**
+   * Banyak sumber makanan(ikan, kerang).
+   * * Waspada:* Pasang surut air laut dan tsunami.
+5. ** Hutan Lebat:** Ikuti jejak binatang.Waspada binatang buas.Saat memanjat pohon, perhatikan ular atau lebah.
+6. ** Menyeberangi Rawa:** Perhatikan pasang surut.Waspada lumpur hidup(* quicksand *); jika terjebak, tiarap dan bergerak perlahan(berenang di atas lumpur).
+7. ** Menyeberangi Sungai/ Danau:** Gunakan alat apung(rakit, batang pisang, jerigen).Waspada air terjun dan pusaran air.
+
+#### b.Ancaman dalam Survival
+1. ** Penyakit:** Akibat pola makan tidak teratur dan kondisi fisik menurun(Diare, Demam).
+2. ** Tumbuhan Berbahaya:**
+   * Getah Bakau Putih(Kebutaan).
+   * Getah Pohon Rengas(Gatal parah / luka bakar).
+   * Getah Kolang - kaling(Gatal).
+   * Getah Jambu Monyet(Gatal / luka).
+   * Bulu Bambu(Gatal).
+   * Daun Sereh(Tajam / melukai kulit).
+3. ** Binatang Berbahaya:** Nyamuk malaria, semut api, kelabang, kalajengking, pacet / lintah.
+4. ** Cuaca Ekstrim:** Hipotermia(kedinginan) atau Heatstroke(kepanasan) yang bisa fatal.
 `
               }
             ]
@@ -3182,46 +2819,116 @@ Membuat tempat berlindung darurat dari bahan alam (daun, ranting) atau ponco/fly
         syllabus: [
           {
             id: 'survival-4-modul-1',
-            title: 'Survival Pesisir',
+            title: 'Survival Rawa Laut',
             items: [
               {
                 id: 'survival-4-article-1',
-                title: 'Karakteristik Rawa/Laut',
+                title: 'Survival di Rawa Laut',
                 content: `
-### Tantangan Pesisir
-*   **Pasang Surut:** Perhatikan jadwal pasang surut agar tidak terjebak.
-*   **Lumpur Hisap:** Hindari area lumpur yang dalam di muara sungai.
-*   **Dehidrasi:** Panas matahari dan angin laut mempercepat penguapan cairan tubuh.
+### Survival di Rawa Laut
+
+#### a.Alat yang Digunakan
+1. Papan(kepingan perahu).
+2. Drum / jerigen kosong.
+3. Kayu yang mengapung.
+4. Peti kosong yang dapat mengapung.
+5. Rakit kayu, bambu, busa.
+6. Pelampung ban atau kayu, dll.
+
+#### b.Yang Perlu Diperhatikan
+1. Cermin untuk menarik perhatian pesawat terbang, kapal, dan nelayan.
+2. Kaos kaki untuk menutup telapak kaki agar tidak menarik perhatian ikan buas.
+3. Cegah / hindari adanya bagian tubuh yang terluka, bau darah dapat menarik perhatian ikan buas.
+
+#### c.Ancaman dalam Survival di Laut
+
+      ** (1) Penyakit.Stamina menurun akibat:**
+      (a) Terlalu lama mengapung di Laut.
+   (b) Muntah - muntah / mabuk.
+   (c) Sakit mata.
+   (d) Kulit pecah - pecah.
+
+** (2) Bahaya binatang buas:**
+      (a) Ikan Hiu.
+   (b) Ikan Babo.
+   (c) Ikan Sotong raksasa.
+   (d) Ikan Pari.
+
+** (3) Bahaya Alam:**
+      (a) Angin topan.
+   (b) Badai ombak.
+   (c) Arus bawah laut dan pusaran air.
+
+#### d.Tanda - tanda Adanya Daratan
+1. Berkumpulnya awan di suatu tempat menunjukkan adanya daratan.
+2. Kepulan Asap / cahaya api.Baik dari daratan maupun asap kapal.
+3. Mercusuar, atau bangunan lainnya.
+4. Perahu nelayan, soro - soro, ikan pukat, dll.
+5. Kelompok pohon nipah, sampah, atau kotoran lain.
+6. Binatang - binatang.Burung camar, kelompok binatang air yang menyeberang dari satu pulau ke pulau lainnya.
 `
               },
               {
                 id: 'survival-4-article-2',
-                title: 'Air Tawar',
+                title: 'Tumbuhan yang Dapat Dimakan',
                 content: `
-### Air Tawar di Pantai
-*   **Destilasi Air Laut:** Menguapkan air laut dan menampung embunnya.
-*   **Menggali Pasir:** Menggali di batas pasang tertinggi (air payau yang tersaring pasir).
+### Tumbuhan yang Dapat Dimakan
+      * Disini dijelaskan khusus tumbuh - tumbuhan yang terdapat di rawa laut, sebagai berikut:*
+
+#### a.Tumbuh - tumbuhan Rawa Laut
+      * Di daerah rawa laut, dimana pada umumnya hanya terdapat pohon - pohon kayu laut atau kayu bakau(mangrove) sedikit sekali tumbuh - tumbuhan yang daun, batang, buah atau akarnya dapat dimakan.Beberapa jenis tumbuhan rawa yang dapat dimakan antara lain:*
+
+      1. ** Api - api(* Avicennia alba *).** Daun yang muda dapat dimakan setelah direbus.
+2. ** Tanjan(* Rhizophora mucronata *).** Buahnya dikupas, diiris tipis, direndam paling sedikit satu hari dan airnya sering - sering diganti, dapat dimakan setelah direbus.Jenis tanjan lainnya adalah * Bruguiera sp * yang buahnya disebut putut, dan * Ceriops tagal * (cara memasaknya sama seperti Tanjan).
+3. ** Jeruk rawa(* Merope angulata *).** Daun yang muda ditaruh dalam air minum untuk penyedap.Buah yang masak dapat dimakan, rasanya kecut manis seperti rasa jeruk manis.Jangan dimakan terlalu banyak.
+4. ** Pidada(* Sonneratia *).** Buah yang masak dapat dimakan mentah, rasanya seperti buah jambu air.
+5. ** Druju(Drujon).** Buah yang manis muda, dimakan setelah direbus.
+6. ** Nipah / Kiwel / Daon.** Daging buahnya yang agak tua dapat dimakan mentah.
+7. ** Mata kancil.** Buah yang masak berwarna merah.Daging selaput biji dapat dimakan mentah, rasanya seperti buah kelengkeng.
+8. ** Gabang / langkap.** Pondohnya(karangan bunga yang masih muda) dapat dimakan setelah direbus.Cairan yang keluar dari tangkai karangan bunga(pondoh) dapat diminum.
+
+#### b.Tumbuh - tumbuhan Pesisir / Pantai
+
+1. ** Kelapa.** Hampir di seluruh pantai Indonesia terdapat pohon Kelapa.Daging buah dan air kelapa muda menyegarkan dan menyehatkan.Air kelapa muda ini juga digunakan sebagai obat disentri.Pada buah yang tua, terdapat tombol / tombong / kentos yang juga enak dimakan.Ujung pohon kelapa dibagian hati(umbut muda) juga dapat dimakan.
+2. ** Ketapang(Ketepeng).** Buahnya agak ceper.Isi buahnya seperti buah kenari, dapat dimakan mentah atau setelah dibakar.
+3. ** Buah Puteri.** Tanaman ini merayap dan hampir terdapat di semua tempat.Suka ditanam oleh penduduk untuk membasmi alang - alang.Kerap kali disebut Mata Kucing, karena buahnya apabila sudah masak menjadi kuning dan isinya manis sekali.Daun - daun yang muda dapat dimasak seperti sayur.Dengan santen kelapa dan sedikit lombok merupakan sayuran yang sehat.
+4. ** Pohon Buri(Sejenis Palem).** Dari tangkai karangan bunga atau buah - buahnya dapat diperoleh semacam saguer atau tuak seperti di pohon aren.Isi dari batang pohon dapat dibuat tepung semacam sagu.
+5. ** Tumbuhan Tapak Kambing.** Daun yang masih muda dapat dimakan setelah direbus.
+6. ** Beluntas.** Daun dimakan mentah atau setelah direbus.
+
+#### c.Tumbuh - tumbuhan Rawa Sungai
+
+1. ** Nipah.** Daunnya dipakai untuk membuat atap.Batang daun digunakan untuk keperluan - keperluan nelayan.Buahnya dapat dimakan tetapi tidak boleh terlalu banyak, karena akan memabukkan.Dapat diambil air dari tangkai bunga(mayang) atau dari buah yang masih muda, rasanya seperti saguer.
+2. ** Sagu.** Isi batang pohonnya di "pukul" menjadi tepung sagu.Sagu ini adalah makanan pokok bagi penduduk Maluku dan Irian Barat.Pelepah daunnya, yang dinamakan Gaba - gaba dapat digunakan untuk bahan membuat rumah.
+   * * Cara membuat sagu adalah sebagai berikut:* Carilah sebatang pohon sagu tua.Tebang sagu itu kira - kira ½ meter dari tanah.Semua daun - daun disingkirkan dengan memotong ujung pohon, lalu dibelah dua, nampak dengan jelas isinya yang berwarna putih - gading.Isi pohon yang masih banyak sabutnya dicincang kemudian ditumbuk menjadi halus.Setelah halus disaring di atas sebuah alat penyaring dan airnya ditambah pada suatu dulang besar.Air itu dibiarkan agar tepungnya mengendap.
+3. ** Aren.** Buahnya dapat dijadikan kolang - kaling dan air nira atau saguer atau tuak dapat diminum.
+   * * Cara membuat kolang - kaling:* Ialah dengan cara membakar buah aren.Setelah dibakar, dicuci dengan air kapur.
+   * * Air Nira:* Didapat dengan cara memotong tangkai karangan bunga yang belum terbuka.Setelah dipotong tangkai yang ketinggalan dipukul dengan sepotong kayu, lalu ditahan dengan bambu.Untuk menjaga agar air nira itu bersih, di kelingking bekas potongan dibungkus dengan ijuk dan di mulut bambu diikatkan juga segumpal ijuk yang bersih untuk menyaring nira yang akan masuk kedalam bambu.Juga untuk menjaga jangan ada tawon dan lalat serta lain - lain Insekta masuk ke dalamnya.
+   * Daun aren selain untuk dibuat sapu lidi juga digunakan untuk bahan anyaman keranjang atau dinding rumah.Daun sagu dan aren yang muda diambil untuk membuat kirai(sebagai pengganti kertas rokok).Ijuknya dipintal menjadi tali ijuk, atau keperluan - keperluan lainnya.Pada pelepah daun aren terdapat bulu - bulu yang halus yang disebut * kawul * (bahasa Sunda), dapat dibuat untuk membuat api tanpa korek.Sangat berguna untuk dipakai dalam hutan - hutan rimba dalam keadaan Survival.
+4. ** Bambu.** Tunas bambu yang muda(rebung) dapat dijadikan bahan sayur.Caranya: rebung muda diiris - iris lalu direbus, untuk jenis - jenis bambu tertentu direbus berulang - ulang.
+5. ** Bermacam - macam paku(pakis).** Sangat banyak di daerah rawa.Daun muda dapat dimakan setelah direbus.
+6. ** Bermacam - macam talas.** Hampir semua dapat dimakan.Jika merasa khawatir supaya direbus dengan kapur sirih, karena ada beberapa jenis yang gatal.
+7. ** Bermacam - macam jamur.** Harus hati - hati terhadap jenis yang beracun, yang dapat dimakan ialah jamur kuping, jamur roti, jamur picis.Jamur - jamur dari jenis lain jangan dimakan.
+8. ** Selada Air.** Daun - daun dapat dimakan.
+9. ** Rotan.** Umbut dan buahnya dapat dimakan.
 `
               },
               {
                 id: 'survival-4-article-3',
-                title: 'Makanan',
+                title: 'Binatang-binatang yang Bisa Dimakan',
                 content: `
-### Sumber Makanan Laut
-Mencari kerang, siput, kepiting, dan ikan di area pasang surut.
-*   **Kerang/Siput:** Rebus matang.
-*   **Ikan:** Pancing atau tombak.
-`
-              },
-              {
-                id: 'survival-4-article-4',
-                title: 'Bahaya',
-                content: `
-### Biota Berbahaya
-*   **Ubur-ubur:** Sengatan gatal/panas.
-*   **Ikan Batu:** Duri beracun, menyamar di karang.
-*   **Ular Laut:** Sangat berbisa.
-*   **Buaya Muara:** Predator puncak di area rawa/muara.
+### Binatang - binatang yang Bisa Dimakan
+
+#### a.Macam Binatang
+      * Pada umumnya hampir semua binatang yang berjalan, merayap, terbang dan berenang di air dapat dimakan termasuk beberapa jenis insekta, terkecuali beberapa jenis yang beracun / berbisa.Rawa merupakan gudang makanan dan hanya tinggal memilih binatang yang kebetulan muncul untuk dijadikan makanan.Jenis - jenisnya adalah sebagai berikut:*
+
+      1. ** Di rawa - rawa:** Buaya, biawak, ular, kera - kera sejenis kucing rawa, tupai rawa, burung - burung, kodok hijau, kepiting, kerang pasir, kerang batu dan lain - lain.
+2. ** Di sungai - sungai:** Buaya, ular, biawak - biawak, kodok hijau, semua jenis bebek hutan(belibis), dan lain - lain.
+
+#### b.Pengolahan
+
+1. Semua reptilia yang berkaki empat dan berkulit belakang keras seperti buaya, biawak, harus dibalik(terlentang) agar bagian perutnya berada di atas sehingga mudah untuk membuka perutnya, serta memotong dagingnya.
+2. Semua jenis reptilia seperti ular - ular dan lain sebagainya harus dikuliti(* skinning *) terlebih dahulu mulai dari bagian kepalanya.
 `
               }
             ]
@@ -3240,35 +2947,105 @@ Mencari kerang, siput, kepiting, dan ikan di area pasang surut.
         syllabus: [
           {
             id: 'survival-5-modul-1',
-            title: 'Perlengkapan Survival',
+            title: 'Survival Kit',
             items: [
               {
                 id: 'survival-5-article-1',
-                title: 'Peralatan Wajib',
+                title: 'Materi Survival Kit (Umum)',
                 content: `
-### Alat Penyelamat
-*   **Pisau Lipat:** Serbaguna.
-*   **Korek Api:** Waterproof/anti air.
-*   **Peluit:** Sinyal suara.
-*   **Cermin Sinyal:** Sinyal cahaya (heliograph).
-*   **Obat-obatan Pribadi:** P3K mini.
-*   **Jarum Benang:** Perbaikan pakaian/luka darurat.
+### Materi Survival Kit(Umum)
+
+Survival kit adalah satu set peralatan atau satu kotak / tas peralatan survival yang umumnya dapat digunakan untuk semua jenis daerah seperti gunung, hutan, padang pasir, dan pantai serta laut.Jenis survival kit seperti di atas adalah survival kit yang dibuat khusus yang biasanya digunakan oleh para penerbang pesawat militer.
+
+Bagi seorang penjelajah ataupun petualang, survival kit merupakan salah satu perlengkapan dasar yang harus dimiliki.Survival kit ini haruslah survival kit yang sesuai dengan perjalanannya, karena survival di gunung akan berbeda dengan survival di laut.Survival kit dapat dibuat sendiri yang disesuaikan dengan tujuan perjalanan dan kebutuhan pribadi.
+
+#### Tips menyusun wadah:
+* Carilah sebuah kaleng yang tertutup dan tidak bocor, ukuran cukup kecil tetapi dapat memuat alat yang diperlukan.
+* Gosoklah bagian dalam kaleng sampai mengkilat sehingga dapat digunakan sebagai cermin.
+* Untuk membuat lebih kedap air, berilah paking pada tutupnya dan balutlah dengan solatip setelah ditutup.
+* Pada saat mengisi kotak survival, usahakan tidak ada ruang kosong yang memungkinkan peralatan di dalam kotak bergerak yang bisa mengakibatkan kerusakan alat.
+* Untuk menghindari ini, isilah bagian kosong di kotak dengan kapas atau sobekan kain, yang nantinya juga kapas dan sobekan kain tersebut dapat digunakan sebagai bahan penyala api.
+
+Biasakanlah selalu membawa survival kit dalam setiap perjalanan, karena dengan survival kit, satu set perlengkapan sudah dimiliki untuk keadaan darurat.
 `
               },
               {
                 id: 'survival-5-article-2',
-                title: 'Packing',
+                title: 'Isi Survival Kit dan Kegunaannya',
                 content: `
-### Pengemasan
-Cara mengemas survival kit dalam wadah kecil dan kedap air (kaleng/kotak plastik) yang selalu dibawa di badan (saku/ikat pinggang), bukan di dalam tas besar (carrier), agar tetap ada jika tas hilang.
-`
-              },
-              {
-                id: 'survival-5-article-3',
-                title: 'Fungsi',
-                content: `
-### Penggunaan Kreatif
-Menggunakan alat sederhana untuk berbagai kebutuhan darurat. Contoh: Kondom untuk wadah air, cermin untuk sinyal, benang gigi untuk tali pancing yang kuat.
+### Isi Survival Kit dan Kegunaannya
+
+#### 1) Korek api
+Korek api yang kedap air dapat dicari tetapi harganya mahal.Kita dapat membuat kedap air dengan cara memasukkan batang korek dan penyala ke dalam sebuah tabung plastik bekas tempat film, atau kita teteskan lilin ke atas kepala batang korek api sehingga terselaput seluruh kepala batang korek tersebut.Untuk memakainya kita buang lilinnya terlebih dahulu baru digoreskan kepalanya.
+* * Catatan:* Membuat api dengan korek api jauh lebih mudah dari memakai alat yang lainnya.Janganlah membuang percuma korek api, pakailah apabila diperlukan.Ambil korek api dari tabung dan segera tutup kembali, jangan biarkan tutup tabung tetap terbuka atau tergeletak di atas tanah.
+
+#### 2) Lilin
+Sangat baik untuk memulai menghidupkan api dan juga untuk penerangan.Apabila terbuat dari lemak maka dapat dimakan atau untuk menggoreng(harus yakin bahwa terbuat dari lemak).Lilin dari bahan lain atau parafin tidak dapat dimakan.
+
+#### 3) Batu api dan geretan
+Batu api dapat bekerja dalam keadaan basah dan dapat tahan lama sekali.Bawalah batu api sekalian dengan gergaji penggoresnya.
+
+#### 4) Suryakanta / Kaca pembesar
+Dapat menimbulkan panas dan api dengan sinar matahari langsung, juga dapat dipakai untuk melihat dan mendeteksi duri dalam jaringan kulit.
+
+#### 5) Jarum dan benang
+Beberapa jarum dimana satu diantaranya mempunyai lubang yang besar, sehingga dapat memakai serat tumbuhan sebagai benang apabila diperlukan.Simpanlah jarum - jarum tersebut menjadi satu dan lilit dengan benang yang kuat sekelilingnya.
+
+#### 6) Kail dan senar
+Pilihlah beberapa kail yang berbeda ukuran dan letakkan di dalam kotak atau bungkus.Kail yang kecil akan dapat menangkap ikan kecil dan besar, sedangkan kail yang besar hanya dapat menangkap ikan besar saja.Sertakan juga tali pancing secukupnya, karena kelebihan tali pancing dapat dipakai untuk menjerat.
+
+#### 7) Kompas
+Sebuah kompas yang cukup baik tapi sederhana dan pastikan diri kita bahwa kita dapat memakai kompas dengan baik.Kompas dengan cairan di dalamnya adalah yang terbaik, pastikan tidak bocor dan juga tidak ada gelembung udara di dalamnya.
+
+#### 8) Senter kecil(beta light)
+Sebuah lampu kristal, sering dipakai untuk gantungan kunci mobil / rumah.Lampu ini dapat dipakai untuk membaca peta, atau memasang umpan pada waktu memancing di malam hari.
+
+#### 9) Kawat jerat
+Kawat kuningan sepanjang 60 – 90 cm.Dapat dipakai dan sangat banyak kegunaannya, antara lain untuk jerat, memasak, dll.
+
+#### 10) Kawat gergaji
+Biasanya di ujungnya diberi bundaran untuk pegangan yang besar, ini sangat banyak memakai ruangan sebaiknya dibuang saja pegangan tersebut, karena dapat diganti dengan sepotong kayu apabila dipakai.Untuk mencegah berkaratnya gergaji ini sebaiknya disimpan dalam tempat dari plastik dan diberi minyak gemuk sebelumnya.Gergaji ini dapat dipakai untuk memotong kayu yang sangat besar.
+
+#### 11) Obat - obatan
+Obat yang kita bawa adalah yang sering diperlukan di dalam perjalanan dan juga obat - obat pribadi diperlukan seperti:
+
+* ** a) Analgetik **
+    * * Fungsi:* Obat penahan sakit seperti sakit kepala, sakit gigi, sakit otot, terkilir, dll.
+    * * Dosis:* 1 tablet setiap 6 jam.
+    * * Contoh:* Ponstan, Antalgin, Metaneuron, Naspro, Aspirin, dll.
+
+* ** b) Anti mencret(Diare) **
+    * * Fungsi:* Sebagai obat penghenti mencret - mencret, tetapi tidak menghilangkan sebab penyakitnya.
+    * * Dosis:* 2 tablet sekaligus, apabila masih tetap mencret setelah 1 jam dapat diberi 1 tablet lagi.Maksimal 3 tablet / hari.
+    * * Contoh:* Motilex, Lodya.
+
+* ** c) Anti Histamin **
+    * * Fungsi:* Untuk mengatasi problem alergi, gatal - gatal, gigitan serangga, tidak dapat tidur.Tetapi efek tidur disini sangat ringan sehingga tidak efektif bagi orang yang sering memakai obat tidur.
+    * * Dosis:* 3 x 1 tablet / hari.
+    * * Contoh:* CTM, Benadryl tablet / inj, Incidal.
+
+* ** d) Kalium Permanganat(PK) **
+    * * Fungsi:* Biasanya dijual dengan berat 1 gram, 5 gram dll.
+    * * Dosis:* 1 gram untuk 1 liter air dijadikan larutan ungu untuk membuat steril.Apabila warna lebih ungu dapat dipakai sebagai antiseptik, sedangkan warna ungu pekat dapat dipakai untuk membasmi jamur.
+
+* ** e) Anti Malaria **
+    * * Fungsi:* Hanya dikonsumsi apabila kita memasuki daerah malaria, dimulai dua minggu sebelum memasuki daerah malaria dan dua minggu setelah keluar daerah endemis malaria.
+
+* ** f) Antibiotik **
+    * * Fungsi:* Untuk mengobati infeksi yang telah ada nanahnya ataupun untuk pengobatan yang memerlukan antibiotik lainnya.
+    * * Dosis:* 4 x 500 mg / hari(Ampicilin) selama 4 hari.
+
+#### 12) Pisau bedah
+Sebaiknya dua bilah pisau bedah dengan ukuran yang berbeda.Untuk gagang dapat kita buat dari sepotong kayu apabila diperlukan.
+
+#### 13) Plester kupu - kupu
+Dibuat dari plester yang dipotong mirip bentuk kupu - kupu, dipakai untuk mendekatkan dan merapatkan pinggir luka yang perlu dijahit.
+
+#### 14) Plester
+Beberapa buah plester dengan ukuran yang berbeda, sebaiknya yang kedap air.Untuk menutup luka yang kecil dan menjaga agar tetap bersih.Plester ini dapat juga dipotong untuk menutup luka kecil ataupun dibuat plester kupu - kupu.
+
+#### 15) Kondom
+Dapat dibuat sebagai tempat air yang baik dimana dapat menampung air sebanyak 1 liter.
 `
               }
             ]
@@ -3287,39 +3064,223 @@ Menggunakan alat sederhana untuk berbagai kebutuhan darurat. Contoh: Kondom untu
         syllabus: [
           {
             id: 'survival-6-modul-1',
-            title: 'Seni Membaca Alam',
+            title: 'Sanjak (Mengesan Jejak)',
             items: [
               {
                 id: 'survival-6-article-1',
-                title: 'Seni Membaca Alam',
+                title: 'Umum',
                 content: `
-### Prediksi Cuaca
-Memprediksi cuaca dari tanda-tanda alam:
-*   **Awan:** Awan gelap bergulung (Cumulonimbus) pertanda badai.
-*   **Perilaku Hewan:** Burung terbang rendah, semut naik ke tempat tinggi.
-*   **Arah Angin:** Perubahan arah angin mendadak.
+### Umum
+Dalam suatu kegiatan penjelajahan, terutama di daerah hutan gunung sering ditemui kesukaran untuk menyelesaikan suatu kegiatan di dalam mencari dan menemukan kawan atau lokasi perkemahan, mengingat keadaan daerah di negara kita umumnya terdiri dari hutan yang lebat atau medan yang tertutup.Oleh sebab itu pengetahuan dan keterampilan "Mengesan Jejak" sangat diperlukan untuk dapat melaksanakan kegiatan, mencari dan menemukan kawan / tempat perkemahan di hutan maupun di gunung.
 `
               },
               {
                 id: 'survival-6-article-2',
-                title: 'Navigasi Alami',
+                title: 'Pengertian-pengertian',
                 content: `
-### Arah Tanpa Kompas
-Menentukan arah mata angin tanpa kompas:
-*   **Matahari:** Terbit di Timur, terbenam di Barat.
-*   **Rasi Bintang:** Pari/Crux (Selatan), Orion (Barat/Timur).
-*   **Lumut:** Lumut di pohon biasanya lebih tebal di sisi Timur (terkena sinar pagi) atau sisi yang lembab.
+### Pengertian - pengertian
+
+#### a.Jejak
+Adalah tanda - tanda yang dibuat oleh manusia, binatang dan benda - benda bergerak lainnya yang disengaja maupun tidak disengaja.
+
+#### b.Mengesan jejak
+Adalah suatu ilmu untuk dapat mengikuti, mengetahui, mencari dan mengejar seseorang / kawan melalui tanda - tanda, bekas atau bau yang ditinggalkan.
+
+#### c.Pengesan jejak
+Adalah seseorang yang terlatih untuk dapat mencari, menganalisa dan selanjutnya menyimpulkan arti dari jejak.
+
+#### d.Tapak
+Adalah bekas / jejak yang ditinggalkan oleh benda - benda baik bergerak ataupun diam dan menyerupai bentuk benda yang sebenarnya seperti kaki, sepatu, tangan ataupun lainnya.
 `
               },
               {
                 id: 'survival-6-article-3',
-                title: 'Isyarat SAR',
+                title: 'Pengelompokan Regu Sanjak',
                 content: `
-### Sinyal Darurat
-Membuat tanda sinyal darurat untuk pesawat penyelamat:
-*   **Asap:** Tiga kepulan asap (tanda bahaya).
-*   **Cermin:** Pantulan cahaya matahari.
-*   **Simbol Tanah:** Membuat tulisan "SOS" atau "X" (butuh medis) yang besar dan kontras di tanah lapang.
+### Pengelompokan Regu Sanjak
+Regu Sanjak anggotanya sama dengan anggota Krida Survival minimal 5 orang dan maksimal 10 orang, dalam organisasi tugasnya ditentukan sebagai berikut:
+
+#### a.Pimpinan kelompok(Ketua dan wakil ketua)
+
+#### b.Kelompok penjejak satu(2 s.d 3 orang)
+
+#### c.Kelompok penjejak dua(2 s.d 3 orang)
+
+#### d.Kelompok penjejak tiga(2 s.d 3 orang)
+
+#### e.Tugas Ketua / Wakil
+Ketua kelompok / wakil mengatur giliran pelaksanaan mengesan jejak, mendiskusikan dan menyimpulkan dari jejak yang diperoleh.
+
+#### f.Pelaksanaan
+Pelaksanaan mengesan jejak lama waktu dan jarak ditentukan oleh pimpinan kelompok adapun pelaksanaannya dilakukan secara bergantian dari kelompok regu tersebut.
+`
+              },
+              {
+                id: 'survival-6-article-4',
+                title: 'Dasar-dasar Mengesan Jejak',
+                content: `
+### Dasar - dasar Mengesan Jejak
+Untuk dapat menjadi seorang pengesan jejak, diperlukan beberapa persyaratan yang harus dimiliki sebagai berikut:
+
+#### a.Memiliki panca indera yang baik.
+
+#### b.Mengerti tentang keadaan alam dan pengaruhnya.
+
+#### c.Memiliki kemampuan dan kesungguhan dalam melaksanakan penjejakan.
+
+#### d.Memiliki daya ingat yang tinggi dan cerdas.
+
+#### e.Memiliki kondisi fisik dan mental yang baik.
+
+#### f.Sabar, tabah dan tidak mudah menyerah dalam menghadapi kesulitan.
+
+#### g.Tenang dan teliti.
+`
+              },
+              {
+                id: 'survival-6-article-5',
+                title: 'Teknik Mencari Jejak',
+                content: `
+### Teknik Mencari Jejak
+Pada saat berjalan sebaiknya selalu waspada, setiap melangkah melihat medan di sekelilingnya.Jarak pengamatan dimulai dari yang terdekat sampai yang terjauh apakah ada keanehan atau perubahan - perubahan yang terjadi di sekitarnya seperti:
+
+#### a.Tumbuh - tumbuhan
+Cabang - cabang pohon, ranting yang patah karena aktifitas manusia atau binatang.
+
+#### b.Serasah / Sampah Alam
+Dahan, ranting, daun yang bertaburan karena faktor alamiah, dipetik, dipotong, dipatahkan atau yang dimakan oleh binatang.
+
+#### c.Injakan
+Injakan pada tanah, rumput, pohon, dan semak yang rendah.
+
+#### d.Binatang atau Benda Bergerak
+Jika melihat binatang atau benda - benda yang bergerak, segera diam, fokuskan pandangan kepada binatang / benda tersebut.Setelah itu ditentukan untuk menghindari atau mengusir benda / binatang.
+* * Contoh:* Misalnya kita berhadapan dengan Harimau maka jangan lari membelakanginya karena Harimau akan mengejar dan menerkam tengkuk dari belakang.Sehingga kita harus diam dan pandangan mata fokus pada mata Harimau tersebut kemudian mundur secara perlahan sampai pada jarak yang aman selanjutnya melanjutkan mencari jejak.
+
+#### e.Bunyi dan Bau
+Jika mendengar bunyi - bunyian, atau mencium bau - bauan yang aneh seperti bangkai, asap, cabang patah, binatang berjalan, atau benda bergerak lainnya berhenti dan menentukan sumbernya.
+
+#### f.Tinjauan Atas
+Jangan hanya meninjau setinggi pandangan mata, sekali - kali perlu melihat ke atas pohon biasanya macan tutul, orang hutan, ular besar selalu menyerang dari atas pohon.
+
+#### g.Tinjauan Bawah
+Jangan lupa melihat ke jurang - jurang, lembah - lembah dan tempat lain yang letaknya lebih rendah dari tempat kedudukan kita.
+`
+              },
+              {
+                id: 'survival-6-article-6',
+                title: 'Mengenal Macam Jejak',
+                content: `
+### Mengenal Macam Jejak
+
+#### a.Jejak Langkah Biasa
+1. Jejak ujung kaki dengan tumit sama rata.
+2. Jejak telapak kaki atau alas kaki tidak ada perubahan.
+3. Pinggiran jejak tidak terlalu rusak.
+4. Tidak ada lemparan tanah ke belakang.
+5. Jejak menggunakan alas kaki dapat menentukan siapa yang lewat dan arah perjalanan.
+   * * Contoh:* Jejak kaki manusia yang menuju air dan kembali lagi maka diperkirakan orang tersebut mengambil air, mandi atau melaksanakan kegiatan lain yang memerlukan air.
+6. ** Jenis jejak pria:**
+   * Tapak kaki lebih besar.
+   * Langkahnya lebih panjang.
+   * Ujung kaki mengarah ke luar jejak tumit ke arah dalam.
+7. ** Jenis jejak wanita:**
+   * Tapak kaki wanita pada umumnya lebih kecil.
+   * Jarak antara satu dan lainnya lebih pendek.
+   * Ujung kaki mengarah ke dalam tumit terbuka ke arah luar.
+
+#### b.Langkah Lari
+1. Jarak antara tapak jauh.
+2. Bekas ujung alas kaki lebih dalam, semakin cepat larinya semakin dalam jejaknya.Bila tidak beralas kaki maka jari - jari kaki akan membuka.
+3. Lemparan tanah ke belakang jauh dibandingkan dengan langkah biasa.
+4. Bekas pinggiran alas kaki pada tanah tidak terlalu rata.
+5. Jejak tumit biasanya akan hilang kalau larinya semakin cepat.
+
+#### c.Langkah Mundur
+      * Langkah mundur dapat diketahui dari:*
+      1. Jejak tumit lebih dalam dari ujung sepatu(alas kaki).
+2. Ada geseran pada tanah di belakang sebelum tumit.
+3. Tanah terlempar ke arah ujung sepatu.
+4. Jejak sepatu / kaki kadang - kadang tidak menentu arahnya dan bentuknya tidak simetris.
+
+#### d.Pembawa Beban
+      * Langkah pembawa beban pada umumnya meninggalkan tanda - tanda:*
+      1. Jarak antara tapak dekat.
+2. Telapak sepatu melebar, bila tidak memakai alas kaki maka jari - jari kaki akan melebar.
+3. Tapak tidak satu garis.
+4. Lobang pada tanah lebih dalam pada tumit dari pada ujung sepatu.
+5. Ada bekas beban yang dibawa pada waktu istirahat.
+
+#### e.Pembawa Pasien
+      * Orang yang membawa pasien biasanya meninggalkan tanda - tanda:*
+      1. Jejak langkahnya tidak teratur.
+2. Jejak ujung kaki tidak selalu ke depan arahnya.
+3. Kadang - kadang terlihat tanda - tanda berhenti.
+4. Jejak langkahnya pendek - pendek.
+5. Ada bekas seretan kaki / tandu.
+6. Sama dengan pembawa beban.
+
+#### f.Jejak Hewan
+      * Dari jejak kaki hewan yang terdapat di atas tanah maka dapat diketahui:*
+      1. Jenis binatang yang lewat.
+2. Apakah binatang buas atau peliharaan yang melalui daerah tersebut.
+
+#### g.Jejak Darah
+      * Dari darah yang tercecer dapat diketahui sebagai berikut:*
+      1. ** Darah dari kepala:** Berwarna agak kehitam - hitaman, kental, licin dan seperti agar - agar.
+2. ** Darah dari paru - paru:** Berwarna merah terang, berbuih dan ada gelembung udaranya.
+3. ** Darah dari perut(usus atau lambung):** Berbau makanan.
+4. ** Posisi luka:** Darah pada jejak kaki bagian kanan, berarti luka ada pada kaki / badan sebelah kanan atau sebaliknya.
+`
+              },
+              {
+                id: 'survival-6-article-7',
+                title: 'Menentukan Usia Jejak',
+                content: `
+### Menentukan Usia Jejak
+      * Seorang pengesan jejak harus mengetahui usia dari tanda - tanda yang diperolehnya.Seperti tanda dari usia di daerah panas akan berlainan dengan daerah yang sering turun hujan atau daerah yang lembab, berikut ini ada beberapa contoh dari tanda - tanda yang dapat membantu dalam memperkirakan Usia Jejak.*
+
+#### a.Semut
+Apabila ada semut berkerumun pada sisa - sisa makanan diperkirakan usianya sekitar satu hari sampai tujuh hari.
+
+#### b.Karat
+Apabila terdapat karat pada kaleng makanan dan minuman diperkirakan usianya berkisar dua minggu atau lebih.
+
+#### c.Jejak kaki manusia dan hewan dari satu arah
+Apabila jejak kaki manusia dan di atasnya terdapat jejak kaki binatang yang menuju ke satu arah maka diperkirakan jejak kaki manusia itu usianya belum satu hari.
+
+#### d.Jejak kaki manusia dan hewan dari dua arah
+Apabila ada jejak kaki manusia dan di atasnya terdapat jejak kaki hewan dari dua arah yang berlawanan, diperkirakan usianya lebih dari satu hari.
+
+#### e.Jejak kaki manusia di lumpur dan kubangan air
+Apabila ada jejak kaki manusia di tanah yang berlumpur atau kubangan air, di atas jejak kaki manusia air belum jernih maka usia jejak itu diperkirakan belum satu jam.
+
+#### f.Percikan tanah pada bekas jejak kaki
+Jejak tersebut dibuat sebelum hujan, apabila dibuat setelah hujan maka tidak terdapat percikan tanah di sekitarnya.Untuk mengetahui usia jejak tersebut seorang pengesan jejak harus tahu kapan hujan terakhir turun.
+
+#### g.Jejak telapak kaki dan kelembaban tanah
+Pada saat permulaan jejak tapak sepatu dibuat, kelembaban tanah dapat menahan butiran pasir / tanah pada sisi - sisi tapak tersebut, sehingga batas sisi terlihat jelas.
+
+#### h.Setelah tanah mulai mengering
+Setelah tanah mulai mengering butiran - butiran pasir / tanah pada sisi - sisi tapak akan jatuh ke dalam tapak sehingga batas sisi tapak menjadi tidak jelas, hal ini disebabkan karena pengaruh cuaca dan kondisi medan.
+
+#### i.Abu bekas bakaran
+Apabila masih berwarna putih dan kadang - kadang masih membentuk sesuai dengan sebelum dibakar, diperkirakan berusia kurang dari satu hari.Bila warnanya telah berubah menjadi abu - abu atau terdapat tanda - tanda bekas terkena embun, diperkirakan usianya lebih dari satu hari.
+
+#### j.Getah kayu
+Apabila menemukan getah yang telah mengering yang keluar dari pohon, diperkirakan usianya telah lebih dari dua jam.Untuk mengetahui secara pasti, maka pengesan jejak harus mempelajari sifat - sifat dari getah berbagai tumbuhan karena getah - getah tersebut tidak semuanya sama proses dan waktu lamanya mengering.
+
+#### k.Tumbuhan jenis merambat
+Pada tumbuh - tumbuhan merambat sejenis rotan bila dipotong akan mengeluarkan air yang masih menetes, dari bekas potongan tersebut maka usianya belum lebih dari satu hari.
+
+#### l.Tumbuhan yang telah dipotong
+Bila dijumpai tumbuh - tumbuhan yang telah dipotong karena akan diambil airnya dan ternyata airnya telah kering(tidak menetes), maka dapat diperkirakan bahwa usia potongan tersebut lebih dari 12 jam.Biasanya tetesan air dari bekas potongan akan berhenti sama sekali setelah 12 jam.
+
+#### m.Jejak kaki pada jalan setapak
+Bila pada jalan - jalan setapak terdapat jejak kaki manusia atau binatang sedangkan di atas jejak tersebut telah terlihat adanya jaring(sarang) laba - laba, maka diperkirakan usia jejak tersebut telah lebih dari setengah hari.
+
+#### n.Embun pada dedaunan
+Bila butiran - butiran embun yang terdapat pada dedaunan, tidak seperti aslinya(butiran - butiran embun itu sudah tersentuh) berarti orang yang menyentuhnya belum lama melewati.Kejadian ini umumnya dapat dilihat pada pagi hari.
 `
               }
             ]
@@ -3358,8 +3319,8 @@ Membuat tanda sinyal darurat untuk pesawat penyelamat:
         image: '/tkk pba/TKK MANAJEMEN PENANGGULANGAN BENCANA.webp',
         requirements: [
           'Memahami siklus penanggulangan bencana (pra, saat, pasca).',
-          'Mengetahui potensi bencana di daerahnya.',
-          'Mampu melakukan kaji cepat (rapid assessment).'
+          'Memahami jenis-jenis bencana dan dampaknya (Harta benda, Lingkungan hidup).',
+          'Memahami pentahapan penanggulangan bencana (Preventif, Mitigasi, Kesiapsiagaan, Peringatan dini, Tanggap darurat, Rehabilitasi, Rekonstruksi).'
         ],
         syllabus: [
           {
@@ -3367,42 +3328,26 @@ Membuat tanda sinyal darurat untuk pesawat penyelamat:
             title: 'Manajemen Penanggulangan Bencana',
             items: [
               {
-                id: 'pba-1-article-1',
-                title: 'Penanggulangan Bencana',
-                content: `
-Penanggulangan bencana adalah kewajiban bersama antara pemerintah dan masyarakat yang didasarkan pada partisipasi dan dukungan. Fokus utamanya ada pada tahap sebelum terjadinya bencana (pencegahan, penjinakan, kesiapsiagaan) untuk memperkecil dampak. Tujuannya adalah mengurangi penderitaan dan meningkatkan kehidupan masyarakat secara lahir batin.
-`
-              },
-              {
-                id: 'pba-1-article-2',
-                title: 'Jenis, Sifat, dan Tingkat Bencana',
-                content: `
-* **Jenis Bencana:**
-    * **Bencana Alam:** Disebabkan oleh fenomena alam (geografis, biologis, seismik, hidrologis). Contoh: Gempa bumi, tsunami, letusan gunung berapi, banjir, kekeringan, wabah penyakit.
-    * **Bencana Ulah Manusia:** Disebabkan oleh proses teknologi atau interaksi manusia yang berdampak negatif. Contoh: Limbah pabrik, polusi, kebakaran, kecelakaan lalu lintas.
-* **Sifat Bencana:**
-    * **Terbatas:** Kerusakan harta benda sebagian atau korban jiwa tidak banyak.
-    * **Dahsyat (Luar Biasa):** Menimbulkan korban jiwa sangat besar, hilangnya harta benda, dan kerusakan sarana prasarana luas.
-* **Tingkat Bencana:**
-    * **Lokal (Setempat):** Terjadi di Kabupaten/Kota, dampak terbatas pada masyarakat setempat.
-    * **Provinsi:** Terjadi di beberapa daerah dalam satu provinsi, dampak dirasakan satu wilayah provinsi.
-    * **Nasional:** Terjadi di beberapa wilayah, dampak dirasakan secara nasional.
-`
-              },
-              {
                 id: 'pba-1-article-3',
                 title: 'Pentahapan Penanggulangan Bencana',
                 content: `
-1.  **Sebelum Bencana:**
-    * **Preventif (Pencegahan):** Penyebarluasan peraturan perundang-undangan dan pembuatan peta rawan bencana.
-    * **Mitigasi (Penjinakan):** Upaya fisik mengurangi dampak, seperti pembuatan cek dam, rehabilitasi sungai, pengawasan IMB, dan relokasi penduduk.
-    * **Kesiapsiagaan:** Latihan/gladi Pramuka dan masyarakat, serta pelatihan personil Satlak/Satgas PBP.
-2.  **Saat Bencana:**
-    * **Peringatan Dini:** Memberi kesempatan penduduk menyelamatkan diri.
-    * **Tanggap Darurat:** Pengerahan unsur penanggulangan untuk pencarian, pertolongan (SAR), penyelamatan korban, dan pemberian bantuan (pangan, sandang, obat, barak darurat).
-3.  **Sesudah Bencana:**
-    * **Rehabilitasi:** Memfungsikan kembali sarana umum yang rusak.
-    * **Rekonstruksi:** Membangun kembali kerusakan menjadi lebih baik dari sebelumnya untuk antisipasi bencana masa depan.
+### Pentahapan Penanggulangan Bencana
+
+      ** a.Sebelum bencana terjadi **
+* Kegiatan yang dilakukan meliputi tahap - tahap:*
+      1. ** Preventif(Pencegahan):** Yaitu kegiatan yang lebih dititikberatkan pada upaya penyebarluasan tentang berbagai peraturan, perundang - undangan yang berdampak untuk mengurangi resiko bencana termasuk pembuatan peta rawan bencana.
+2. ** Mitigasi(penjinakan):** Yaitu kegiatan yang lebih dititikberatkan pada upaya secara fisik untuk mengurangi dampak yang ditimbulkan oleh bencana, seperti pembuatan cek dam, rehabilitasi aliran sungai, pengawasan terhadap pelaksanaan RUTR, IMB, Pemindahan Penduduk ke daerah yang aman dari bencana, dan pemasangan tanda - tanda larangan di daerah yang rawan bencana.
+3. ** Kesiapsiagaan:** Yaitu meliputi kegiatan untuk mengadakan latihan atau gladi Pramuka dan masyarakat yang tinggal di daerah rawan bencana, serta pendidikan dan pelatihan bagi personil yang tergabung dalam organisasi satlak maupun satgas PBP serta aparat pemerintah dan ormas lainnya.Kegiatan pada tahap ini amat penting karena usaha untuk menghindari bencana akan lebih efektif dan efisien daripada rehabilitasi dan kontruksi.
+
+** b.Saat bencana terjadi **
+* Kegiatan yang dilaksanakan pada tahap ini meliputi:*
+      1. ** Peringatan dini:** Yaitu upaya dan kegiatan yang sangat penting dan tidak boleh diabaikan dimana untuk memberikan kesempatan kepada penduduk untuk menyelamatkan diri dari kemungkinan terlanda bencana alam.
+2. ** Tanggap darurat:** Yaitu upaya dan kegiatan pengerahan unsur - unsur penanggulangan bencana guna mencari, menolong dan menyelamatkan korban bencana serta memberikan bantuan kepada para pengungsi berupa makanan dan minuman, pakaian, obat, pembuatan barak - barak darurat sebagai tempat penampungan sementara.
+
+** c.Sesudah Bencana Terjadi **
+* Kegiatan yang dilakukan setelah terjadi bencana meliputi:*
+      1. ** Rehabilitasi:** Yaitu upaya dan kegiatan untuk memfungsikan dan memberdayakan kembali berbagai sarana prasarana umum yang mengalami kerusakan akibat bencana, guna mengurangi penderitaan masyarakat yang tertimpa musibah.
+2. ** Rekonstruksi:** Yaitu upaya dan kegiatan untuk membangun kembali berbagai kerusakan yang diakibatkan oleh bencana secara lebih baik daripada keadaan sebelumnya untuk mengantisipasi kemungkinan terjadinya bencana di waktu yang akan datang.Kegiatan pada tahap rekonstruksi harus direncanakan dengan teliti dan seksama, dengan mengikutsertakan berbagai pihak yang terkait sesuai dengan bidang masing - masing secara terintegrasi dan terpadu.
 `
               }
             ]
@@ -3425,12 +3370,37 @@ Penanggulangan bencana adalah kewajiban bersama antara pemerintah dan masyarakat
             items: [
               {
                 id: 'pba-2-article-1',
-                title: 'Pengertian dan Persiapan PPGD',
+                title: 'Pengertian PPGD',
                 content: `
-PPGD mencakup kesiapan kesehatan dalam perjalanan yang meliputi fisik, mental, dan pengetahuan gizi.
-* **Kesiapan Fisik:** Penolong harus prima, mengetahui teknik P3K, dan mampu bertindak cepat/tepat.
-* **Kesiapan Mental:** Percaya diri, peka lingkungan, mengedepankan akal sehat, dan mampu mengendalikan diri.
-* **Pengetahuan Kesehatan:** Memahami teknik P3K, penggunaan obat, jenis penyakit, makanan layak konsumsi, nutrisi, dan teknik evakuasi korban.
+### Pengertian Perjalanan dan Penanganan Gawat Darurat(PPGD)
+
+Perjalanan dan penanganan gawat darurat(PPGD) adalah hal - hal yang mencakup keadaan kesehatan pada suatu perjalanan / kegiatan meliputi kesiapan fisik, mental dan pengetahuan tentang kesehatan dan gizi.
+`
+              },
+              {
+                id: 'pba-2-article-2',
+                title: 'Cara Melaksanakan PPGD',
+                content: `
+### Cara Melaksanakan Perjalanan dan Penanganan Gawat Darurat(PPGD)
+
+      ** a) Kesiapan fisik **
+      1.  Kesiapan fisik penolong harus dalam kondisi yang prima.
+2.  Mengetahui tehnik Pertolongan Pertama Pada Kecelakaan(P3K).
+3.  Dapat mengambil tindakan dengan cepat dan tepat dalam memberikan pertolongan kepada korban.
+
+** b) Kesiapan Mental **
+      1.  Memiliki rasa percaya diri dalam melakukan Pertolongan Pertama Pada Kecelakaan(P3K).
+2.  Memiliki kepekaan terhadap diri dan lingkungan.
+3.  Selalu mengedepankan akal sehat dalam mengambil setiap tindakan Pertolongan Pertama Pada Kecelakaan(P3K).
+4.  Mampu mengendalikan diri terhadap segala situasi.
+
+** c) Pengetahuan tentang kesehatan dan gizi **
+      1.  Mengerti tentang tehnik Pertolongan Pertama Pada Kecelakaan(P3K).
+2.  Mengerti dan mengetahui tentang obat dan penggunaannya.
+3.  Memahami tentang berbagai macam penyakit dan gangguan kesehatan.
+4.  Mengetahui berbagai macam jenis makanan yang layak dikonsumsi.
+5.  Mengerti perimbangan nutrisi dan gizi dalam melaksanakan kegiatan dan perjalanan.
+6.  Mampu melaksanakan tehnik evakuasi korban.
 `
               }
             ]
@@ -3455,61 +3425,157 @@ PPGD mencakup kesiapan kesehatan dalam perjalanan yang meliputi fisik, mental, d
                 id: 'pba-3-article-1',
                 title: 'Kompor Lapangan T-50',
                 content: `
-Kompor berbahan bakar minyak tanah dengan kapasitas tangki 16 liter.
-* **Komponen:** Peti, Tangki bahan bakar, 2 Brander, 2 Tungku, 1 Pompa tangan.
-* **Cara Menyalakan:**
-    1.  Isi tangki (maks 16 liter), hubungkan selang ke brander.
-    2.  Pompa tangki hingga tekanan 3 kg/cm².
-    3.  Buka kran sedikit untuk mengalirkan minyak ke mangkuk penyala brander, lalu tutup kembali.
-    4.  Bakar minyak di mangkuk penyala (pemanasan awal/pre-heating) sampai api mengecil.
-    5.  Buka kran perlahan. Pastikan yang keluar adalah **gas**, bukan minyak cair. Jika minyak cair keluar (api menyembur besar), tutup kran dan ulangi pemanasan.
-* **Mengatasi Gangguan:**
-    * *Api Mati:* Tutup kran, periksa minyak, nyalakan ulang dengan penyulut sambil menyogok lubang spuyer.
-    * *Api Menyembur Besar:* Kran dibuka terlalu besar saat brander belum panas. Tutup kran, tunggu api mengecil, buka perlahan.
-    * *Api Tidak Rata:* Spuyer rusak, harus diganti.
-    * *Kebakaran:* Tutup kran utama. Jangan siram air, gunakan karung basah.
+### Kompor Lapangan T - 50
+
+      ** a.Kompor Lapangan T - 50 terdiri dari:**
+      1.  1 Peti Kompor Lapangan T - 50.
+2.  1 Tangki Bahan Bakar.
+3.  2 Brander.
+4.  2 Tungku.
+5.  1 Pompa tangan.
+
+** b.Bahan Bakar **
+      Bahan Bakar yang digunakan yaitu minyak tanah.
+
+** c.Kapasitas Tabung Bahan Bakar **
+      16 Liter.
+
+** d.Cara Penggunaan:**
+      1.  Kita Berdiri searah dengan angin dan letakkan peti, sisi gembok berhadapan dengan kita.
+2.  Buka peti sampai tutup peti menyentuh tanah.
+3.  Keluarkan peralatan kompor dan letakkan pada tutup peti.
+4.  Keluarkan tungku dan pasang tatakan kaki tungku dengan cara seperti memasang baut.Tatakan kaki tungku berfungsi juga sebagai penyetel ketinggian brander terhadap alat masak.
+5.  Letakkan kedua tungku pada sebelah kiri dan kanan peti dengan jarak minimal 30 cm, posisi lubang tungku menghadap ke peti.
+6.  Letakkan brander di tengah - tengah tungku dengan tangki brander dan selang minyak mengarah ke sisi engsel peti.
+7.  Keluarkan tangki dan masukkan kembali peralatan cadangan yang tidak digunakan ke dalam peti, lalu peti ditutup, isi tangki dengan minyak tanah maksimum 16 liter, letakkan tangki di tengah - tengah sisi engsel peti hubungkan selang kedua brander pada kran minyak pada tangki.
+8.  Peti dapat digunakan sebagai meja ringan maksimum beban 30 kg.
+9.  Pompa tangki hingga bertekanan maksimum 3 kg / cm² setelah itu kran minyak dibuka sedikit demi sedikit agar minyak mengalir keluar dari spuyer brander dan perhatikan jangan ada udara keluar dari selang, biarkan sedikit minyak tertampung pada mangkuk penyala brander, kemudian kran ditutup kembali sampai minyak berhenti mengalir.
+10. Sebelum disulut letakkanlah sumbu yang telah tersedia(kertas, ranting kering dapat digunakan dalam keadaan darurat) di atas mangkuk brander, kemudian sulut dengan api minyak tanah yang berada di mangkuk penyala brander, menggunakan alat penyulut api(penyala yang tersedia) hingga terbakar.
+11. Biarkan api menyala pada mangkuk penyala brander sampai terlihat semburan api pada brander, yang semula terlihat besar, tunggulah sampai semburan api mulai mengecil kembali seperti akan mati yang merata.Jangan sekali - kali membuka kran minyak langsung besar.
+12. Bila pada saat membuka kran, perhatikan spuyer brander apakah yang keluar berupa gas atau minyak yang belum menjadi gas, jika terlihat belum menjadi gas, maka semburan api yang akan terjadi seperti kebakaran, jangan panik / takut langsung saja kran ditutup kembali tunggu dan biarkan api mengecil sendiri seperti pada penjelasan di atas, berarti brander belum cukup panas.
+13. Apabila semburan sudah berupa gas dan nyala api mulai stabil, kran dibuka perlahan - lahan sampai menghasilkan nyala api yang terbaik.
+14. Setelah nyala api baik, kompor siap digunakan.
+
+** e.Gangguan dan mengatasi gangguan:**
+      1. ** Gangguan tiba - tiba api mati:** Langsung kran ditutup, periksa minyak dalam selang bila terlihat selang masih dipenuhi minyak dan tidak terlihat udara didalamnya maka nyalakan alat penyulut, dekatkan api penyulut ke spuyer brander sambil menyogok lubang spuyer brander.
+2. ** Gangguan tiba - tiba api brander menyala seperti kebakaran:** Penyebabnya adalah kran terlalu besar dibuka yang mengakibatkan aliran minyak ke brander dan keluar dari spuyer brander tidak menjadi gas, kran langsung ditutup dan tunggu api menjadi kecil kembali, lalu buka kran minyak sedikit demi sedikit sampai mendapatkan nyala api yang terbaik / yang diinginkan.
+3. ** Gangguan semburan api tidak rata atau api tidak dapat sempurna:** Penyebabnya adalah bila lubang spuyer rusak, matikan kompor lalu ganti spuyer dengan yang baru menggunakan kunci spuyer.
+4.  Langkah pertama dalam menghadapi gangguan apapun adalah menutup kran pada tabung, dengan demikian kebakaran akan terhindari.Jangan sekali - kali menyiram kebakaran kompor dengan air, usahakan dalam memasak menyiapkan karung / kain yang dibasahi oleh air untuk menutupi api saat terjadi kebakaran pada kompor.
+
+** f.Pengaturan Ketinggian Api:**
+* ** Merebus:** Pada saat merebus terutama merebus air minum / memasak nasi dengan jumlah yang banyak tatakan kaki tungku distel rapat terhadap kaki tungku agar jarak api terhadap kuali / dandang lebih dekat(Jarak terdekat sesuai yang dirancang 5 cm) sehingga panas yang cepat dan waktu mematangkan masakan lebih cepat.
+    * * Perlu diwaspadai:* Apabila merebus sayur - sayuran, kacang - kacangan, api brander harus dikecilkan dan atau selalu mengaduk masakan agar masakan yang berada di dasar kuali tidak hangus, karena sayuran dan kacang - kacangan selalu mengendap di dasar kuali.
+* ** Menggoreng:** Pada saat menggoreng(menggunakan minyak goreng) kedudukan tatakan kaki tungku distel berjarak 2 atau 3 cm dari kaki tungku dengan cara memutar tatakan kaki tungku seperti membuka baut, agar jarak api terhadap kuali atau wajan tidak terlalu dekat, sehingga panas yang diterima oleh minyak goreng tidak terlalu tinggi sehingga yang dimasak matang secara merata atau tidak terjadi gosong luar dan mentah di dalam.
 `
               },
               {
                 id: 'pba-3-article-2',
                 title: 'Alat Dapur Lapangan',
                 content: `
-* **Ketel 100:** Aluminium, kapasitas masak nasi 18 kg (untuk 100 orang).
-* **Ketel 50:** Aluminium, untuk memasak sayur.
-* **Ketel 40:** Aluminium, untuk memasak air atau mengangkut masakan.
+### Alat Dapur Lapangan
+
+      ** a.Ketel 100 **
+      Bahan terbuat dari alumunium dengan kapasitas memasak ± 18 Kg / beras untuk melayani 100 orang.
+
+** b.Ketel 50 **
+      Bahan terbuat dari alumunium untuk memasak sayur.
+
+** c.Ketel 40 **
+      Bahan terbuat dari alumunium untuk masak air atau untuk mengangkut hasil masakan.
 `
               },
               {
                 id: 'pba-3-article-3',
                 title: 'Teknik Dasar Memasak',
                 content: `
-* **Hidrat Arang (Nasi):** Saat dipanaskan molekul mengikat air (mengkanji). Jika dibiarkan lama akan memisah (basi). Masak sesuai kebutuhan sekali makan.
-* **Protein:** Paling cepat busuk. Harus segera dimakan setelah dimasak.
-* **Lemak:** Mudah tengik. Sumber kalori terbesar.
-* **Vitamin/Mineral:** Perhatikan saat mencuci dan memasak agar tidak larut atau rusak oleh panas berlebih.
+### Teknik Dasar Memasak
+Memasak meliputi kegiatan penanganan dan pemasakan(* handling and cooking *).Memasak yang benar dan baik mempunyai pengaruh penting sekali dalam penyajian suatu menu.Oleh karena itu harus dikuasai teknik dasar memasak, sebagai berikut:
+
+** a.Sumber Hidrat Arang **
+      Molekul - molekul hidrat arang dan molekul air bila dipanaskan akan saling mengikat dan mengkanji.Setelah masak dan dibiarkan dalam jangka waktu tertentu ada kecenderungan untuk memisah.Bila proses pemisahan ini terjadi berarti telah mendekati tingkat basi.Oleh karena itu bila memasak nasi harus betul - betul diperhitungkan jumlahnya agar habis sekali makan.
+
+** b.Sumber Protein **
+      Dapat kita golongkan dalam hewani dan nabati.Protein adalah zat makanan yang paling lekas busuk karena sangat diperlukan oleh bakteri - bakteri.Makanan yang mengandung protein tinggi sebaiknya segera dimakan setelah selesai dimasak.Khusus protein yang terdapat pada jaringan - jaringan otot memerlukan perlakuan khusus waktu memasak.Sedangkan telur merupakan sumber protein yang paling mudah dimasak.
+
+** c.Sumber Lemak **
+      Baik hewani maupun nabati akan menjadi tengik bila disimpan lama oleh sebab itu sumber lemak harus diperlakukan baik agar sumber kalori paling besar ini tidak mudah rusak.Pada umumnya sumber lemak ini tidak kita makan langsung tetapi untuk memasak makanan lain baik berupa minyak maupun santan.
+
+** d.Sumber Vitamin dan Mineral **
+      Harus diperhatikan sejak mengerjakan mencuci, sampai memasak, sebab Vitamin banyak yang larut / rusak dalam air dan panas.
 `
               },
               {
                 id: 'pba-3-article-4',
-                title: 'Tata Cara Memasak (Nasi, Lauk, Sayur)',
+                title: 'Tata Cara Memasak',
                 content: `
-* **Nasi:** Cuci beras (jangan direndam agar Vitamin B1 tidak hilang). Masukkan ke air mendidih atau diaron dulu. Jika diaron, air 2-3 cm di atas beras. Kukus di dandang sampai matang.
-* **Daging:** Cuci, buang serat alot, rebus dengan temperatur rendah, potong miring memotong serat.
-* **Ikan:** Buang sisik, insang, dan isi perut. Beri cuka/kunyit untuk hilangkan amis.
-* **Sayur:** Cuci sebelum diracik/dipotong. Jangan rendam sayuran yang sudah dipotong (kecuali untuk mempertahankan warna dengan air garam). Masukkan sayuran keras terlebih dahulu.
+### Tata Cara Memasak
+
+      ** a.Nasi **
+      1.  Beras dibersihkan dari kotoran dan barang - barang asing lainnya.
+2.  Beras dicuci untuk menghilangkan sisa - sisa kotoran.
+3.  Mencuci beras tidak boleh direndam agar Vitamin B1 yang diperlukan tidak larut.
+4.  Beras dimasukkan ke dalam ketel / wajan yang telah disiapkan(air mendidih) atau diaron.
+5.  Apabila mengaron menggunakan wajan, beras harus terendam dan air ± 2 - 3 Cm di atas permukaan beras.
+6.  Setelah setengah matang masukkan ke dalam dandang yang telah dipersiapkan kemudian aduk dan tunggu sampai matang.
+
+** b.Lauk **
+
+** (1) Memasak Daging **
+* (a) Daging dicuci dahulu untuk membersihkan kotorannya.
+* (b) Buang serat - serat yang alotnya.
+* (c) Daging direbus sampai matang dengan temperatur rendah.
+* (d) Porsi miring memotong serat.
+* (e) Masak sesuai resep yang diinginkan.
+
+** (2) Memasak Ikan **
+* (a) Potong semua duri yang sekiranya akan mengganggu dalam proses pemasakan.
+* (b) Ikan yang bersisik supaya dibuang sisiknya.
+* (c) Buang insang dan isi perutnya kemudian dicuci.
+* (d) Bubuhkan cuka / kunyit untuk menghilangkan bau amis / anyir.
+* (e) Masak sesuai resep yang diinginkan.
+
+** (3) Sayur **
+* (a) Semua bahan sayuran harus dibersihkan dari kotoran / dicuci sebelum diporsi / diracik.
+* (b) Sayuran yang telah diracik tidak boleh direndam dalam air kecuali jenis bahan sayuran yang tidak mengandung Vitamin B dan C.
+* (c) Masak sesuai resep yang diinginkan / direncanakan.
+* (d) Masak lebih awal dari bahan - bahan sayuran yang memerlukan waktu pemotongan lebih lama.
+* (e) Untuk menghasilkan warna alami, cerah dan menarik selera bahan sayuran yang berwarna sebelum dimasak supaya direndam dahulu dalam air garam.
 `
               },
               {
                 id: 'pba-3-article-5',
-                title: 'Cara Menyajikan',
+                title: 'Tata Cara Menyajikan',
                 content: `
-* **Cara Barat:** Pembuka (Appetizer) -> Pokok (Main Course) -> Selingan -> Penutup (Dessert/Kopi).
-* **Cara China:** 4 Makanan dingin -> Udang/Ginjal -> 8 Hidangan Pokok (Kepiting, Itik, Ikan, Nasi) -> Hidangan Manis.
-* **Sistem Penghidangan:**
-    * *Prasmanan:* Mengambil sendiri di meja panjang.
-    * *Kafetaria:* Satu garis antrean mengambil makanan.
-    * *Meja:* Peserta dibagi kelompok meja (6-10 orang).
-    * *Lapangan:* Menggunakan alat makan perorangan (mestin) atau *lunch tray*.
+### Tata Cara Menyajikan
+
+      ** a.Cara Barat **
+      Menu ala Barat penyusunannya ada yang menurut menu klasik dan menu sederhana, namun secara umum urut - urutannya adalah sebagai berikut:
+      1. ** Hidangan Pembuka:** Hidangan pembuka ada 2 macam, yakni: (a) Hidangan Pembuka panas, (b) Hidangan Pembuka dingin.Maksud dan tujuan dari hidangan pembuka adalah untuk merangsang selera makan.Hidangan pembuka dapat berupa sop kuah atau berupa makanan ringan.
+2. ** Hidangan Pokok:** Hidangan pokok adalah hidangan yang menyenangkan terdiri dari hidangan ikan atau masakan daging / unggas beserta lauk pauknya.
+3. ** Hidangan Selingan:** Hidangan Selingan dapat berupa hidangan sayuran atau buah - buahan berupa selada dan dapat juga berupa hidangan manis seperti puding, agar - agar dan lain sebagainya.
+4. ** Hidangan Penutup:** Yang termasuk kedalam hidangan penutup adalah hidangan manis(* Nyamikan / Sweet Dessert *).Segala hidangan manis antara lain Es krim, dan hidangan buah - buahan serta sebagai penutup dihidangkan kopi.
+
+** b.Cara China **
+      1. ** Menghidangkan:** Urutan hidangan mulai dengan makanan pembuka, tetapi tidak diakhiri dengan dessert dan Sop tidak dihidangkan pada awal santapan.Santapan khas China dimulai dengan 4(empat) macam makanan dingin sebagai pembuka, dilanjutkan dengan hidangan udang yang diasinkan atau ginjal yang diiris - iris.Kemudian disusul oleh delapan macam masakan sebagai hidangan pokok antara lain terdiri dari: Masakan daging kepiting, masakan daging itik, masakan ikan lengkap dan nasi putih.Sesudah hidangan pokok terakhir dihidangkan dua macam hidangan manis antara lain potongan apel bergula atau Pangsit / Bakso kuah yang lekat.
+2. ** Cara bersantap:** Melihat kepada hidangan pokok dengan jumlah delapan macam, berarti cara menyantapnyapun dilakukan secara khusus yakni dengan mengambil porsi kecil - kecil dari tiap hidangan.Oleh karena itu yang terlihat di atas meja hidangan adalah sebuah piring kecil, sebuah sendok porselin, sebuah mangkok kecil, tempat kecap atau sambal dan sepasang sumpit.
+`
+              },
+              {
+                id: 'pba-3-article-6',
+                title: 'Cara Menghidangkan',
+                content: `
+### Cara Menghidangkan
+
+      ** a.Di Pangkalan / di rumah / di gedung **
+* Cara menghidangkan makanannya adalah sebagai berikut:*
+      1. ** Sistem Prasmanan:** Suatu cara penghidangan yang diatur pada beberapa meja baik alat makan, makanan maupun minuman.Urut - urutannya adalah piring dan sendok garpu, nasi, ikan dan lauk - pauk, sayur, sambal, lalapan, kerupuk, buah dan yang terakhir adalah minuman.
+2. ** Sistem Kafetaria:** Ialah suatu cara penghidangan yang diatur dalam satu garis.Urut - urutannya adalah: Piring dan sendok garpu, Nasi, Lauk - pauk, sayur, sambal, lalapan, kerupuk, dan yang terakhir adalah minuman.
+3. ** Dihidangkan di meja:** Dalam sistem ini peserta makan dibagi dalam kelompok - kelompok meja yang terdiri dari 6 orang, 8 orang, atau 10 orang sesuai kapasitas meja.
+
+** b.Di Lapangan **
+      Fasilitas dan alat peralatan khusus / khas lapangan, menggunakan alat makan dan minum menggunakan alat perorangan yang dibawa.Bila keadaan memungkinkan, dapat pula menggunakan alat makan lapangan(* Lunchtray *).
+1. ** Sistem Kafetaria:** Sama dengan uraian di atas, hanya alat untuk menghidangkan dan alat makan menggunakan peralatan lapangan.
+2. ** Sistem semi Kafetaria:** Ialah suatu cara penghidangan Kafetaria, hanya seluruh perlengkapan menggunakan alat lapangan dan makanan dibagikan oleh petugas penyaji lapangan.
 `
               }
             ]
@@ -3532,34 +3598,75 @@ Kompor berbahan bakar minyak tanah dengan kapasitas tangki 16 liter.
             items: [
               {
                 id: 'pba-4-article-1',
-                title: 'Radio Komunikasi (Carima PRC-1077)',
+                title: 'Kegunaan Radio Komunikasi',
                 content: `
-Radio komunikasi adalah alat untuk mengirim dan menerima berita.
-* **Bagian-Bagian Panel Depan:** Saklar Daya, Saklar Fungsi, Saklar Kanal/Channel, Saklar pengatur frekuensi (MHz dan KHz), Tombol pengatur kanal, Penampil frekuensi, Pengatur volume, Konektor audio, Dudukan antena, Konektor antena 50 Ohm, dan Konektor daya.
-* **Perlengkapan:** Tas pembawa (ST-138), Antena (AT-271), Kotak baterai, Handset (H-250/U), Tas perlengkapan (CW-503).
+### Kegunaan Radio Komunikasi
+
+Radio Komunikasi adalah alat yang digunakan untuk mengirim dan menerima berita dari pihak lain / lawan bicara.
+
+** a) Bagian - bagian besar Radio Komunikasi **
+      1.  Saklar Daya
+2.  Saklar Fungsi
+3.  Saklar kanal / Chanel
+4.  Saklar pengatur frekuensi dalam MHz
+5.  Saklar pengatur frekuensi dalam KHz
+6.  Tombol pengatur kanal / Chanel
+7.  Penampil frekuensi
+8.  Pengatur volume
+9.  Konektor audio
+10. Dudukan antena / penghubung antena batang
+11. Konektor antena 50 Ohm
+12. Konektor daya
+
+      ** b) Mengoperasikan Radio Komunikasi **
+      1. ** Menghidupkan Radio.** Putar saklar daya ke kanan hingga muncul frekuensi di layar / penampil frekuensi.
+2. ** Memilih frekuensi.** Putar saklar pengatur frekuensi ke atas(* up *) untuk menaikkan frekuensi atau ke bawah(* down *) untuk menurunkan frekuensi sampai dengan frekuensi yang dikehendaki.
+3. ** Mengirim berita.** Tekan saklar PTT pada handset untuk berbicara, lepas saklar PTT tersebut apabila kita akan menerima berita / mendengarkan lawan bicara.
+4. ** Mematikan Radio.** Putar saklar daya ke kiri hingga frekuensi di layar hilang.
 `
               },
               {
                 id: 'pba-4-article-2',
-                title: 'Mengoperasikan Radio Komunikasi',
-                content: `
-1.  **Menghidupkan:** Putar saklar daya ke kanan hingga frekuensi muncul di layar.
-2.  **Memilih Frekuensi:** Putar saklar pengatur frekuensi ke atas (up) atau bawah (down) sesuai keinginan.
-3.  **Mengirim Berita:** Tekan saklar PTT (*Push To Talk*) pada handset untuk berbicara. Lepas PTT untuk mendengarkan lawan bicara.
-4.  **Mematikan:** Putar saklar daya ke kiri hingga layar mati.
-`
-              },
-              {
-                id: 'pba-4-article-3',
                 title: 'Prosedur Kirim Terima Berita',
                 content: `
-Tata cara komunikasi harus memperhatikan prinsip **IKIT**:
-* **I**rama: Bagi kalimat agar mudah diterima.
-* **K**ecepatan: Bicara dengan kecepatan memadai agar jelas dicatat.
-* **I**si Suara: Bicara lebih kuat dari percakapan biasa, tapi jangan berteriak.
-* **T**inggi Nada: Nada tinggi biasanya lebih jelas didengar.
-* **Abjad Fonetik:** Menggunakan standar (A=Alfa, B=Bravo, C=Charlie, dst) untuk mengeja kata agar tidak salah tafsir.
-`
+### Prosedur Kirim Terima Berita
+
+Yaitu tata cara yang harus dipahami dan dilaksanakan oleh setiap operator / pelayan radio dalam melaksanakan kirim terima berita.
+
+** a) Dalam prosedur komunikasi harus memperhatikan IKIT **
+      1. ** Irama:** Bagilah kalimat agar mudah diterima, untuk menghindari kesalahan.
+2. ** Kecepatan:** Bicaralah pada kecepatan yang memadai, sehingga jelas didengar dan cukup waktu untuk mencatat.
+3. ** Isi suara:** Lebih kuat sedikit dari percakapan biasa, tetapi jangan berteriak.
+4. ** Tinggi nada:** Nada yang tinggi lebih jelas didengar.
+
+** b) Abjad Fonetik **
+* A = ALFA
+      * B = BRAVO
+      * C = CHARLIE
+      * D = DELTA
+      * E = ECHO
+      * F = FOXTROT
+      * G = GOLF
+      * H = HOTEL
+      * I = INDIA
+      * J = JULIET
+      * K = KILO
+      * L = LIMA
+      * M = MIKE
+      * N = NANCY
+      * O = OSCAR
+      * P = PAPA
+      * Q = QUBECK
+      * R = ROMEO
+      * S = SIERA
+      * T = TANGGO
+      * U = UNIFORM
+      * V = VICTOR
+      * W = WISKY
+      * X = X - RAY / XTRA
+      * Y = YANKI
+      * Z = ZULU
+        `
               }
             ]
           }

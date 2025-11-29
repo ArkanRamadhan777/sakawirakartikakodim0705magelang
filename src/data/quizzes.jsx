@@ -914,152 +914,42 @@ export const quizzes = [
     questions: [
       {
         id: 1,
-        question: "Simpul yang digunakan untuk menyambung dua tali yang sama besar dan tidak licin adalah...",
-        options: [
-          "Simpul Anyam",
-          "Simpul Mati",
-          "Simpul Pangkal",
-          "Simpul Jangkar"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 2,
-        question: "Ikatan yang digunakan untuk mengikat dua tongkat yang bersilangan tegak lurus adalah...",
-        options: [
-          "Ikatan Palang",
-          "Ikatan Silang",
-          "Ikatan Canggah",
-          "Ikatan Kaki Tiga"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 3,
-        question: "Simpul yang digunakan untuk menyambung dua tali yang TIDAK sama besar dalam keadaan kering adalah...",
-        options: [
-          "Simpul Mati",
-          "Simpul Anyam",
-          "Simpul Kembar",
-          "Simpul Erat"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 4,
-        question: "Simpul yang berfungsi untuk mengikat tali pada tiang atau kayu, dan sering digunakan sebagai awalan ikatan adalah...",
-        options: [
-          "Simpul Pangkal",
-          "Simpul Jangkar",
-          "Simpul Tambat",
-          "Simpul Tarik"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 5,
-        question: "Simpul yang digunakan untuk mengangkat atau menurunkan orang (misalnya korban kecelakaan) adalah...",
-        options: [
-          "Simpul Mati",
-          "Simpul Kursi",
-          "Simpul Laso",
-          "Simpul Kembar"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 6,
-        question: "Ikatan yang digunakan untuk menyambung dua tongkat secara memanjang (lurus) adalah...",
-        options: [
-          "Ikatan Silang",
-          "Ikatan Palang",
-          "Ikatan Canggah",
-          "Ikatan Kaki Tiga"
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 7,
-        question: "Ikatan yang digunakan untuk memperkuat sambungan dua tongkat yang bersilangan membentuk huruf X adalah...",
-        options: [
-          "Ikatan Palang",
-          "Ikatan Silang",
-          "Ikatan Canggah",
-          "Ikatan Pangkal"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 8,
-        question: "Simpul yang digunakan untuk memendekkan tali tanpa harus memotongnya adalah...",
-        options: [
-          "Simpul Erat (Sheepshank)",
-          "Simpul Mati",
-          "Simpul Anyam",
-          "Simpul Laso"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 9,
-        question: "Simpul yang digunakan untuk membuat jerat yang bisa membesar dan mengecil adalah...",
-        options: [
-          "Simpul Mati",
-          "Simpul Laso",
-          "Simpul Pangkal",
-          "Simpul Jangkar"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 10,
-        question: "Ikatan yang digunakan untuk membuat kaki tiga (tripod) adalah...",
-        options: [
-          "Ikatan Palang",
-          "Ikatan Silang",
-          "Ikatan Kaki Tiga",
-          "Ikatan Canggah"
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 11,
-        question: "Perbedaan utama antara simpul, ikatan, dan jerat adalah...",
-        options: [
-          "Simpul untuk tali dengan tali, Ikatan untuk tali dengan benda, Jerat memiliki sifat khusus",
-          "Semuanya sama saja",
-          "Simpul lebih kuat dari ikatan",
-          "Jerat hanya untuk binatang"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 12,
-        question: "Jerat Pangkal (Clove Hitch) digunakan untuk...",
+        question: "Simpul Hidup digunakan untuk...",
         options: [
           "Menyambung dua tali",
-          "Mengikat tali pada tiang, sering digunakan untuk memulai ikatan",
-          "Membuat loop tetap",
+          "Membuat mata yang tidak dapat mengecil pada ujung tali",
+          "Mengikat tali pada pohon",
           "Memendekkan tali"
         ],
         correctAnswer: 1
       },
       {
-        id: 13,
-        question: "Simpul Anyam (Sheet Bend) digunakan untuk menyambung...",
+        id: 2,
+        question: "Simpul Anyam digunakan untuk menyambung dua tali yang...",
         options: [
-          "Dua tali sama besar",
-          "Dua tali berbeda ukuran dalam keadaan kering",
-          "Tali dengan kayu",
-          "Tali dengan batu"
+          "Sama besar dalam keadaan basah",
+          "Berbeda besar dalam keadaan kering",
+          "Sama besar dalam keadaan kering",
+          "Sangat licin"
         ],
         correctAnswer: 1
       },
       {
-        id: 14,
-        question: "Simpul Anyam Berganda digunakan untuk...",
+        id: 3,
+        question: "Simpul Tenun Berganda/Anyam Rangkap digunakan untuk menyambung dua tali yang...",
         options: [
-          "Menyambung tali berbeda ukuran dalam keadaan basah/licin",
+          "Kering dan kasar",
+          "Sama besar",
+          "Berbeda besar dalam keadaan basah/licin",
+          "Sangat pendek"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: "Simpul Penarik berfungsi untuk...",
+        options: [
+          "Menarik benda berat",
           "Mengikat perahu",
           "Membuat jembatan",
           "Mengikat sepatu"
@@ -1067,295 +957,178 @@ export const quizzes = [
         correctAnswer: 0
       },
       {
-        id: 15,
-        question: "Simpul Kursi (Bowline on a Bight) memiliki berapa lingkaran?",
+        id: 5,
+        question: "Simpul Kelapa digunakan untuk...",
+        options: [
+          "Mengikat buah kelapa",
+          "Membuat tangga",
+          "Mengikat benda bulat seperti tong/drum",
+          "Mengikat perahu"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 6,
+        question: "Simpul Kursi memiliki berapa lingkaran untuk mengangkat orang?",
         options: [
           "1 lingkaran",
           "2 lingkaran (untuk ketiak dan lutut)",
           "3 lingkaran",
-          "Tidak ada lingkaran"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 16,
-        question: "Jerat Tambat (Timber Hitch) digunakan untuk...",
-        options: [
-          "Mengikat sepatu",
-          "Menyeret balok kayu atau memulai ikatan silang",
-          "Mengikat perban",
-          "Membuat tenda"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 17,
-        question: "Cekikan (Frapping) pada ikatan berfungsi untuk...",
-        options: [
-          "Membuka ikatan",
-          "Mengencangkan ikatan agar lebih kuat",
-          "Memperlemah ikatan",
-          "Menghias ikatan"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 18,
-        question: "Simpul Kembar (Fisherman's Knot) cocok untuk menyambung tali yang...",
-        options: [
-          "Kering dan kasar",
-          "Basah dan licin dengan ukuran sama",
-          "Berbeda ukuran",
-          "Sangat tebal"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 19,
-        question: "Simpul Mati sering digunakan untuk...",
-        options: [
-          "Mengikat perban/mitela dalam P3K",
-          "Memancing",
-          "Memanjat tebing",
-          "Berenang"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 20,
-        question: "Ikatan Palang (Square Lashing) digunakan untuk mengikat dua tongkat yang membentuk sudut...",
-        options: [
-          "45 derajat",
-          "60 derajat",
-          "90 derajat (tegak lurus)",
-          "120 derajat"
-        ],
-        correctAnswer: 2
-      }
-    ]
-  },
-  {
-    id: 'quiz-pioneering-2',
-    tkkId: 'pioneering-2',
-    title: 'Quiz Pembuatan Jembatan Improvisasi',
-    questions: [
-      {
-        id: 1,
-        question: "Jembatan Tepi Sederhana adalah jenis jembatan yang...",
-        options: [
-          "Menggunakan tiang penyangga di tengah sungai",
-          "Bertumpu pada tepi sungai tanpa tiang di tengah",
-          "Menggunakan tali baja sebagai penahan utama",
-          "Dibuat khusus untuk kendaraan berat"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 2,
-        question: "Pada konstruksi Jembatan Kuda-kuda, apa fungsi dari 'Balok Lumpur'?",
-        options: [
-          "Sebagai hiasan jembatan",
-          "Tempat berpegangan saat menyeberang",
-          "Mencegah kaki kuda-kuda ambles ke dalam tanah lembek",
-          "Menyambung dua gelagar utama"
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 3,
-        question: "Berapa panjang maksimal gelagar yang disarankan untuk Jembatan Tepi Sederhana?",
-        options: [
-          "2 meter",
-          "4 meter",
-          "6 meter",
-          "10 meter"
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 4,
-        question: "Ikatan yang paling sering digunakan untuk menyambung gelagar jembatan dengan tiang pancang adalah...",
-        options: [
-          "Ikatan Silang",
-          "Ikatan Palang",
-          "Ikatan Canggah",
-          "Ikatan Kaki Tiga"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 5,
-        question: "Fungsi utama 'Angkur' pada pembuatan jembatan gantung adalah...",
-        options: [
-          "Sebagai tempat duduk",
-          "Menahan beban tarikan utama tali jembatan",
-          "Menghias pintu masuk jembatan",
-          "Menyimpan peralatan tukang"
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 6,
-        question: "Jembatan darurat yang menggunakan drum atau tong kosong yang mengapung disebut...",
-        options: [
-          "Jembatan Gantung",
-          "Jembatan Ponton",
-          "Jembatan Balok",
-          "Jembatan Lengkung"
+          "4 lingkaran"
         ],
         correctAnswer: 1
       },
       {
         id: 7,
-        question: "Syarat utama kayu yang digunakan untuk gelagar jembatan adalah...",
+        question: "Simpul Aceh digunakan untuk...",
         options: [
-          "Basah dan lentur",
-          "Kering, kuat, dan lurus",
-          "Berlubang dan ringan",
-          "Pendek dan bercabang"
+          "Mengikat perahu",
+          "Mengikat benda yang akan ditarik",
+          "Membuat jembatan",
+          "Mengikat sepatu"
         ],
         correctAnswer: 1
       },
       {
         id: 8,
-        question: "Jembatan Monyet biasanya terdiri dari...",
+        question: "Simpul Mati digunakan untuk menyambung dua tali yang...",
         options: [
-          "Jalan aspal yang lebar",
-          "Satu atau dua tali utama untuk meniti",
-          "Papan kayu yang disusun rapat",
-          "Beton bertulang"
+          "Berbeda ukuran",
+          "Sama besar dalam keadaan kering dan tidak licin",
+          "Basah dan licin",
+          "Sangat panjang"
         ],
         correctAnswer: 1
       },
       {
         id: 9,
-        question: "Hal terpenting dalam perawatan jembatan improvisasi adalah...",
+        question: "Jerat Rangkap digunakan untuk...",
         options: [
-          "Mengecat jembatan setiap hari",
-          "Memeriksa kekencangan ikatan secara berkala",
-          "Memberi atap pada jembatan",
-          "Menambah hiasan bendera"
+          "Membuat tangga dari tali dan mencabut patok",
+          "Mengikat perahu",
+          "Membuat jembatan",
+          "Mengikat benda bulat"
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 10,
-        question: "Alat bantu keselamatan saat menyeberang sungai deras tanpa jembatan adalah...",
+        question: "Jerat Tukang Kayu digunakan untuk...",
         options: [
-          "Payung",
-          "Tali Jiwa (Safety Line)",
-          "Senter",
-          "Kompas"
+          "Membuat tangga",
+          "Ikat permulaan pada balok",
+          "Mengikat perahu",
+          "Membuat jembatan"
         ],
         correctAnswer: 1
-      },,
+      },
       {
         id: 11,
-        question: "Jembatan Tepi Sederhana dibuat dengan cara...",
+        question: "Jerat Memperpendek Tali berfungsi untuk...",
         options: [
-          "Meletakkan satu batang kayu melintang",
-          "Mengikat banyak tali",
-          "Membuat menara",
-          "Menggali tanah"
+          "Memotong tali",
+          "Memperpendek tali yang terlalu panjang tanpa memotong",
+          "Menyambung tali",
+          "Mengikat tali pada pohon"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
       },
       {
         id: 12,
-        question: "Jembatan Kuda-kuda menggunakan konstruksi berbentuk...",
+        question: "Jerat Mata Kait digunakan untuk...",
         options: [
-          "Segitiga untuk kekuatan",
-          "Lingkaran",
-          "Persegi panjang",
-          "Oval"
+          "Mengikat perahu",
+          "Mengangkat benda dengan bantuan katrol",
+          "Membuat tangga",
+          "Mengikat sepatu"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
       },
       {
         id: 13,
-        question: "Jembatan Bambu Satu terdiri dari berapa batang bambu utama?",
+        question: "Jerat Tiang Rangkap digunakan untuk...",
         options: [
-          "1 batang sebagai pijakan",
-          "2 batang",
-          "5 batang",
-          "10 batang"
+          "Membuat jembatan",
+          "Menambatkan perahu atau hewan pada pohon/patok",
+          "Mengangkat benda",
+          "Membuat tangga"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
       },
       {
         id: 14,
-        question: "Jembatan Tarik menggunakan sistem...",
+        question: "Jerat Tangga digunakan untuk...",
         options: [
-          "Tali yang ditarik untuk menyeberang",
-          "Roda",
-          "Motor",
-          "Baling-baling"
+          "Mengikat perahu",
+          "Membuat tangga dari tali",
+          "Mengangkat benda",
+          "Mengikat sepatu"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
       },
       {
         id: 15,
-        question: "Kekuatan jembatan darurat tergantung pada...",
+        question: "Jerat Sauh digunakan untuk...",
         options: [
-          "Warna tali",
-          "Cuaca",
-          "Kualitas ikatan dan bahan",
-          "Waktu pembuatan"
+          "Membuat tangga",
+          "Mengikat cincin besi/cincin kait",
+          "Mengangkat benda",
+          "Mengikat perahu"
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 16,
-        question: "Sebelum digunakan, jembatan darurat harus...",
+        question: "Ikat Belit Pokok digunakan untuk mengikat dua buah benda yang...",
         options: [
-          "Dicat",
-          "Diuji kekuatannya dengan beban",
-          "Diberi nama",
-          "Difoto"
+          "Bersilangan",
+          "Disambung lurus atau sejajar",
+          "Tegak lurus",
+          "Berbentuk segitiga"
         ],
         correctAnswer: 1
       },
       {
         id: 17,
-        question: "Jembatan improvisasi sebaiknya dibuat di...",
+        question: "Ikat Belit Silang digunakan untuk menyambung dua buah benda yang...",
         options: [
-          "Tengah sungai deras",
-          "Bagian sungai yang sempit dan stabil",
-          "Tempat terdalam",
-          "Asal saja"
+          "Sejajar",
+          "Tegak lurus",
+          "Melengkung",
+          "Berbentuk lingkaran"
         ],
         correctAnswer: 1
       },
       {
         id: 18,
-        question: "Tiang penyangga jembatan harus ditanam...",
+        question: "Ikat Belit Puntir digunakan untuk...",
         options: [
-          "Di pasir",
-          "Kokoh dengan kedalaman cukup",
-          "Di lumpur",
-          "Di atas rumput"
+          "Membuat tangga",
+          "Mengeraskan ikatan atau klem penjepit",
+          "Mengikat perahu",
+          "Membuat jembatan"
         ],
         correctAnswer: 1
       },
       {
         id: 19,
-        question: "Jembatan kaki delapan memiliki berapa tiang penyangga utama?",
+        question: "Ikat Belit Peneguh digunakan untuk...",
         options: [
-          "4 tiang",
-          "6 tiang",
-          "8 tiang",
-          "10 tiang"
+          "Mengikat perahu",
+          "Memperkuat patok peneguh (dua buah patok atau lebih)",
+          "Membuat tangga",
+          "Mengangkat benda"
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 20,
-        question: "Safety factor pada jembatan darurat minimal harus...",
+        question: "Jerat Penuh Rangkap digunakan untuk...",
         options: [
-          "1:1",
-          "2:1 atau lebih untuk keamanan",
-          "0.5:1",
-          "Tidak perlu"
+          "Membuat tangga",
+          "Mengaitkan katrol pada patok",
+          "Mengikat perahu",
+          "Membuat jembatan"
         ],
         correctAnswer: 1
       }
@@ -1475,7 +1248,7 @@ export const quizzes = [
           "Tempat tidur"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Gapura perkemahan berfungsi sebagai...",
@@ -1589,229 +1362,456 @@ export const quizzes = [
     ]
   },
   {
+    id: 'quiz-pioneering-3',
+    tkkId: 'pioneering-3',
+    title: 'Quiz Pembuatan Perkemahan',
+    questions: [
+      {
+        id: 1,
+        question: "Lebar Sengkuap Satu Banjar Tiang kurang lebih...",
+        options: [
+          "2 meter",
+          "3 meter",
+          "4 meter",
+          "5 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Panjang petak Sengkuap yang ideal adalah...",
+        options: [
+          "1-2 meter",
+          "2-4 meter",
+          "3-5 meter",
+          "4-6 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Tinggi tiang Sengkuap Satu Banjar kurang lebih...",
+        options: [
+          "2 meter",
+          "2,5 meter",
+          "3 meter",
+          "3,5 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Panjang kasau Sengkuap adalah...",
+        options: [
+          "3,25 meter",
+          "4,25 meter",
+          "5,25 meter",
+          "6,25 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Jarak pemasangan kasau pada Sengkuap adalah...",
+        options: [
+          "0,3 meter",
+          "0,5 meter",
+          "0,7 meter",
+          "1 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Tinggi tiang depan Sengkuap Dua Banjar Tiang kurang lebih...",
+        options: [
+          "2 meter",
+          "2,5 meter",
+          "3 meter",
+          "3,5 meter"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: "Tinggi tiang bale-bale bagian depan adalah...",
+        options: [
+          "0,40 meter",
+          "0,50 meter",
+          "0,60 meter",
+          "0,70 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Kebutuhan Bambu Bitung untuk Sengkuap 11M/3 Petak (dengan keamanan 10%) adalah...",
+        options: [
+          "15 Batang",
+          "18 Batang",
+          "20 Batang",
+          "22 Batang"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 9,
+        question: "Kebutuhan Bambu Kaso untuk Sengkuap 11M/3 Petak (dengan keamanan 10%) adalah...",
+        options: [
+          "40 Batang",
+          "44 Batang",
+          "46 Batang",
+          "50 Batang"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 10,
+        question: "Kebutuhan Atap/Welit untuk Sengkuap 11M/3 Petak (dengan keamanan 10%) adalah...",
+        options: [
+          "300 Lembar",
+          "350 Lembar",
+          "396 Lembar",
+          "400 Lembar"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 11,
+        question: "Lebar Barak Tionghoa kurang lebih...",
+        options: [
+          "3 meter",
+          "4 meter",
+          "5 meter",
+          "6 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Tinggi Barak Tionghoa adalah...",
+        options: [
+          "2 meter",
+          "2,5 meter",
+          "3 meter",
+          "3,5 meter"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 13,
+        question: "Jarak antar tiang Barak Tionghoa adalah...",
+        options: [
+          "1 meter",
+          "2 meter",
+          "3 meter",
+          "4 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Tinggi ander pada Barak Biasa adalah...",
+        options: [
+          "0,5 meter",
+          "1 meter",
+          "1,5 meter",
+          "2 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Menara tinjau berkaki tiga menggunakan bambu betung panjang kurang lebih...",
+        options: [
+          "6 meter",
+          "7 meter",
+          "8 meter",
+          "9 meter"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 16,
+        question: "Kebutuhan bambu besar untuk Menara berkaki tiga adalah...",
+        options: [
+          "2 potong",
+          "3 potong (5,5 M)",
+          "4 potong",
+          "5 potong"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Kebutuhan tali 6 M untuk Menara berkaki tiga adalah...",
+        options: [
+          "10 gulung",
+          "12 gulung",
+          "14 gulung",
+          "16 gulung"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Kebutuhan bambu besar untuk Menara berkaki empat adalah...",
+        options: [
+          "6 potong",
+          "8 potong (3 M)",
+          "10 potong",
+          "12 potong"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Kebutuhan tali 6 M untuk Menara berkaki empat adalah...",
+        options: [
+          "30 gulung",
+          "36 gulung",
+          "42 gulung",
+          "48 gulung"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 20,
+        question: "Kedalaman lubang untuk menempatkan kaki menara kurang lebih...",
+        options: [
+          "0,5 meter",
+          "1 meter",
+          "1,5 meter",
+          "2 meter"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
     id: 'quiz-pioneering-4',
     tkkId: 'pioneering-4',
     title: 'Quiz Bekal Air dan Listrik',
     questions: [
       {
         id: 1,
-        question: "Bahan kimia yang biasa digunakan untuk membunuh kuman dalam proses penjernihan air adalah...",
+        question: "Air permukaan meliputi...",
         options: [
-          "Tawas",
-          "Pasir",
-          "Kaporit",
-          "Arang"
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 2,
-        question: "Satuan untuk mengukur Tegangan Listrik adalah...",
-        options: [
-          "Ampere",
-          "Watt",
-          "Volt",
-          "Ohm"
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 3,
-        question: "Alat ukur serbaguna yang dapat digunakan untuk mengukur arus, tegangan, dan tahanan listrik disebut...",
-        options: [
-          "Avometer (Multitester)",
-          "Barometer",
-          "Termometer",
-          "Speedometer"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 4,
-        question: "Satuan untuk mengukur Daya Listrik adalah...",
-        options: [
-          "Volt",
-          "Watt",
-          "Ampere",
-          "Joule"
+          "Mata air dan sumur",
+          "Rawa, Danau, Sungai, Waduk",
+          "Sumur bor dan artetis",
+          "Hanya sungai"
         ],
         correctAnswer: 1
       },
       {
-        id: 5,
-        question: "Satuan untuk mengukur Arus Listrik adalah...",
+        id: 2,
+        question: "Sumur Artetis biasa terdapat di...",
         options: [
-          "Ohm",
-          "Volt",
-          "Ampere",
-          "Hertz"
+          "Dataran rendah",
+          "Pegunungan batu",
+          "Pantai",
+          "Rawa"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Sumur Bor baik di tanah yang...",
+        options: [
+          "Berpasir",
+          "Berbatu",
+          "Kohesif (campuran tanah liat dan pasir)",
+          "Berlumpur"
         ],
         correctAnswer: 2
       },
       {
-        id: 6,
-        question: "Sumber listrik darurat yang praktis dibawa ke lapangan adalah...",
+        id: 4,
+        question: "Pada air dangkal, bekas galian diisi dengan...",
         options: [
-          "Gardu Induk",
-          "Panel Surya Portable atau Genset Kecil",
-          "Kincir Angin Raksasa",
-          "Bendungan Air"
+          "Tanah",
+          "Pasir",
+          "Koral",
+          "Semen"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 5,
+        question: "Alat pengapung untuk pompa air di waduk/danau dibuat dari...",
+        options: [
+          "Styrofoam",
+          "Balok dolken atau drum-drum",
+          "Plastik",
+          "Karet"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Bahan penjernih air alami meliputi...",
+        options: [
+          "Tawas dan kaporit",
+          "Pasir, ijuk, batu, kerikil",
+          "Garam dan soda",
+          "Kapur dan phenol"
         ],
         correctAnswer: 1
       },
       {
         id: 7,
-        question: "Cara sederhana menjernihkan air keruh di alam bebas adalah dengan...",
+        question: "Proses pengendapan dengan bahan kimia menggunakan...",
         options: [
-          "Menjemurnya di bawah matahari",
-          "Menyaring menggunakan lapisan pasir, arang, dan kerikil",
-          "Mengaduknya terus menerus",
-          "Memberi pewarna makanan"
+          "Garam dapur",
+          "Tawas",
+          "Soda",
+          "Kapur tohor"
         ],
         correctAnswer: 1
       },
       {
         id: 8,
-        question: "Fungsi arang (karbon aktif) dalam penyaringan air adalah...",
+        question: "Penyaringan dengan pasir lambat dapat menghilangkan...",
         options: [
-          "Membunuh bakteri",
-          "Menyerap bau, rasa, dan racun",
-          "Menyaring kotoran besar",
-          "Mendinginkan air"
+          "Bakteri",
+          "Virus",
+          "Sel-sel amuba",
+          "Logam berat"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
       },
       {
         id: 9,
-        question: "Air hasil penyaringan sederhana sebaiknya diperlakukan bagaimana sebelum diminum?",
+        question: "Pembunuhan kuman secara ilmu alam dilakukan dengan...",
         options: [
-          "Langsung diminum",
-          "Direbus hingga mendidih terlebih dahulu",
-          "Dibekukan menjadi es",
-          "Dicampur dengan tanah"
+          "Chlor",
+          "Dipanaskan sampai mendidih",
+          "Tawas",
+          "Kaporit"
         ],
         correctAnswer: 1
       },
       {
         id: 10,
-        question: "Bahaya utama instalasi listrik di perkemahan saat hujan adalah...",
+        question: "Listrik terjadi karena gesekan, contohnya...",
         options: [
-          "Listrik menjadi lebih hemat",
-          "Risiko korsleting dan sengatan listrik (kesetrum)",
-          "Lampu menjadi lebih terang",
-          "Kabel menjadi kaku"
+          "Generator",
+          "Ebonit digosok bulu kucing",
+          "Accumulator",
+          "Dinamo"
         ],
         correctAnswer: 1
-      },,
+      },
       {
         id: 11,
-        question: "Sumber air terbaik untuk perkemahan adalah...",
+        question: "Simbol tegangan listrik adalah...",
         options: [
-          "Air sungai keruh",
-          "Mata air jernih",
-          "Air got",
-          "Air laut"
+          "I",
+          "E",
+          "R",
+          "P"
         ],
         correctAnswer: 1
       },
       {
         id: 12,
-        question: "Metode filtrasi air menggunakan lapisan...",
+        question: "Satuan arus listrik adalah...",
         options: [
-          "Pasir, arang, dan kerikil",
-          "Kapas",
-          "Kertas",
-          "Daun"
+          "Volt",
+          "Amper",
+          "Ohm",
+          "Watt"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
       },
       {
         id: 13,
-        question: "Air harus direbus minimal berapa menit untuk disinfeksi?",
+        question: "Simbol tahanan listrik adalah...",
         options: [
-          "1 menit",
-          "3 menit",
-          "5-10 menit",
-          "30 menit"
+          "E",
+          "I",
+          "R",
+          "P"
         ],
         correctAnswer: 2
       },
       {
         id: 14,
-        question: "Tablet penjernih air mengandung...",
+        question: "Satuan daya listrik adalah...",
         options: [
-          "Gula",
-          "Klorin atau iodine",
-          "Garam",
-          "Pewarna"
+          "Volt",
+          "Amper",
+          "Ohm",
+          "Watt"
         ],
-        correctAnswer: 1
+        correctAnswer: 3
       },
       {
         id: 15,
-        question: "Genset mengubah energi...",
+        question: "Avometer dapat mengukur...",
         options: [
-          "Listrik menjadi mekanik",
-          "Mekanik menjadi listrik",
-          "Cahaya menjadi listrik",
-          "Suara menjadi listrik"
+          "Hanya arus",
+          "Arus, tegangan, dan tahanan",
+          "Hanya tegangan",
+          "Hanya tahanan"
         ],
         correctAnswer: 1
       },
       {
         id: 16,
-        question: "Instalasi seri menyebabkan...",
+        question: "Watt meter digunakan untuk mengukur...",
         options: [
-          "Jika satu lampu mati, semua mati",
-          "Semua tetap nyala",
-          "Lampu lebih terang",
-          "Hemat listrik"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 17,
-        question: "Instalasi paralel menyebabkan...",
-        options: [
-          "Jika satu mati, yang lain tetap nyala",
-          "Semua mati",
-          "Konslet",
-          "Hemat kabel"
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 18,
-        question: "Multimeter digunakan untuk mengukur...",
-        options: [
-          "Berat",
-          "Panjang",
-          "Tegangan, arus, dan hambatan listrik",
-          "Suhu"
+          "Arus",
+          "Tegangan",
+          "Daya listrik",
+          "Tahanan"
         ],
         correctAnswer: 2
       },
       {
-        id: 19,
-        question: "Test pen digunakan untuk...",
+        id: 17,
+        question: "Generator satu phass, dua phass, dan tiga phass termasuk pembangkit listrik...",
         options: [
-          "Mengecek ada tidaknya tegangan listrik",
-          "Menulis",
-          "Menggambar",
-          "Mengukur panjang"
+          "DC",
+          "AC",
+          "Hybrid",
+          "Solar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Stator adalah bagian generator yang...",
+        options: [
+          "Bergerak",
+          "Tidak bergerak",
+          "Berputar cepat",
+          "Bisa dilepas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Dalam merawat generator, harus...",
+        options: [
+          "Melumasi bantalan-bantalan",
+          "Menambah air",
+          "Mengganti oli setiap hari",
+          "Membersihkan dengan air"
         ],
         correctAnswer: 0
       },
       {
         id: 20,
-        question: "Hukum Ohm menyatakan...",
+        question: "Saat mengoperasikan generator, beban harus...",
         options: [
-          "V = I × R",
-          "V = I + R",
-          "V = I - R",
-          "V = I / R"
+          "Dipasang dulu baru mesin dinyalakan",
+          "Dilepas dulu, baru masukan setelah normal",
+          "Dipasang bersamaan",
+          "Tidak perlu dilepas"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
       }
     ]
   },
@@ -1929,7 +1929,7 @@ export const quizzes = [
           "Longgar dan nyaman"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Teknik dasar panjat tebing menggunakan prinsip...",
@@ -2156,7 +2156,7 @@ export const quizzes = [
           "Kecil dan tersembunyi"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Rappelling adalah teknik...",
@@ -2383,7 +2383,7 @@ export const quizzes = [
           "Untuk berpegangan teman"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Pelintasan kering adalah teknik melintas...",
@@ -2610,7 +2610,7 @@ export const quizzes = [
           "Ban dalam mobil bekas"
         ],
         correctAnswer: 2
-      },,
+      }, ,
       {
         id: 11,
         question: "Pelintasan basah adalah teknik melintas...",
@@ -2837,7 +2837,7 @@ export const quizzes = [
           "Merebusnya dengan air garam"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Tumbuhan yang dapat dimakan di hutan adalah...",
@@ -3064,7 +3064,7 @@ export const quizzes = [
           "Dijemur sampai kering"
         ],
         correctAnswer: 0
-      },,
+      }, ,
       {
         id: 11,
         question: "Tanda jejak harimau berbeda dengan kucing karena...",
@@ -3291,7 +3291,7 @@ export const quizzes = [
           "Air sungai"
         ],
         correctAnswer: 0
-      },,
+      }, ,
       {
         id: 11,
         question: "Prioritas utama survival di hutan adalah...",
@@ -3518,7 +3518,7 @@ export const quizzes = [
           "Tiram"
         ],
         correctAnswer: 2
-      },,
+      }, ,
       {
         id: 11,
         question: "Bahaya utama survival di rawa adalah...",
@@ -3745,7 +3745,7 @@ export const quizzes = [
           "Transparan dan mudah pecah"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Survival kit harus berisi minimal...",
@@ -3972,7 +3972,7 @@ export const quizzes = [
           "Menghitung jumlah pohon"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Sanjak (tracking) adalah kemampuan...",
@@ -4199,7 +4199,7 @@ export const quizzes = [
           "Menghabiskan anggaran"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Fase pra-bencana meliputi...",
@@ -4426,7 +4426,7 @@ export const quizzes = [
           "Ditarik kakinya"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "Langkah pertama PPGD: Primary Survey dimulai dengan...",
@@ -4653,7 +4653,7 @@ export const quizzes = [
           "Zigzag"
         ],
         correctAnswer: 1
-      },,
+      }, ,
       {
         id: 11,
         question: "HT (Handy Talky) adalah...",
@@ -4990,6 +4990,3431 @@ export const quizzes = [
           "Tidak perlu bumbu"
         ],
         correctAnswer: 0
+      }
+    ]
+  },
+  {
+    id: 'quiz-survival-1',
+    tkkId: 'survival-1',
+    title: 'Quiz Jenis-Jenis Tumbuhan',
+    questions: [
+      {
+        id: 1,
+        question: "Tumbuhan Api-api (Avicennia alba) yang tumbuh di rawa laut, bagian yang dapat dimakan adalah...",
+        options: [
+          "Akar",
+          "Daun yang muda",
+          "Batang",
+          "Bunga"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Tumbuhan yang buahnya dapat dimakan mentah dan rasanya seperti jambu air adalah...",
+        options: [
+          "Pidada (Sonneratia)",
+          "Jeruk Rawa",
+          "Tanjau",
+          "Druju"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 3,
+        question: "Bagian kelapa yang dapat dimakan selain daging buah adalah...",
+        options: [
+          "Akar",
+          "Kulit luar",
+          "Umbut muda (hati pohon)",
+          "Sabut"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: "Tumbuhan yang dapat menghasilkan air langsung dengan cara dipotong pangkalnya adalah...",
+        options: [
+          "Bambu",
+          "Rotan Cincin",
+          "Pisang",
+          "Kelapa"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Untuk mengambil air dari ruas bambu, yang harus dilakukan adalah...",
+        options: [
+          "Membakar bambu",
+          "Membuat lubang di bagian atas atau bawah ruas bambu",
+          "Memotong seluruh batang",
+          "Menggali akar bambu"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Cara mengambil air dari bonggol pisang adalah...",
+        options: [
+          "Membakar bonggol",
+          "Tebang pohon pisang, buat lubang di bonggol, tunggu air terkumpul",
+          "Memeras daun pisang",
+          "Menggali akar pisang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Buah-buahan yang banyak mengandung air antara lain...",
+        options: [
+          "Mangga, Manggis, Jambu Air, Kedondong, Langsat",
+          "Kacang, Jagung, Padi",
+          "Durian kering, Salak kering",
+          "Kelapa tua saja"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 8,
+        question: "Tumbuhan Sagu yang tumbuh di rawa sungai, bagian yang dimanfaatkan adalah...",
+        options: [
+          "Daun untuk sayur",
+          "Pati batang untuk tepung sagu",
+          "Bunga untuk obat",
+          "Akar untuk kayu bakar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Tumbuhan Aren dapat menghasilkan...",
+        options: [
+          "Hanya buah saja",
+          "Kolang-kaling dari buah dan air nira dari tangkai bunga",
+          "Hanya daun untuk atap",
+          "Hanya kayu untuk bangunan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Rebung adalah tunas muda dari tumbuhan...",
+        options: [
+          "Kelapa",
+          "Bambu",
+          "Rotan",
+          "Nipah"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-survival-2',
+    tkkId: 'survival-2',
+    title: 'Quiz Jenis-Jenis Binatang',
+    questions: [
+      {
+        id: 1,
+        question: "Binatang darat yang dapat dimakan dalam kondisi survival antara lain...",
+        options: [
+          "Ular, Tupai, Monyet, Babi, Kelinci",
+          "Hanya ayam peliharaan",
+          "Tidak ada yang bisa dimakan",
+          "Hanya tikus saja"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 2,
+        question: "Binatang air yang dapat dimakan dalam survival antara lain...",
+        options: [
+          "Hanya ikan laut",
+          "Ikan, Siput, Kepiting, Kerang",
+          "Tidak ada",
+          "Hanya ganggang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Jenis perangkap untuk binatang darat adalah...",
+        options: [
+          "Hanya jaring saja",
+          "Perangkap kurungan, getah, jaring kail, kaki rusa, puyuh",
+          "Tidak ada perangkap",
+          "Hanya tombak"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Alat untuk menangkap ikan antara lain...",
+        options: [
+          "Kail, Tombak, Sumpit, Panah, Bubu, Jala",
+          "Hanya tangan kosong",
+          "Hanya jaring besar",
+          "Tidak bisa menangkap ikan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 5,
+        question: "Cara membuat api tanpa korek api menggunakan lensa cembung adalah...",
+        options: [
+          "Memukul-mukul lensa",
+          "Memanfaatkan sinar matahari yang difokuskan",
+          "Menggosok lensa dengan batu",
+          "Merendam lensa dalam air"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Cara membuat api dengan gesekan bambu adalah...",
+        options: [
+          "Membakar bambu langsung",
+          "Menggosokkan bambu dengan bambu hingga panas dan timbul api",
+          "Merendam bambu dalam minyak",
+          "Memukul bambu dengan batu"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Alat membuat api yang menggunakan busur dan gundik adalah...",
+        options: [
+          "Bow drill (gesekan kayu dengan bantuan busur)",
+          "Korek api biasa",
+          "Pemantik gas",
+          "Lilin"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 8,
+        question: "Perangkap puyuh biasanya digunakan untuk menangkap...",
+        options: [
+          "Ikan besar",
+          "Burung kecil dan hewan kecil",
+          "Buaya",
+          "Harimau"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Bubu adalah alat untuk menangkap...",
+        options: [
+          "Burung",
+          "Ikan",
+          "Monyet",
+          "Babi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Cara membuat api dengan gesekan batu adalah...",
+        options: [
+          "Menggosokkan dua batu keras hingga keluar percikan api",
+          "Melempar batu ke api",
+          "Merendam batu dalam minyak",
+          "Membakar batu langsung"
+        ],
+        correctAnswer: 0
+      }
+    ]
+  },
+  {
+    id: 'quiz-survival-3',
+    tkkId: 'survival-3',
+    title: 'Quiz Survival Hutan Gunung',
+    questions: [
+      {
+        id: 1,
+        question: "Prinsip 'HARUS HIDUP' dalam survival, huruf 'H' pertama berarti...",
+        options: [
+          "Hadapi setiap kesukaran dengan tenang dan bijaksana",
+          "Hindari semua bahaya",
+          "Harus lari cepat",
+          "Hanya diam saja"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 2,
+        question: "Dalam prinsip 'HARUS HIDUP', huruf 'A' berarti...",
+        options: [
+          "Air harus banyak",
+          "Akal yang sehat adalah senjata paling ampuh",
+          "Api harus menyala",
+          "Aman selalu"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Cara membuat sinyal darurat dengan api dan asap adalah...",
+        options: [
+          "Membuat api kecil saja",
+          "Membuat api dan asap tebal untuk menarik perhatian",
+          "Memadamkan api",
+          "Tidak perlu api"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Cermin atau benda mengkilat dapat digunakan untuk...",
+        options: [
+          "Bercermin saja",
+          "Memantulkan cahaya matahari sebagai sinyal (heliograf)",
+          "Memasak",
+          "Menyimpan air"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Tumbuhan yang dapat dimakan di hutan antara lain...",
+        options: [
+          "Semua tumbuhan pasti aman",
+          "Melinjo, Sukun, Nangka, Durian, Petai, Jambu Klutuk",
+          "Tidak ada yang bisa dimakan",
+          "Hanya rumput"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Tumbuhan yang BERACUN dan tidak boleh dimakan mentah adalah...",
+        options: [
+          "Pisang",
+          "Kelapa",
+          "Pangi/Picung (mengandung asam sianida)",
+          "Mangga"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: "Cara mencari air di pegunungan adalah...",
+        options: [
+          "Menggali bekas aliran sungai, peras lumut basah, kumpulkan salju",
+          "Tidak ada air di gunung",
+          "Hanya minum air hujan",
+          "Tidak perlu air"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 8,
+        question: "Saat menyusuri sungai dalam survival, yang harus diwaspadai adalah...",
+        options: [
+          "Tidak ada bahaya",
+          "Banjir bandang, buaya, arus deras",
+          "Hanya ikan kecil",
+          "Burung"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Jika terjebak di lumpur hidup (quicksand), yang harus dilakukan adalah...",
+        options: [
+          "Berdiri tegak dan melompat",
+          "Tiarap dan bergerak perlahan seperti berenang di atas lumpur",
+          "Berteriak keras",
+          "Menggali lumpur"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Tumbuhan berbahaya yang getahnya dapat menyebabkan kebutaan adalah...",
+        options: [
+          "Pisang",
+          "Bakau Putih",
+          "Kelapa",
+          "Bambu"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-survival-4',
+    tkkId: 'survival-4',
+    title: 'Quiz Survival Rawa Laut',
+    questions: [
+      {
+        id: 1,
+        question: "Alat yang dapat digunakan untuk mengapung di laut antara lain...",
+        options: [
+          "Papan, Drum kosong, Kayu mengapung, Rakit, Pelampung",
+          "Hanya batu",
+          "Tidak ada",
+          "Hanya tali"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 2,
+        question: "Yang perlu diperhatikan saat survival di laut adalah...",
+        options: [
+          "Tidak perlu apa-apa",
+          "Cermin untuk sinyal, kaos kaki tutup kaki, hindari luka (bau darah menarik ikan buas)",
+          "Hanya tidur saja",
+          "Berenang terus"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Bahaya binatang buas di laut antara lain...",
+        options: [
+          "Hanya ikan kecil",
+          "Ikan Hiu, Ikan Babo, Sotong raksasa, Ikan Pari",
+          "Tidak ada bahaya",
+          "Hanya ubur-ubur kecil"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Tanda-tanda adanya daratan adalah...",
+        options: [
+          "Tidak ada tanda",
+          "Berkumpulnya awan, asap/api, mercusuar, perahu nelayan, burung camar",
+          "Hanya angin kencang",
+          "Ombak besar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Tumbuhan rawa laut yang daun mudanya dapat dimakan setelah direbus adalah...",
+        options: [
+          "Kelapa",
+          "Api-api (Avicennia alba)",
+          "Bambu",
+          "Rotan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Tumbuhan Nipah yang tumbuh di rawa, bagian yang dapat dimakan adalah...",
+        options: [
+          "Akar saja",
+          "Daging buah dan nira dari tangkai bunga",
+          "Batang saja",
+          "Tidak ada yang bisa dimakan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Cara membuat tepung sagu dari pohon sagu adalah...",
+        options: [
+          "Membakar pohon",
+          "Tebang pohon, belah, cincang isi batang, tumbuk halus, saring",
+          "Memetik daun",
+          "Menggali akar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Binatang yang dapat dimakan di rawa-rawa antara lain...",
+        options: [
+          "Buaya, Biawak, Ular, Burung, Kodok, Kepiting, Kerang",
+          "Tidak ada",
+          "Hanya rumput",
+          "Hanya air"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 9,
+        question: "Cara mengolah reptil berkulit keras seperti buaya dan biawak adalah...",
+        options: [
+          "Dibakar langsung dengan kulit",
+          "Dibalik (terlentang) agar mudah membuka perut dan memotong daging",
+          "Dimakan mentah",
+          "Dibuang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Cara mengolah ular adalah...",
+        options: [
+          "Dibakar dengan kulit",
+          "Dikuliti (skinning) mulai dari bagian kepala",
+          "Dimakan mentah",
+          "Tidak bisa diolah"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-survival-5',
+    tkkId: 'survival-5',
+    title: 'Quiz Survival Kit',
+    questions: [
+      {
+        id: 1,
+        question: "Survival kit sebaiknya disimpan di...",
+        options: [
+          "Di dalam tas besar (carrier)",
+          "Di badan (saku/ikat pinggang) dalam wadah kedap air",
+          "Di rumah saja",
+          "Tidak perlu dibawa"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Wadah survival kit sebaiknya...",
+        options: [
+          "Kaleng tertutup, kedap air, bagian dalam mengkilat (bisa jadi cermin)",
+          "Kardus biasa",
+          "Plastik tipis",
+          "Tidak perlu wadah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 3,
+        question: "Cara membuat korek api kedap air adalah...",
+        options: [
+          "Dibungkus koran",
+          "Masukkan ke tabung plastik atau tetesi kepala korek dengan lilin",
+          "Direndam air",
+          "Tidak bisa dibuat kedap air"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Fungsi suryakanta (kaca pembesar) dalam survival kit adalah...",
+        options: [
+          "Hanya untuk membaca",
+          "Menimbulkan api dengan sinar matahari dan mendeteksi duri di kulit",
+          "Hiasan saja",
+          "Tidak ada fungsi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Kail kecil dalam survival kit lebih baik karena...",
+        options: [
+          "Lebih murah",
+          "Dapat menangkap ikan kecil dan besar, sedangkan kail besar hanya ikan besar",
+          "Lebih ringan saja",
+          "Tidak ada bedanya"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Kompas yang terbaik untuk survival kit adalah...",
+        options: [
+          "Kompas digital",
+          "Kompas dengan cairan, tidak bocor, tidak ada gelembung udara",
+          "Kompas mainan",
+          "Tidak perlu kompas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Fungsi kawat jerat dalam survival kit adalah...",
+        options: [
+          "Hanya hiasan",
+          "Untuk jerat binatang, memasak, dan berbagai kegunaan lain",
+          "Tidak ada fungsi",
+          "Hanya untuk mengikat tas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Obat Analgetik dalam survival kit berfungsi untuk...",
+        options: [
+          "Obat tidur",
+          "Penahan sakit (sakit kepala, gigi, otot, terkilir)",
+          "Obat diare",
+          "Obat alergi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Kalium Permanganat (PK) dalam survival kit dapat digunakan untuk...",
+        options: [
+          "Makanan",
+          "Sterilisasi air, antiseptik, membasmi jamur",
+          "Obat tidur",
+          "Tidak ada fungsi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Kondom dalam survival kit dapat digunakan sebagai...",
+        options: [
+          "Hiasan",
+          "Tempat air yang dapat menampung 1 liter",
+          "Tidak ada fungsi",
+          "Hanya untuk fungsi aslinya"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-survival-6',
+    tkkId: 'survival-6',
+    title: 'Quiz Sanjak (Mengesan Jejak)',
+    questions: [
+      {
+        id: 1,
+        question: "Jejak adalah...",
+        options: [
+          "Tanda-tanda yang dibuat manusia, binatang, benda bergerak (sengaja/tidak sengaja)",
+          "Hanya bekas kaki manusia",
+          "Hanya bekas ban mobil",
+          "Tidak ada definisi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 2,
+        question: "Mengesan jejak adalah...",
+        options: [
+          "Membuat jejak baru",
+          "Mengikuti, mengetahui, mencari seseorang melalui tanda/bekas/bau",
+          "Menghapus jejak",
+          "Membuat peta"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Tapak adalah...",
+        options: [
+          "Bekas/jejak yang menyerupai bentuk benda sebenarnya (kaki, sepatu, tangan)",
+          "Hanya bekas kaki",
+          "Hanya bekas tangan",
+          "Tidak ada definisi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 4,
+        question: "Regu Sanjak minimal terdiri dari...",
+        options: [
+          "2 orang",
+          "5 orang",
+          "20 orang",
+          "100 orang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Syarat menjadi pengesan jejak antara lain...",
+        options: [
+          "Hanya kuat fisik",
+          "Panca indera baik, mengerti alam, sabar, teliti, daya ingat tinggi",
+          "Hanya bisa lari cepat",
+          "Tidak perlu syarat"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Saat mencari jejak, yang perlu diperhatikan antara lain...",
+        options: [
+          "Hanya tanah saja",
+          "Tumbuhan, serasah, injakan, binatang, bunyi, bau, tinjauan atas dan bawah",
+          "Hanya langit",
+          "Tidak perlu memperhatikan apapun"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Jejak langkah lari dapat dikenali dari...",
+        options: [
+          "Jarak tapak jauh, ujung kaki lebih dalam, lemparan tanah ke belakang",
+          "Sama dengan langkah biasa",
+          "Tidak ada perbedaan",
+          "Hanya dari warna tanah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 8,
+        question: "Jejak pembawa beban dapat dikenali dari...",
+        options: [
+          "Jarak tapak dekat, telapak melebar, tapak lebih dalam di tumit",
+          "Sama dengan langkah biasa",
+          "Tidak ada perbedaan",
+          "Hanya dari ukuran sepatu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 9,
+        question: "Cara menentukan usia jejak dari semut adalah...",
+        options: [
+          "Tidak bisa",
+          "Jika semut berkerumun di sisa makanan, usia sekitar 1-7 hari",
+          "Semut tidak ada hubungannya",
+          "Hanya tebakan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Jika jejak kaki manusia di lumpur dan air belum jernih, usia jejak diperkirakan...",
+        options: [
+          "Lebih dari 1 hari",
+          "Belum 1 jam",
+          "1 minggu",
+          "1 bulan"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-pba-1',
+    tkkId: 'pba-1',
+    title: 'Quiz Manajemen Penanggulangan Bencana',
+    questions: [
+      {
+        id: 1,
+        question: "Penanggulangan bencana adalah kewajiban bersama antara...",
+        options: [
+          "Pemerintah pusat saja",
+          "Pemerintah dan masyarakat",
+          "TNI dan Polri",
+          "Organisasi internasional"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Tujuan utama penanggulangan bencana adalah...",
+        options: [
+          "Mendapatkan bantuan asing",
+          "Mengurangi penderitaan dan meningkatkan kehidupan masyarakat",
+          "Menghabiskan anggaran negara",
+          "Membuat berita viral"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Penanggulangan bencana dititikberatkan pada tahap...",
+        options: [
+          "Saat terjadi bencana",
+          "Setelah terjadi bencana",
+          "Sebelum terjadinya bencana (pencegahan, penjinakan, kesiapsiagaan)",
+          "Saat pembagian bantuan"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: "Contoh bencana alam adalah...",
+        options: [
+          "Kecelakaan lalu lintas",
+          "Kebakaran pabrik",
+          "Gempa bumi dan Tsunami",
+          "Polusi udara"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 5,
+        question: "Bencana yang disebabkan oleh proses teknologi atau interaksi manusia disebut...",
+        options: [
+          "Bencana Alam",
+          "Bencana Ulah Manusia",
+          "Bencana Kosmik",
+          "Bencana Biologis"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Bencana dikatakan bersifat 'Dahsyat' (Luar Biasa) apabila...",
+        options: [
+          "Korban jiwa sedikit",
+          "Hanya merusak satu rumah",
+          "Menimbulkan korban jiwa sangat besar dan kerusakan luas",
+          "Terjadi di desa terpencil"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: "Tingkat bencana 'Lokal' berarti...",
+        options: [
+          "Dampaknya dirasakan secara Nasional",
+          "Terjadi di satu/beberapa daerah Kabupaten/Kota dan dampak terbatas setempat",
+          "Terjadi di seluruh dunia",
+          "Melibatkan negara tetangga"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Korban bencana berupa hilangnya sarana prasarana umum termasuk kategori korban...",
+        options: [
+          "Manusia",
+          "Harta Benda",
+          "Lingkungan Hidup",
+          "Psikologis"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Kegiatan 'Preventif' (Pencegahan) dalam tahap sebelum bencana meliputi...",
+        options: [
+          "Evakuasi korban",
+          "Penyebarluasan peraturan dan pembuatan peta rawan bencana",
+          "Membangun tenda darurat",
+          "Rehabilitasi jembatan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Pembuatan cek dam dan relokasi penduduk termasuk kegiatan...",
+        options: [
+          "Preventif",
+          "Mitigasi (Penjinakan)",
+          "Tanggap Darurat",
+          "Rekonstruksi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Kegiatan 'Kesiapsiagaan' meliputi...",
+        options: [
+          "Membangun kembali rumah rusak",
+          "Latihan/gladi Pramuka dan masyarakat di daerah rawan",
+          "Memberikan santunan duka",
+          "Membersihkan puing-puing"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Upaya memberikan kesempatan kepada penduduk untuk menyelamatkan diri sebelum bencana terjadi disebut...",
+        options: [
+          "Tanggap Darurat",
+          "Peringatan Dini",
+          "Rehabilitasi",
+          "Mitigasi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Kegiatan mencari, menolong, dan menyelamatkan korban bencana termasuk dalam tahap...",
+        options: [
+          "Pencegahan",
+          "Tanggap Darurat",
+          "Rekonstruksi",
+          "Mitigasi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Upaya memfungsikan kembali sarana umum yang rusak pasca bencana disebut...",
+        options: [
+          "Rehabilitasi",
+          "Rekonstruksi",
+          "Evakuasi",
+          "Mitigasi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Membangun kembali kerusakan agar lebih baik dari sebelumnya (Build Back Better) disebut...",
+        options: [
+          "Rehabilitasi",
+          "Rekonstruksi",
+          "Tanggap Darurat",
+          "Kesiapsiagaan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Salah satu contoh bencana ulah manusia adalah...",
+        options: [
+          "Letusan gunung berapi",
+          "Angin puting beliung",
+          "Pembuangan limbah pabrik sembarangan",
+          "Gelombang pasang"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 17,
+        question: "Tingkat bencana 'Nasional' berarti...",
+        options: [
+          "Dampak dirasakan hanya di satu desa",
+          "Dampak dirasakan secara Nasional",
+          "Hanya melibatkan satu provinsi",
+          "Tidak ada korban jiwa"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Kerusakan sarana lingkungan yang menyangkut kepentingan hidup masyarakat umum disebut korban...",
+        options: [
+          "Manusia",
+          "Harta Benda",
+          "Lingkungan Hidup",
+          "Ekonomi"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 19,
+        question: "Mengapa tahap kesiapsiagaan sangat penting?",
+        options: [
+          "Agar bisa masuk TV",
+          "Karena usaha menghindari bencana lebih efektif daripada rehabilitasi",
+          "Untuk menghabiskan anggaran",
+          "Agar terlihat sibuk"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Bantuan kepada pengungsi berupa makanan, pakaian, dan obat-obatan diberikan pada tahap...",
+        options: [
+          "Pencegahan",
+          "Tanggap Darurat",
+          "Rekonstruksi",
+          "Mitigasi"
+        ],
+        correctAnswer: 1
+      }
+    ],
+  },
+  {
+    id: 'quiz-pba-2',
+    tkkId: 'pba-2',
+    title: 'Quiz Perjalanan dan Penanganan Gawat Darurat',
+    questions: [
+      {
+        id: 1,
+        question: "Apa kepanjangan dari PPGD?",
+        options: [
+          "Pertolongan Pertama Gawat Darurat",
+          "Perjalanan dan Penanganan Gawat Darurat",
+          "Panduan Praktis Gawat Darurat",
+          "Pencegahan Penyakit Gawat Darurat"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "PPGD mencakup hal-hal berikut, KECUALI...",
+        options: [
+          "Kesiapan fisik",
+          "Kesiapan mental",
+          "Kesiapan finansial",
+          "Pengetahuan tentang kesehatan dan gizi"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 3,
+        question: "Salah satu aspek kesiapan fisik bagi penolong adalah...",
+        options: [
+          "Memiliki uang yang banyak",
+          "Kondisi tubuh yang prima",
+          "Membawa senjata tajam",
+          "Memiliki kendaraan pribadi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Dalam kesiapan fisik, penolong harus mengetahui teknik...",
+        options: [
+          "Memasak",
+          "Bela diri",
+          "Pertolongan Pertama Pada Kecelakaan (P3K)",
+          "Navigasi"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 5,
+        question: "Tindakan penolong dalam memberikan pertolongan harus...",
+        options: [
+          "Lambat dan hati-hati",
+          "Cepat dan tepat",
+          "Ragu-ragu",
+          "Menunggu instruksi atasan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Salah satu aspek kesiapan mental adalah...",
+        options: [
+          "Memiliki rasa percaya diri",
+          "Sombong",
+          "Mudah panik",
+          "Pasrah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 7,
+        question: "Dalam kesiapan mental, seseorang harus memiliki kepekaan terhadap...",
+        options: [
+          "Harga barang",
+          "Diri dan lingkungan",
+          "Gosip terbaru",
+          "Cuaca saja"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Dalam mengambil tindakan P3K, kita harus selalu mengedepankan...",
+        options: [
+          "Emosi",
+          "Akal sehat",
+          "Kekuatan fisik",
+          "Keberuntungan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Kemampuan mental yang penting dalam situasi darurat adalah...",
+        options: [
+          "Mampu berteriak keras",
+          "Mampu mengendalikan diri terhadap segala situasi",
+          "Mampu berlari kencang",
+          "Mampu menyalahkan orang lain"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Pengetahuan kesehatan yang wajib dimiliki meliputi...",
+        options: [
+          "Cara operasi bedah",
+          "Teknik P3K",
+          "Resep dokter spesialis",
+          "Cara membuat obat herbal rumit"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Selain teknik P3K, pengetahuan kesehatan juga mencakup...",
+        options: [
+          "Harga obat di apotek",
+          "Obat dan penggunaannya",
+          "Sejarah kedokteran",
+          "Anatomi tubuh secara detail"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Pengetahuan tentang penyakit meliputi...",
+        options: [
+          "Hanya flu dan batuk",
+          "Berbagai macam penyakit dan gangguan kesehatan",
+          "Penyakit langka saja",
+          "Penyakit menular saja"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Dalam hal gizi, penolong harus mengetahui...",
+        options: [
+          "Resep masakan restoran",
+          "Berbagai macam jenis makanan yang layak dikonsumsi",
+          "Cara menanam padi",
+          "Harga sembako"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Pengetahuan gizi juga mencakup pengertian tentang...",
+        options: [
+          "Diet ketat",
+          "Perimbangan nutrisi dan gizi dalam kegiatan/perjalanan",
+          "Cara menghitung kalori secara detail",
+          "Jenis vitamin mahal"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Salah satu kemampuan teknis yang harus dimiliki dalam PPGD adalah...",
+        options: [
+          "Teknik evakuasi korban",
+          "Teknik mendirikan tenda",
+          "Teknik membuat api",
+          "Teknik menyimpul tali"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 16,
+        question: "Mengapa kepercayaan diri penting dalam PPGD?",
+        options: [
+          "Agar terlihat hebat",
+          "Agar dapat melakukan pertolongan dengan yakin dan tidak ragu",
+          "Agar dipuji orang lain",
+          "Tidak terlalu penting"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Apa yang dimaksud dengan 'kondisi prima'?",
+        options: [
+          "Sakit-sakitan",
+          "Sehat jasmani dan rohani serta bugar",
+          "Hanya kuat angkat beban",
+          "Bisa begadang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Kepekaan lingkungan berguna untuk...",
+        options: [
+          "Mengetahui potensi bahaya dan sumber daya di sekitar",
+          "Mencari tempat foto bagus",
+          "Mencari sinyal HP",
+          "Menghindari teman"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Mengapa perlu mengetahui makanan yang layak dikonsumsi?",
+        options: [
+          "Agar bisa wisata kuliner",
+          "Untuk menghindari keracunan dan menjaga stamina",
+          "Agar hemat biaya",
+          "Agar tidak perlu memasak"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Inti dari PPGD adalah...",
+        options: [
+          "Kesiapan menyeluruh (fisik, mental, pengetahuan) dalam perjalanan",
+          "Hanya membawa kotak P3K",
+          "Hanya latihan fisik",
+          "Hanya berdoa"
+        ],
+        correctAnswer: 0
+      }
+    ],
+  },
+  {
+    id: 'quiz-pba-3',
+    tkkId: 'pba-3',
+    title: 'Quiz Tata Cara Memasak',
+    questions: [
+      {
+        id: 1,
+        question: "Bahan bakar yang digunakan untuk Kompor Lapangan T-50 adalah...",
+        options: [
+          "Bensin",
+          "Solar",
+          "Minyak Tanah",
+          "Gas LPG"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 2,
+        question: "Kapasitas tangki bahan bakar Kompor Lapangan T-50 adalah...",
+        options: [
+          "5 Liter",
+          "10 Liter",
+          "16 Liter",
+          "20 Liter"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 3,
+        question: "Tekanan udara yang dipompakan ke dalam tangki kompor sebaiknya...",
+        options: [
+          "1 kg/cm²",
+          "3 kg/cm²",
+          "5 kg/cm²",
+          "10 kg/cm²"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Langkah pertama menyalakan kompor setelah memompa adalah...",
+        options: [
+          "Langsung buka kran besar",
+          "Pemanasan awal (pre-heating) pada mangkuk penyala",
+          "Menyiram air",
+          "Membuka tutup tangki"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Jika api tiba-tiba mati, tindakan pertama adalah...",
+        options: [
+          "Menambah tekanan pompa",
+          "Membuka kran lebih besar",
+          "Menutup kran minyak",
+          "Menyiram air"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 6,
+        question: "Penyebab api menyembur besar seperti kebakaran biasanya karena...",
+        options: [
+          "Minyak habis",
+          "Kran dibuka terlalu besar saat brander belum cukup panas",
+          "Tekanan terlalu rendah",
+          "Angin kencang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Jika api menyala tidak rata, kemungkinan penyebabnya adalah...",
+        options: [
+          "Minyak kotor",
+          "Lubang spuyer rusak",
+          "Tangki bocor",
+          "Sumbu basah"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Jika terjadi kebakaran pada kompor, cara memadamkannya adalah...",
+        options: [
+          "Siram dengan air",
+          "Tutup kran utama dan gunakan karung/kain basah",
+          "Tiup dengan kencang",
+          "Lari menjauh"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Jarak api brander ke kuali saat merebus sebaiknya...",
+        options: [
+          "Jauh (10 cm)",
+          "Rapat/dekat (5 cm)",
+          "Sangat jauh",
+          "Tidak berpengaruh"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Jarak api brander ke wajan saat menggoreng sebaiknya...",
+        options: [
+          "Rapat sekali",
+          "Berjarak 2-3 cm",
+          "Berjarak 10 cm",
+          "Berjarak 1 meter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Ketel 100 digunakan untuk memasak nasi dengan kapasitas...",
+        options: [
+          "5 kg beras",
+          "10 kg beras",
+          "18 kg beras (untuk 100 orang)",
+          "50 kg beras"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 12,
+        question: "Apa yang terjadi pada hidrat arang (nasi) jika dibiarkan lama setelah dimasak?",
+        options: [
+          "Semakin enak",
+          "Akan memisah dan mendekati basi",
+          "Menjadi protein",
+          "Menjadi vitamin"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Zat makanan yang paling cepat busuk adalah...",
+        options: [
+          "Lemak",
+          "Karbohidrat",
+          "Protein",
+          "Mineral"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 14,
+        question: "Sumber lemak jika disimpan terlalu lama akan menjadi...",
+        options: [
+          "Manis",
+          "Asin",
+          "Tengik",
+          "Segar"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 15,
+        question: "Saat mencuci beras, sebaiknya...",
+        options: [
+          "Direndam lama",
+          "Dicuci dengan sabun",
+          "Tidak direndam agar Vitamin B1 tidak hilang",
+          "Digosok kuat-kuat"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 16,
+        question: "Cara memotong daging yang benar adalah...",
+        options: [
+          "Sejajar serat",
+          "Memotong miring serat",
+          "Sembarangan",
+          "Tidak perlu dipotong"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Sayuran yang sudah dipotong sebaiknya...",
+        options: [
+          "Direndam air lama",
+          "Tidak direndam (kecuali air garam untuk warna)",
+          "Dijemur",
+          "Disimpan di kulkas 3 hari"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Urutan penyajian menu Cara Barat adalah...",
+        options: [
+          "Penutup - Pembuka - Pokok",
+          "Pembuka - Pokok - Selingan - Penutup",
+          "Pokok saja",
+          "Minum dulu baru makan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Penyajian Cara China biasanya dimulai dengan...",
+        options: [
+          "Nasi putih",
+          "4 makanan dingin",
+          "Buah-buahan",
+          "Sop panas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Sistem menghidangkan di mana peserta mengambil sendiri makanan di meja panjang disebut...",
+        options: [
+          "Sistem Kafetaria",
+          "Sistem Prasmanan",
+          "Sistem Meja",
+          "Sistem Rantang"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-pba-4',
+    tkkId: 'pba-4',
+    title: 'Quiz Komunikasi Radio',
+    questions: [
+      {
+        id: 1,
+        question: "Radio Komunikasi adalah alat yang digunakan untuk...",
+        options: [
+          "Mendengarkan musik",
+          "Mengirim dan menerima berita dari pihak lain",
+          "Menonton siaran televisi",
+          "Bermain game"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Salah satu bagian besar dari Radio Komunikasi adalah...",
+        options: [
+          "Layar sentuh",
+          "Saklar Daya",
+          "Keyboard",
+          "Mouse"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Fungsi dari 'Saklar pengatur frekuensi' adalah...",
+        options: [
+          "Mengatur volume suara",
+          "Mengubah saluran/channel frekuensi (MHz/KHz)",
+          "Menghidupkan radio",
+          "Menghubungkan antena"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Bagian yang berfungsi untuk menampilkan frekuensi yang sedang digunakan adalah...",
+        options: [
+          "Konektor audio",
+          "Penampil frekuensi",
+          "Dudukan antena",
+          "Saklar fungsi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Untuk menghidupkan radio, langkah yang benar adalah...",
+        options: [
+          "Tekan tombol PTT",
+          "Putar saklar daya ke kanan hingga muncul frekuensi",
+          "Pasang antena",
+          "Teriak di depan radio"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Tombol PTT (Push To Talk) digunakan untuk...",
+        options: [
+          "Mematikan radio",
+          "Mendengarkan lawan bicara",
+          "Berbicara/mengirim berita",
+          "Mengganti frekuensi"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: "Saat ingin mendengarkan lawan bicara, yang harus dilakukan pada tombol PTT adalah...",
+        options: [
+          "Ditekan terus",
+          "Dilepas",
+          "Ditekan dua kali",
+          "Diputar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Untuk mematikan radio, putar saklar daya ke arah...",
+        options: [
+          "Kanan",
+          "Kiri",
+          "Atas",
+          "Bawah"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Dalam prosedur komunikasi, IKIT singkatan dari...",
+        options: [
+          "Irama, Kecepatan, Isi suara, Tinggi nada",
+          "Indah, Kuat, Irit, Tepat",
+          "Informasi, Komunikasi, Interaksi, Transaksi",
+          "Instruksi, Koordinasi, Integrasi, Toleransi"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 10,
+        question: "Mengapa 'Irama' penting dalam komunikasi radio?",
+        options: [
+          "Agar terdengar merdu",
+          "Agar kalimat mudah diterima dan menghindari kesalahan",
+          "Agar bisa bernyanyi",
+          "Agar cepat selesai"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Kecepatan bicara saat menggunakan radio sebaiknya...",
+        options: [
+          "Sangat cepat agar hemat waktu",
+          "Sangat lambat agar jelas",
+          "Memadai, jelas didengar dan cukup waktu untuk mencatat",
+          "Tergantung mood"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 12,
+        question: "Volume suara ('Isi suara') saat berbicara di radio sebaiknya...",
+        options: [
+          "Berbisik",
+          "Lebih kuat sedikit dari percakapan biasa, tapi jangan berteriak",
+          "Berteriak sekencang-kencangnya",
+          "Diam saja"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Nada suara yang lebih jelas didengar di radio adalah...",
+        options: [
+          "Nada rendah (bass)",
+          "Nada tinggi",
+          "Nada datar",
+          "Nada bergetar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Dalam abjad fonetik, huruf 'A' diucapkan sebagai...",
+        options: [
+          "Alpha",
+          "Alfa",
+          "Apple",
+          "Ant"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Huruf 'C' dalam abjad fonetik adalah...",
+        options: [
+          "Coca",
+          "Charlie",
+          "Cilo",
+          "Coco"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Huruf 'R' dalam abjad fonetik adalah...",
+        options: [
+          "Radio",
+          "Romeo",
+          "Roger",
+          "Rambo"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Huruf 'Z' dalam abjad fonetik adalah...",
+        options: [
+          "Zebra",
+          "Zero",
+          "Zulu",
+          "Zigzag"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 18,
+        question: "Konektor 50 Ohm pada radio digunakan untuk...",
+        options: [
+          "Headset",
+          "Antena",
+          "Baterai",
+          "Microphone"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Apa fungsi saklar pengatur frekuensi?",
+        options: [
+          "Mengubah tampilan layar",
+          "Menaikkan atau menurunkan frekuensi (MHz/KHz)",
+          "Mengunci radio",
+          "Merekam suara"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Huruf 'W' dalam abjad fonetik adalah...",
+        options: [
+          "Water",
+          "Wisky",
+          "William",
+          "Wonder"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-navrat-1',
+    tkkId: 'navrat-1',
+    title: 'Quiz Pengetahuan Peta dan Medan',
+    questions: [
+      {
+        id: 1,
+        question: "Menurut PP No. 10 Tahun 2000, peta adalah...",
+        options: [
+          "Gambaran permukaan bumi pada bidang datar dengan skala tertentu",
+          "Lukisan pemandangan alam",
+          "Foto udara dari satelit",
+          "Sketsa perjalanan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 2,
+        question: "Medan didefinisikan sebagai...",
+        options: [
+          "Bagian permukaan bumi dengan segala benda bergerak di atasnya",
+          "Bagian permukaan bumi dengan segala benda yang tidak bergerak di atasnya",
+          "Hanya hutan dan gunung",
+          "Lapangan sepak bola"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Garis khayal yang menghubungkan titik-titik berketinggian sama di atas permukaan laut disebut...",
+        options: [
+          "Garis Lintang",
+          "Garis Bujur",
+          "Garis Kontur",
+          "Garis Khatulistiwa"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: "Skala 1:25.000 berarti 1 cm di peta sama dengan...",
+        options: [
+          "25 meter di lapangan",
+          "250 meter di lapangan",
+          "2.500 meter di lapangan",
+          "25 km di lapangan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Peta yang menggambarkan posisi mendatar dan tegak dari benda medan dengan menggunakan garis kontur disebut...",
+        options: [
+          "Peta Tematik",
+          "Peta Topografi",
+          "Peta Geografi",
+          "Peta Wisata"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Warna cokelat pada peta topografi menunjukkan...",
+        options: [
+          "Perairan",
+          "Vegetasi",
+          "Jalan raya",
+          "Ketinggian (kontur)"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 7,
+        question: "Warna biru pada peta topografi menunjukkan...",
+        options: [
+          "Hutan lebat",
+          "Perairan (sungai, danau, laut)",
+          "Pemukiman",
+          "Jalan kereta api"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Warna hitam pada peta topografi biasanya digunakan untuk...",
+        options: [
+          "Benda-benda buatan manusia (jalan KA, bangunan)",
+          "Sungai",
+          "Hutan",
+          "Kontur"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 9,
+        question: "Peta yang menyajikan tema tertentu seperti jenis tanah atau curah hujan disebut...",
+        options: [
+          "Peta Topografi",
+          "Peta Tematik",
+          "Peta Umum",
+          "Peta Dunia"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Koordinat Geografis menggunakan satuan...",
+        options: [
+          "Meter dan Kilometer",
+          "Derajat, Menit, Detik",
+          "Milimeter",
+          "Hektar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Satu kotak grid (Karvak) pada peta biasanya berbentuk...",
+        options: [
+          "Segitiga",
+          "Lingkaran",
+          "Bujur Sangkar",
+          "Persegi Panjang Tak Beraturan"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 12,
+        question: "Garis Lintang (Latitude) adalah garis yang...",
+        options: [
+          "Tegak lurus menghubungkan kutub utara dan selatan",
+          "Sejajar dengan garis khatulistiwa",
+          "Miring 45 derajat",
+          "Melengkung tidak beraturan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Rumus untuk mencari Kedar (Skala) Peta adalah...",
+        options: [
+          "K = Jarak Peta x Jarak Medan",
+          "K = Jarak Peta / Jarak Medan",
+          "K = Jarak Medan / Jarak Peta",
+          "K = Jarak Peta + Jarak Medan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Jika Jarak Peta 2 cm dan Jarak Medan 1000 m (100.000 cm), maka skalanya adalah...",
+        options: [
+          "1 : 10.000",
+          "1 : 25.000",
+          "1 : 50.000",
+          "1 : 100.000"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 15,
+        question: "Sudut Tanjakan adalah perbandingan antara...",
+        options: [
+          "Jarak Peta dengan Jarak Medan",
+          "Selisih Tinggi dengan Jarak Mendatar",
+          "Luas Peta dengan Luas Medan",
+          "Panjang Sungai dengan Lebar Sungai"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Jika selisih tinggi 25 meter dan jarak mendatar 100 meter, berapa besar sudut tanjakannya (dalam perbandingan)?",
+        options: [
+          "1/2",
+          "1/4",
+          "1/10",
+          "1/25"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Untuk menghitung sudut tanjakan dalam derajat, hasil perbandingan dikalikan dengan...",
+        options: [
+          "90°",
+          "180°",
+          "57,3°",
+          "360°"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 18,
+        question: "Tanda (+) pada perhitungan sudut tanjakan menunjukkan...",
+        options: [
+          "Jalan menurun",
+          "Jalan mendatar",
+          "Jalan menanjak (mendaki)",
+          "Jalan buntu"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 19,
+        question: "Untuk menyambung beberapa lembar peta, kita dapat melihat petunjuk pada...",
+        options: [
+          "Judul Peta",
+          "Legenda",
+          "Diagram petunjuk nomor peta (index) di kiri bawah",
+          "Garis Kontur"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 20,
+        question: "Peta Jenis Tanah (Pedologi) termasuk dalam kategori...",
+        options: [
+          "Peta Topografi",
+          "Peta Tematik",
+          "Peta Buta",
+          "Peta Wisata"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-navrat-2',
+    tkkId: 'navrat-2',
+    title: 'Quiz Kompas Siang dan Malam',
+    questions: [
+      {
+        id: 1,
+        question: "Kompas adalah alat navigasi yang bekerja berdasarkan prinsip...",
+        options: [
+          "Gravitasi bumi",
+          "Medan magnet bumi",
+          "Rotasi bumi",
+          "Tekanan udara"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Arah mata angin utama yang ditunjukkan oleh jarum kompas adalah...",
+        options: [
+          "Timur dan Barat",
+          "Utara dan Selatan",
+          "Barat Laut dan Tenggara",
+          "Timur Laut dan Barat Daya"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Bangsa yang pertama kali menemukan bahwa jarum magnetik selalu mengarah ke utara dan selatan adalah...",
+        options: [
+          "Inggris",
+          "Persia",
+          "Cina",
+          "Yunani"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: "Penelitian menunjukkan bahwa lokasi magnet di Kutub Utara bergeser setiap tahun ke arah...",
+        options: [
+          "Timur Laut",
+          "Barat Laut",
+          "Selatan",
+          "Tenggara"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Bagian kompas yang berfungsi sebagai garis pemandu ketepatan ke arah objek bidikan adalah...",
+        options: [
+          "Kawat Pisir (Garis Rambut)",
+          "Kaca Pembesar",
+          "Dial",
+          "Cincin Jempol"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 6,
+        question: "Kompas yang memiliki fungsi utama mempermudah menghitung sudut sasaran bidik secara langsung adalah...",
+        options: [
+          "Kompas Silva",
+          "Kompas Biasa",
+          "Kompas Bidik (Prisma)",
+          "Kompas Digital"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: "Kompas Orienteering sering juga disebut sebagai...",
+        options: [
+          "Kompas Prisma",
+          "Kompas Silva",
+          "Kompas Lensa",
+          "Kompas Gyro"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Ciri khas dari Kompas Silva adalah...",
+        options: [
+          "Badan/pembungkusnya transparan untuk mempermudah pembacaan peta",
+          "Memiliki prisma kaca",
+          "Ukurannya sangat besar",
+          "Terbuat dari besi berat"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 9,
+        question: "Langkah pertama dalam menggunakan Kompas Bidik adalah...",
+        options: [
+          "Membuka tutup kompas",
+          "Memutar dial sembarangan",
+          "Menutup mata kiri",
+          "Berlari ke arah sasaran"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 10,
+        question: "Sudut yang dibentuk oleh arah bidikan dan arah jarum utara disebut...",
+        options: [
+          "Koordinat",
+          "Kontur",
+          "Azimuth (Bearing)",
+          "Skala"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 11,
+        question: "Orientasi peta adalah...",
+        options: [
+          "Melipat peta agar rapi",
+          "Menyelaraskan peta dengan medan sebenarnya (utara peta sesuai utara medan)",
+          "Menggambar ulang peta",
+          "Mewarnai peta"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Saat mengorientasi peta dengan kompas, kita harus menghimpitkan...",
+        options: [
+          "Garis rambut kompas dengan garis grid utara-selatan peta",
+          "Kompas dengan tepi meja",
+          "Jarum kompas dengan arah angin",
+          "Peta dengan tanah"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Kompas Siang digunakan untuk...",
+        options: [
+          "Tidur siang",
+          "Menentukan arah/menuju sasaran yang terlihat pada siang hari",
+          "Melihat bintang",
+          "Mengukur suhu"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Pada penggunaan Kompas Siang, posisi prisma sebaiknya...",
+        options: [
+          "Diturunkan rata",
+          "Diangkat ke atas kaca kompas (sekitar 45 derajat)",
+          "Dilepas",
+          "Ditutup rapat"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Kompas Malam digunakan ketika...",
+        options: [
+          "Sasaran terlihat jelas",
+          "Sasaran tidak terlihat atau gelap",
+          "Matahari bersinar terik",
+          "Sedang hujan deras"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Pada penggunaan Kompas Malam, tutup kompas dibuka hingga...",
+        options: [
+          "Tegak lurus (90 derajat)",
+          "Rata (180 derajat)",
+          "45 derajat",
+          "Tertutup setengah"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Bagian kompas yang membantu melihat angka derajat pada Kompas Bidik adalah...",
+        options: [
+          "Lensa Pembidik / Prisma",
+          "Cincin kait",
+          "Tutup kompas",
+          "Tali gantungan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Back Azimuth digunakan untuk...",
+        options: [
+          "Maju ke depan",
+          "Koreksi sudut jurusan (bidikan ke belakang) atau arah kembali",
+          "Melihat pemandangan",
+          "Mengukur kecepatan angin"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Dalam penggunaan Kompas Malam, setelah menyetel sudut, kita harus...",
+        options: [
+          "Berlari kencang",
+          "Memutar badan hingga jarum bercahaya berhimpit dengan tanda baca bercahaya",
+          "Mematikan kompas",
+          "Melempar kompas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Kompas biasa (standard) umumnya lebih diandalkan untuk...",
+        options: [
+          "Bidikan presisi jarak jauh",
+          "Sekedar penunjuk arah mata angin karena praktis",
+          "Mengukur ketinggian",
+          "Mengukur kedalaman laut"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-navrat-3',
+    tkkId: 'navrat-3',
+    title: 'Quiz Resection dan Intersection',
+    questions: [
+      {
+        id: 1,
+        question: "Resection dalam istilah Pramuka sering juga disebut sebagai...",
+        options: [
+          "Mengikat ke Belakang",
+          "Mengikat ke Depan",
+          "Mengikat ke Samping",
+          "Mengikat ke Atas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Intersection dalam istilah Pramuka sering juga disebut sebagai...",
+        options: [
+          "Mengikat ke Depan",
+          "Mengikat ke Belakang",
+          "Mengikat ke Bawah",
+          "Mengikat ke Samping"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Tujuan utama dari Resection adalah...",
+        options: [
+          "Menentukan posisi pihak lain di medan",
+          "Menentukan tempat/kedudukan sendiri di medan ke titik di peta",
+          "Menghitung ketinggian gunung",
+          "Mengukur lebar sungai"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Tujuan utama dari Intersection adalah...",
+        options: [
+          "Menentukan tempat/kedudukan pihak lain di medan ke titik yang ada di peta",
+          "Menentukan posisi sendiri",
+          "Mencari arah utara",
+          "Membuat peta baru"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 5,
+        question: "Berapa minimal titik tanda yang diperlukan untuk melakukan Resection?",
+        options: [
+          "1 titik",
+          "2 titik",
+          "3 titik",
+          "4 titik"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Syarat titik tanda yang dipilih untuk Resection adalah...",
+        options: [
+          "Hanya ada di peta",
+          "Hanya ada di lapangan",
+          "Sudah dikenali di lapangan dan juga ada di peta",
+          "Tidak perlu dikenali"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: "Dalam Resection, garis yang ditarik dari titik tanda di peta menggunakan sudut...",
+        options: [
+          "Azimuth (arah kompas)",
+          "Back Azimuth (arah balik)",
+          "Sudut siku-siku",
+          "Sudut lancip"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Jika arah kompas ke Menara adalah 146°, maka Back Azimuth-nya adalah...",
+        options: [
+          "326°",
+          "146°",
+          "236°",
+          "36°"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 9,
+        question: "Rumus Back Azimuth jika sudut kurang dari 180° adalah...",
+        options: [
+          "Ditambah 180°",
+          "Dikurangi 180°",
+          "Dikali 2",
+          "Dibagi 2"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 10,
+        question: "Rumus Back Azimuth jika sudut lebih dari 180° adalah...",
+        options: [
+          "Ditambah 180°",
+          "Dikurangi 180°",
+          "Tetap",
+          "Ditambah 90°"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Jika arah kompas ke Pura adalah 248°, maka Back Azimuth-nya adalah...",
+        options: [
+          "428°",
+          "68°",
+          "248°",
+          "158°"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Hasil perpotongan dari dua garis Back Azimuth pada Resection menunjukkan...",
+        options: [
+          "Posisi musuh",
+          "Posisi sasaran",
+          "Kedudukan kita sendiri di peta",
+          "Arah utara"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 13,
+        question: "Langkah pertama dalam melakukan Intersection adalah...",
+        options: [
+          "Memilih dua titik tanda yang dikenali di medan dan peta",
+          "Langsung menembak sasaran",
+          "Berlari ke sasaran",
+          "Tidur"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Pada teknik Intersection yang dijelaskan, setelah membidik dari titik 1, kita harus...",
+        options: [
+          "Diam di tempat",
+          "Bergerak ke arah titik 2 sejauh 50-100 meter",
+          "Pulang",
+          "Makan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Intersection biasanya digunakan untuk mengetahui posisi...",
+        options: [
+          "Diri sendiri",
+          "Pihak lain / sasaran / musuh",
+          "Matahari",
+          "Bintang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Alat utama yang digunakan untuk Resection dan Intersection adalah...",
+        options: [
+          "Termometer dan Peta",
+          "Kompas dan Peta",
+          "Altimeter dan Jam",
+          "Kamera dan GPS"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Jika sudut kompas 45°, maka Back Azimuth-nya adalah...",
+        options: [
+          "225°",
+          "135°",
+          "315°",
+          "45°"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Jika sudut kompas 270°, maka Back Azimuth-nya adalah...",
+        options: [
+          "90°",
+          "450°",
+          "180°",
+          "360°"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Perbedaan mendasar antara Resection dan Intersection terletak pada...",
+        options: [
+          "Jenis kompas yang digunakan",
+          "Tujuan yang dicari (posisi sendiri vs posisi orang lain)",
+          "Waktu pelaksanaan",
+          "Jenis peta"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Dalam contoh Resection, jika kita membidik Menara (146°) dan Pura (248°), posisi kita adalah...",
+        options: [
+          "Di Menara",
+          "Di Pura",
+          "Di perpotongan garis balik 326° dan 68°",
+          "Di tengah laut"
+        ],
+        correctAnswer: 2
+      }
+    ]
+  },
+  {
+    id: 'quiz-navrat-4',
+    tkkId: 'navrat-4',
+    title: 'Quiz Pengetahuan GPS',
+    questions: [
+      {
+        id: 1,
+        question: "GPS adalah singkatan dari...",
+        options: [
+          "Global Positioning System",
+          "General Position System",
+          "Global Point System",
+          "General Point System"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 2,
+        question: "Fungsi utama dari alat GPS adalah...",
+        options: [
+          "Mengukur suhu udara",
+          "Menentukan posisi dengan bantuan satelit",
+          "Mengukur kecepatan angin",
+          "Mengambil foto udara"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 3,
+        question: "Selain menentukan posisi horizontal (Lintang/Bujur), GPS juga dapat menentukan...",
+        options: [
+          "Kedalaman laut",
+          "Ketinggian (Altitude) dari permukaan laut",
+          "Tekanan udara",
+          "Kelembaban udara"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Bagian GPS yang berfungsi sebagai penerima sinyal dari satelit adalah...",
+        options: [
+          "Layar",
+          "Keypad",
+          "Antena",
+          "Baterai"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 5,
+        question: "Tombol yang digunakan untuk menghidupkan dan mematikan alat GPS biasanya...",
+        options: [
+          "Tombol Zoom",
+          "Tombol Find",
+          "Tombol Power (biasanya merah)",
+          "Tombol Mark"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 6,
+        question: "Untuk memperbesar atau memperkecil tampilan peta pada layar GPS, kita menggunakan tombol...",
+        options: [
+          "Zoom In/Out",
+          "Page",
+          "Enter",
+          "Find"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 7,
+        question: "Tombol yang berfungsi untuk berpindah halaman (misal dari halaman satelit ke peta) adalah...",
+        options: [
+          "Tombol Mark",
+          "Tombol Page/Menu",
+          "Tombol Power",
+          "Tombol Enter"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Tombol 'Mark' pada GPS berfungsi untuk...",
+        options: [
+          "Mencari tujuan",
+          "Menghapus data",
+          "Menyimpan posisi saat ini (Marking Waypoint)",
+          "Mematikan alat"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 9,
+        question: "Jika kita ingin mencari titik atau tujuan yang telah disimpan sebelumnya, kita menekan tombol...",
+        options: [
+          "Mark",
+          "Find",
+          "Page",
+          "Zoom"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Langkah pertama yang harus dilakukan sebelum menghidupkan GPS agar mendapat sinyal yang baik adalah...",
+        options: [
+          "Masuk ke dalam gua",
+          "Membawanya ke tempat terbuka (luar ruangan)",
+          "Menutup antena dengan tangan",
+          "Berlari kencang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Istilah 'Acquiring Satellites' pada layar GPS berarti...",
+        options: [
+          "GPS rusak",
+          "Baterai habis",
+          "Sedang mencari sinyal satelit",
+          "Memori penuh"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 12,
+        question: "Akurasi sinyal GPS yang dianggap stabil dan baik biasanya mencapai...",
+        options: [
+          "± 100 meter",
+          "± 50 meter",
+          "± 3 meter",
+          "± 1 kilometer"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 13,
+        question: "Proses menyimpan koordinat tempat kita berdiri ke dalam memori GPS disebut...",
+        options: [
+          "Tracking",
+          "Marking Waypoint",
+          "Go To",
+          "Routing"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Saat melakukan navigasi 'Go To', layar GPS biasanya akan menampilkan...",
+        options: [
+          "Film kartun",
+          "Arah panah dan jarak menuju tujuan",
+          "Foto satelit real-time",
+          "Ramalan cuaca"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Tombol Rocker atau Kursor pada GPS berfungsi untuk...",
+        options: [
+          "Menghidupkan alat",
+          "Menggeser panah/arah di layar (atas, bawah, kiri, kanan)",
+          "Menghapus semua data",
+          "Mengunci tombol"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Port data yang terdapat pada GPS biasanya digunakan untuk...",
+        options: [
+          "Mengecas HP",
+          "Menyambungkan GPS ke komputer (transfer data)",
+          "Mendengarkan musik",
+          "Menyambungkan ke antena TV"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Jenis baterai yang umum digunakan pada GPS tipe genggam adalah...",
+        options: [
+          "Baterai Mobil (Accu)",
+          "Baterai AA",
+          "Baterai Kancing",
+          "Baterai Kotak 9V"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Jika GPS akan disimpan dalam waktu yang lama, sebaiknya...",
+        options: [
+          "Baterai dilepas untuk menghindari kebocoran",
+          "Baterai tetap dipasang",
+          "GPS direndam air",
+          "GPS dijemur di matahari"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "GPS tidak dapat bekerja dengan maksimal atau kehilangan sinyal jika berada di...",
+        options: [
+          "Puncak gunung",
+          "Lapangan terbuka",
+          "Tengah laut",
+          "Dalam gedung tertutup beton atau terowongan"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 20,
+        question: "Salah satu kegunaan GPS adalah membuat rekam jejak perjalanan yang disebut...",
+        options: [
+          "Track",
+          "Mark",
+          "Waypoint",
+          "Route"
+        ],
+        correctAnswer: 0
+      }
+    ]
+  },
+  {
+    id: 'quiz-mountain-1',
+    tkkId: 'mountain-1',
+    title: 'Quiz Panjat Tebing',
+    questions: [
+      {
+        id: 1,
+        question: "Pada Free Climbing, alat pengaman yang paling baik adalah...",
+        options: [
+          "Tali dinamic",
+          "Diri sendiri",
+          "Carabiner",
+          "Helm"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Fungsi utama peralatan pada Free Climbing adalah...",
+        options: [
+          "Untuk menarik tubuh ke atas",
+          "Sebagai pijakan utama",
+          "Hanya sebagai pengaman bila jatuh",
+          "Sebagai hiasan"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 3,
+        question: "Dalam Free Climbing, pendaki diamankan oleh...",
+        options: [
+          "Leader",
+          "Belayer",
+          "Instruktur",
+          "Penonton"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Panjat tebing dengan menggunakan bantuan peralatan tambahan untuk menambah ketinggian disebut...",
+        options: [
+          "Free Climbing",
+          "Free Soloing",
+          "Artificial Climbing",
+          "Bouldering"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 5,
+        question: "Berikut ini yang BUKAN merupakan peralatan tambahan pada Artificial Climbing adalah...",
+        options: [
+          "Stirrup",
+          "Bor",
+          "Paku tebing",
+          "Payung"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 6,
+        question: "Free Soloing adalah bagian dari Free Climbing yang dilakukan...",
+        options: [
+          "Secara berkelompok",
+          "Dengan peralatan lengkap",
+          "Seorang diri tanpa peralatan pengaman",
+          "Dengan bantuan instruktur"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: "Siapa yang boleh melakukan Free Soloing?",
+        options: [
+          "Pemula",
+          "Siapa saja",
+          "Hanya orang yang mampu dan benar-benar profesional",
+          "Anak-anak"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 8,
+        question: "Langkah pertama dalam cara melintasi tebing adalah...",
+        options: [
+          "Langsung memanjat",
+          "Membaca tebing dan menentukan titik-titik rawan",
+          "Memasang tenda",
+          "Makan siang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Kecuali tali dinamic, semua peralatan sebaiknya dipasang di mana?",
+        options: [
+          "Di dalam tas",
+          "Di leher",
+          "Pada sabuk si pemanjat dengan rapi",
+          "Di kaki"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 10,
+        question: "Ujung tali dinamic dililitkan pada cincin kait dan digantung pada...",
+        options: [
+          "Leher",
+          "Tali pipih yang diikatkan pada sabuk bagian depan",
+          "Kaki",
+          "Tangan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Teknik melintasi tebing dilakukan dengan bergerak memanjat menggunakan...",
+        options: [
+          "Lutut dan siku",
+          "Ruas jari tangan dan injakan kaki pada lekukan/benjolan",
+          "Dagu dan dahi",
+          "Perut"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Jika tidak ada lekukan atau benjolan, alat apa yang dapat digunakan pada celah tebing?",
+        options: [
+          "Stopper/chock/friends",
+          "Lem",
+          "Paku payung",
+          "Karet gelang"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Jika tidak terdapat celah, lekukan, maupun benjolan, maka kita harus memasang...",
+        options: [
+          "Bendera",
+          "Paku tebing",
+          "Tenda",
+          "Poster"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Salah satu hal penting yang harus dijaga saat memanjat adalah...",
+        options: [
+          "Keseimbangan badan",
+          "Kerapian rambut",
+          "Kebersihan baju",
+          "Kecepatan lari"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 15,
+        question: "Berikut ini adalah jenis alat panjat tebing, KECUALI...",
+        options: [
+          "Tali dinamic",
+          "Cincin kait",
+          "Panci",
+          "Magnesium"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 16,
+        question: "Alat bantu untuk memperlambat luncur disebut...",
+        options: [
+          "Sticht plate belay",
+          "Hammer",
+          "Piton",
+          "Chock"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 17,
+        question: "Fungsi magnesium dalam panjat tebing adalah...",
+        options: [
+          "Untuk dimakan",
+          "Menjaga tangan agar tidak licin berkeringat",
+          "Mengobati luka",
+          "Menyalakan api"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Langkah kedua dalam teknik pemasangan panjat tebing adalah...",
+        options: [
+          "Membaca tebing",
+          "Mempersiapkan alat-alat yang digunakan",
+          "Tidur",
+          "Pulang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Apa fungsi dari tali sling atau tali pipih?",
+        options: [
+          "Sebagai hiasan",
+          "Alat bantu penghubung atau pengaman",
+          "Untuk mengikat rambut",
+          "Untuk tali sepatu"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 20,
+        question: "Dalam Artificial Climbing, pembagian tugas dilakukan antara...",
+        options: [
+          "Leader dan Belayer",
+          "Ketua dan Wakil",
+          "Guru dan Murid",
+          "Penonton dan Pemain"
+        ],
+        correctAnswer: 0
+      }
+    ]
+  },
+  {
+    id: 'quiz-mountain-2',
+    tkkId: 'mountain-2',
+    title: 'Quiz Turun Tebing',
+    questions: [
+      {
+        id: 1,
+        question: "Kegunaan dari teknik Turun Hesty adalah...",
+        options: [
+          "Melintasi medan terjal 90 derajat",
+          "Melintasi medan yang tidak terlalu curam menggunakan tali Peleton",
+          "Melintasi sungai deras",
+          "Memanjat pohon"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Kegunaan dari teknik Naik Togle Rope adalah...",
+        options: [
+          "Melintasi medan yang tidak terlalu terjal yang sulit dilewati jalan kaki biasa",
+          "Meluncur dari helikopter",
+          "Menyeberangi laut",
+          "Tidur di atas pohon"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 3,
+        question: "Pada teknik Hesty, posisi tangan saat memegang tali lintasan adalah...",
+        options: [
+          "Mengepal erat di dada",
+          "Direntangkan dengan telapak tangan menghadap ke atas",
+          "Memegang pinggang",
+          "Lurus ke bawah"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 4,
+        question: "Pada teknik Hesty, posisi tali lintasan berada di...",
+        options: [
+          "Depan dada",
+          "Belakang punggung",
+          "Atas kepala",
+          "Bawah kaki"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Pada teknik Rappelling, gesekan tali terjadi pada...",
+        options: [
+          "Badan (jika tanpa alat) atau Descender (jika pakai alat)",
+          "Batu tebing",
+          "Tangan saja",
+          "Kaki saja"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 6,
+        question: "Ukuran diameter tali peleton yang digunakan untuk Turun Hesty adalah...",
+        options: [
+          "10 mm",
+          "1,5 Cm",
+          "5 Cm",
+          "0,5 Cm"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Panjang tali peleton standar untuk Turun Hesty adalah...",
+        options: [
+          "50 M",
+          "100 M",
+          "225 M",
+          "500 M"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 8,
+        question: "Sudut kemiringan medan yang disarankan untuk Turun Hesty adalah...",
+        options: [
+          "± 90º",
+          "± 60º",
+          "± 30º",
+          "± 45º"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 9,
+        question: "Sudut kemiringan medan yang disarankan untuk Rappelling adalah...",
+        options: [
+          "± 90º",
+          "± 60º",
+          "± 30º",
+          "± 180º"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 10,
+        question: "Alat yang berfungsi sebagai pengereman mekanis pada Rappelling adalah...",
+        options: [
+          "Carabiner",
+          "Descender (figure 8)",
+          "Cincin kait",
+          "Helm"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Berikut ini adalah alat untuk Rappelling, KECUALI...",
+        options: [
+          "Tali statik/dinamik",
+          "Sit harness",
+          "Descender",
+          "Tali peleton 1,5 Cm"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 12,
+        question: "Langkah pertama dalam teknik pemasangan Rappelling adalah...",
+        options: [
+          "Pasang sit harness",
+          "Cari medan yang memiliki sudut ± 90˚",
+          "Masukkan tali ke descender",
+          "Lompat"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Pada Turun Hesty, ikatan tali peleton pada tambatan menggunakan...",
+        options: [
+          "Ikatan mati",
+          "Ikatan pokok",
+          "Simpul anyam",
+          "Simpul pangkal"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Sebelum lintasan digunakan, hal wajib yang harus dilakukan adalah...",
+        options: [
+          "Foto bersama",
+          "Periksa dan coba lintasan",
+          "Makan",
+          "Tidur"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 15,
+        question: "Pada Rappelling, tali jalur dimasukkan ke descender yang dihubungkan dengan...",
+        options: [
+          "Tangan",
+          "Cincin kait",
+          "Kaki",
+          "Leher"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Fungsi sarung tangan pada Turun Hesty dan Rappelling adalah...",
+        options: [
+          "Agar terlihat gagah",
+          "Melindungi tangan dari panas gesekan tali",
+          "Supaya tidak kedinginan",
+          "Hiasan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Tambatan ikatan pokok pada Turun Hesty bisa berupa...",
+        options: [
+          "Rumput",
+          "Pohon, batu, atau patok",
+          "Teman",
+          "Pasir"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 18,
+        question: "Gerakan kaki saat melakukan Turun Hesty adalah...",
+        options: [
+          "Melompat-lompat",
+          "Dibuka selebar bahu dan digeser ke samping",
+          "Berlari",
+          "Rapat"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Pada Rappelling, tali jalur juga dimasukkan ke carabiner yang dihubungkan dengan...",
+        options: [
+          "Cincin kait",
+          "Harness langsung",
+          "Helm",
+          "Sepatu"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Perbedaan utama sudut medan antara Hesty dan Rappelling adalah...",
+        options: [
+          "Hesty 90º, Rappelling 60º",
+          "Hesty 60º, Rappelling 90º",
+          "Keduanya 90º",
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-mountain-3',
+    tkkId: 'mountain-3',
+    title: 'Quiz Pelintasan Kering',
+    questions: [
+      {
+        id: 1,
+        question: "Kegunaan dari Rayapan Tali Satu adalah...",
+        options: [
+          "Melintasi medan yang tidak dapat dilalui oleh jalan kaki biasa",
+          "Melintasi sungai yang sangat lebar",
+          "Menyeberangi lautan",
+          "Memanjat tebing vertikal"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 2,
+        question: "Ukuran diameter Tali Manila yang digunakan untuk Rayapan Tali Satu adalah...",
+        options: [
+          "1.5 Cm",
+          "2.5 Cm",
+          "3.5 Cm",
+          "4.5 Cm"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 3,
+        question: "Panjang Tali Manila yang digunakan untuk Rayapan Tali Satu adalah...",
+        options: [
+          "100 M",
+          "150 M",
+          "200 M",
+          "225 M"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 4,
+        question: "Ukuran diameter Tali Manila yang digunakan untuk Rayapan Tali Dua adalah...",
+        options: [
+          "1.5 Cm",
+          "2.5 Cm",
+          "3.5 Cm",
+          "5.0 Cm"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Pada teknik Rayapan Tali Satu, posisi kaki adalah...",
+        options: [
+          "Kedua kaki dikaitkan pada tali",
+          "Salah satu kaki dikaitkan, kaki yang satu tergantung lemas",
+          "Kedua kaki menggantung lurus ke bawah",
+          "Kedua kaki disilangkan di atas tali"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 6,
+        question: "Pada teknik Rayapan Tali Dua, posisi kaki adalah...",
+        options: [
+          "Salah satu kaki dikaitkan",
+          "Kedua kaki dikaitkan pada masing-masing lintasan kanan dan kiri",
+          "Kedua kaki berpijak pada tali bawah",
+          "Kaki tidak menyentuh tali"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Jarak antara bambu stabilisator pada Rayapan Tali Dua adalah...",
+        options: [
+          "± 2 M",
+          "± 3 M",
+          "± 4 M",
+          "± 5 M"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 8,
+        question: "Kegunaan Titian Tali Dua adalah...",
+        options: [
+          "Melintasi medan yang tidak bisa dilewati oleh kendaraan",
+          "Melintasi sungai deras dengan berenang",
+          "Meluncur cepat dari ketinggian",
+          "Memanjat pohon"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 9,
+        question: "Diameter Tali Manila untuk Titian Tali Dua adalah...",
+        options: [
+          "1.5 Cm",
+          "2.5 Cm",
+          "3.5 Cm",
+          "4.0 Cm"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: "Pada pemasangan Titian Tali Dua, jarak antara tali bagian atas dan bawah adalah...",
+        options: [
+          "± 1.0 M",
+          "± 1.5 M",
+          "± 2.0 M",
+          "± 2.5 M"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Pada teknik Titian Tali Tiga, posisi tangan adalah...",
+        options: [
+          "Memegang pinggang",
+          "Masing-masing memegang tali lintasan yang ada di atas (kanan, kiri)",
+          "Memegang tali bawah",
+          "Direntangkan tanpa memegang tali"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 12,
+        question: "Kegunaan dari teknik Peluncuran adalah...",
+        options: [
+          "Melintasi medan yang curam atau mempercepat ke tempat yang dituju",
+          "Mendaki tebing terjal",
+          "Menyeberangi sungai dengan rakit",
+          "Berjalan di atas tali"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 13,
+        question: "Sudut tempat yang memenuhi syarat untuk Peluncuran adalah...",
+        options: [
+          "± 10º - 20º",
+          "± 30º - 40º",
+          "± 50º - 60º",
+          "± 90º"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Diameter Tali Manila yang digunakan untuk Peluncuran adalah...",
+        options: [
+          "1.5 Cm",
+          "2.5 Cm",
+          "3.5 Cm",
+          "5.0 Cm"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 15,
+        question: "Diameter Tali Peleton yang digunakan dalam peralatan Peluncuran adalah...",
+        options: [
+          "1.0 Cm",
+          "1.5 Cm",
+          "2.0 Cm",
+          "2.5 Cm"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 16,
+        question: "Sudut tebing yang digunakan untuk lintasan Snap Link adalah...",
+        options: [
+          "30˚",
+          "45˚",
+          "60˚",
+          "90˚"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 17,
+        question: "Sudut medan yang dicari untuk teknik Rappelling adalah...",
+        options: [
+          "± 45˚",
+          "± 60˚",
+          "± 75˚",
+          "± 90˚"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 18,
+        question: "Hand Traves (Bergerak ke Samping) dilakukan bila...",
+        options: [
+          "Pegangan ideal sangat minim dan memanjat vertikal sudah tidak memungkinkan",
+          "Tebing sangat landai",
+          "Ada tangga tersedia",
+          "Menggunakan tali pengaman penuh"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 19,
+        question: "Pada teknik Hand Traves, berat badan sebaiknya...",
+        options: [
+          "Sepenuhnya pada tangan",
+          "Sepenuhnya pada kaki",
+          "Terbagi rata antara pegangan tangan dan pijakan kaki",
+          "Bertumpu pada tali pengaman"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 20,
+        question: "Alat bantu yang digunakan untuk pengereman pada teknik Rappelling adalah...",
+        options: [
+          "Descender (figure 8)",
+          "Ascender",
+          "Paku tebing",
+          "Hammer"
+        ],
+        correctAnswer: 0
+      }
+    ]
+  },
+  {
+    id: 'quiz-mountain-4',
+    tkkId: 'mountain-4',
+    title: 'Quiz Pelintasan Basah',
+    questions: [
+      {
+        id: 1,
+        question: "Rawa adalah permukaan bumi yang selalu digenangi air dan lumpur yang permukaannya berubah-ubah karena pengaruh...",
+        options: [
+          "Angin kencang",
+          "Air laut/sungai",
+          "Hujan deras",
+          "Gempa bumi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Saat melintasi lumpur rawa yang relatif dalam tanpa alat, teknik yang dilakukan adalah...",
+        options: [
+          "Berjalan cepat",
+          "Melompat-lompat",
+          "Merayap (berenang di atas lumpur)",
+          "Berlari zig-zag"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 3,
+        question: "Jika terjebak dalam lumpur hidup (quicksand), tindakan yang benar adalah...",
+        options: [
+          "Meronta sekuat tenaga",
+          "Berteriak histeris",
+          "Jangan meronta, bergerak pelan, tiarap, lalu berenang",
+          "Berdiri tegak diam"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: "Dalam kondisi air surut di rawa, sebaiknya bergerak di...",
+        options: [
+          "Tengah sungai",
+          "Tepi sungai",
+          "Sembarang tempat",
+          "Tempat yang paling dalam"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Alat bantu sederhana yang bisa digunakan untuk melintasi rawa adalah...",
+        options: [
+          "Papan luncur, bambu, atau batang pisang",
+          "Sepeda motor",
+          "Tangga lipat",
+          "Payung"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 6,
+        question: "Teknik gerakan tangan saat melintasi rawa dengan alat (tanpa tarikan) adalah seperti...",
+        options: [
+          "Tinju",
+          "Berenang gaya katak",
+          "Mendayung kano",
+          "Memanjat tebing"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Definisi Pelintasan Kering dengan tali adalah melintasi sungai dengan cara...",
+        options: [
+          "Berenang melawan arus",
+          "Tidak menyentuh air",
+          "Menyentuh air sedikit",
+          "Menggunakan perahu"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: "Pada persiapan Pelintasan Basah, posisi badan saat melapor kesiapan adalah...",
+        options: [
+          "Membelakangi sungai",
+          "Duduk bersila",
+          "Tegak menghadap ke hulu sungai",
+          "Tiarap"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 9,
+        question: "Pada gerakan Pelintasan Basah dengan tali, posisi ibu jari tangan saat memegang tali adalah...",
+        options: [
+          "Di atas tali",
+          "Di samping tali",
+          "Di bawah tali",
+          "Mengepal penuh"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 10,
+        question: "Fungsi tangan depan saat melakukan Pelintasan Basah dengan tali adalah...",
+        options: [
+          "Mendorong badan",
+          "Pembersih kotoran yang menyangkut pada tali",
+          "Memegang senjata",
+          "Melambai"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Posisi badan saat melakukan Pelintasan Basah dengan tali adalah...",
+        options: [
+          "Tenggelam seluruhnya",
+          "Berjalan di dasar sungai",
+          "Mengapung dengan gerakan kaki renang gaya bebas",
+          "Duduk di atas tali"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 12,
+        question: "Jika terpaksa menyeberang sungai dengan ransel, ransel harus dibungkus dengan...",
+        options: [
+          "Kain katun",
+          "Jaring",
+          "Plastik",
+          "Daun pisang"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 13,
+        question: "Teknik gerakan kaki saat menyeberang dengan ransel pelampung adalah...",
+        options: [
+          "Gaya dada (katak) atau gaya bebas",
+          "Gaya kupu-kupu",
+          "Diam saja",
+          "Berjalan"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 14,
+        question: "Dalam pembagian tugas regu LCR, Wakil Ketua Regu bertugas sebagai...",
+        options: [
+          "Pemandu arah",
+          "Pendayung kanan",
+          "Pendayung kiri",
+          "Pengemudi"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 15,
+        question: "Aba-aba untuk menaiki perahu LCR sebaiknya diberikan saat air setinggi...",
+        options: [
+          "Mata kaki",
+          "Lutut",
+          "Dada",
+          "Leher"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 16,
+        question: "Siapa yang masuk perahu paling terakhir saat berangkat untuk menjaga arah perahu?",
+        options: [
+          "Ketua Regu",
+          "Pimpinan perahu",
+          "Anggota termuda",
+          "Pendayung depan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Saat mendayung LCR bersama-sama, mata dayung harus...",
+        options: [
+          "Masuk ke dalam air",
+          "Hanya menyentuh permukaan air",
+          "Di udara",
+          "Memukul air"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 18,
+        question: "Saat perahu LCR merapat ke tepi pantai (mendarat), kayuhan dayung harus...",
+        options: [
+          "Dihentikan",
+          "Pelan dan santai",
+          "Cepat dan kuat",
+          "Mundur"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 19,
+        question: "Siapa yang turun pertama kali saat pendaratan pantai untuk mengikat perahu?",
+        options: [
+          "Pengemudi",
+          "Pendayung kiri",
+          "Pendayung kanan",
+          "Pimpinan perahu"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 20,
+        question: "Anggota yang berada di lambung kanan saat turun dari perahu LCR harus turun ke sebelah...",
+        options: [
+          "Kiri",
+          "Kanan",
+          "Depan",
+          "Belakang"
+        ],
+        correctAnswer: 1
       }
     ]
   }
