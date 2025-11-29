@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
   return (
-    <div className="relative w-full mt-[110px] lg:mt-0 aspect-video lg:h-screen lg:aspect-auto overflow-hidden">
+    <div className="relative w-full mt-[70px] lg:mt-0 aspect-video lg:h-screen lg:aspect-auto overflow-hidden">
       <BackgroundSlider />
       <div className="absolute inset-0 bg-black/10 pointer-events-none"></div>
     </div>

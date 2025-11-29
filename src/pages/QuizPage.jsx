@@ -98,7 +98,7 @@ const QuizPage = () => {
     }
 
     const nextQuestion = currentQuestionIndex + 1;
-    
+
     // Save user answer
     setUserAnswers([...userAnswers, {
       question: shuffledQuestions[currentQuestionIndex].question,
@@ -113,12 +113,12 @@ const QuizPage = () => {
       // Calculate time used when quiz finishes
       const totalTimeUsed = 600 - timeLeft;
       setTimeUsed(totalTimeUsed);
-      
+
       // Save to Firebase if user is logged in
       if (currentUser) {
         handleSaveResult(score + (isCorrect ? 5 : 0), totalTimeUsed, userAnswers.length + 1);
       }
-      
+
       setShowScore(true);
     }
   };
@@ -126,7 +126,7 @@ const QuizPage = () => {
   // Save quiz result to Firebase
   const handleSaveResult = async (finalScore, timeUsed, correctCount) => {
     if (!currentUser) return;
-    
+
     setSaving(true);
     const result = await saveQuizResult(currentUser.uid, {
       userName: currentUser.displayName || currentUser.email,
@@ -138,7 +138,7 @@ const QuizPage = () => {
       correctAnswers: correctCount,
       timeUsed
     });
-    
+
     if (!result.success) {
       console.error('Failed to save quiz result:', result.error);
     }
@@ -188,11 +188,11 @@ const QuizPage = () => {
               </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">Siap untuk memulai?</h2>
               <p className="text-gray-600 mb-8 max-w-lg mx-auto">
-                Kuis ini terdiri dari 20 pertanyaan acak seputar materi {foundTkk ? foundTkk.title : 'ini'}. 
+                Kuis ini terdiri dari 20 pertanyaan acak seputar materi {foundTkk ? foundTkk.title : 'ini'}.
                 Setiap soal bernilai 5 poin. Anda memiliki waktu 10 menit untuk menyelesaikan semua soal.
               </p>
-              <button 
-                onClick={startQuiz} 
+              <button
+                onClick={startQuiz}
                 className="btn btn-primary btn-lg gap-2 px-8"
               >
                 <PlayCircle size={24} />
@@ -207,7 +207,7 @@ const QuizPage = () => {
                     <h3 className="text-xl font-semibold text-gray-600 mb-2">Skor Akhir Anda</h3>
                     <div className="text-6xl font-bold text-primary mb-2">{score}</div>
                     <p className="text-gray-500 mb-4">dari total {shuffledQuestions.length * 5} poin</p>
-                    
+
                     {/* Time Used Display */}
                     <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-lg">
                       <Timer size={20} />
@@ -216,7 +216,7 @@ const QuizPage = () => {
                       </span>
                     </div>
                   </div>
-                  
+
                   {/* Review Answers */}
                   <div className="text-left mb-8 space-y-4 bg-gray-50 p-6 rounded-xl">
                     <h4 className="font-bold text-gray-800 border-b border-gray-200 pb-3 mb-4">Review Jawaban:</h4>
@@ -241,8 +241,8 @@ const QuizPage = () => {
                     <Link to={`/tkk/${tkkId}`} className="btn btn-outline">
                       Selesai & Kembali
                     </Link>
-                    <button 
-                      onClick={resetQuiz} 
+                    <button
+                      onClick={resetQuiz}
                       className="btn btn-primary gap-2"
                     >
                       <RefreshCw size={20} />
@@ -259,8 +259,8 @@ const QuizPage = () => {
                       <span>{Math.round(((currentQuestionIndex) / shuffledQuestions.length) * 100)}% Selesai</span>
                     </div>
                     <div className="w-full bg-gray-100 rounded-full h-2.5">
-                      <div 
-                        className="bg-primary h-2.5 rounded-full transition-all duration-300" 
+                      <div
+                        className="bg-primary h-2.5 rounded-full transition-all duration-300"
                         style={{ width: `${((currentQuestionIndex) / shuffledQuestions.length) * 100}%` }}
                       ></div>
                     </div>
@@ -281,16 +281,16 @@ const QuizPage = () => {
                     </h3>
                     <div className="space-y-3">
                       {shuffledQuestions[currentQuestionIndex].options.map((option, idx) => (
-                        <button 
-                          key={idx} 
-                          onClick={() => handleAnswerOptionClick(option)} 
-                          className="w-full text-left p-5 rounded-xl bg-white border-2 border-gray-100 hover:border-primary hover:bg-primary/5 transition-all duration-200 group"
+                        <button
+                          key={idx}
+                          onClick={() => handleAnswerOptionClick(option)}
+                          className="w-full text-left p-5 rounded-xl bg-white border-2 border-gray-100 md:hover:border-primary md:hover:bg-primary/5 transition-all duration-200 group"
                         >
                           <div className="flex items-center gap-3">
-                            <div className="w-8 h-8 rounded-full bg-gray-100 text-gray-500 flex items-center justify-center font-bold group-hover:bg-primary group-hover:text-white transition-colors">
+                            <div className="w-8 h-8 rounded-full bg-gray-100 text-gray-500 flex items-center justify-center font-bold md:group-hover:bg-primary md:group-hover:text-white transition-colors">
                               {String.fromCharCode(65 + idx)}
                             </div>
-                            <span className="text-gray-700 group-hover:text-gray-900 font-medium">{option.text}</span>
+                            <span className="text-gray-700 md:group-hover:text-gray-900 font-medium">{option.text}</span>
                           </div>
                         </button>
                       ))}
