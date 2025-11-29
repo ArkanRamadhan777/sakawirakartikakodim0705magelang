@@ -1,18 +1,22 @@
 import React, { useState, useEffect } from 'react';
+import { useParallax } from '../hooks/useParallax';
 
 const Hero = () => {
+  const parallaxOffset = useParallax(0.5);
+
   return (
     <div className="relative w-full mt-[0px] lg:mt-0 aspect-video lg:h-screen lg:aspect-auto overflow-hidden">
-      <BackgroundSlider />
-      <div className="absolute inset-0 bg-black/10 pointer-events-none"></div>
+      <BackgroundSlider parallaxOffset={parallaxOffset} />
+      {/* Subtle gradient overlay for better visual depth */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/20 pointer-events-none"></div>
     </div>
   );
 };
 
 export default Hero;
 
-/* BackgroundSlider - local component */
-function BackgroundSlider() {
+/* BackgroundSlider - local component with parallax */
+function BackgroundSlider({ parallaxOffset }) {
   const images = [
     '/galeri swk/2.webp',
     '/galeri swk/9.webp',
@@ -37,6 +41,10 @@ function BackgroundSlider() {
           src={src}
           alt={`Slide ${i + 1}`}
           className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${i === index ? 'opacity-100 scale-105' : 'opacity-0 scale-100'}`}
+          style={{
+            transform: `translateY(${parallaxOffset}px)`,
+            willChange: 'transform',
+          }}
         />
       ))}
     </div>

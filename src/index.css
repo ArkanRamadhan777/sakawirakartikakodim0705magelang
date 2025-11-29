@@ -37,3 +37,26 @@ html, body, .modal-box {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Glassmorphism utility */
+@layer utilities {
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/10 border border-white/20;
+  }
+  
+  .glass-dark {
+    @apply backdrop-blur-md bg-black/30 border border-white/10;
+  }
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
