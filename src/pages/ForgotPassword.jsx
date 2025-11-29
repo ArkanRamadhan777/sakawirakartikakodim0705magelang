@@ -22,6 +22,10 @@ const ForgotPassword = () => {
             setSuccess(true);
             setEmail('');
         } catch (error) {
+            console.error("Forgot Password Error:", error);
+            console.log("Error Code:", error.code);
+            console.log("Error Message:", error.message);
+
             let errorMessage = 'Terjadi kesalahan. Silakan coba lagi.';
 
             if (error.code === 'auth/user-not-found') {
