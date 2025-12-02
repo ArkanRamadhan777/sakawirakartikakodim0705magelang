@@ -104,5 +104,23 @@ service cloud.firestore {
       // Admins can do anything
       allow read, write: if isAdmin();
     }
+    
+    // User flashcards collection
+    match /user_flashcards/{flashcardId} {
+      // Users can read their own flashcards
+      allow read: if request.auth != null && request.auth.uid == resource.data.userId;
+      
+      // Users can create their own flashcards
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.userId;
+      
+      // Users can update their own flashcards
+      allow update: if request.auth != null && request.auth.uid == resource.data.userId;
+      
+      // Users can delete their own flashcards
+      allow delete: if request.auth != null && request.auth.uid == resource.data.userId;
+      
+      // Admins can do anything
+      allow read, write: if isAdmin();
+    }
   }
 }

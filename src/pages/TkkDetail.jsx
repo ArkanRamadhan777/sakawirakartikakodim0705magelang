@@ -215,50 +215,73 @@ const TkkDetail = () => {
           </div>
 
           {/* Footer / Actions */}
-          <div className="bg-gray-50 p-8 border-t border-gray-100 flex justify-between items-center">
-            {/* Previous Button */}
-            {prevTkkLink ? (
-              <Link to={prevTkkLink} className="btn btn-circle btn-ghost" title="Sebelumnya">
-                <ChevronLeft size={24} />
-              </Link>
-            ) : (
-              <div className="w-12"></div>
-            )}
-
-            {/* Center Content */}
-            <div className="flex items-center gap-2">
-              <div className="text-sm text-gray-500 text-center hidden sm:block">
-                Bagian dari <span className="font-bold text-gray-900">{parentKrida.title}</span>
+          <div className="bg-gray-50 p-8 border-t border-gray-100">
+            {/* Action Buttons */}
+            {quiz && (
+              <div className="flex gap-4 mb-6">
+                <Link
+                  to={`/quiz/${id}`}
+                  className="flex-1 btn btn-primary gap-2"
+                >
+                  <HelpCircle size={20} />
+                  Mulai Kuis
+                </Link>
+                <Link
+                  to={`/flashcard/${id}`}
+                  className="flex-1 btn btn-outline gap-2"
+                >
+                  <FileText size={20} />
+                  Flashcard Mode
+                </Link>
               </div>
-              <button 
-                className="btn btn-ghost btn-circle btn-sm" 
-                title="Bagikan"
-                onClick={() => {
-                  if (navigator.share) {
-                    navigator.share({
-                      title: foundTkk.title,
-                      text: `Pelajari ${foundTkk.title} di Saka Wira Kartika`,
-                      url: window.location.href,
-                    })
-                    .catch((error) => console.log('Error sharing', error));
-                  } else {
-                    navigator.clipboard.writeText(window.location.href);
-                    alert('Link TKK berhasil disalin!');
-                  }
-                }}
-              >
-                <Share2 size={18} />
-              </button>
-            </div>
-
-            {/* Next Button */}
-            {nextTkkLink ? (
-              <Link to={nextTkkLink} className="btn btn-circle btn-ghost" title="Selanjutnya">
-                <ChevronRight size={24} />
-              </Link>
-            ) : (
-              <div className="w-12"></div>
             )}
+            
+            {/* Navigation */}
+            <div className="flex justify-between items-center">
+              {/* Previous Button */}
+              {prevTkkLink ? (
+                <Link to={prevTkkLink} className="btn btn-circle btn-ghost" title="Sebelumnya">
+                  <ChevronLeft size={24} />
+                </Link>
+              ) : (
+                <div className="w-12"></div>
+              )}
+
+              {/* Center Content */}
+              <div className="flex items-center gap-2">
+                <div className="text-sm text-gray-500 text-center hidden sm:block">
+                  Bagian dari <span className="font-bold text-gray-900">{parentKrida.title}</span>
+                </div>
+                <button 
+                  className="btn btn-ghost btn-circle btn-sm" 
+                  title="Bagikan"
+                  onClick={() => {
+                    if (navigator.share) {
+                      navigator.share({
+                        title: foundTkk.title,
+                        text: `Pelajari ${foundTkk.title} di Saka Wira Kartika`,
+                        url: window.location.href,
+                      })
+                      .catch((error) => console.log('Error sharing', error));
+                    } else {
+                      navigator.clipboard.writeText(window.location.href);
+                      alert('Link TKK berhasil disalin!');
+                    }
+                  }}
+                >
+                  <Share2 size={18} />
+                </button>
+              </div>
+
+              {/* Next Button */}
+              {nextTkkLink ? (
+                <Link to={nextTkkLink} className="btn btn-circle btn-ghost" title="Selanjutnya">
+                  <ChevronRight size={24} />
+                </Link>
+              ) : (
+                <div className="w-12"></div>
+              )}
+            </div>
           </div>
         </div>
       </div>

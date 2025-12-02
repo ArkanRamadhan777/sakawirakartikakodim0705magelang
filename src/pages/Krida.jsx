@@ -1,9 +1,35 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { kridas } from '../data/kridas';
+import { useAuth } from '../contexts/AuthContext';
+import { getOverallProgress } from '../services/kridaProgressService';
 
 const Krida = () => {
+  const { currentUser } = useAuth();
+  const [kridaProgress, setKridaProgress] = useState({});
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (currentUser) {
+      loadProgress();
+    } else {
+      setLoading(false);
+    }
+  }, [currentUser]);
+
+  const loadProgress = async () => {
+    setLoading(true);
+    const result = await getOverallProgress(currentUser.uid);
+    if (result.success) {
+      const progressMap = {};
+      result.progress.kridaProgress.forEach(kp => {
+        progressMap[kp.kridaId] = kp;
+      });
+      setKridaProgress(progressMap);
+    }
+    setLoading(false);
+  };
   return (
     <div className="pt-24 min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 py-10">
@@ -16,13 +42,39 @@ const Krida = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {kridas.map((krida) => (
+          {kridas.map((krida) => {
+            const progress = kridaProgress[krida.id];
+            const hasProgress = currentUser && progress;
+            
+            return (
             <div key={krida.id} className="group bg-black rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-800 hover:border-primary w-full flex flex-col items-center text-center">
               <div className="flex justify-center mb-6 transition-transform duration-300 group-hover:scale-110">
                 <img src={krida.image} alt={krida.title} className="w-40 h-40 object-contain drop-shadow-lg" />
               </div>
               <h2 className="text-2xl font-bold font-anta mb-3 text-white group-hover:text-primary transition-colors">{krida.title}</h2>
               <p className="font-gabarito text-gray-400 leading-relaxed mb-6">{krida.description}</p>
+              
+              {/* Progress Bar */}
+              {hasProgress && (
+                <div className="w-full mb-4">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs text-gray-400">Progress</span>
+                    <span className="text-xs font-bold text-primary">
+                      {progress.completionPercentage}%
+                    </span>
+                  </div>
+                  <div className="w-full bg-gray-800 rounded-full h-2 overflow-hidden">
+                    <div
+                      className="bg-gradient-to-r from-primary to-red-600 h-full transition-all duration-500 rounded-full"
+                      style={{ width: `${progress.completionPercentage}%` }}
+                    />
+                  </div>
+                  <div className="text-xs text-gray-500 mt-1">
+                    {progress.completedTkk}/{progress.totalTkk} TKK selesai
+                  </div>
+                </div>
+              )}
+              
               <Link 
                 to={`/krida/${krida.id}`}
                 className="btn btn-sm btn-outline text-white border-gray-600 hover:bg-primary hover:border-primary hover:text-white w-full mt-auto"
@@ -30,7 +82,8 @@ const Krida = () => {
                 Pelajari Lebih Lanjut
               </Link>
             </div>
-          ))}
+            );
+          })}
           
           {/* Info Card */}
           <div className="rounded-2xl p-8 bg-black shadow-2xl flex flex-col items-center text-center group hover:scale-105 transition-all duration-300 relative overflow-hidden">

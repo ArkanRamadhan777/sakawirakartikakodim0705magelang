@@ -27,6 +27,7 @@ import AnnouncementDetail from './pages/AnnouncementDetail';
 import AchievementsPage from './pages/AchievementsPage';
 import BookmarksPage from './pages/BookmarksPage';
 import NotesPage from './pages/NotesPage';
+import FlashcardPage from './pages/FlashcardPage';
 import AdminRoute from './components/AdminRoute';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -68,6 +69,7 @@ function App() {
           <Route path="/krida/:id" element={<KridaDetail />} />
           <Route path="/tkk/:id" element={<TkkDetail />} />
           <Route path="/quiz/:tkkId" element={<QuizPage />} />
+          <Route path="/flashcard/:tkkId" element={<FlashcardPage />} />
           <Route path="/article/:articleId" element={<ArticleDetail />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/referensi" element={<References />} />
