@@ -5,6 +5,10 @@ import { kridas } from '../data/kridas';
 import { ArrowLeft, CheckCircle2, PlayCircle, RefreshCw, XCircle, Timer, FileSignature } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { saveQuizResult } from '../services/quizService';
+import { checkUserAchievements, getNewlyUnlockedAchievements } from '../services/achievementService';
+import AchievementUnlockedModal from '../components/AchievementUnlockedModal';
+import { fireFireworks, fireCelebration, fireConfetti } from '../utils/confetti';
+import toast, { Toaster } from 'react-hot-toast';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const QuizPage = () => {
@@ -19,6 +23,8 @@ const QuizPage = () => {
   const [timeLeft, setTimeLeft] = useState(600); // 10 minutes in seconds for 20 questions
   const [timeUsed, setTimeUsed] = useState(0); // Track time used by user
   const [saving, setSaving] = useState(false);
+  const [newAchievements, setNewAchievements] = useState([]);
+  const [showAchievementModal, setShowAchievementModal] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null); // Track selected answer for visual feedback
 
   // Find TKK info for context (title, etc.)
@@ -146,6 +152,55 @@ const QuizPage = () => {
         const totalTimeUsed = 600 - timeLeft;
         setTimeUsed(totalTimeUsed);
 
+        // Calculate final score with time bonus
+        const timeBonus = totalTimeUsed >= 600 ? 0 : (1 - (totalTimeUsed / 600)) * 20;
+        const finalScore = newScore + timeBonus;
+        const maxScore = shuffledQuestions.length * 5 + 20;
+        const scorePercentage = (finalScore / maxScore) * 100;
+        
+        // Trigger confetti based on score
+        setTimeout(() => {
+          if (scorePercentage === 100) {
+            // Perfect score - Fireworks!
+            fireFireworks();
+            toast.success('🎊 PERFECT SCORE! Luar biasa! 🎊', {
+              duration: 5000,
+              style: {
+                background: '#10b981',
+                color: '#fff',
+                fontWeight: 'bold',
+                fontSize: '16px'
+              }
+            });
+          } else if (scorePercentage >= 90) {
+            // Excellent - Celebration
+            fireCelebration();
+            toast.success('🌟 Excellent! Skor sangat bagus!', {
+              duration: 4000,
+              style: {
+                background: '#3b82f6',
+                color: '#fff',
+                fontWeight: 'bold'
+              }
+            });
+          } else if (scorePercentage >= 75) {
+            // Good - Basic confetti
+            fireConfetti();
+            toast.success('👏 Good Job! Pertahankan!', {
+              duration: 3000
+            });
+          } else if (scorePercentage >= 60) {
+            toast('💪 Tidak buruk! Terus belajar!', {
+              duration: 3000
+            });
+          } else {
+            toast('📚 Jangan menyerah! Coba lagi!', {
+              icon: '💪',
+              duration: 3000
+            });
+          }
+        }, 500);
+
         // Save to Firebase if user is logged in
         if (currentUser) {
           handleSaveResult(newScore, totalTimeUsed, newUserAnswers.filter(a => a.isCorrect).length);
@@ -159,6 +214,9 @@ const QuizPage = () => {
   // Save quiz result to Firebase
   const handleSaveResult = async (scoreValue, timeUsed, correctCount) => {
     if (!currentUser) return;
+
+    // Get achievements before saving
+    const beforeAchievements = await checkUserAchievements(currentUser.uid);
 
     setSaving(true);
     const result = await saveQuizResult(currentUser.uid, {
@@ -174,6 +232,27 @@ const QuizPage = () => {
 
     if (!result.success) {
       console.error('Failed to save quiz result:', result.error);
+      toast.error('Gagal menyimpan hasil quiz');
+    } else {
+      toast.success('Hasil quiz berhasil disimpan!');
+      
+      // Check for new achievements after saving
+      const afterAchievements = await checkUserAchievements(currentUser.uid);
+      
+      if (beforeAchievements.success && afterAchievements.success) {
+        const newlyUnlocked = getNewlyUnlockedAchievements(
+          beforeAchievements.achievements,
+          afterAchievements.achievements
+        );
+        
+        if (newlyUnlocked.length > 0) {
+          setNewAchievements(newlyUnlocked);
+          // Show first achievement after a delay
+          setTimeout(() => {
+            setShowAchievementModal(true);
+          }, 1000);
+        }
+      }
     }
     setSaving(false);
   };
@@ -200,6 +279,7 @@ const QuizPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-12">
+      <Toaster position="top-center" reverseOrder={false} />
       <div className="container mx-auto px-4 max-w-3xl">
         {/* Header */}
         <div className="mb-4">
@@ -392,6 +472,21 @@ const QuizPage = () => {
           )}
         </div>
       </div>
+      
+      {/* Achievement Unlocked Modal */}
+      {showAchievementModal && newAchievements.length > 0 && (
+        <AchievementUnlockedModal
+          achievement={newAchievements[0]}
+          onClose={() => {
+            setShowAchievementModal(false);
+            // Show next achievement if any
+            if (newAchievements.length > 1) {
+              setNewAchievements(prev => prev.slice(1));
+              setTimeout(() => setShowAchievementModal(true), 500);
+            }
+          }}
+        />
+      )}
     </div>
   );
 };

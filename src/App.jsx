@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -23,12 +24,38 @@ import MigrationTools from './pages/MigrationTools';
 import AnnouncementManagement from './pages/AnnouncementManagement';
 import AnnouncementEditor from './pages/AnnouncementEditor';
 import AnnouncementDetail from './pages/AnnouncementDetail';
+import AchievementsPage from './pages/AchievementsPage';
 import AdminRoute from './components/AdminRoute';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen font-gabarito">
+      <Toaster 
+        position="top-right"
+        toastOptions={{
+          duration: 3000,
+          style: {
+            background: '#fff',
+            color: '#1f2937',
+            boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+            borderRadius: '12px',
+            padding: '16px',
+          },
+          success: {
+            iconTheme: {
+              primary: '#10b981',
+              secondary: '#fff',
+            },
+          },
+          error: {
+            iconTheme: {
+              primary: '#ef4444',
+              secondary: '#fff',
+            },
+          },
+        }}
+      />
       <ScrollToTop />
       <Navbar />
       <main className="flex-grow pt-24">
@@ -47,6 +74,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/history" element={<QuizHistory />} />
           <Route path="/leaderboard" element={<LeaderboardTabs />} />
+          <Route path="/achievements" element={<AchievementsPage />} />
           <Route path="/admin/dashboard" element={<AdminRoute><AdminDashboard /></AdminRoute>} />
           <Route path="/admin/articles" element={<AdminRoute><ArticleManagement /></AdminRoute>} />
           <Route path="/admin/article/new" element={<AdminRoute><ArticleEditorPage /></AdminRoute>} />

@@ -18,7 +18,10 @@ const Navbar = () => {
     { name: 'Tentang Kami', path: '/about' },
     { name: 'Krida', path: '/krida' },
     { name: 'Galeri', path: '/gallery' },
-    ...(currentUser ? [{ name: 'Leaderboard', path: '/leaderboard' }] : []),
+    ...(currentUser ? [
+      { name: 'Leaderboard', path: '/leaderboard' },
+      { name: 'Pencapaian', path: '/achievements' }
+    ] : []),
   ];
 
   useEffect(() => {
