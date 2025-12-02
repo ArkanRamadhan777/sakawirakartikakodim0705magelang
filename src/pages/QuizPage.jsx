@@ -10,6 +10,7 @@ import AchievementUnlockedModal from '../components/AchievementUnlockedModal';
 import { fireFireworks, fireCelebration, fireConfetti } from '../utils/confetti';
 import toast, { Toaster } from 'react-hot-toast';
 import Breadcrumbs from '../components/Breadcrumbs';
+import LoadingSpinner from '../components/LoadingSpinner';
 
 const QuizPage = () => {
   const { tkkId } = useParams();
@@ -402,7 +403,7 @@ const QuizPage = () => {
                   {/* Safety check */}
                   {!shuffledQuestions[currentQuestionIndex] ? (
                     <div className="text-center py-12">
-                      <p className="text-gray-600">Loading question...</p>
+                      <LoadingSpinner size="md" text="Loading question..." />
                     </div>
                   ) : (
                     <>
