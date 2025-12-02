@@ -267,6 +267,12 @@ const QuizPage = () => {
     setTimeLeft(600); // Reset to 10 minutes
     setTimeUsed(0); // Reset time used
     setSelectedAnswer(null);
+    setShuffledQuestions([]); // Clear shuffled questions
+    
+    // Restart the quiz immediately
+    setTimeout(() => {
+      startQuiz();
+    }, 100);
   };
 
   if (!quiz) {
