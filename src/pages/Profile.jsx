@@ -7,6 +7,7 @@ import { calculateStreak } from '../services/streakService';
 import BadgeDisplay from '../components/BadgeDisplay';
 import ProgressCard from '../components/ProgressCard';
 import ProgressChart from '../components/ProgressChart';
+import RecommendationsWidget from '../components/RecommendationsWidget';
 import { Trophy, Clock, Award, TrendingUp, ChevronDown, ChevronUp, User, Mail, LogOut, Edit2, Calendar, Flame, Share2 } from 'lucide-react';
 import { generateShareText, shareViaWebShare, copyToClipboard, shareToWhatsApp } from '../utils/shareUtils';
 
@@ -237,6 +238,11 @@ const Profile = () => {
                         <ProgressChart quizResults={quizResults} />
                     </div>
                 )}
+
+                {/* Recommendations Widget */}
+                <div className="mb-8">
+                    <RecommendationsWidget limit={5} />
+                </div>
 
                 {/* Recent Activity */}
                 {quizResults.length > 0 && (
