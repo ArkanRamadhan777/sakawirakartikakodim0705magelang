@@ -2,13 +2,17 @@ import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { kridas } from '../data/kridas';
 import { quizzes } from '../data/quizzes';
-import { ArrowLeft, BookOpen, FileText, CheckCircle, ChevronDown, ChevronUp, HelpCircle, ChevronRight, ChevronLeft, Share2, FileSignature } from 'lucide-react';
+import { ArrowLeft, BookOpen, FileText, CheckCircle, ChevronDown, ChevronUp, HelpCircle, ChevronRight, ChevronLeft, Share2, FileSignature, StickyNote } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import BookmarkButton from '../components/BookmarkButton';
+import NoteEditorModal from '../components/NoteEditorModal';
+import { useAuth } from '../contexts/AuthContext';
 
 const TkkDetail = () => {
   const { id } = useParams();
+  const { currentUser } = useAuth();
   const [openModuleId, setOpenModuleId] = useState(null);
+  const [showNoteEditor, setShowNoteEditor] = useState(false);
   
   // Helper to find TKK and its parent Krida
   let foundTkk = null;
@@ -80,7 +84,17 @@ const TkkDetail = () => {
                 <h1 className="text-3xl md:text-4xl font-bold font-anta text-gray-900 mb-2">{foundTkk.title}</h1>
                 <p className="text-gray-500 font-gabarito text-lg">Bagian dari {parentKrida.title}</p>
               </div>
-              <div className="md:ml-auto">
+              <div className="md:ml-auto flex gap-2">
+                {currentUser && (
+                  <button
+                    onClick={() => setShowNoteEditor(true)}
+                    className="btn btn-outline gap-2 hover-lift"
+                    title="Buat catatan"
+                  >
+                    <StickyNote size={20} />
+                    <span className="hidden sm:inline">Buat Catatan</span>
+                  </button>
+                )}
                 <BookmarkButton 
                   item={{
                     id: foundTkk.id,
@@ -248,6 +262,18 @@ const TkkDetail = () => {
           </div>
         </div>
       </div>
+
+      {/* Note Editor Modal */}
+      {showNoteEditor && (
+        <NoteEditorModal
+          tkkId={id}
+          tkkTitle={foundTkk.title}
+          onClose={() => setShowNoteEditor(false)}
+          onSave={() => {
+            setShowNoteEditor(false);
+          }}
+        />
+      )}
     </div>
   );
 };

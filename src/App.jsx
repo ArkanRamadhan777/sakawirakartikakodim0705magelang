@@ -26,6 +26,7 @@ import AnnouncementEditor from './pages/AnnouncementEditor';
 import AnnouncementDetail from './pages/AnnouncementDetail';
 import AchievementsPage from './pages/AchievementsPage';
 import BookmarksPage from './pages/BookmarksPage';
+import NotesPage from './pages/NotesPage';
 import AdminRoute from './components/AdminRoute';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -77,6 +78,7 @@ function App() {
           <Route path="/leaderboard" element={<LeaderboardTabs />} />
           <Route path="/achievements" element={<AchievementsPage />} />
           <Route path="/bookmarks" element={<BookmarksPage />} />
+          <Route path="/notes" element={<NotesPage />} />
           <Route path="/admin/dashboard" element={<AdminRoute><AdminDashboard /></AdminRoute>} />
           <Route path="/admin/articles" element={<AdminRoute><ArticleManagement /></AdminRoute>} />
           <Route path="/admin/article/new" element={<AdminRoute><ArticleEditorPage /></AdminRoute>} />

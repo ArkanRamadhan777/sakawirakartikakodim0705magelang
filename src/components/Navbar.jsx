@@ -21,7 +21,8 @@ const Navbar = () => {
     ...(currentUser ? [
       { name: 'Leaderboard', path: '/leaderboard' },
       { name: 'Pencapaian', path: '/achievements' },
-      { name: 'Bookmark', path: '/bookmarks' }
+      { name: 'Bookmark', path: '/bookmarks' },
+      { name: 'Catatan', path: '/notes' }
     ] : []),
   ];
 

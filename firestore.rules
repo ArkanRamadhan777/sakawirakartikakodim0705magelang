@@ -86,5 +86,23 @@ service cloud.firestore {
       // Admins can do anything
       allow read, write: if isAdmin();
     }
+    
+    // User notes collection
+    match /user_notes/{noteId} {
+      // Users can read their own notes
+      allow read: if request.auth != null && request.auth.uid == resource.data.userId;
+      
+      // Users can create their own notes
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.userId;
+      
+      // Users can update their own notes
+      allow update: if request.auth != null && request.auth.uid == resource.data.userId;
+      
+      // Users can delete their own notes
+      allow delete: if request.auth != null && request.auth.uid == resource.data.userId;
+      
+      // Admins can do anything
+      allow read, write: if isAdmin();
+    }
   }
 }
