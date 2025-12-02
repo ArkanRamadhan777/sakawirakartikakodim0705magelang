@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import AnimatedSection from '../components/AnimatedSection';
+import AnnouncementBanner from '../components/AnnouncementBanner';
 import { Shield, Target, BookOpen, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -8,6 +9,13 @@ const Home = () => {
   return (
     <div className="bg-base-100">
       <Hero />
+
+      {/* Announcement Banner */}
+      <section className="py-4 px-4">
+        <div className="max-w-7xl mx-auto">
+          <AnnouncementBanner />
+        </div>
+      </section>
 
       {/* Intro Section */}
       <section className="py-20 px-4 relative overflow-hidden">

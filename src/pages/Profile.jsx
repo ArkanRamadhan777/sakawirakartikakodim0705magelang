@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { Navigate, useNavigate, Link } from 'react-router-dom';
 import { getUserProgress, getUserStats, getProgressByKrida, getUserBadges } from '../services/progressService';
 import { getUserRank } from '../services/leaderboardService';
 import { calculateStreak } from '../services/streakService';
-import { getUserGoals, createGoal, calculateGoalProgress, deleteGoal } from '../services/goalsService';
 import BadgeDisplay from '../components/BadgeDisplay';
 import ProgressCard from '../components/ProgressCard';
 import ProgressChart from '../components/ProgressChart';
-import { Trophy, Target, Clock, Award, TrendingUp, ChevronDown, ChevronUp, User, Mail, LogOut, Edit2, Calendar, TrendingDown, Flame, Plus, X, Share2 } from 'lucide-react';
-import { generateShareText, shareViaWebShare, copyToClipboard, shareToWhatsApp, shareToTwitter } from '../utils/shareUtils';
+import { Trophy, Clock, Award, TrendingUp, ChevronDown, ChevronUp, User, Mail, LogOut, Edit2, Calendar, Flame, Share2 } from 'lucide-react';
+import { generateShareText, shareViaWebShare, copyToClipboard, shareToWhatsApp } from '../utils/shareUtils';
 
 const Profile = () => {
     const { currentUser, logout } = useAuth();
@@ -24,9 +23,6 @@ const Profile = () => {
     const [isEditModalOpen, setIsEditModalOpen] = useState(false);
     const [newDisplayName, setNewDisplayName] = useState('');
     const [streak, setStreak] = useState(null);
-    const [goals, setGoals] = useState([]);
-    const [isAddGoalModalOpen, setIsAddGoalModalOpen] = useState(false);
-    const [newGoal, setNewGoal] = useState({ type: 'complete_tkk', target: 5, title: '' });
 
     useEffect(() => {
         if (currentUser) {
@@ -34,12 +30,6 @@ const Profile = () => {
             loadRank();
         }
     }, [currentUser]);
-
-    useEffect(() => {
-        if (stats && quizResults.length > 0) {
-            loadGoals();
-        }
-    }, [stats, quizResults]);
 
     const loadProgress = async () => {
         setLoading(true);
@@ -66,14 +56,6 @@ const Profile = () => {
         setLoading(false);
     };
 
-    const loadGoals = async () => {
-        const goalsResult = await getUserGoals(currentUser.uid);
-        if (goalsResult.success) {
-            const updatedGoals = calculateGoalProgress(goalsResult.data, quizResults, stats);
-            setGoals(updatedGoals);
-        }
-    };
-
     const loadRank = async () => {
         const rankResult = await getUserRank(currentUser.uid);
         if (rankResult.success) {
@@ -96,31 +78,6 @@ const Profile = () => {
         } catch (error) {
             console.error('Error updating profile:', error);
             alert('Gagal mengupdate profil');
-        }
-    };
-
-    const handleAddGoal = async () => {
-        if (!newGoal.title.trim()) return;
-
-        const goalData = {
-            type: newGoal.type,
-            target: parseInt(newGoal.target),
-            title: newGoal.title.trim(),
-            current: 0
-        };
-
-        const result = await createGoal(currentUser.uid, goalData);
-        if (result.success) {
-            setIsAddGoalModalOpen(false);
-            setNewGoal({ type: 'complete_tkk', target: 5, title: '' });
-            loadGoals();
-        }
-    };
-
-    const handleDeleteGoal = async (goalId) => {
-        const result = await deleteGoal(currentUser.uid, goalId);
-        if (result.success) {
-            loadGoals();
         }
     };
 
@@ -230,7 +187,7 @@ const Profile = () => {
                 {stats && (
                     <div className="mb-8">
                         <h2 className="text-xl font-bold font-anta text-gray-900 mb-4">📊 Statistik Saya</h2>
-                        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 text-center">
                                 <div className="text-primary mb-2">
                                     <Trophy size={24} className="mx-auto" />
@@ -241,7 +198,7 @@ const Profile = () => {
 
                             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 text-center">
                                 <div className="text-green-600 mb-2">
-                                    <Target size={24} className="mx-auto" />
+                                    <Trophy size={24} className="mx-auto" />
                                 </div>
                                 <div className="text-2xl font-bold text-gray-900">{stats.averageScore}%</div>
                                 <div className="text-xs text-gray-600">Rata-rata Nilai</div>
@@ -343,55 +300,6 @@ const Profile = () => {
                         </div>
                     </div>
                 )}
-
-                {/* Goals Section */}
-                <div className="mb-8">
-                    <div className="flex items-center justify-between mb-4">
-                        <h2 className="text-xl font-bold font-anta text-gray-900">🎯 Target Saya</h2>
-                        <button
-                            onClick={() => setIsAddGoalModalOpen(true)}
-                            className="btn btn-primary btn-sm gap-2"
-                        >
-                            <Plus size={16} />
-                            Tambah Target
-                        </button>
-                    </div>
-                    {goals.length > 0 ? (
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {goals.map((goal) => (
-                                <div key={goal.id} className="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
-                                    <div className="flex items-start justify-between mb-3">
-                                        <div className="flex-1">
-                                            <h3 className="font-bold text-gray-900">{goal.title}</h3>
-                                            <p className="text-sm text-gray-600 mt-1">
-                                                {goal.current} / {goal.target}
-                                            </p>
-                                        </div>
-                                        <button
-                                            onClick={() => handleDeleteGoal(goal.id)}
-                                            className="btn btn-ghost btn-sm btn-circle text-error"
-                                        >
-                                            <X size={16} />
-                                        </button>
-                                    </div>
-                                    <div className="w-full bg-gray-200 rounded-full h-3">
-                                        <div
-                                            className={`h-3 rounded-full transition-all ${goal.completed ? 'bg-success' : 'bg-primary'}`}
-                                            style={{ width: `${goal.percentage}%` }}
-                                        ></div>
-                                    </div>
-                                    {goal.completed && (
-                                        <p className="text-sm text-success font-semibold mt-2">✓ Selesai!</p>
-                                    )}
-                                </div>
-                            ))}
-                        </div>
-                    ) : (
-                        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8 text-center">
-                            <p className="text-gray-500">Belum ada target. Tambahkan target untuk memotivasi belajar!</p>
-                        </div>
-                    )}
-                </div>
 
                 {/* Badges Section */}
                 <div className="mb-8">
@@ -536,69 +444,6 @@ const Profile = () => {
                 </div>
             )}
 
-            {/* Add Goal Modal */}
-            {isAddGoalModalOpen && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={() => setIsAddGoalModalOpen(false)}>
-                    <div className="bg-white rounded-2xl p-6 max-w-md w-full mx-4" onClick={(e) => e.stopPropagation()}>
-                        <h3 className="text-xl font-bold font-anta mb-4">Tambah Target Baru</h3>
-                        <div className="space-y-4">
-                            <div>
-                                <label className="label">
-                                    <span className="label-text">Judul Target</span>
-                                </label>
-                                <input
-                                    type="text"
-                                    className="input input-bordered w-full"
-                                    value={newGoal.title}
-                                    onChange={(e) => setNewGoal({ ...newGoal, title: e.target.value })}
-                                    placeholder="Misal: Selesaikan 5 TKK"
-                                />
-                            </div>
-                            <div>
-                                <label className="label">
-                                    <span className="label-text">Jenis Target</span>
-                                </label>
-                                <select
-                                    className="select select-bordered w-full"
-                                    value={newGoal.type}
-                                    onChange={(e) => setNewGoal({ ...newGoal, type: e.target.value })}
-                                >
-                                    <option value="complete_tkk">Selesaikan TKK</option>
-                                    <option value="total_quizzes">Total Kuis</option>
-                                    <option value="achieve_score">Rata-rata Nilai</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label className="label">
-                                    <span className="label-text">Target Angka</span>
-                                </label>
-                                <input
-                                    type="number"
-                                    className="input input-bordered w-full"
-                                    value={newGoal.target}
-                                    onChange={(e) => setNewGoal({ ...newGoal, target: e.target.value })}
-                                    min="1"
-                                />
-                            </div>
-                            <div className="flex gap-2 justify-end">
-                                <button
-                                    className="btn btn-ghost"
-                                    onClick={() => setIsAddGoalModalOpen(false)}
-                                >
-                                    Batal
-                                </button>
-                                <button
-                                    className="btn btn-primary"
-                                    onClick={handleAddGoal}
-                                    disabled={!newGoal.title.trim()}
-                                >
-                                    Tambah
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            )}
         </div>
     );
 };

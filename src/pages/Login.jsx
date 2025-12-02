@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { LogIn, UserPlus, Mail, Lock, User, AlertCircle, LogOut, History } from 'lucide-react';
+import { LogIn, UserPlus, Mail, Lock, User, AlertCircle, LogOut } from 'lucide-react';
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -94,10 +94,6 @@ const Login = () => {
                 </div>
 
                 <div className="space-y-3">
-                  <Link to="/history" className="btn btn-primary w-full gap-2">
-                    <History size={20} />
-                    Riwayat Quiz
-                  </Link>
                   <Link to="/" className="btn btn-outline w-full">
                     Kembali ke Beranda
                   </Link>

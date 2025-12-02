@@ -5,6 +5,7 @@ import { kridas } from '../data/kridas';
 import { ArrowLeft, CheckCircle2, PlayCircle, RefreshCw, XCircle, Timer, FileSignature } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { saveQuizResult } from '../services/quizService';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const QuizPage = () => {
   const { tkkId } = useParams();
@@ -33,6 +34,18 @@ const QuizPage = () => {
   }
 
   const quiz = quizzes.find(q => q.tkkId === tkkId);
+
+  // Find parent Krida for breadcrumbs
+  let parentKrida = null;
+  for (const krida of kridas) {
+    if (krida.tkk) {
+      const tkk = krida.tkk.find(t => t.id === tkkId);
+      if (tkk) {
+        parentKrida = krida;
+        break;
+      }
+    }
+  }
 
   // Helper to shuffle array
   const shuffleArray = (array) => {
@@ -100,19 +113,23 @@ const QuizPage = () => {
     setSelectedAnswer(selectedOption);
 
     const isCorrect = selectedOption.isCorrect;
-    if (isCorrect) {
-      setScore(score + 5); // 5 points per correct answer
-    }
-
+    const newScore = score + (isCorrect ? 5 : 0); // Skor nilai murni: benar × 5
     const nextQuestion = currentQuestionIndex + 1;
 
     // Save user answer
-    setUserAnswers([...userAnswers, {
+    const newUserAnswers = [...userAnswers, {
       question: shuffledQuestions[currentQuestionIndex].question,
       userSelected: selectedOption.text,
       isCorrect: isCorrect,
       correctAnswer: shuffledQuestions[currentQuestionIndex].options.find(o => o.isCorrect).text
-    }]);
+    }];
+
+    // Update score if correct
+    if (isCorrect) {
+      setScore(newScore);
+    }
+    
+    setUserAnswers(newUserAnswers);
 
     // Delay before moving to next question to show visual feedback
     setTimeout(() => {
@@ -121,13 +138,17 @@ const QuizPage = () => {
       if (nextQuestion < shuffledQuestions.length) {
         setCurrentQuestionIndex(nextQuestion);
       } else {
+        console.log('Quiz finished! Showing results...');
+        console.log('Final score:', newScore);
+        console.log('Total answers:', newUserAnswers.length);
+        
         // Calculate time used when quiz finishes
         const totalTimeUsed = 600 - timeLeft;
         setTimeUsed(totalTimeUsed);
 
         // Save to Firebase if user is logged in
         if (currentUser) {
-          handleSaveResult(score + (isCorrect ? 5 : 0), totalTimeUsed, userAnswers.length + 1);
+          handleSaveResult(newScore, totalTimeUsed, newUserAnswers.filter(a => a.isCorrect).length);
         }
 
         setShowScore(true);
@@ -136,7 +157,7 @@ const QuizPage = () => {
   };
 
   // Save quiz result to Firebase
-  const handleSaveResult = async (finalScore, timeUsed, correctCount) => {
+  const handleSaveResult = async (scoreValue, timeUsed, correctCount) => {
     if (!currentUser) return;
 
     setSaving(true);
@@ -145,7 +166,7 @@ const QuizPage = () => {
       userEmail: currentUser.email,
       tkkId,
       quizTitle: quiz.title,
-      score: finalScore,
+      scoreValue: scoreValue, // Skor nilai murni
       totalQuestions: shuffledQuestions.length,
       correctAnswers: correctCount,
       timeUsed
@@ -181,16 +202,26 @@ const QuizPage = () => {
     <div className="min-h-screen bg-gray-50 pt-24 pb-12">
       <div className="container mx-auto px-4 max-w-3xl">
         {/* Header */}
-        <div className="mb-8">
+        <div className="mb-4">
           <Link to={`/tkk/${tkkId}`} className="inline-flex items-center text-gray-600 hover:text-primary mb-4 transition-colors">
             <ArrowLeft size={20} className="mr-2" />
             Kembali ke Materi {foundTkk ? foundTkk.title : ''}
           </Link>
-          <h1 className="text-3xl font-bold font-anta text-gray-900 flex items-center gap-3">
-            <FileSignature className="text-primary" size={32} />
-            {quiz.title.replace('Quiz', 'Kuis')}
-          </h1>
         </div>
+
+        <Breadcrumbs 
+          items={[
+            { label: 'Krida', path: '/krida' },
+            ...(parentKrida ? [{ label: parentKrida.title, path: `/krida/${parentKrida.id}` }] : []),
+            ...(foundTkk ? [{ label: foundTkk.name, path: `/tkk/${tkkId}` }] : []),
+            { label: 'Kuis' }
+          ]} 
+        />
+
+        <h1 className="text-3xl font-bold font-anta text-gray-900 flex items-center gap-3 mb-8">
+          <FileSignature className="text-primary" size={32} />
+          {quiz.title.replace('Quiz', 'Kuis')}
+        </h1>
 
         {/* Quiz Content */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
@@ -217,17 +248,40 @@ const QuizPage = () => {
               {showScore ? (
                 <div className="text-center">
                   <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-gray-600 mb-2">Skor Akhir Anda</h3>
-                    <div className="text-6xl font-bold text-primary mb-2">{score}</div>
-                    <p className="text-gray-500 mb-4">dari total {shuffledQuestions.length * 5} poin</p>
-
-                    {/* Time Used Display */}
-                    <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-lg">
-                      <Timer size={20} />
-                      <span className="font-medium">
-                        Waktu yang digunakan: {formatTime(timeUsed)}
-                      </span>
+                    <h3 className="text-xl font-semibold text-gray-600 mb-4">Hasil Kuis Anda</h3>
+                    
+                    {/* Score Breakdown */}
+                    <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 mb-6 space-y-4">
+                      {/* Skor Nilai */}
+                      <div className="flex justify-between items-center pb-3 border-b border-gray-200">
+                        <div>
+                          <p className="text-sm text-gray-600 font-medium">Skor Nilai</p>
+                          <p className="text-xs text-gray-500">Benar: {userAnswers.filter(a => a.isCorrect).length} × 5</p>
+                        </div>
+                        <div className="text-3xl font-bold text-gray-700">{score}</div>
+                      </div>
+                      
+                      {/* Bonus Waktu */}
+                      <div className="flex justify-between items-center pb-3 border-b border-gray-200">
+                        <div>
+                          <p className="text-sm text-gray-600 font-medium">Bonus Waktu</p>
+                          <p className="text-xs text-gray-500">Waktu: {formatTime(timeUsed)}</p>
+                        </div>
+                        <div className="text-3xl font-bold text-blue-600">
+                          +{timeUsed >= 600 ? '0.00' : ((1 - (timeUsed / 600)) * 20).toFixed(2)}
+                        </div>
+                      </div>
+                      
+                      {/* Skor Akhir */}
+                      <div className="flex justify-between items-center pt-2">
+                        <p className="text-lg text-gray-800 font-bold">Skor Akhir</p>
+                        <div className="text-5xl font-black text-primary">
+                          {timeUsed >= 600 ? score.toFixed(2) : (score + ((1 - (timeUsed / 600)) * 20)).toFixed(2)}
+                        </div>
+                      </div>
                     </div>
+                    
+                    <p className="text-gray-500 text-center">Skor maksimal: {(shuffledQuestions.length * 5) + 20} poin</p>
                   </div>
 
                   {/* Review Answers */}
@@ -265,64 +319,73 @@ const QuizPage = () => {
                 </div>
               ) : (
                 <div>
-                  {/* Progress Bar */}
-                  <div className="mb-6">
-                    <div className="flex justify-between text-sm font-medium text-gray-500 mb-2">
-                      <span>Pertanyaan {currentQuestionIndex + 1} dari {shuffledQuestions.length}</span>
-                      <span>{Math.round(((currentQuestionIndex) / shuffledQuestions.length) * 100)}% Selesai</span>
+                  {/* Safety check */}
+                  {!shuffledQuestions[currentQuestionIndex] ? (
+                    <div className="text-center py-12">
+                      <p className="text-gray-600">Loading question...</p>
                     </div>
-                    <div className="w-full bg-gray-100 rounded-full h-2.5">
-                      <div
-                        className="bg-primary h-2.5 rounded-full transition-all duration-300"
-                        style={{ width: `${((currentQuestionIndex) / shuffledQuestions.length) * 100}%` }}
-                      ></div>
-                    </div>
-                  </div>
+                  ) : (
+                    <>
+                      {/* Progress Bar */}
+                      <div className="mb-6">
+                        <div className="flex justify-between text-sm font-medium text-gray-500 mb-2">
+                          <span>Pertanyaan {currentQuestionIndex + 1} dari {shuffledQuestions.length}</span>
+                          <span>{Math.round(((currentQuestionIndex) / shuffledQuestions.length) * 100)}% Selesai</span>
+                        </div>
+                        <div className="w-full bg-gray-100 rounded-full h-2.5">
+                          <div
+                            className="bg-primary h-2.5 rounded-full transition-all duration-300"
+                            style={{ width: `${((currentQuestionIndex) / shuffledQuestions.length) * 100}%` }}
+                          ></div>
+                        </div>
+                      </div>
 
-                  {/* Timer & Score Header */}
-                  <div className="flex justify-between items-center mb-8 bg-gray-50 p-4 rounded-lg border border-gray-100">
-                    <div className={`flex items-center gap-2 font-mono font-bold text-lg ${timeLeft < 60 ? 'text-red-600 animate-pulse' : 'text-gray-700'}`}>
-                      <Timer size={20} />
-                      {formatTime(timeLeft)}
-                    </div>
-                  </div>
+                      {/* Timer & Score Header */}
+                      <div className="flex justify-between items-center mb-8 bg-gray-50 p-4 rounded-lg border border-gray-100">
+                        <div className={`flex items-center gap-2 font-mono font-bold text-lg ${timeLeft < 60 ? 'text-red-600 animate-pulse' : 'text-gray-700'}`}>
+                          <Timer size={20} />
+                          {formatTime(timeLeft)}
+                        </div>
+                      </div>
 
-                  {/* Question */}
-                  <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-6 leading-relaxed">
-                      {shuffledQuestions[currentQuestionIndex].question}
-                    </h3>
-                    <div className="space-y-3">
-                      {shuffledQuestions[currentQuestionIndex].options.map((option, idx) => {
-                        // Determine styling based on selection state
-                        const isSelected = selectedAnswer === option;
-                        let buttonClass = "w-full text-left p-5 rounded-xl bg-white border-2 border-gray-100 md:hover:border-primary md:hover:bg-primary/5 transition-all duration-200 group";
-                        let circleClass = "w-8 h-8 rounded-full bg-gray-100 text-gray-500 flex items-center justify-center font-bold md:group-hover:bg-primary md:group-hover:text-white transition-colors";
-                        let textClass = "text-gray-700 md:group-hover:text-gray-900 font-medium";
+                      {/* Question */}
+                      <div className="mb-8">
+                        <h3 className="text-xl font-semibold text-gray-900 mb-6 leading-relaxed">
+                          {shuffledQuestions[currentQuestionIndex].question}
+                        </h3>
+                        <div className="space-y-3">
+                          {shuffledQuestions[currentQuestionIndex].options.map((option, idx) => {
+                            // Determine styling based on selection state
+                            const isSelected = selectedAnswer === option;
+                            let buttonClass = "w-full text-left p-5 rounded-xl bg-white border-2 border-gray-100 md:hover:border-primary md:hover:bg-primary/5 transition-all duration-200 group";
+                            let circleClass = "w-8 h-8 rounded-full bg-gray-100 text-gray-500 flex items-center justify-center font-bold md:group-hover:bg-primary md:group-hover:text-white transition-colors";
+                            let textClass = "text-gray-700 md:group-hover:text-gray-900 font-medium";
 
-                        if (isSelected) {
-                          buttonClass = "w-full text-left p-5 rounded-xl bg-primary/10 border-2 border-primary transition-all duration-200 group";
-                          circleClass = "w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold transition-colors";
-                          textClass = "text-gray-900 font-medium";
-                        }
+                            if (isSelected) {
+                              buttonClass = "w-full text-left p-5 rounded-xl bg-primary/10 border-2 border-primary transition-all duration-200 group";
+                              circleClass = "w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold transition-colors";
+                              textClass = "text-gray-900 font-medium";
+                            }
 
-                        return (
-                          <button
-                            key={idx}
-                            onClick={() => handleAnswerOptionClick(option)}
-                            className={buttonClass}
-                          >
-                            <div className="flex items-center gap-3">
-                              <div className={circleClass}>
-                                {String.fromCharCode(65 + idx)}
-                              </div>
-                              <span className={textClass}>{option.text}</span>
-                            </div>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
+                            return (
+                              <button
+                                key={idx}
+                                onClick={() => handleAnswerOptionClick(option)}
+                                className={buttonClass}
+                              >
+                                <div className="flex items-center gap-3">
+                                  <div className={circleClass}>
+                                    {String.fromCharCode(65 + idx)}
+                                  </div>
+                                  <span className={textClass}>{option.text}</span>
+                                </div>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
               )}
             </div>

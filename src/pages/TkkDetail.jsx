@@ -3,6 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { kridas } from '../data/kridas';
 import { quizzes } from '../data/quizzes';
 import { ArrowLeft, BookOpen, FileText, CheckCircle, ChevronDown, ChevronUp, HelpCircle, ChevronRight, ChevronLeft, Share2, FileSignature } from 'lucide-react';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const TkkDetail = () => {
   const { id } = useParams();
@@ -49,6 +50,13 @@ const TkkDetail = () => {
   return (
     <div className="min-h-screen bg-base-100 pt-24 pb-12 px-4">
       <div className="max-w-4xl mx-auto">
+        <Breadcrumbs 
+          items={[
+            { label: 'Krida', path: '/krida' },
+            { label: parentKrida.title, path: `/krida/${parentKrida.id}` },
+            { label: foundTkk.name }
+          ]} 
+        />
         {/* Breadcrumb / Back Button */}
         <div className="mb-8">
             <Link to={`/krida/${parentKrida.id}`} className="btn btn-ghost gap-2 hover:bg-base-200">

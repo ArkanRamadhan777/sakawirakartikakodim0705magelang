@@ -1,9 +1,11 @@
 import React from 'react';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const About = () => {
   return (
     <div className="pt-20 min-h-screen bg-base-100">
       <div className="max-w-5xl mx-auto px-4 py-10">
+        <Breadcrumbs items={[{ label: 'Tentang Kami' }]} />
         <h1 className="text-4xl font-bold font-anta text-center mb-10 text-primary">Tentang Kami</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mb-16">

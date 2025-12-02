@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AnimatedSection from '../components/AnimatedSection';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -31,6 +32,7 @@ const Gallery = () => {
   return (
     <div className="pt-20 min-h-screen bg-base-100">
       <div className="max-w-6xl mx-auto px-4 py-10">
+        <Breadcrumbs items={[{ label: 'Galeri' }]} />
         <AnimatedSection animation="fade-up">
           <h1 className="text-4xl font-bold font-anta text-center mb-10 text-primary">Galeri Kegiatan</h1>
         </AnimatedSection>

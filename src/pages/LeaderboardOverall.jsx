@@ -79,36 +79,40 @@ const LeaderboardOverall = () => {
         const data = doc.data();
         const key = data.userId;
 
-        const currentTimeUsed = data.timeUsed || Infinity;
-
         if (!userScores[key]) {
           userScores[key] = {
             userId: data.userId,
             userName: data.userName || data.userEmail,
             userEmail: data.userEmail,
-            totalScore: 0,
+            totalScoreValue: 0, // Total skor nilai (benar × 5)
+            totalTimeUsed: 0, // Total waktu digunakan
             totalQuizzes: 0,
-            fastestTime: currentTimeUsed,
           };
         }
 
-        userScores[key].totalScore += data.score;
+        // Aggregate data
+        userScores[key].totalScoreValue += (data.scoreValue || data.correctAnswers * 5 || 0);
+        userScores[key].totalTimeUsed += (data.timeUsed || 0);
         userScores[key].totalQuizzes += 1;
-
-        if (currentTimeUsed < userScores[key].fastestTime) {
-          userScores[key].fastestTime = currentTimeUsed;
-        }
       });
 
-      let finalLeaderboard = Object.values(userScores);
-
-      // Urutkan leaderboard: 1. Skor Total (turun), 2. Waktu Tercepat (naik)
-      finalLeaderboard.sort((a, b) => {
-        if (b.totalScore !== a.totalScore) {
-          return b.totalScore - a.totalScore;
-        }
-        return a.fastestTime - b.fastestTime;
+      let finalLeaderboard = Object.values(userScores).map(user => {
+        // Calculate time bonus based on TOTAL time: (1 - totalTime/600) × 20
+        // But this doesn't make sense for multiple quizzes...
+        // Better: Calculate bonus per quiz average
+        const avgTimePerQuiz = user.totalTimeUsed / user.totalQuizzes;
+        const timeBonus = avgTimePerQuiz >= 600 ? 0 : (1 - (avgTimePerQuiz / 600)) * 20;
+        const finalScore = user.totalScoreValue + (timeBonus * user.totalQuizzes); // Apply bonus to each quiz
+        
+        return {
+          ...user,
+          timeBonus: parseFloat(timeBonus.toFixed(2)),
+          finalScore: parseFloat(finalScore.toFixed(2))
+        };
       });
+
+      // Sort by finalScore descending
+      finalLeaderboard.sort((a, b) => b.finalScore - a.finalScore);
 
       setLeaderboardData(finalLeaderboard);
 
@@ -161,17 +165,22 @@ const LeaderboardOverall = () => {
                     <th className="px-6 py-4 text-left text-sm font-semibold">Nama</th>
                     <th className="px-6 py-4 text-right text-sm font-semibold">
                       <div className="flex items-center justify-end">
-                        Skor Total
+                        Skor Nilai
                       </div>
                     </th>
                     <th className="px-6 py-4 text-right text-sm font-semibold">
                       <div className="flex items-center justify-end gap-1">
-                        Kuis Selesai
+                        <Clock size={16} /> Total Waktu
                       </div>
                     </th>
                     <th className="px-6 py-4 text-right text-sm font-semibold">
-                      <div className="flex items-center justify-end gap-1">
-                        <Clock size={16} /> Waktu Tercepat
+                      <div className="flex items-center justify-end">
+                        Total Kuis
+                      </div>
+                    </th>
+                    <th className="px-6 py-4 text-right text-sm font-semibold">
+                      <div className="flex items-center justify-end">
+                        Skor Akhir
                       </div>
                     </th>
                   </tr>
@@ -207,19 +216,24 @@ const LeaderboardOverall = () => {
                           </div>
                         </td>
 
-                        {/* Skor Total */}
-                        <td className="px-6 py-3 whitespace-nowrap text-sm text-right font-extrabold text-red-600">
-                          {user.totalScore.toLocaleString()}
+                        {/* Skor Nilai Total */}
+                        <td className="px-6 py-3 whitespace-nowrap text-sm text-right font-bold text-gray-700">
+                          {user.totalScoreValue.toLocaleString()}
                         </td>
 
-                        {/* Kuis Selesai */}
+                        {/* Total Waktu */}
                         <td className="px-6 py-3 whitespace-nowrap text-sm text-right text-gray-700">
+                          <span className="font-mono text-base">{formatTime(user.totalTimeUsed)}</span>
+                        </td>
+
+                        {/* Total Kuis */}
+                        <td className="px-6 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-700">
                           {user.totalQuizzes}
                         </td>
 
-                        {/* Waktu Tercepat */}
-                        <td className="px-6 py-3 whitespace-nowrap text-sm text-right text-gray-700">
-                          <span className="font-mono text-base">{formatTime(user.fastestTime)}</span>
+                        {/* Skor Akhir */}
+                        <td className="px-6 py-3 whitespace-nowrap text-sm text-right font-extrabold text-red-600 text-lg">
+                          {user.finalScore.toLocaleString()}
                         </td>
                       </tr>
                     );

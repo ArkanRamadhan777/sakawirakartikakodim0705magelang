@@ -16,6 +16,14 @@ import ForgotPassword from './pages/ForgotPassword';
 import Profile from './pages/Profile';
 import QuizHistory from './pages/QuizHistory';
 import LeaderboardTabs from './pages/LeaderboardTabs';
+import AdminDashboard from './pages/AdminDashboard';
+import ArticleManagement from './pages/ArticleManagement';
+import ArticleEditorPage from './pages/ArticleEditorPage';
+import MigrationTools from './pages/MigrationTools';
+import AnnouncementManagement from './pages/AnnouncementManagement';
+import AnnouncementEditor from './pages/AnnouncementEditor';
+import AnnouncementDetail from './pages/AnnouncementDetail';
+import AdminRoute from './components/AdminRoute';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -39,6 +47,15 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/history" element={<QuizHistory />} />
           <Route path="/leaderboard" element={<LeaderboardTabs />} />
+          <Route path="/admin/dashboard" element={<AdminRoute><AdminDashboard /></AdminRoute>} />
+          <Route path="/admin/articles" element={<AdminRoute><ArticleManagement /></AdminRoute>} />
+          <Route path="/admin/article/new" element={<AdminRoute><ArticleEditorPage /></AdminRoute>} />
+          <Route path="/admin/article/edit/:id" element={<AdminRoute><ArticleEditorPage /></AdminRoute>} />
+          <Route path="/admin/migration" element={<AdminRoute><MigrationTools /></AdminRoute>} />
+          <Route path="/admin/announcements" element={<AdminRoute><AnnouncementManagement /></AdminRoute>} />
+          <Route path="/admin/announcement/new" element={<AdminRoute><AnnouncementEditor /></AdminRoute>} />
+          <Route path="/admin/announcement/edit/:id" element={<AdminRoute><AnnouncementEditor /></AdminRoute>} />
+          <Route path="/announcement/:id" element={<AnnouncementDetail />} />
         </Routes>
       </main>
       <Footer />

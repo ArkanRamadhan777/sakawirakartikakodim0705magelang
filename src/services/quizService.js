@@ -4,13 +4,19 @@ import { db } from '../config/firebase';
 // Save quiz result
 export const saveQuizResult = async (userId, quizData) => {
   try {
+    // Calculate time bonus: (1 - timeUsed/600) × 20
+    // Max 20 points if time = 0, 0 points if time >= 600
+    const timeBonus = quizData.timeUsed >= 600 ? 0 : (1 - (quizData.timeUsed / 600)) * 20;
+    
     const quizResult = {
       userId,
       userName: quizData.userName || 'Anonymous',
       userEmail: quizData.userEmail || '',
       tkkId: quizData.tkkId,
       quizTitle: quizData.quizTitle,
-      score: quizData.score,
+      scoreValue: quizData.scoreValue, // Nilai murni: benar × 5
+      timeBonus: parseFloat(timeBonus.toFixed(2)), // Bonus waktu
+      finalScore: parseFloat((quizData.scoreValue + timeBonus).toFixed(2)), // Skor akhir
       totalQuestions: quizData.totalQuestions,
       correctAnswers: quizData.correctAnswers,
       timeUsed: quizData.timeUsed,
@@ -58,6 +64,8 @@ export const getUserQuizHistory = async (userId, limitCount = 10) => {
 // Get leaderboard for specific TKK
 export const getTkkLeaderboard = async (tkkId, limitCount = 10) => {
   try {
+    console.log('Fetching leaderboard for TKK:', tkkId);
+    
     const q = query(
       collection(db, 'quiz_results'),
       where('tkkId', '==', tkkId)
@@ -68,22 +76,26 @@ export const getTkkLeaderboard = async (tkkId, limitCount = 10) => {
 
     querySnapshot.forEach((doc) => {
       const data = doc.data();
-      // Calculate time bonus: max 100 points, decreases with time used
-      const timeBonus = Math.max(0, 100 - data.timeUsed);
+      console.log('Quiz result found:', data);
       results.push({
         id: doc.id,
-        ...data,
-        finalScore: data.score + timeBonus
+        ...data
       });
     });
 
-    // Sort by final score (score + time bonus) descending
-    results.sort((a, b) => b.finalScore - a.finalScore);
+    console.log(`Total results for ${tkkId}:`, results.length);
+
+    // Sort by final score descending
+    results.sort((a, b) => {
+      const scoreA = a.finalScore || ((a.scoreValue || a.correctAnswers * 5) + (a.timeUsed >= 600 ? 0 : (1 - (a.timeUsed / 600)) * 20));
+      const scoreB = b.finalScore || ((b.scoreValue || b.correctAnswers * 5) + (b.timeUsed >= 600 ? 0 : (1 - (b.timeUsed / 600)) * 20));
+      return scoreB - scoreA;
+    });
 
     return results.slice(0, limitCount);
   } catch (error) {
     console.error('Error fetching leaderboard:', error);
-    return { success: false, error: error.message };
+    return [];
   }
 };
 

@@ -1,15 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { kridas } from '../data/kridas';
 import { quizzes } from '../data/quizzes';
-import { ArrowLeft, Clock, Calendar, Share2, ChevronRight, ChevronLeft, FileSignature } from 'lucide-react';
+import { getArticleById } from '../services/articleService';
+import { ArrowLeft, Clock, Calendar, Share2, ChevronRight, ChevronLeft, FileSignature, Loader2 } from 'lucide-react';
+import Breadcrumbs from '../components/Breadcrumbs';
+import 'react-quill/dist/quill.snow.css';
 
 const ArticleDetail = () => {
   const { articleId } = useParams();
+  const [firestoreArticle, setFirestoreArticle] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-  // Helper to find the article and its context
+  // Load from Firestore first
+  useEffect(() => {
+    const loadFromFirestore = async () => {
+      setLoading(true);
+      const result = await getArticleById(articleId);
+      if (result.success) {
+        setFirestoreArticle(result.data);
+      }
+      setLoading(false);
+    };
+    loadFromFirestore();
+  }, [articleId]);
+
+  // Helper to find the article and its context from kridas.jsx (fallback)
   let foundArticle = null;
   let foundModule = null;
   let foundTkk = null;
@@ -71,6 +89,99 @@ const ArticleDetail = () => {
     }
   }
 
+  // Show loading state
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-base-100 pt-24 pb-12 px-4 flex items-center justify-center">
+        <Loader2 className="animate-spin text-primary" size={40} />
+      </div>
+    );
+  }
+
+  // If found in Firestore, render from there
+  if (firestoreArticle) {
+    return (
+      <div className="min-h-screen bg-base-100 pt-24 pb-12 px-4">
+        <div className="max-w-3xl mx-auto">
+          {/* Breadcrumb */}
+          <div className="mb-4">
+            <Link to={`/tkk/${firestoreArticle.tkkId}`} className="btn btn-ghost gap-2 hover:bg-base-200">
+              <ArrowLeft size={20} />
+              Kembali ke Materi
+            </Link>
+          </div>
+
+          <Breadcrumbs
+            items={[
+              { label: 'Krida', path: '/krida' },
+              { label: firestoreArticle.kridaTitle, path: `/krida/${firestoreArticle.kridaId}` },
+              { label: firestoreArticle.tkkTitle, path: `/tkk/${firestoreArticle.tkkId}` },
+              { label: firestoreArticle.title }
+            ]}
+          />
+
+          <article className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+            {/* Header */}
+            <div className="p-8 md:p-12 border-b border-gray-100">
+              <div className="flex items-center gap-3 text-sm font-bold text-primary mb-4 uppercase tracking-wider">
+                <span className="bg-primary/10 px-3 py-1 rounded-full">{firestoreArticle.kridaTitle}</span>
+                {!firestoreArticle.published && (
+                  <>
+                    <span className="text-gray-400">•</span>
+                    <span className="badge badge-warning">Draft</span>
+                  </>
+                )}
+              </div>
+
+              <h1 className="text-3xl md:text-5xl font-bold font-anta text-gray-900 mb-6 leading-tight">
+                {firestoreArticle.title}
+              </h1>
+
+              {firestoreArticle.description && (
+                <p className="text-lg text-gray-600 mb-6">
+                  {firestoreArticle.description}
+                </p>
+              )}
+
+              <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                <div className="flex items-center gap-2">
+                  <Calendar size={16} />
+                  <span>{new Date(firestoreArticle.createdAt?.toDate()).toLocaleDateString('id-ID')}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FileSignature size={16} />
+                  <span>{firestoreArticle.authorName}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Content dari Quill Editor */}
+            <div className="p-8 md:p-12">
+              <div 
+                className="ql-editor prose prose-lg max-w-none"
+                dangerouslySetInnerHTML={{ __html: firestoreArticle.content }}
+              />
+            </div>
+          </article>
+
+          {/* Navigation masih pakai logic kridas untuk next/prev */}
+          <div className="mt-8 flex justify-between gap-4">
+            <div className="text-sm text-gray-600">
+              <Link 
+                to={`/tkk/${firestoreArticle.tkkId}`}
+                className="btn btn-outline btn-primary gap-2"
+              >
+                <ArrowLeft size={16} />
+                Kembali ke Materi
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Fallback: render from kridas.jsx if not found in Firestore
   if (!foundArticle) {
     return <Navigate to="/krida" replace />;
   }
@@ -79,12 +190,21 @@ const ArticleDetail = () => {
     <div className="min-h-screen bg-base-100 pt-24 pb-12 px-4">
       <div className="max-w-3xl mx-auto">
         {/* Breadcrumb / Back Button */}
-        <div className="mb-8">
+        <div className="mb-4">
           <Link to={`/tkk/${foundTkk.id}`} className="btn btn-ghost gap-2 hover:bg-base-200">
             <ArrowLeft size={20} />
             Kembali ke Materi
           </Link>
         </div>
+
+        <Breadcrumbs
+          items={[
+            { label: 'Krida', path: '/krida' },
+            { label: foundKrida.title, path: `/krida/${foundKrida.id}` },
+            { label: foundTkk.name, path: `/tkk/${foundTkk.id}` },
+            { label: foundArticle.title }
+          ]}
+        />
 
         <article className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
           {/* Header */}
@@ -94,7 +214,7 @@ const ArticleDetail = () => {
               <span className="text-gray-400">•</span>
               <span>{foundArticle.type === 'quiz' ? 'Kuis' : 'Artikel'}</span>
             </div>
-            
+
             <h1 className="text-3xl md:text-5xl font-bold font-anta text-gray-900 mb-6 leading-tight">
               {foundArticle.title}
             </h1>
@@ -116,6 +236,8 @@ const ArticleDetail = () => {
               prose-img:rounded-xl prose-img:shadow-md
               prose-a:text-primary hover:prose-a:text-primary/80
               prose-strong:text-gray-900
+              prose-code:bg-transparent prose-code:text-gray-700 prose-code:p-0 prose-code:font-normal prose-code:before:content-[''] prose-code:after:content-['']
+              prose-pre:bg-gray-900 prose-pre:text-white
               prose-table:w-full prose-table:border-collapse prose-table:overflow-hidden prose-table:rounded-lg prose-table:shadow-sm
               prose-thead:bg-primary prose-thead:text-white
               prose-th:border prose-th:border-gray-200 prose-th:p-4 prose-th:text-left prose-th:font-bold prose-th:text-sm
@@ -126,24 +248,24 @@ const ArticleDetail = () => {
               [&_table_tbody]:block [&_table_thead]:block [&_table_tr]:table [&_table_tr]:w-full [&_table_tr]:table-fixed
               ">
               {foundArticle.content ? (
-                <ReactMarkdown 
+                <ReactMarkdown
                   remarkPlugins={[remarkGfm]}
                   components={{
-                    table: ({node, ...props}) => (
+                    table: ({ node, ...props }) => (
                       <div className="overflow-x-auto my-6 rounded-lg border border-gray-200 shadow-sm">
                         <table className="w-full border-collapse" {...props} />
                       </div>
                     ),
-                    thead: ({node, ...props}) => (
+                    thead: ({ node, ...props }) => (
                       <thead className="bg-primary text-white" {...props} />
                     ),
-                    th: ({node, ...props}) => (
+                    th: ({ node, ...props }) => (
                       <th className="border border-gray-200 p-4 text-left font-bold text-sm" {...props} />
                     ),
-                    td: ({node, ...props}) => (
+                    td: ({ node, ...props }) => (
                       <td className="border border-gray-200 p-4 text-gray-700" {...props} />
                     ),
-                    tr: ({node, ...props}) => (
+                    tr: ({ node, ...props }) => (
                       <tr className="border-b last:border-b-0 hover:bg-gray-50 transition-colors" {...props} />
                     ),
                   }}
@@ -174,8 +296,8 @@ const ArticleDetail = () => {
               <div className="text-sm text-gray-500 text-center hidden sm:block">
                 Bagian dari <span className="font-bold text-gray-900">{foundTkk.title}</span>
               </div>
-              <button 
-                className="btn btn-ghost btn-circle btn-sm" 
+              <button
+                className="btn btn-ghost btn-circle btn-sm"
                 title="Bagikan"
                 onClick={() => {
                   if (navigator.share) {
@@ -184,7 +306,7 @@ const ArticleDetail = () => {
                       text: `Baca artikel ${foundArticle.title} di Saka Wira Kartika`,
                       url: window.location.href,
                     })
-                    .catch((error) => console.log('Error sharing', error));
+                      .catch((error) => console.log('Error sharing', error));
                   } else {
                     navigator.clipboard.writeText(window.location.href);
                     alert('Link artikel berhasil disalin!');
@@ -197,9 +319,9 @@ const ArticleDetail = () => {
 
             {/* Next Button */}
             {nextArticleLink ? (
-              <Link 
-                to={nextArticleLink} 
-                className={`btn ${nextArticleLink.includes('/quiz/') ? 'btn-primary gap-2 px-4 w-auto rounded-full' : 'btn-circle btn-ghost'}`} 
+              <Link
+                to={nextArticleLink}
+                className={`btn ${nextArticleLink.includes('/quiz/') ? 'btn-primary gap-2 px-4 w-auto rounded-full' : 'btn-circle btn-ghost'}`}
                 title={nextArticleLink.includes('/quiz/') ? "Lanjut ke Kuis" : "Selanjutnya"}
               >
                 {nextArticleLink.includes('/quiz/') ? (

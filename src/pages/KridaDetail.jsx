@@ -3,6 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { kridas } from '../data/kridas';
 import { quizzes } from '../data/quizzes';
 import { ArrowLeft, ChevronDown, ChevronUp, FileText, FileSignature } from 'lucide-react';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const KridaDetail = () => {
   const { id } = useParams();
@@ -20,10 +21,17 @@ const KridaDetail = () => {
   return (
     <div className="min-h-screen bg-base-100 pt-24 pb-12 px-4">
       <div className="max-w-4xl mx-auto">
-        <Link to="/krida" className="btn btn-ghost gap-2 mb-8 hover:bg-base-200">
+        <Link to="/krida" className="btn btn-ghost gap-2 mb-4 hover:bg-base-200">
           <ArrowLeft size={20} />
           Kembali ke Daftar Krida
         </Link>
+
+        <Breadcrumbs 
+          items={[
+            { label: 'Krida', path: '/krida' },
+            { label: krida.title }
+          ]} 
+        />
 
         <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
           {/* Header Section */}

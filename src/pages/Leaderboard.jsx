@@ -5,6 +5,7 @@ import { Listbox } from '@headlessui/react';
 // Import ikon yang dibutuhkan
 import { Award, Check, ChevronDown, BadgeCent, Star, User } from 'lucide-react'; 
 import { useAuth } from '../contexts/AuthContext';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 // --- FUNGSI PEMBANTU ---
 
@@ -136,6 +137,8 @@ const Leaderboard = () => {
             {/* Sisipkan style untuk menyembunyikan scrollbar */}
             <style>{hideScrollbar}</style>
             
+            <Breadcrumbs items={[{ label: 'Leaderboard' }]} />
+
             {/* TKK Selector with Listbox */}
             <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -227,10 +230,11 @@ const Leaderboard = () => {
                                     <tr>
                                         <th className="px-6 py-4 text-left text-sm font-semibold">Peringkat</th>
                                         <th className="px-6 py-4 text-left text-sm font-semibold">Nama</th>
-                                        <th className="px-6 py-4 text-center text-sm font-semibold">Skor</th>
                                         <th className="px-6 py-4 text-center text-sm font-semibold">Benar</th>
+                                        <th className="px-6 py-4 text-center text-sm font-semibold">Skor Nilai</th>
                                         <th className="px-6 py-4 text-center text-sm font-semibold">Waktu</th>
                                         <th className="px-6 py-4 text-center text-sm font-semibold">Tanggal</th>
+                                        <th className="px-6 py-4 text-center text-sm font-semibold">Skor Akhir</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-gray-200">
@@ -258,14 +262,14 @@ const Leaderboard = () => {
                                                     </div>
                                                 </td>
                                                 
-                                                <td className="px-6 py-4 text-center">
-                                                    <span className={`text-xl ${getScoreColor(entry.score)}`}>
-                                                        {entry.score}
-                                                    </span>
-                                                </td>
-                                                
                                                 <td className="px-6 py-4 text-center text-gray-700">
                                                     {entry.correctAnswers}/{entry.totalQuestions}
+                                                </td>
+                                                
+                                                <td className="px-6 py-4 text-center">
+                                                    <span className="text-lg font-bold text-gray-700">
+                                                        {entry.scoreValue || (entry.correctAnswers * 5)}
+                                                    </span>
                                                 </td>
                                                 
                                                 <td className="px-6 py-4 text-center text-gray-700">
@@ -274,6 +278,12 @@ const Leaderboard = () => {
                                                 
                                                 <td className="px-6 py-4 text-center text-sm text-gray-500">
                                                     {formatDate(entry.timestamp)}
+                                                </td>
+                                                
+                                                <td className="px-6 py-4 text-center">
+                                                    <span className="text-xl font-black text-primary">
+                                                        {entry.finalScore ? entry.finalScore.toFixed(2) : ((entry.scoreValue || entry.correctAnswers * 5) + (entry.timeUsed >= 600 ? 0 : (1 - (entry.timeUsed / 600)) * 20)).toFixed(2)}
+                                                    </span>
                                                 </td>
                                             </tr>
                                         );
