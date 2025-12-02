@@ -20,7 +20,8 @@ const Navbar = () => {
     { name: 'Galeri', path: '/gallery' },
     ...(currentUser ? [
       { name: 'Leaderboard', path: '/leaderboard' },
-      { name: 'Pencapaian', path: '/achievements' }
+      { name: 'Pencapaian', path: '/achievements' },
+      { name: 'Bookmark', path: '/bookmarks' }
     ] : []),
   ];
 

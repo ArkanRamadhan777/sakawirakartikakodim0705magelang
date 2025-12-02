@@ -4,6 +4,7 @@ import { kridas } from '../data/kridas';
 import { quizzes } from '../data/quizzes';
 import { ArrowLeft, BookOpen, FileText, CheckCircle, ChevronDown, ChevronUp, HelpCircle, ChevronRight, ChevronLeft, Share2, FileSignature } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
+import BookmarkButton from '../components/BookmarkButton';
 
 const TkkDetail = () => {
   const { id } = useParams();
@@ -75,9 +76,21 @@ const TkkDetail = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="text-center md:text-left">
+              <div className="text-center md:text-left flex-1">
                 <h1 className="text-3xl md:text-4xl font-bold font-anta text-gray-900 mb-2">{foundTkk.title}</h1>
                 <p className="text-gray-500 font-gabarito text-lg">Bagian dari {parentKrida.title}</p>
+              </div>
+              <div className="md:ml-auto">
+                <BookmarkButton 
+                  item={{
+                    id: foundTkk.id,
+                    name: foundTkk.title,
+                    description: foundTkk.description,
+                    image: foundTkk.image
+                  }}
+                  itemType="tkk"
+                  size="md"
+                />
               </div>
           </div>
 

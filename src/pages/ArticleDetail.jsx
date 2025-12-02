@@ -7,6 +7,7 @@ import { quizzes } from '../data/quizzes';
 import { getArticleById } from '../services/articleService';
 import { ArrowLeft, Clock, Calendar, Share2, ChevronRight, ChevronLeft, FileSignature, Loader2 } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
+import BookmarkButton from '../components/BookmarkButton';
 import 'react-quill/dist/quill.snow.css';
 
 const ArticleDetail = () => {
@@ -151,6 +152,18 @@ const ArticleDetail = () => {
                 <div className="flex items-center gap-2">
                   <FileSignature size={16} />
                   <span>{firestoreArticle.authorName}</span>
+                </div>
+                <div className="ml-auto">
+                  <BookmarkButton 
+                    item={{
+                      id: articleId,
+                      title: firestoreArticle.title,
+                      excerpt: firestoreArticle.description,
+                      imageUrl: firestoreArticle.imageUrl
+                    }}
+                    itemType="article"
+                    size="md"
+                  />
                 </div>
               </div>
             </div>

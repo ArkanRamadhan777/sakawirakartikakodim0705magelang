@@ -71,5 +71,20 @@ service cloud.firestore {
       // Admins can do anything
       allow read, write: if isAdmin();
     }
+    
+    // Bookmarks collection
+    match /bookmarks/{bookmarkId} {
+      // Users can read their own bookmarks
+      allow read: if request.auth != null && request.auth.uid == resource.data.userId;
+      
+      // Users can create their own bookmarks
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.userId;
+      
+      // Users can delete their own bookmarks
+      allow delete: if request.auth != null && request.auth.uid == resource.data.userId;
+      
+      // Admins can do anything
+      allow read, write: if isAdmin();
+    }
   }
 }
