@@ -78,6 +78,23 @@ const QuizPage = () => {
     return () => clearInterval(timer);
   }, [quizStarted, showScore, timeLeft]);
 
+  // Recovery mechanism - restore quiz state from localStorage if needed
+  useEffect(() => {
+    if (quizStarted && shuffledQuestions.length === 0) {
+      console.log('Attempting to recover quiz state from localStorage...');
+      try {
+        const savedQuestions = localStorage.getItem(`quiz_${tkkId}_questions`);
+        if (savedQuestions) {
+          const questions = JSON.parse(savedQuestions);
+          console.log('Recovered questions:', questions.length);
+          setShuffledQuestions(questions);
+        }
+      } catch (error) {
+        console.error('Failed to recover quiz state:', error);
+      }
+    }
+  }, [quizStarted, shuffledQuestions.length, tkkId]);
+
   // Format time as MM:SS
   const formatTime = (seconds) => {
     const minutes = Math.floor(seconds / 60);
@@ -103,6 +120,14 @@ const QuizPage = () => {
     // Shuffle questions and take up to 20
     const selectedQuestions = shuffleArray(preparedQuestions).slice(0, 20);
 
+    // Save to localStorage as backup
+    try {
+      localStorage.setItem(`quiz_${tkkId}_questions`, JSON.stringify(selectedQuestions));
+      localStorage.setItem(`quiz_${tkkId}_startTime`, Date.now().toString());
+    } catch (error) {
+      console.warn('Failed to save quiz to localStorage:', error);
+    }
+
     setShuffledQuestions(selectedQuestions);
     setQuizStarted(true);
     setCurrentQuestionIndex(0);
@@ -116,6 +141,11 @@ const QuizPage = () => {
   const handleAnswerOptionClick = (selectedOption) => {
     // Prevent multiple clicks
     if (selectedAnswer !== null) return;
+
+    // Debug logging
+    console.log('Current question index:', currentQuestionIndex);
+    console.log('Total questions:', shuffledQuestions.length);
+    console.log('Current question exists:', !!shuffledQuestions[currentQuestionIndex]);
 
     setSelectedAnswer(selectedOption);
 
@@ -142,9 +172,10 @@ const QuizPage = () => {
     setTimeout(() => {
       setSelectedAnswer(null);
 
-      if (nextQuestion < shuffledQuestions.length) {
+      // Safety check before updating index
+      if (nextQuestion < shuffledQuestions.length && shuffledQuestions[nextQuestion]) {
         setCurrentQuestionIndex(nextQuestion);
-      } else {
+      } else if (nextQuestion >= shuffledQuestions.length) {
         console.log('Quiz finished! Showing results...');
         console.log('Final score:', newScore);
         console.log('Total answers:', newUserAnswers.length);
@@ -207,6 +238,14 @@ const QuizPage = () => {
           handleSaveResult(newScore, totalTimeUsed, newUserAnswers.filter(a => a.isCorrect).length);
         }
 
+        // Clear localStorage after quiz completion
+        try {
+          localStorage.removeItem(`quiz_${tkkId}_questions`);
+          localStorage.removeItem(`quiz_${tkkId}_startTime`);
+        } catch (error) {
+          console.warn('Failed to clear quiz localStorage:', error);
+        }
+
         setShowScore(true);
       }
     }, 800); // 800ms delay for visual feedback
@@ -259,6 +298,14 @@ const QuizPage = () => {
   };
 
   const resetQuiz = () => {
+    // Clear localStorage
+    try {
+      localStorage.removeItem(`quiz_${tkkId}_questions`);
+      localStorage.removeItem(`quiz_${tkkId}_startTime`);
+    } catch (error) {
+      console.warn('Failed to clear quiz localStorage:', error);
+    }
+
     setQuizStarted(false);
     setScore(0);
     setShowScore(false);
@@ -407,9 +454,23 @@ const QuizPage = () => {
               ) : (
                 <div>
                   {/* Safety check */}
-                  {!shuffledQuestions[currentQuestionIndex] ? (
+                  {!shuffledQuestions || shuffledQuestions.length === 0 || !shuffledQuestions[currentQuestionIndex] ? (
                     <div className="text-center py-12">
-                      <LoadingSpinner size="md" text="Loading question..." />
+                      <div className="mb-4">
+                        <LoadingSpinner size="md" text="Loading question..." />
+                      </div>
+                      <p className="text-sm text-gray-600 mb-4">
+                        Debug: Questions={shuffledQuestions?.length || 0}, Index={currentQuestionIndex}
+                      </p>
+                      <button 
+                        onClick={() => {
+                          console.error('Quiz state error - resetting');
+                          resetQuiz();
+                        }}
+                        className="btn btn-outline btn-sm"
+                      >
+                        Reset Quiz
+                      </button>
                     </div>
                   ) : (
                     <>

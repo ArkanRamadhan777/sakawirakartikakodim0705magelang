@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { X, Save, Tag } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { createNote, updateNote } from '../services/notesService';
+import { kridas } from '../data/kridas';
 import LoadingSpinner from '../components/LoadingSpinner';
 import toast from 'react-hot-toast';
 
@@ -14,6 +15,22 @@ const NoteEditorModal = ({ note, tkkId, tkkTitle, onClose, onSave }) => {
   const [saving, setSaving] = useState(false);
   const [selectedTkkId, setSelectedTkkId] = useState('');
   const [selectedTkkTitle, setSelectedTkkTitle] = useState('');
+  const [allTkk, setAllTkk] = useState([]);
+
+  useEffect(() => {
+    // Flatten all TKK from kridas
+    const tkkList = [];
+    kridas.forEach(krida => {
+      krida.tkk.forEach(tkk => {
+        tkkList.push({
+          id: tkk.id,
+          title: tkk.title,
+          kridaTitle: krida.title
+        });
+      });
+    });
+    setAllTkk(tkkList);
+  }, []);
 
   useEffect(() => {
     if (note) {
@@ -111,8 +128,33 @@ const NoteEditorModal = ({ note, tkkId, tkkTitle, onClose, onSave }) => {
 
         {/* Content */}
         <div className="flex-1 overflow-y-auto p-6 space-y-4">
-          {/* TKK Info (if creating from TKK page) */}
-          {selectedTkkTitle && (
+          {/* TKK Selection (if creating new note without pre-selected TKK) */}
+          {!note && !tkkId && (
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Pilih TKK *
+              </label>
+              <select
+                value={selectedTkkId}
+                onChange={(e) => {
+                  const selected = allTkk.find(t => t.id === e.target.value);
+                  setSelectedTkkId(e.target.value);
+                  setSelectedTkkTitle(selected ? `${selected.kridaTitle} - ${selected.title}` : '');
+                }}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
+              >
+                <option value="">-- Pilih TKK --</option>
+                {allTkk.map(tkk => (
+                  <option key={tkk.id} value={tkk.id}>
+                    {tkk.kridaTitle} - {tkk.title}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+
+          {/* TKK Info (if creating from TKK page or editing) */}
+          {selectedTkkTitle && (tkkId || note) && (
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
               <p className="text-sm text-blue-800">
                 <span className="font-semibold">TKK:</span> {selectedTkkTitle}

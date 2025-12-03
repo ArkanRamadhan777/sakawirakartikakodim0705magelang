@@ -76,10 +76,11 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setIsMobileMenuOpen(false)}>
           <aside
-            className="fixed top-0 right-0 h-screen w-72 bg-black shadow-2xl p-6 flex flex-col gap-4 text-white z-[101] border-l-2 border-primary animate-slide-right"
+            className="fixed top-0 right-0 h-screen w-72 bg-black shadow-2xl flex flex-col text-white z-[101] border-l-2 border-primary animate-slide-right overflow-hidden"
             onClick={e => e.stopPropagation()}
           >
-            <div className="flex justify-between items-center mb-4">
+            {/* Header - Fixed */}
+            <div className="flex justify-between items-center p-6 border-b border-gray-800 flex-shrink-0">
               <span className="text-primary font-bold uppercase tracking-wider text-xl">Menu</span>
               <button
                 className="btn btn-ghost btn-circle text-white hover:bg-white/20 hover:rotate-90 transition-all duration-300"
@@ -89,7 +90,8 @@ const Navbar = () => {
               </button>
             </div>
 
-            <nav className="flex-1">
+            {/* Navigation - Scrollable */}
+            <nav className="flex-1 overflow-y-auto px-6 py-4 scrollbar-hide">
               <ul className="flex flex-col gap-2">
                 {navLinks.map(link => (
                   <li key={link.name}>
@@ -166,21 +168,23 @@ const Navbar = () => {
                 )}
               </ul>
             </nav>
-            <div className="mt-auto">
+
+            {/* Footer - Fixed */}
+            <div className="p-6 border-t border-gray-800 flex-shrink-0">
               {currentUser ? (
                 <Link
                   to="/profile"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 text-white hover:bg-white/20 hover:scale-105 transition-all"
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 text-white hover:bg-white/20 hover:scale-105 transition-all w-full"
                 >
                   <User size={16} />
-                  {currentUser.displayName || currentUser.email}
+                  <span className="truncate">{currentUser.displayName || currentUser.email}</span>
                 </Link>
               ) : (
                 <Link
                   to="/login"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-white hover:bg-red-700 hover:scale-105 transition-all"
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-white hover:bg-red-700 hover:scale-105 transition-all w-full justify-center"
                 >
                   <LogIn size={16} />
                   Masuk

@@ -7,7 +7,7 @@ const LeaderboardTabs = () => {
   const [tab, setTab] = useState('tkk');
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-50 via-gray-50 to-gray-900 py-12 px-4">
+    <div className="min-h-screen bg-white py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-3">

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { kridas } from '../data/kridas';
 import { useAuth } from '../contexts/AuthContext';
 import { getOverallProgress } from '../services/kridaProgressService';
+import RecommendationsWidget from '../components/RecommendationsWidget';
 
 const Krida = () => {
   const { currentUser } = useAuth();
@@ -40,6 +41,13 @@ const Krida = () => {
           </p>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full mt-6"></div>
         </div>
+
+        {/* Recommendations Widget */}
+        {currentUser && (
+          <div className="mb-12">
+            <RecommendationsWidget limit={5} />
+          </div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {kridas.map((krida) => {

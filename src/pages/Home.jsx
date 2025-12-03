@@ -2,14 +2,10 @@ import React from 'react';
 import Hero from '../components/Hero';
 import AnimatedSection from '../components/AnimatedSection';
 import AnnouncementBanner from '../components/AnnouncementBanner';
-import RecommendationsWidget from '../components/RecommendationsWidget';
 import { Shield, Target, BookOpen, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
 
 const Home = () => {
-  const { currentUser } = useAuth();
-  
   return (
     <div className="bg-base-100">
       <Hero />
@@ -20,15 +16,6 @@ const Home = () => {
           <AnnouncementBanner />
         </div>
       </section>
-
-      {/* Recommendations Widget (only for logged in users) */}
-      {currentUser && (
-        <section className="py-4 px-4">
-          <div className="max-w-7xl mx-auto">
-            <RecommendationsWidget limit={3} />
-          </div>
-        </section>
-      )}
 
       {/* Intro Section */}
       <section className="py-20 px-4 relative overflow-hidden">
