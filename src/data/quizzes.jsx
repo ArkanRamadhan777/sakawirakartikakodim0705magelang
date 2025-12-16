@@ -8417,5 +8417,459 @@ export const quizzes = [
         correctAnswer: 1
       }
     ]
+  },
+  {
+    id: 'quiz-pioneering-2',
+    tkkId: 'pioneering-2',
+    title: 'Quiz Pembuatan Jembatan Improvisasi',
+    questions: [
+      {
+        id: 1,
+        question: "Apa pekerjaan awal yang harus dilakukan sebelum membangun jembatan tepi sederhana?",
+        options: [
+          "Langsung memasang gelagar",
+          "Pembersihan tempat/lokasi yang akan dibangun jembatan",
+          "Memasang sandaran terlebih dahulu",
+          "Membuat lantai jembatan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 2,
+        question: "Panjang gelagar maksimal untuk jembatan tepi sederhana dari bambu atau batang kayu bulat adalah...",
+        options: [
+          "4 meter",
+          "5 meter",
+          "6 meter",
+          "8 meter"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 3,
+        question: "Diameter minimal batang kayu/bambu untuk gelagar jembatan tepi sederhana adalah...",
+        options: [
+          "5 cm",
+          "8 cm",
+          "10 cm",
+          "15 cm"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: "Apa yang dipasang di samping kiri dan kanan balok penyangga agar tidak goyah?",
+        options: [
+          "Gelagar",
+          "Sandaran",
+          "Patok",
+          "Lantai"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 5,
+        question: "Tinggi tiang sandaran pada jembatan kuda-kuda adalah...",
+        options: [
+          "50-60 cm",
+          "70-80 cm",
+          "90-100 cm",
+          "110-120 cm"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 6,
+        question: "Pada jembatan kuda-kuda, minimal berapa batang gelagar yang harus dipasang?",
+        options: [
+          "2 batang",
+          "3 batang",
+          "4 batang",
+          "5 batang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Berapa potong bambu besar ukuran 3 M yang dibutuhkan untuk jembatan bambu satu?",
+        options: [
+          "2 potong",
+          "3 potong",
+          "4 potong",
+          "5 potong"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 8,
+        question: "Berapa gulung tali ukuran 6 M yang dibutuhkan untuk jembatan bambu satu?",
+        options: [
+          "10 gulung",
+          "12 gulung",
+          "14 gulung",
+          "16 gulung"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 9,
+        question: "Berapa potong bambu kecil ukuran 50 cm yang dibutuhkan untuk jembatan tarik?",
+        options: [
+          "10 potong",
+          "12 potong",
+          "14 potong",
+          "16 potong"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 10,
+        question: "Kemiringan kuda-kuda pada jembatan topang tunggal tidak boleh kurang dari...",
+        options: [
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:4"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 11,
+        question: "Berapa orang yang dapat mengerjakan jembatan topang tunggal dalam waktu kurang lebih 2 jam?",
+        options: [
+          "20 orang",
+          "25 orang",
+          "30 orang",
+          "35 orang"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 12,
+        question: "Bentangan maksimal jembatan topang berganda adalah...",
+        options: [
+          "8 meter",
+          "10 meter",
+          "12 meter",
+          "15 meter"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 13,
+        question: "Apa fungsi balok penahan pada ujung-ujung gelagar jembatan?",
+        options: [
+          "Sebagai sandaran",
+          "Memperkuat kedudukan gelagar",
+          "Sebagai lantai",
+          "Sebagai tiang"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 14,
+        question: "Jika kondisi tanah pada tebing pangkal jembatan mudah longsor, maka harus diperkuat dengan...",
+        options: [
+          "Patok",
+          "Gelagar",
+          "Turapan",
+          "Sandaran"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 15,
+        question: "Lantai jembatan dapat dibuat dari...",
+        options: [
+          "Hanya papan kayu",
+          "Hanya bambu",
+          "Papan kayu bulat yang utuh atau dibelah",
+          "Hanya kayu persegi"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 16,
+        question: "Pada jembatan kuda-kuda, sambungan diikat dengan...",
+        options: [
+          "Paku saja",
+          "Kawat saja",
+          "Belit silang",
+          "Lem kayu"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 17,
+        question: "Berapa potong bambu besar ukuran 5 M yang dibutuhkan untuk jembatan kaki delapan bersudut dua?",
+        options: [
+          "2 potong",
+          "3 potong",
+          "4 potong",
+          "5 potong"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 18,
+        question: "Kemiringan lantai jembatan topang harus dengan kemiringan...",
+        options: [
+          "1:30",
+          "1:40",
+          "1:50",
+          "1:60"
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 19,
+        question: "Apa yang harus dilakukan agar lantai jembatan lebih kuat?",
+        options: [
+          "Dipasang balok penutup atau penjepit lantai",
+          "Diberi cat",
+          "Diberi pasir",
+          "Dibiarkan saja"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 20,
+        question: "Jembatan topang tunggal hanya dapat digunakan untuk jembatan kelas...",
+        options: [
+          "3 Ton",
+          "5 Ton",
+          "7 Ton",
+          "10 Ton"
+        ],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: 'quiz-pioneering-4',
+    tkkId: 'pioneering-4',
+    title: 'Quiz Bekal Air dan Listrik',
+    questions: [
+      {
+        id: 1,
+        question: "Sebutkan salah satu sumber air permukaan:",
+        options: [
+          "Sumur bor",
+          "Mata air",
+          "Danau",
+          "Sumur biasa"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 2,
+        question: "Sumur artetis adalah sumur yang dibuat di atas...",
+        options: [
+          "Saluran air tanah",
+          "Permukaan tanah",
+          "Rawa",
+          "Danau"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 3,
+        question: "Sumur bor baik digunakan pada tanah yang...",
+        options: [
+          "Pasir saja",
+          "Liat saja",
+          "Kohesif (campuran tanah liat dan pasir)",
+          "Berbatu"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: "Alat pengapung untuk pompa air di waduk/danau dapat dibuat dari...",
+        options: [
+          "Kayu saja",
+          "Balok dolken atau drum-drum",
+          "Bambu saja",
+          "Batu"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 5,
+        question: "Bahan penjernih air alami yang berasal dari tumbuhan adalah...",
+        options: [
+          "Pasir beton",
+          "Batu apung",
+          "Ijuk",
+          "Kerikil"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 6,
+        question: "Bahan kimia yang digunakan untuk mempercepat pengendapan air adalah...",
+        options: [
+          "Garam dapur",
+          "Tawas",
+          "Soda",
+          "Kapur tohor"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: "Penyaringan dengan pasir lambat dapat menghilangkan...",
+        options: [
+          "Sel-sel amuba",
+          "Warna air",
+          "Bau air",
+          "Rasa air"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 8,
+        question: "Pembunuhan kuman secara ilmu alam dilakukan dengan cara...",
+        options: [
+          "Diberi chlor",
+          "Disaring pasir",
+          "Dipanaskan sampai mendidih",
+          "Diendapkan"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 9,
+        question: "Untuk menghilangkan bau dan rasa chlor, air dicampur dengan...",
+        options: [
+          "Garam",
+          "Tawas",
+          "Amoniak",
+          "Soda"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 10,
+        question: "Proses terjadinya listrik karena gesekan dua buah benda adalah...",
+        options: [
+          "Ebonit digosok bulu kucing",
+          "Accumulator",
+          "Generator",
+          "Dinamo"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 11,
+        question: "Simbol tegangan listrik adalah...",
+        options: [
+          "I",
+          "R",
+          "E",
+          "P"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 12,
+        question: "Satuan dari arus listrik adalah...",
+        options: [
+          "Volt",
+          "Amper",
+          "Ohm",
+          "Watt"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 13,
+        question: "Simbol tahanan listrik adalah...",
+        options: [
+          "E",
+          "I",
+          "R",
+          "P"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 14,
+        question: "Contoh tegangan searah (DC) adalah...",
+        options: [
+          "Generator PLN",
+          "Listrik rumah",
+          "Baterai",
+          "Dinamo AC"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 15,
+        question: "Alat ukur yang dapat mengukur arus, tegangan, dan tahanan adalah...",
+        options: [
+          "Watt meter",
+          "Tang meter",
+          "Avometer",
+          "Frekuensi meter"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 16,
+        question: "Alat ukur daya listrik adalah...",
+        options: [
+          "Avometer",
+          "Watt meter",
+          "Tang meter",
+          "Megger"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 17,
+        question: "Megger digunakan untuk mengukur...",
+        options: [
+          "Arus listrik",
+          "Tegangan listrik",
+          "Tahanan isolasi instalasi",
+          "Daya listrik"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 18,
+        question: "Bagian generator yang tidak bergerak disebut...",
+        options: [
+          "Rotor",
+          "Stator",
+          "Komutator",
+          "Belitan"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 19,
+        question: "Besarnya tegangan yang dihasilkan generator tergantung pada...",
+        options: [
+          "Warna kabel",
+          "Ukuran generator",
+          "Putaran dan jumlah belitan",
+          "Berat generator"
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 20,
+        question: "Sebelum mengoperasikan generator, yang harus dilakukan pertama kali adalah...",
+        options: [
+          "Langsung masukan sakelar beban",
+          "Beban yang terpasang dilepas dahulu",
+          "Putar generator sekencang-kencangnya",
+          "Sambungkan semua kabel"
+        ],
+        correctAnswer: 1
+      }
+    ]
   }
 ];

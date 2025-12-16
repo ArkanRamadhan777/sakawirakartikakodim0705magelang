@@ -1,0 +1,500 @@
+﻿import React from 'react';
+import { Map, Compass, MapPin, Crosshair, Globe, Satellite, Brain, AlertTriangle, Droplets, Utensils, Tent, Bug, Footprints, Flame, Briefcase, ShieldAlert, Mountain, Activity, Shield, Hammer, Anchor, Snowflake, MoveUp, Construction, Link, CheckCircle, Box, Flag, Siren, HeartPulse, ShieldCheck, Radio, Users, Stethoscope, LifeBuoy, Megaphone, Award } from 'lucide-react';
+
+export const kridas = [
+  {
+    id: 1,
+    title: 'Krida Navigasi Darat',
+    image: '/navrat.webp',
+    description: 'Pengetahuan tentang peta, kompas, dan cara menentukan arah serta posisi di medan sebenarnya.',
+    details: 'Materi meliputi pembacaan peta topografi, penggunaan kompas prisma dan silva, teknik resection dan intersection, serta orientasi peta. Anggota akan dilatih untuk dapat bernavigasi di hutan gunung maupun medan sulit lainnya. Kemampuan ini sangat vital untuk operasi pencarian dan penyelamatan serta penjelajahan alam.',
+    materi: [
+      'Pengenalan Peta Topografi',
+      'Penggunaan Kompas (Prisma & Silva)',
+      'Resection & Intersection',
+      'Orientasi Peta & Medan',
+      'Global Positioning System (GPS)'
+    ],
+    tkk: [
+      {
+        id: 'navrat-1',
+        title: 'TKK Pengetahuan Peta dan Medan',
+        image: '/tkk navrat/TKK PNEGETAHUAN PETA DAN MEDAN.webp',
+        requirements: [
+          'Memahami dan dapat menentukan koordinat peta.',
+          'Memahami dan mampu cara menyambung peta.',
+          'Mengetahui bagian-bagian dan pengertian peta Topografi.',
+          'Mengetahui bagian-bagian dan pengertian peta Tematik.',
+          'Telah melatih sekurang-kurangnya seorang pramuka penggalang sehingga memperoleh TKK Kompas Siang dan Kompas Malam.'
+        ],
+        syllabus: [
+          {
+            id: 'navrat-1-modul-1',
+            title: 'Pengetahuan Peta dan Medan',
+            items: [
+              {
+                id: 'navrat-1-article-1',
+                title: 'Pengertian Peta dan Medan',
+                content: `
+### 1) Pengertian Peta dan Medan
+
+**a. Definisi**
+* **Peta:** Adalah gambaran sebagian atau seluruh permukaan bumi yang dipindahkan ke dalam bidang datar, baik benda alam maupun benda buatan manusia yang dapat dipertanggungjawabkan kebenarannya.
+* **Medan:** Adalah bagian dari permukaan bumi dengan segala benda yang tidak bergerak di atas permukaannya, baik benda alam maupun benda buatan manusia.
+
+**b. Dasar Hukum dan Skala**
+Menurut PP nomor 10 Tahun 2000 disebutkan bahwa peta adalah suatu gambaran dari unsur-unsur alam dan atau buatan manusia, yang berada di atas maupun di bawah permukaan bumi yang digambarkan pada suatu bidang datar dengan skala tertentu.
+
+Salah satu peta yang dihasilkan oleh Bakosurtanal adalah Peta Rupabumi Indonesia (RBI). Peta RBI yang dihasilkan oleh Bakosurtanal meliputi skala:
+* 1:1.000.000
+* 1:250.000
+* 1:100.000
+* 1:50.000
+* 1:25.000
+* 1:10.000
+
+Dimana seluruh wilayah Indonesia dibagi ke dalam grid-grid ukuran peta yang sistematis. Semua lembar peta tepat antara satu dengan lainnya, demikian pula ukurannya sama untuk setiap lembar. Ukuran lembar peta tergantung dari skala peta yang dibuat.
+
+**c. Unsur-unsur dalam Peta**
+Beberapa unsur yang bisa dilihat dalam peta:
+* **Judul peta:** Biasanya terdapat di atas, menunjukkan letak peta.
+* **Nomor peta:** Selain sebagai nomor registrasi dari badan pembuat, kita bisa menggunakannya sebagai petunjuk jika kelak kita akan mencari sebuah peta.
+* **Koordinat peta:** Penjelasannya dapat dilihat dalam sub berikutnya.
+* **Kontur:** Adalah garis khayal yang menghubungkan titik-titik yang berketinggian sama di atas permukaan laut.
+* **Skala peta:** Adalah perbandingan antara jarak peta dan jarak horizontal di lapangan. Ada dua macam skala yakni:
+    * *Skala angka:* Ditunjukkan dalam angka, misalkan 1:25.000 (satu senti di peta sama dengan 25.000 cm atau 250 meter di keadaan yang sebenarnya).
+    * *Skala garis:* Biasanya di peta skala garis berada di bawah skala angka.
+* **Legenda peta:** Adalah simbol-simbol yang dipakai dalam peta tersebut, dibuat untuk memudahkan pembaca menganalisa peta.
+`
+              },
+              {
+                id: 'navrat-1-article-2',
+                title: 'Jenis-jenis Peta',
+                content: `
+### 2) Jenis-jenis Peta
+
+**a. Peta Topografi**
+Peta Topografi adalah peta yang menggambarkan posisi mendatar dan tegak dari semua benda medan yang tidak bergerak di permukaan bumi, atau jenis peta yang ditandai dengan skala besar dan detail, biasanya menggunakan garis kontur dalam pemetaan modern.
+
+* Sebuah peta topografi biasanya terdiri dari dua atau lebih peta yang tergabung untuk membentuk keseluruhan peta.
+* Sebuah garis kontur merupakan kombinasi dari dua segmen garis yang berhubungan namun tidak berpotongan, ini merupakan titik elevasi pada Peta Topografi.
+* Secara historis, perkembangan Peta Topografi sebagian besar didorong oleh kebutuhan militer. Saat ini, operasi taktis dan kegiatan tentara sedemikian kompleks sehingga sangat penting bagi semua prajurit untuk dapat membaca dan menafsirkan peta, agar dapat bergerak cepat dan efektif di medan perang.
+* Pengenalan medan dapat memberikan perbedaan nyata dalam medan pertempuran. Kemampuan membaca peta sangat dibutuhkan jika ingin memenangkan pertempuran.
+* Tidak hanya dalam medan pertempuran, hal ini juga berlaku untuk keperluan sipil seperti berburu, menempuh rimba, menyusur rawa, hiking, mendaki gunung, bukit atau penggunaan lainnya dimana ketepatan navigasi darat diperlukan.
+* Peta Topografi adalah representasi grafis dari bagian permukaan bumi yang ditarik ke skala, seperti yang terlihat dari atas. Menggunakan warna, simbol, dan label untuk mewakili fitur yang ditemukan pada permukaan bumi.
+* Pada peta skala 1:250.000:
+    * Simbol yang ditentukan untuk bangunan mencakup areal seluas 500 meter persegi di atas tanah.
+    * Simbol jalan adalah setara dengan lebar jalan sekitar 520 kaki di tanah.
+    * Simbol untuk rel kereta api tunggal adalah setara dengan rel kereta api sekitar 1.000 kaki pada tanah.
+
+**b. Peta Tematik**
+Peta Tematik adalah peta yang menyajikan tema tertentu dan untuk kepentingan tertentu (land status, penduduk, transportasi dan lain-lain) dengan menggunakan peta rupa bumi yang telah disederhanakan sebagai dasar untuk meletakkan informasi tematiknya. Atau adalah peta yang berisi gambaran satu atau dua tema khusus yang disusun berdasarkan data statistik seperti peta jenis tanah dan peta perairan.
+
+* *Sejarah:* Meskipun terkenal karena penemuan kometnya, Edmond Halley juga diakui sebagai pembuat peta tematik pertama dengan keahlian Kartografik yang diakui. Pada tahun 1686, Halley menghasilkan peta kecil yang menggambarkan arah angin perdagangan di Samudra Atlantik.
+* Salah satu contoh terkenal dari Peta Tematik awal berasal dari ahli medis London John Snow. Map kolera Snow pada 1855 adalah salah satu contoh terbaik penggunaan peta tematik untuk analisis (menggambarkan prinsip GIS). Dimulai dengan peta dasar yang akurat sekitar London termasuk jalan dan lokasi pompa, Snow memetakan kejadian peristiwa kematian karena kolera. Pola yang muncul berpusat di sekitar pompa tertentu di Broad Street.
+
+**(1) Peta Jenis Tanah**
+* Adalah sebuah peta yang menggambarkan variasi dan persebaran berbagai jenis tanah atau sifat-sifat tanah (seperti pH, tekstur, kadar organik, kedalaman, dan sebagainya) di suatu area.
+* Digunakan untuk evaluasi sumber daya lahan, pemetaan ruang, perluasan lahan pertanian, konservasi, dan sebagainya.
+* Terdapat data primer (pengukuran langsung) dan data sekunder (perhitungan/perkiraan).
+* *Contoh data sekunder:* Kapasitas produksi tanah, laju degradasi, dll.
+* *Contoh Data Peta (Wilayah Kodim 0504/Jaksel):*
+    * Kebayoran Lama, Kebayoran Baru, Mampang Prapatan, Setiabudi, Tebet, Cilandak, Pasar Minggu, Jagakarsa.
+    * Keterangan Tanah: Aluvial Endapan Sungai, Tanah Liat Berpasir, Tanah Lempung (Hidromorf Kelabu), Kerikil/Kerakal, Latosol Cokelat Kemerahan.
+
+**(2) Peta Perairan**
+* Adalah peta yang hanya menjelaskan unsur perairan yang terdapat pada suatu wilayah (sungai, danau, rawa dan waduk).
+`
+              },
+              {
+                id: 'navrat-1-article-3',
+                title: 'Pengertian TandaΓÇôTanda Peta',
+                content: `
+### 3) Pengertian TandaΓÇôTanda Peta
+Tanda peta adalah sejumlah gambar pengganti yang mewakili bagian medan, benda medan dan tanda medan. Tanda-tanda peta dapat dibedakan menurut warna dan bentuknya.
+
+**a. Tanda peta menurut warna**
+1.  **Warna Hitam:** Untuk menunjukkan sebagian besar benda-benda medan buatan manusia.
+    * *Contoh:* Rel kereta api rangkap, Titik triangulasi, Batas daerah, Tumbuh-tumbuhan.
+2.  **Warna Biru:** Untuk menunjukkan tanda-tanda perairan.
+    * *Contoh:* Sungai dan anak sungai, Danau, Sawah.
+3.  **Warna Merah:** Untuk menentukan tanda-tanda peta berupa konstruksi dari batu/bangunan, jalan keras.
+    * *Contoh:* Jalan, Bangunan.
+4.  **Warna Hijau:** Untuk menentukan tanda-tanda peta berupa daerah/tempat yang didiami manusia (perkampungan).
+    * *Contoh:* Perkampungan.
+5.  **Warna Cokelat:** Untuk menentukan tanda-tanda peta berupa ketinggian.
+    * *Contoh:* Garis ketinggian/kontur, Kedalaman permukaan bumi, Sebagian jalan keras yang lebih rendah.
+`
+              },
+              {
+                id: 'navrat-1-article-4',
+                title: 'Pengertian Koordinat Peta',
+                content: `
+### 4) Pengertian Koordinat Peta
+Titik koordinat adalah pertemuan antara garis tegak dengan garis mendatar di atas peta. Pada setiap lembar peta terdapat grid (garis tegak lurus) yang membentuk kotak bujur sangkar yang disebut **Karvak**. Menghitungnya dari Barat ke Timur (KI/KA), selanjutnya dari Selatan ke Utara (BA/TAS).
+
+Secara teori, koordinat merupakan titik pertemuan antara Absis dan Ordinat. Sistem koordinat yang resmi dipakai ada dua macam yaitu:
+
+**a. Koordinat Geografis (Geographical Coordinate)**
+* Sumbu yang digunakan adalah **Garis Bujur** (Bujur Barat dan Bujur Timur) yang tegak lurus dengan garis khatulistiwa, dan **Garis Lintang** (Lintang Utara dan Lintang Selatan) yang sejajar dengan garis khatulistiwa.
+* Koordinat geografis dinyatakan dalam satuan derajat, menit dan detik.
+* Pada peta Bakosurtanal, biasanya menggunakan koordinat geografis sebagai koordinat utama.
+* Pada peta ini, satu kotak (Karvak) lebarnya adalah 3.7 cm.
+    * Pada skala 1:25.000, satu karvak sama dengan 30 detik (30").
+    * Pada peta skala 1:50.000, satu karvak sama dengan 1 menit (60").
+* **Garis Lintang (Latitude):** Garis khayal yang digunakan untuk menentukan lokasi di Bumi terhadap Khatulistiwa (utara atau selatan). Posisi Lintang merupakan penghitungan sudut dari 0┬░ di Khatulistiwa sampai ke +90┬░ di Kutub Utara dan -90┬░ di Kutub Selatan.
+* **Garis Bujur (Longitude):** Menggambarkan lokasi sebuah tempat di timur atau barat Bumi dari sebuah garis utara-selatan yang disebut Meridian Utama (Greenwich). Berkisar dari 0┬░ di Meridian Utama ke +180┬░ arah timur dan ΓêÆ180┬░ arah barat.
+
+**b. Koordinat Grid (Grid Coordinate atau UTM)**
+* Dalam koordinat grid, kedudukan suatu titik dinyatakan dalam ukuran jarak setiap titik acuan.
+* Untuk wilayah Indonesia, titik acuan berada di sebelah barat Jakarta (60 LU, 980 BT).
+* Garis vertikal diberi nomor urut dari selatan ke utara, sedangkan horizontal dari barat ke timur.
+* Sistem koordinat mengenal penomoran 4 angka, 6 angka dan 8 angka.
+* Pada peta AMS, biasanya menggunakan koordinat grid. Satu karvak sebanding dengan 2 cm.
+* *Cara penentuan:*
+    * Koordinat 4 angka: Dapat langsung ditentukan.
+    * Koordinat 6 angka: Satu karvak dibagi menjadi 10 bagian (per 2 mm).
+    * Koordinat 8 angka: Satu karvak dibagi menjadi sepuluh bagian (per 1 mm).
+* **Contoh Koordinat Peta 8 Angka:**
+    * Co. 2343 3056
+    * Artinya: X = 2343, Y = 3056.
+`
+              },
+              {
+                id: 'navrat-1-article-5',
+                title: 'Teknik Menyambung Peta',
+                content: `
+### 5) Teknik Menyambung Peta
+Bila daerah yang dipelajari luas, maka peta yang digunakan terdiri dari beberapa lembar peta. Untuk menyambung peta-peta tersebut dapat dilihat pada petunjuk nomor peta yang terdapat pada setiap lembar peta di bagian kiri bawah (ada 9 kotak bujur sangkar kecil yang masing-masing berisi nomor peta dan kotak yang di tengah diarsir).
+`
+              },
+              {
+                id: 'navrat-1-article-6',
+                title: 'Pengertian Kedar Peta',
+                content: `
+### 6) Pengertian Kedar Peta
+Kedar peta adalah perbandingan jarak mendatar antara dua titik di peta dengan dua titik yang sama di medan.
+
+**Rumus:**
+* **K = JP / JM**
+* **JM = JP / K**
+* **JP = JM x K**
+
+*Keterangan:*
+* K = Kedar
+* JM = Jarak Mendatar di Medan
+* JP = Jarak di Peta
+
+**Contoh soal:**
+* Diketahui:
+    * JP = 2 cm
+    * JM = 1000 m
+* Ditanya: Berapa kedarnya?
+* Jawab:
+    * K = JP / JM
+    * K = 2 cm / 1000 m
+    * (Ubah satuan meter ke cm) -> 1000 m = 100.000 cm
+    * K = 2 cm / 100.000 cm
+    * **K = 1 : 50.000**
+`
+              },
+              {
+                id: 'navrat-1-article-7',
+                title: 'Pengertian Sudut Tanjakan',
+                content: `
+### 7) Pengertian Sudut Tanjakan
+Sudut tanjakan adalah perbandingan selisih dua titik ketinggian dengan jarak mendatarnya di medan. Bagi anggota Pramuka sangat penting untuk mengetahui terjalnya suatu tanjakan karena dengan mengetahui terjalnya suatu tanjakan tersebut kita dapat melakukan pergerakan lanjutan di lapangan sebenarnya.
+
+**Rumus Sudut Tanjakan = Selisih Tinggi / Jarak Mendatar**
+
+*Catatan:* Untuk perbandingan antara selisih tinggi dengan jarak mendatar maka satuan panjangnya harus sama (meter).
+
+**a. Perbandingan antara selisih tinggi dengan jarak mendatar**
+* *Contoh:*
+    * Selisih Tinggi = 25 meter
+    * Jarak mendatar = 100 meter
+* *Maka besar sudut tanjakan:*
+    * = 25 / 100
+    * = **1/4**
+
+**b. Menyatakan selisih tinggi dengan jarak mendatar dalam derajat**
+* *Rumus:*
+    * Sudut Tanjakan = (Selisih Tinggi / Jarak Mendatar) x 57,3┬░
+* *Perhitungan:*
+    * = (25 / 100) X 57,3┬░
+    * = (1 / 4) X 57,3┬░
+    * = **14┬░ 19' 30"**
+
+**Catatan:**
+1.  1 T radial = 57,3┬░
+2.  Rumus di atas dapat digunakan untuk sudut tanjakan yang lebih kecil dari 30┬░.
+3.  Perhitungan untuk lereng-lereng yang mendaki dinyatakan dengan tanda Plus (+), sedangkan yang menurun dinyatakan dengan tanda Minus (-) dalam penulisannya.
+`
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'navrat-2',
+        title: 'TKK Kompas Siang dan Malam',
+        image: '/tkk navrat/TKK JALAN KOMPAS SIANG DAN MALAM.webp',
+        requirements: [
+          'Memahami bagian-bagian kompas prisma.',
+          'Memahami dan mampu melaksanakan orientasi peta dengan kompas.',
+          'Mampu menjelaskan kegunaan kompas prisma.',
+          'Dapat menentukan besaran sudut jurusan pada kompas prisma.',
+          'Telah melatih sekurang-kurangnya seorang pramuka penggalang sehingga memperoleh TKK Kompas Siang dan Kompas Malam.'
+        ],
+        syllabus: [
+          {
+            id: 'navrat-2-modul-1',
+            title: 'Kompas Siang dan Kompas Malam',
+            items: [
+              {
+                id: 'navrat-2-article-1',
+                title: 'Pengertian Kompas',
+                content: `
+### 1) Pengertian Kompas
+
+Kompas adalah alat navigasi untuk menentukan arah berupa sebuah panah penunjuk magnetis yang bebas menyelaraskan dirinya dengan medan magnet bumi secara akurat.
+* Kompas memberikan rujukan arah tertentu, sehingga sangat membantu dalam bidang navigasi.
+* Arah mata angin yang ditunjuknya adalah utara, selatan, timur, dan barat.
+* Apabila digunakan bersama-sama dengan jam dan sekstan, maka kompas akan lebih akurat dalam menunjukkan arah.
+* Alat ini membantu perkembangan perdagangan maritim dengan membuat perjalanan jauh lebih aman dan efisien dibandingkan saat manusia masih berpedoman pada kedudukan bintang untuk menentukan arah.
+
+**Sejarah dan Perkembangan:**
+* Penemuan bahwa jarum magnetik selalu mengarah ke utara dan selatan terjadi di Cina dan diuraikan dalam buku *Loven Heng*.
+* Di abad kesembilan, orang Cina telah mengembangkan kompas berupa jarum yang mengambang dan jarum yang berputar.
+* Pelaut Persia memperoleh kompas dari orang Cina dan kemudian memperdagangkannya.
+* Pada tahun 1877 orang Inggris, William Thomson, 1st Baron Kelvin (Lord Kelvin) membuat kompas yang dapat diterima oleh semua negara dengan memperbaiki kesalahan-kesalahan yang timbul dari deviasi magnetik karena meningkatnya penggunaan besi dalam arsitektur kapal.
+
+**Prinsip Kerja:**
+* Alat apa pun yang memiliki batang atau jarum magnetis yang bebas bergerak menunjuk arah utara magnetis dari Magnetosfer sebuah planet sudah bisa dianggap sebagai kompas.
+* **Kompas jam:** Kompas yang dilengkapi dengan jam matahari.
+* **Kompas variasi:** Alat khusus berstruktur rapuh yang digunakan dengan cara mengamati variasi pergerakan jarum.
+* **Giro kompas:** Digunakan untuk menentukan utara sejati.
+* **Pergeseran Magnet:** Lokasi magnet di Kutub Utara selalu bergeser dari masa ke masa. Penelitian terakhir oleh *The Geological Survey of Canada* melaporkan bahwa posisi magnet ini bergerak kira-kira 40 Km per tahun ke arah barat laut.
+
+**Bagian-bagian Kompas:**
+1.  Tutup Kompas
+2.  Kotak Kompas
+3.  Skala Puluhan Derajat
+4.  Skala Limaan Derajat
+5.  Takik
+6.  Garis Tanda Bercahaya
+7.  Bibir Pelindung
+8.  Garis Rambut
+9.  Skala Satuan Derajat
+10. Pelindung Tutup Kompas
+11. Sekrup Pengapit
+12. Kaca Tutup Kompas
+13. Lingkaran Kompas dengan Pembagian Mata Angin
+14. Tanda bercahaya arah kompas menuju utara magnit
+15. Cincin Ibu Jari
+16. Tanda bercahaya di bawah piringan kaca
+17. Prisma
+`
+              },
+              {
+                id: 'navrat-2-article-2',
+                title: 'Jenis dan Fungsi Kompas',
+                content: `
+### 2) Jenis dan Fungsi Kompas
+Kompas terdiri dari 3 jenis, yaitu Kompas Bidik (Kompas Prisma), Kompas Orienteering (Kompas Silva), dan Kompas Biasa.
+
+**a. Kompas Bidik (Kompas Prisma)**
+Fungsi utamanya untuk mempermudah menghitung sudut sasaran bidik (tempat atau benda) secara langsung. Cara pemakaiannya dengan membidikkan kompas ke sasaran secara langsung sekaligus membaca sudut sasaran pada skala kompas. Besar sudut yang dibuat oleh arah bidikan dan arah jarum (utara) itulah sudut sasarannya (*bearing*).
+
+**(1) Komponen Kompas Bidik:**
+1.  **Kawat Pisir:** Berfungsi sebagai garis pemandu ketepatan ke arah objek bidikan.
+2.  **Piringan skala derajat:** Sebagai penunjuk derajat hasil bidikan dan arah mata angin.
+3.  **Jarum kompas:** Magnet sebagai penunjuk arah utara selatan magnetis bumi, sekaligus sebagai pemutar piringan skala derajat secara otomatis.
+4.  **Rumah kompas:** Berfungsi sebagai pelindung komponen utama kompas (skala, jarum, tanda arah mata angin).
+5.  **Lensa pembidik:** Sebagai alat bantu untuk membaca hasil derajat bidikan dan mensejajarkan kompas dengan objek bidik.
+
+**(2) Cara Pemakaian Kompas Bidik:**
+1.  Buka kompas bidik.
+2.  Masukkan jempol kanan ke handle pengait.
+3.  Arahkan posisi kita ke objek yang akan dibidik.
+4.  Dekatkan mata kita pada lensa kompas untuk mempermudah bidikan objek.
+5.  Arahkan kompas (kawat pisir) pada objek yang akan dibidik setepat mungkin. Lensa pembidik, kawat pisir, dan objek bidik harus satu garis lurus atau sejajar.
+6.  Setelah dipastikan sejajar, pertahankan bidikan sambil melihat (membaca) hasil yang ditunjukkan pada skala derajat. Hasil penunjukan tersebut merupakan sudut objek bidik (Azimut) yang digunakan sebagai dasar perhitungan untuk mengetahui posisi kita dan objek itu sendiri.
+
+**b. Kompas Orienteering (Kompas Silva)**
+Fungsi utamanya untuk mempermudah perhitungan dan pembacaan pada peta secara langsung. Badan atau pembungkus kompas silva selalu dibuat transparan untuk mempermudah pembacaan peta yang diletakkan di bawahnya.
+
+**(1) Cara Pemakaian:**
+1.  Letakkan kompas anda pada peta kawasan tersebut dengan ujung *Base Plate* menghubungkan lokasi anda berada dengan arah lokasi anda akan dituju.
+2.  Tetapkan garisan tengah dalam kompas dengan memutarkan *Dial* kompas mengikuti garisan pada peta anda, sejajar dengan Utara Magnetik (MN) pada peta.
+3.  Keluarkan kompas dari peta dan hadapkan ke hadapan anda dengan *Travel Arrow* menunjuk ke depan/lokasi. Putarkan badan anda sehingga ujung merah jarum kompas berubah dengan menunjuk kepada "N" pada di dalam dial kompas. Arah Perjalanan *Arrow* kini menunjukkan tepat ke destinasi anda. Lihat pada satu mercu tanda (bukit, puncak gunung, pohon) dan berjalan kepadanya. Ulang prosedur ini sehingga anda sampai ke destinasi anda.
+
+**c. Kompas Biasa**
+Fungsi utamanya hanya sebagai penunjuk arah berdasarkan prinsip gaya magnet. Jadi kompas biasa adalah kompas dasar. Ukuran kompas biasa umumnya lebih kecil dari 2 jenis kompas yang lain. Untuk sekedar penunjuk arah mata angin kompas biasa lebih dapat diandalkan karena lebih praktis.
+`
+              },
+              {
+                id: 'navrat-2-article-3',
+                title: 'Orientasi Peta dengan Kompas',
+                content: `
+### 3) Orientasi Peta dengan Kompas
+Sebelum peta digunakan terlebih dahulu peta harus diorientasi sehingga peta tersebut terletak horisontal dalam kedudukan utara/selatan peta sesuai dengan utara selatan medan.
+
+**a. Cara mengorientasi peta dengan kompas:**
+1.  Buka peta dan letakkan di atas bidang datar.
+2.  Buka kompas dan letakkan di atas peta.
+3.  Himpitkan garis rambut dan tanda baca yang bercahaya pada kompas sejajar dengan garis grid utara selatan pada peta.
+4.  Putar peta dan kompas sehingga jarum kompas searah dengan garis utara magnit.
+5.  Dengan demikian peta telah terorientasi ke arah utara.
+
+**b. Menghitung Bearing (Azimuth)**
+Menghitung arah kelurusan/jurus dari bidang vertikal yang melalui garis tetapi tidak menunjukan arah penunjaman garis tersebut (menunjukkan arahΓÇôarah di mana, salah satu arahnya merupakan sudut pelurusnya).
+* Setiap arah bisa dinyatakan sebagai sudut yang terhubung dengan utara. Pada militer ini disebut "Azimuth" (sudut antara sasaran terhadap kutub magnetik bumi/sudut kompas) dan bearing dinyatakan sebagai jumlah derajat.
+* *Orienteer* mengambil jalan keluar yang gampang, dengan mensetting sudut pada kompasnya dan menjaga jarum kompasnya, dan ini membuat mereka tetap bergerak pada arah yang benar.
+
+**Instruksi langkah-langkah mudah cara mengeset bearing pada dasar kompas tipe baseplate:**
+1.  Letakan kompas di atas peta penunjuk arah mengarah ke arah tujuan kita.
+2.  Putar rumah kompas sehingga tanda panahnya yang terdapat pada dasar plastiknya paralel dengan panah yang tergambar pada peta (pastikan mata anak panahnya mengarah ke utara bukan selatan).
+3.  Pisahkan kompas dengan peta dan peganglah peta di depan kita jadi dengan begitu arah perjalanan kita terbentang di depan kita.
+4.  Putarlah tubuh sehingga jarum kompas tepat pada tanda panah di dasar rumah kompas.
+5.  Lalu pilihlah sebuah objek jelas di depan kita yang terletak di jalur perjalanan kita, ulangi proses ini (dengan cara ini kita bisa memutari rintangan dan tetap berada pada jalur bearing kita).
+`
+              },
+              {
+                id: 'navrat-2-article-4',
+                title: 'Pengertian Kompas Siang dan Kompas Malam',
+                content: `
+### 4) Pengertian Kompas Siang dan Kompas Malam
+
+**a. Pengertian Kompas Siang**
+Kompas siang adalah suatu cara yang digunakan untuk menentukan arah/menuju sasaran yang telah ditentukan pada siang hari.
+
+**Langkah-langkah penggunaan Kompas Siang adalah:**
+1.  Buka tutup kompas hingga berdiri tegak.
+2.  Letakkan/angkat prisma ke atas kaca kompas.
+3.  Masukkan ibu jari ke dalam cincin kompas, dan luruskan telunjuk ke depan sehingga rapat pada bagian tutup kompas dengan maksud agar pada waktu kompas dibidikkan tidak bergerak.
+4.  Dari tiang bidikan, kedua kaki rapat/sikap sempurna dan menghadap penuh ke sasaran.
+5.  Bawa kompas ke depan mata dan langsung membidik, mata yang tidak membidik dipejamkan.
+6.  Lihat standar melalui prisma.
+7.  Luruskan garis rambut pada tutup kompas dengan sasaran.
+8.  Baca garis-garis/angka derajat dalam kompas melalui prisma yang sejajar dengan garis rambut pada kaca kompas dan sasaran.
+9.  Itulah sudut yang dimaksud.
+10. Melaksanakan *Back Azimuth* (Bidikan ke belakang) sebagai koreksi sudut jurusan.
+
+**b. Pengertian Kompas Malam**
+Kompas malam adalah suatu cara yang digunakan untuk menentukan arah/menuju sasaran yang telah ditentukan yang dilaksanakan pada malam hari.
+
+**Langkah-langkah penggunaan Kompas pada malam hari adalah:**
+1.  Buka tutup kompas hingga rata.
+2.  Kendorkan sekrup pengapit.
+3.  Putar kaca kompas sesuai sudut yang dikehendaki.
+4.  Kencangkan sekrup pengapit.
+5.  Kompas dibawa ke depan dada.
+6.  Putar badan dan kompas sehingga jarum kompas yang bercahaya berhimpit dengan tanda baca yang bercahaya.
+7.  Garis rambut dan tanda baca yang bercahaya menunjukkan arah kompas.
+`
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'navrat-3',
+        title: 'TKK Pengetahuan Resection dan Intersection',
+        image: '/tkk navrat/TKK RESECTION DAN INTERSECTION.webp',
+        requirements: [
+          'Memahami dan mampu menjelaskan Resection (mengikat ke depan) dan Intersection (mengikat ke belakang).',
+          'Dapat melaksanakan Resection dan Intersection.',
+          'Telah melatih sekurang-kurangnya seorang Pramuka Penggalang sehingga memperoleh TKK Pengetahuan Resection dan Intersection.'
+        ],
+        syllabus: [
+          {
+            id: 'navrat-3-modul-1',
+            title: 'Pengetahuan Resection dan Intersection',
+            items: [
+              {
+                id: 'navrat-3-article-1',
+                title: 'Pengertian Resection dan Intersection',
+                content: `
+### 1) Pengertian Resection dan Intersection
+
+**a) Resection (Mengikat ke Depan)**
+Adalah cara untuk menentukan tempat/kedudukan sendiri di medan ke titik di peta dengan menggunakan dua titik pertolongan yang terdapat di peta dan di medan sebenarnya.
+
+**b) Intersection (Mengikat ke Belakang)**
+Adalah cara untuk menentukan tempat/kedudukan pihak lain di medan ke titik yang ada di peta dengan menggunakan titik pertolongan yang terdapat di peta dan di medan.
+`
+              },
+              {
+                id: 'navrat-3-article-2',
+                title: 'Cara Melaksanakan Resection dan Intersection',
+                content: `
+### 2) Cara Melaksanakan Resection dan Intersection
+
+**a) Resection (Mengikat ke Depan) dengan Kompas**
+1.  Pilih dua titik tanda yang sudah dikenali di lapangan dan juga di peta.
+    * **Contoh:** Titik 1 Menara (Arah kompas 146┬░).
+2.  Dari arah kompas 146┬░ ditarik garis *Back Azimuth* (bidikan arah balik/ke belakang) sebesar 326┬░.
+3.  **Contoh:** Titik 2 Pura (Arah kompas 248┬░).
+    * Dari arah kompas 248┬░ ditarik garis *Back Azimuth* (arah balik) sebesar 68┬░.
+4.  Dari hasil perpotongan kedua garis tersebut merupakan kedudukan kita sendiri.
+    * *(Data Gambar: 77┬░, Kedudukan Sendiri, 123┬░, 154┬░, 234┬░)*
+
+**b) Intersection (Mengikat ke Belakang) dengan Kompas**
+1.  Pilih dua titik tanda yang sudah dikenali di medan dan di peta.
+    * **Contoh:**
+        * Titik 1: Menara (Arah kompas 146┬░).
+        * Titik 2: Pura (Arah kompas 248┬░).
+2.  Dari titik 1 (satu) kita melaksanakan pergerakan ke arah titik 2 (dua) minimal sejauh 50 meter s.d 100 m.
+3.  Dari titik 2 (dua) melaksanakan kompas ke sasaran (mercusuar).
+4.  Dari hasil perpotongan kedua garis tersebut merupakan kedudukan pihak lain.
+`
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'navrat-4',
+        title: 'TKK Pengetahuan GPS',
+        image: '/tkk navrat/TKK PENGETAHUAN GPS.webp',
+        requirements: [
+          'Memahami kegunaan alat GPS.',
+          'Memahami dan mampu menjelaskan bagian-bagian alat GPS.',
+          'Memahami dan mampu mengoperasikan alat GPS.',
+          'Telah melatih sekurang-kurangnya seorang Pramuka Penggalang sehingga memperoleh TKK GPS.'
+        ],
+        syllabus: [
+          {
+            id: 'navrat-4-modul-1',
+            title: 'Pengetahuan Global Positioning System (GPS)',
+            items: [
+              {
+                id: 'navrat-4-article-1',
+                title: 'Kegunaan Alat GPS',
+                content: `
+### 1) Kegunaan Alat Global Position System (GPS)
+GPS adalah alat untuk menentukan posisi suatu tempat secara teliti dengan bantuan satelit yang ada dan dapat digunakan untuk melaksanakan navigasi.
+* Menentukan koordinat posisi (Lintang/Bujur atau UTM) di permukaan bumi.
+* Menentukan ketinggian (altitude) dari permukaan laut.
+* Menentukan kecepatan bergerak dan waktu perjalanan.
+* Membuat rekam jejak perjalanan (*track*) dan rute navigasi.
+`
+              },
+              {
+                id: 'navrat-4-article-2',
+                title: 'Bagian-bagian Alat GPS',
+                content: `
+### 2) Bagian-bagian Alat Global Position System (GPS)
+*(Secara umum GPS tipe genggam memiliki bagian-bagian sebagai berikut):*
+
+**a. Fisik Luar**
+1.  **Antena:** Bagian penerima sinyal dari satelit (biasanya menonjol di bagian atas atau internal).
+2.  **Layar (Display):** Menampilkan peta, koordinat, menu, dan data navigasi.
+3.  **Tempat Baterai:** Terletak di bagian belakang, biasanya menggunakan baterai tipe AA.
+4.  **Port Data:** Lubang koneksi (USB) untuk menyambungkan GPS ke komputer.
+
+**b. Tombol-tombol Fungsi (Keypad)**
+1.  **Tombol Power (On/Off):** Untuk menghidupkan, mematikan, dan mengatur lampu layar (*backlight*). Biasanya bergambar lampu atau simbol power berwarna merah.
+2.  **Tombol Zoom (In/Out):** Untuk memperbesar atau memperkecil tampilan peta.
+3.  **Tombol Page/Menu:** Untuk berpindah halaman (dari halaman satelit, peta, kompas, hingga menu utama).
