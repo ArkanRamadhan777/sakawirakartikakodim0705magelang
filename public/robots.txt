@@ -3,7 +3,7 @@ Allow: /
 Disallow: /admin
 Disallow: /private
 
-Sitemap: https://swk-kodim0705.vercel.app/sitemap.xml
+Sitemap: https://sakawirakartikakodim0705magelang.web.id/sitemap.xml
 
 # Allow Google
 User-agent: Googlebot
