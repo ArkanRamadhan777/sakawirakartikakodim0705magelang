@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Breadcrumbs from '../components/Breadcrumbs';
+import SEO from '../components/SEO';
 import AnimatedSection from '../components/AnimatedSection';
 import { Users, Target, Award, Shield, Heart, TrendingUp, MapPin, Phone, Mail } from 'lucide-react';
 
@@ -42,6 +43,12 @@ const About = () => {
 
   return (
     <div className="pt-20 min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <SEO 
+        title="Tentang Saka Wira Kartika Kodim 0705 Magelang"
+        description="Pelajari sejarah, visi, misi, dan nilai-nilai Saka Wira Kartika Kodim 0705 Magelang. Organisasi kepramukaan yang membentuk generasi patriot bangsa."
+        keywords="tentang, sejarah, visi misi, TKK, Saka Wira Kartika, Magelang"
+        url="https://swk-kodim0705.vercel.app/about"
+      />
       <div className="max-w-6xl mx-auto px-4 py-10">
         <Breadcrumbs items={[{ label: 'Tentang Kami' }]} />
         

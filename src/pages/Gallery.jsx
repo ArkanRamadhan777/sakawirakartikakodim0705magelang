@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AnimatedSection from '../components/AnimatedSection';
+import SEO from '../components/SEO';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const Gallery = () => {
@@ -31,6 +32,12 @@ const Gallery = () => {
 
   return (
     <div className="pt-20 min-h-screen bg-base-100">
+      <SEO 
+        title="Galeri Kegiatan Saka Wira Kartika Kodim 0705 Magelang"
+        description="Jelajahi koleksi foto kegiatan dan momen spesial Saka Wira Kartika Kodim 0705 Magelang. Dari pelatihan hingga kegiatan sosial."
+        keywords="galeri, foto, kegiatan, acara, TKK, Saka Wira Kartika"
+        url="https://swk-kodim0705.vercel.app/gallery"
+      />
       <div className="max-w-6xl mx-auto px-4 py-10">
         <Breadcrumbs items={[{ label: 'Galeri' }]} />
         <AnimatedSection animation="fade-up">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import { ArrowLeft, Book, ExternalLink } from 'lucide-react';
 
 const References = () => {
@@ -58,6 +59,12 @@ const References = () => {
 
   return (
     <div className="pt-24 min-h-screen bg-base-100">
+      <SEO 
+        title="Referensi Materi - Saka Wira Kartika Kodim 0705 Magelang"
+        description="Daftar referensi lengkap dan sumber materi pendidikan untuk semua krida Saka Wira Kartika. Panduan pembelajaran dan pengembangan keterampilan."
+        keywords="referensi, materi, panduan, sumber belajar, TKK, Saka Wira Kartika"
+        url="https://swk-kodim0705.vercel.app/references"
+      />
       <div className="max-w-4xl mx-auto px-4 py-10">
         <Link to="/krida" className="btn btn-ghost gap-2 mb-8 hover:bg-base-200">
           <ArrowLeft size={20} />

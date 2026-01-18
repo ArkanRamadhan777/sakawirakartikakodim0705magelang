@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import { kridas } from '../data/kridas';
 
 const Krida = () => {
   return (
     <div className="pt-24 min-h-screen bg-white">
+      <SEO 
+        title="5 Krida Saka Wira Kartika Kodim 0705 Magelang"
+        description="Pelajari 5 krida unggulan Saka Wira Kartika: Mountaineering, Navrat, Survival, PBA, dan Pioneering. Setiap krida dirancang untuk mengembangkan keterampilan spesifik."
+        keywords="krida, mountaineering, navrat, survival, PBA, pioneering, TKK, Saka Wira Kartika"
+        url="https://swk-kodim0705.vercel.app/krida"
+      />
       <div className="max-w-7xl mx-auto px-4 py-10">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold font-anta mb-4 text-black">5 Krida <span className="text-primary">Saka Wira Kartika</span></h1>

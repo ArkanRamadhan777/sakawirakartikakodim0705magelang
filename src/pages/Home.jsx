@@ -1,12 +1,19 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import AnimatedSection from '../components/AnimatedSection';
+import SEO from '../components/SEO';
 import { Shield, Target, BookOpen, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div className="bg-base-100">
+      <SEO 
+        title="Saka Wira Kartika Kodim 0705 Magelang - Portal Edukasi Kepramukaan"
+        description="Website resmi Saka Wira Kartika Kodim 0705 Magelang. Jelajahi krida, quiz, galeri, dan informasi mendalam tentang TKK Magelang. Platform edukasi kepramukaan terpercaya."
+        keywords="TKK, Saka Wira Kartika, Kodim 0705, Magelang, pramuka, kepramukaan, krida, quiz"
+        url="https://swk-kodim0705.vercel.app/"
+      />
       <Hero />
 
       {/* Intro Section */}
