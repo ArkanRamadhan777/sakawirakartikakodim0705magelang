@@ -1,0 +1,23 @@
+{
+  "name": "Saka Wira Kartika Kodim 0705 Magelang",
+  "short_name": "SWK Magelang",
+  "description": "Portal Edukasi Kepramukaan Saka Wira Kartika",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f2937",
+  "theme_color": "#1f2937",
+  "icons": [
+    {
+      "src": "/swk.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/swk.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
